@@ -1,0 +1,11 @@
+Experiment setup 
+ {'path_to_exp': '/home/albert/Baikal/NuEnergy/experiments/test_callbacks_2_nn_energy', 'dict_of_hp': {'u1': 64, 'u2': 32, 'num_res_blocks': 0, 'f_id_list': [64, 128, 32], 'k_id_list': [10, 10, 10], 'f_cd_list': [64, 128, 32], 'k_cd_list': [10, 10, 10], 's_cd_list': [], 'dense_E_list': [32, 32, 16], 'dense_sigma_list': [32, 32, 16], 'E_activation': 'linear', 'sigma_activation': <keras.layers.core.activation.Activation object at 0x7f71f47b96a0>, 'stop_grad': False}}
+
+ Training hyper parameters 
+ {'batch_size': 512, 'lr_initial': 0.001, 'lr_decay': 0.1, 'experiment_name': 'test_callbacks_2_nn_energy', 'path_to_h5': '/net/61/home3/ivkhar/Baikal/data/baikal_multi_nus_flat_pureMC_h5s2_norm.h5', 'num_of_epochs': 2, 'shape': (None, 6), 'path_to_exps': '/home/albert/Baikal/NuEnergy/experiments/', 'verbose': True, 'cutting': 5}
+
+ Num of trainable parameters 
+ 66596
+
+ Num of nontrainable parameters 
+ 578

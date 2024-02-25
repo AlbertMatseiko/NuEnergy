@@ -1,0 +1,2 @@
+epoch,logE_MAE,logE_MSE,loss,val_logE_MAE,val_logE_MSE,val_loss
+0,nan,nan,nan,nan,nan,nan

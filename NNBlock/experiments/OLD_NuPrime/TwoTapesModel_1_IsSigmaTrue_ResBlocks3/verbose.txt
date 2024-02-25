@@ -1,0 +1,4 @@
+BATCH: 0 
+energy_loss: 1.7849 - sigma_loss: 3.5486 - logE_MAE: 0.8801 - logE_MSE: 1.175 - SigmaMAE: 1.3475 - SigmaMSE: 2.1653 - 
+BATCH: 489 
+energy_loss: 1.7928 - sigma_loss: 3.4532 - logE_MAE: 0.8929 - logE_MSE: 1.1988 - SigmaMAE: 1.3338 - SigmaMSE: 2.1326 - 

@@ -1,0 +1,37 @@
+Size is 6.61 GB
+Keys1: ['norm_params', 'test', 'train', 'val']
+Keys2: ['log10Emu_mean', 'log10Emu_std', 'mean', 'std']
+/home/albert/Baikal/NuEnergy/DataBlock/data/baikal_multi_1223_flat_signal_H5_S2_Emu10to1000000/step3_all_1_1_train600000_test40000_normlog10E_normed.h5/
+| norm_params
+| | log10Emu_mean: [shape: (1,), type: float64]
+| | log10Emu_std: [shape: (1,), type: float64]
+| | mean: [shape: (5,), type: float64]
+| | std: [shape: (5,), type: float64]
+| test
+| | data: [shape: (588933, 5), type: float32]
+| | ev_ids: [shape: (40000,), type: |S16]
+| | ev_starts: [shape: (40001,), type: int64]
+| | individ_muon_energy: [shape: (40000, 1), type: float32]
+| | log10Emu: [shape: (40000, 1), type: float32]
+| | log10Emu_norm: [shape: (40000, 1), type: float32]
+| | num_un_strings: [shape: (40000,), type: int64]
+| | prime_prty: [shape: (40000, 3), type: float32]
+| train
+| | data: [shape: (8490335, 5), type: float32]
+| | ev_ids: [shape: (600000,), type: |S16]
+| | ev_starts: [shape: (600001,), type: int64]
+| | individ_muon_energy: [shape: (600000, 1), type: float32]
+| | log10Emu: [shape: (600000, 1), type: float32]
+| | log10Emu_norm: [shape: (600000, 1), type: float32]
+| | num_un_strings: [shape: (600000,), type: int64]
+| | prime_prty: [shape: (600000, 3), type: float32]
+| val
+| | data: [shape: (302230042, 5), type: float32]
+| | ev_ids: [shape: (14919151,), type: |S16]
+| | ev_starts: [shape: (14919152,), type: int64]
+| | individ_muon_energy: [shape: (14919151, 1), type: float32]
+| | log10Emu: [shape: (14919151, 1), type: float32]
+| | log10Emu_norm: [shape: (14919151, 1), type: float32]
+| | num_un_strings: [shape: (14919151,), type: int64]
+| | prime_prty: [shape: (14919151, 3), type: float32]
+

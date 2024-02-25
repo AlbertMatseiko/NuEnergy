@@ -1,0 +1,13 @@
+# ResnetRnnConsturctor
+# Input Hyperparameters
+
+dense_blocks:
+  - {units: 64,
+     # activation: , # it is LRelu by default
+     dropout: 0.1}
+  - {units: 16,
+     # activation: , # it is LRelu by default
+     dropout: 0.1 }
+  - { units: 1,
+      activation: linear,
+      dropout: 0. }

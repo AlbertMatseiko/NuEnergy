@@ -1,0 +1,258 @@
+BATCH: 0 
+loss: 692.6248 - mse: 17.3823 - mae: 3.1346 
+
+BATCH: 97 
+loss: 15.7761 - mse: 16.886 - mae: 3.163 
+
+BATCH: 194 
+loss: 11.0553 - mse: 16.6412 - mae: 3.1449 
+
+BATCH: 291 
+loss: 9.3737 - mse: 16.4402 - mae: 3.1263 
+
+BATCH: 388 
+loss: 8.4939 - mse: 16.2693 - mae: 3.108 
+
+BATCH: 485 
+loss: 7.9613 - mse: 16.1112 - mae: 3.0902 
+
+BATCH: 582 
+loss: 7.5891 - mse: 15.9626 - mae: 3.0716 
+
+BATCH: 679 
+loss: 7.3076 - mse: 15.8212 - mae: 3.053 
+
+BATCH: 776 
+loss: 7.0818 - mse: 15.6873 - mae: 3.0335 
+
+BATCH: 873 
+loss: 6.898 - mse: 15.5613 - mae: 3.0137 
+
+BATCH: 970 
+loss: 6.7431 - mse: 15.4398 - mae: 2.9933 
+
+BATCH: 1067 
+loss: 6.6106 - mse: 15.3273 - mae: 2.9735 
+
+BATCH: 1164 
+loss: 6.4861 - mse: 15.2174 - mae: 2.9533 
+
+BATCH: 1261 
+loss: 6.3745 - mse: 15.1121 - mae: 2.9335 
+
+BATCH: 1358 
+loss: 6.2708 - mse: 15.0113 - mae: 2.9135 
+
+BATCH: 1455 
+loss: 6.1769 - mse: 14.911 - mae: 2.8935 
+
+BATCH: 1552 
+loss: 6.0901 - mse: 14.8147 - mae: 2.8736 
+
+BATCH: 1649 
+loss: 6.0081 - mse: 14.719 - mae: 2.854 
+
+BATCH: 1746 
+loss: 5.9278 - mse: 14.6245 - mae: 2.8344 
+
+BATCH: 1843 
+loss: 5.854 - mse: 14.5323 - mae: 2.8149 
+
+BATCH: 1940 
+loss: 5.7833 - mse: 14.4423 - mae: 2.7956 
+
+BATCH: 2037 
+loss: 5.7153 - mse: 14.3525 - mae: 2.7765 
+
+BATCH: 2134 
+loss: 5.6482 - mse: 14.2661 - mae: 2.7576 
+
+BATCH: 2231 
+loss: 5.5857 - mse: 14.1779 - mae: 2.7388 
+
+BATCH: 2328 
+loss: 5.5302 - mse: 14.0894 - mae: 2.7202 
+
+BATCH: 2425 
+loss: 5.4783 - mse: 14.0015 - mae: 2.7017 
+
+BATCH: 2522 
+loss: 5.428 - mse: 13.9178 - mae: 2.6836 
+
+BATCH: 2619 
+loss: 5.3795 - mse: 13.8338 - mae: 2.6657 
+
+BATCH: 2716 
+loss: 5.3316 - mse: 13.7479 - mae: 2.6478 
+
+BATCH: 2813 
+loss: 5.285 - mse: 13.6627 - mae: 2.6301 
+
+BATCH: 2910 
+loss: 5.2381 - mse: 13.5753 - mae: 2.6124 
+
+BATCH: 3007 
+loss: 5.1907 - mse: 13.4871 - mae: 2.5947 
+
+BATCH: 3104 
+loss: 5.1444 - mse: 13.3968 - mae: 2.577 
+
+BATCH: 3201 
+loss: 5.099 - mse: 13.3073 - mae: 2.5594 
+
+BATCH: 3298 
+loss: 5.0546 - mse: 13.2163 - mae: 2.542 
+
+BATCH: 3395 
+loss: 5.0114 - mse: 13.1244 - mae: 2.5246 
+
+BATCH: 3492 
+loss: 4.9693 - mse: 13.0303 - mae: 2.5073 
+
+BATCH: 3589 
+loss: 4.9278 - mse: 12.9337 - mae: 2.4901 
+
+BATCH: 3686 
+loss: 4.8866 - mse: 12.8364 - mae: 2.473 
+
+BATCH: 3783 
+loss: 4.8454 - mse: 12.7394 - mae: 2.456 
+
+BATCH: 3880 
+loss: 4.8039 - mse: 12.6423 - mae: 2.439 
+
+BATCH: 3977 
+loss: 4.7634 - mse: 12.5411 - mae: 2.422 
+
+BATCH: 4074 
+loss: 4.7243 - mse: 12.4386 - mae: 2.4051 
+
+BATCH: 4171 
+loss: 4.6856 - mse: 12.3358 - mae: 2.3884 
+
+BATCH: 4268 
+loss: 4.6466 - mse: 12.2307 - mae: 2.3716 
+
+BATCH: 4365 
+loss: 4.6088 - mse: 12.1276 - mae: 2.355 
+
+BATCH: 4462 
+loss: 4.5685 - mse: 12.0217 - mae: 2.3384 
+
+BATCH: 4559 
+loss: 4.5269 - mse: 11.9138 - mae: 2.3217 
+
+BATCH: 4656 
+loss: 4.4861 - mse: 11.8047 - mae: 2.305 
+
+BATCH: 4753 
+loss: 4.4456 - mse: 11.6967 - mae: 2.2884 
+
+BATCH: 4850 
+loss: 4.4056 - mse: 11.5863 - mae: 2.2719 
+
+BATCH: 0 
+loss: 2.2971 - mse: 5.7434 - mae: 1.4298 
+
+BATCH: 97 
+loss: 2.4265 - mse: 5.6987 - mae: 1.4158 
+
+BATCH: 194 
+loss: 2.3938 - mse: 5.6273 - mae: 1.4016 
+
+BATCH: 291 
+loss: 2.3572 - mse: 5.5134 - mae: 1.3879 
+
+BATCH: 388 
+loss: 2.3217 - mse: 5.3991 - mae: 1.3732 
+
+BATCH: 485 
+loss: 2.2993 - mse: 5.268 - mae: 1.3588 
+
+BATCH: 582 
+loss: 2.275 - mse: 5.1396 - mae: 1.344 
+
+BATCH: 679 
+loss: 2.255 - mse: 5.0037 - mae: 1.3291 
+
+BATCH: 776 
+loss: 2.2312 - mse: 4.8817 - mae: 1.3147 
+
+BATCH: 873 
+loss: 2.2104 - mse: 4.7591 - mae: 1.3007 
+
+BATCH: 970 
+loss: 2.1881 - mse: 4.6364 - mae: 1.2868 
+
+BATCH: 1067 
+loss: 2.1672 - mse: 4.524 - mae: 1.2734 
+
+BATCH: 1164 
+loss: 2.1461 - mse: 4.4098 - mae: 1.2604 
+
+BATCH: 1261 
+loss: 2.1235 - mse: 4.304 - mae: 1.2478 
+
+BATCH: 1358 
+loss: 2.1031 - mse: 4.1978 - mae: 1.2356 
+
+BATCH: 1455 
+loss: 2.0838 - mse: 4.0996 - mae: 1.2237 
+
+BATCH: 1552 
+loss: 2.0662 - mse: 4.0015 - mae: 1.2125 
+
+BATCH: 1649 
+loss: 2.0485 - mse: 3.9089 - mae: 1.2016 
+
+BATCH: 1746 
+loss: 2.0303 - mse: 3.821 - mae: 1.1908 
+
+BATCH: 1843 
+loss: 2.0162 - mse: 3.7355 - mae: 1.1807 
+
+BATCH: 1940 
+loss: 2.0036 - mse: 3.6541 - mae: 1.1712 
+
+BATCH: 2037 
+loss: 1.9908 - mse: 3.5748 - mae: 1.1621 
+
+BATCH: 2134 
+loss: 1.9791 - mse: 3.4972 - mae: 1.153 
+
+BATCH: 2231 
+loss: 1.9659 - mse: 3.4258 - mae: 1.1443 
+
+BATCH: 2328 
+loss: 1.954 - mse: 3.3544 - mae: 1.136 
+
+BATCH: 2425 
+loss: 1.9461 - mse: 3.2985 - mae: 1.1286 
+
+BATCH: 2522 
+loss: 1.9349 - mse: 3.2419 - mae: 1.1215 
+
+BATCH: 2619 
+loss: 1.9247 - mse: 3.1855 - mae: 1.1147 
+
+BATCH: 2716 
+loss: 1.9143 - mse: 3.1314 - mae: 1.1079 
+
+BATCH: 2813 
+loss: 1.9042 - mse: 3.0793 - mae: 1.1015 
+
+BATCH: 2910 
+loss: 1.8989 - mse: 3.045 - mae: 1.0959 
+
+BATCH: 3007 
+loss: 1.8907 - mse: 3.0075 - mae: 1.091 
+
+BATCH: 3104 
+loss: 1.8829 - mse: 2.9679 - mae: 1.0862 
+
+BATCH: 3201 
+loss: 1.8746 - mse: 2.9293 - mae: 1.0813 
+
+BATCH: 3298 
+loss: 1.8662 - mse: 2.8905 - mae: 1.0766 
+

@@ -1,0 +1,31 @@
+Experiment setup
+path_to_exp: /home/albert/Baikal/NuEnergy/experiments/Model_1_NoStopGrad_SigmaRelu_nn_energy
+u1: 32
+u2: 64
+num_res_blocks: 3
+f_id_list: [64, 64, 64]
+k_id_list: [10, 5, 3]
+f_cd_list: [64, 64, 64]
+k_cd_list: [10, 5, 3]
+s_cd_list: [2, 2, 2]
+dense_E_list: [32, 32, 32]
+dense_sigma_list: [32, 32, 32]
+E_activation: linear
+sigma_activation: <keras.layers.core.activation.Activation object at 0x7f83a7229cd0>
+stop_grad: False
+
+Training hyper parameters
+batch_size: 512
+lr_initial: 0.01
+lr_decay: 0.001
+experiment_name: Model_1_NoStopGrad_SigmaRelu_nn_energy
+path_to_h5: /net/61/home3/ivkhar/Baikal/data/baikal_multi_nus_flat_pureMC_h5s2_norm.h5
+num_of_epochs: 50
+shape: (None, 6)
+path_to_exps: /home/albert/Baikal/NuEnergy/experiments/
+verbose: True
+cutting: 1
+
+Num of trainable parameters: 365988
+
+Num of nontrainable parameters:2626

@@ -1,0 +1,36 @@
+Experiment setup
+path_to_exp: /home/albert/Baikal/NuEnergy/experiments/EnergyOnly_NoNoise_ShiftedReluWithTangent1_IsSigmaFalse_ResBlocks0
+num_rnn_start: 2
+u_start: [64, 64]
+u_last: [128]
+num_res_blocks: 0
+f_id_list: [64, 128, 64]
+k_id_list: [10, 5, 5]
+f_cd_list: [64, 128, 64]
+k_cd_list: [10, 5, 5]
+s_cd_list: []
+dense_E_list: [128, 64, 32]
+dense_sigma_list: [128, 64, 32]
+E_activation: linear
+sigma_activation: <keras.layers.core.activation.Activation object at 0x7ffaf8197340>
+is_sigma: False
+
+Training hyper parameters
+batch_size: 256
+lr_initial: 0.0005
+lr_decay: 0.001
+experiment_name: EnergyOnly_NoNoise_ShiftedReluWithTangent1_IsSigmaFalse_ResBlocks0
+path_to_h5: /home/albert/Baikal/NuEnergy/data/baikal_multi_nu_flat_pureMC_h8s2_norm_corr.h5
+num_of_epochs: 50
+path_to_exps: /home/albert/Baikal/NuEnergy/experiments/
+verbose: True
+cutting: 1
+loss_E: <customs.losses.MyMSE object at 0x7ffaf81c8160>
+loss_sigma: None
+apply_add_gauss: False
+apply_mult_gauss: False
+apply_Q_log: False
+
+Num of trainable parameters: 327361
+
+Num of nontrainable parameters:964.0

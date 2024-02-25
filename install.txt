@@ -1,0 +1,9 @@
+conda create -n NuEnergy python=3.9 -y
+conda activate NuEnergy
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
+conda install jupyter -y
+conda install matplotlib -y
+conda install numpy -y
+conda install -c conda-forge tensorflow-gpu=2.11
+
+

@@ -1,0 +1,1122 @@
+BATCH: 0 
+loss_E: 3.1273 - logE_MAE: 0.8932 - logE_MSE: 1.2696 - SigmaMAE: 1.3286 - SigmaMSE: 2.105 - 
+BATCH: 226 
+loss_E: 1.5918 - logE_MAE: 0.8618 - logE_MSE: 1.1801 - SigmaMAE: 1.3227 - SigmaMSE: 2.07 - 
+BATCH: 452 
+loss_E: 1.3969 - logE_MAE: 0.8292 - logE_MSE: 1.0959 - SigmaMAE: 1.3401 - SigmaMSE: 2.1074 - 
+BATCH: 678 
+loss_E: 1.5505 - logE_MAE: 0.8469 - logE_MSE: 1.1481 - SigmaMAE: 1.3379 - SigmaMSE: 2.1077 - 
+BATCH: 904 
+loss_E: 1.798 - logE_MAE: 0.8545 - logE_MSE: 1.1595 - SigmaMAE: 1.3191 - SigmaMSE: 2.0604 - 
+BATCH: 1130 
+loss_E: 1.7318 - logE_MAE: 0.8541 - logE_MSE: 1.1569 - SigmaMAE: 1.3184 - SigmaMSE: 2.0582 - 
+BATCH: 1356 
+loss_E: 1.6406 - logE_MAE: 0.8456 - logE_MSE: 1.1348 - SigmaMAE: 1.3253 - SigmaMSE: 2.0751 - 
+BATCH: 1582 
+loss_E: 1.5642 - logE_MAE: 0.8359 - logE_MSE: 1.1107 - SigmaMAE: 1.3344 - SigmaMSE: 2.0975 - 
+BATCH: 1808 
+loss_E: 1.4961 - logE_MAE: 0.8269 - logE_MSE: 1.0895 - SigmaMAE: 1.3435 - SigmaMSE: 2.1209 - 
+BATCH: 2034 
+loss_E: 1.4429 - logE_MAE: 0.8193 - logE_MSE: 1.0717 - SigmaMAE: 1.3517 - SigmaMSE: 2.142 - 
+BATCH: 2260 
+loss_E: 1.3963 - logE_MAE: 0.8113 - logE_MSE: 1.0532 - SigmaMAE: 1.3602 - SigmaMSE: 2.1636 - 
+BATCH: 2486 
+loss_E: 1.3698 - logE_MAE: 0.8079 - logE_MSE: 1.0444 - SigmaMAE: 1.3646 - SigmaMSE: 2.1749 - 
+BATCH: 2712 
+loss_E: 1.3444 - logE_MAE: 0.8042 - logE_MSE: 1.0353 - SigmaMAE: 1.3692 - SigmaMSE: 2.1866 - 
+BATCH: 2938 
+loss_E: 1.3244 - logE_MAE: 0.7999 - logE_MSE: 1.025 - SigmaMAE: 1.3745 - SigmaMSE: 2.1998 - 
+BATCH: 3164 
+loss_E: 1.3018 - logE_MAE: 0.7958 - logE_MSE: 1.0153 - SigmaMAE: 1.3794 - SigmaMSE: 2.2123 - 
+BATCH: 3390 
+loss_E: 1.2823 - logE_MAE: 0.7918 - logE_MSE: 1.0062 - SigmaMAE: 1.3841 - SigmaMSE: 2.2247 - 
+BATCH: 3616 
+loss_E: 1.2668 - logE_MAE: 0.7888 - logE_MSE: 0.9988 - SigmaMAE: 1.3876 - SigmaMSE: 2.2335 - 
+BATCH: 3842 
+loss_E: 1.2484 - logE_MAE: 0.785 - logE_MSE: 0.9902 - SigmaMAE: 1.392 - SigmaMSE: 2.2448 - 
+BATCH: 4068 
+loss_E: 1.2341 - logE_MAE: 0.7818 - logE_MSE: 0.9829 - SigmaMAE: 1.3961 - SigmaMSE: 2.2555 - 
+BATCH: 4294 
+loss_E: 1.2188 - logE_MAE: 0.7787 - logE_MSE: 0.9757 - SigmaMAE: 1.3995 - SigmaMSE: 2.2642 - 
+BATCH: 4520 
+loss_E: 1.2081 - logE_MAE: 0.776 - logE_MSE: 0.9695 - SigmaMAE: 1.4029 - SigmaMSE: 2.2729 - 
+BATCH: 4746 
+loss_E: 1.1957 - logE_MAE: 0.7737 - logE_MSE: 0.964 - SigmaMAE: 1.4057 - SigmaMSE: 2.2799 - 
+BATCH: 4972 
+loss_E: 1.1859 - logE_MAE: 0.7719 - logE_MSE: 0.9598 - SigmaMAE: 1.4081 - SigmaMSE: 2.2861 - 
+BATCH: 5198 
+loss_E: 1.176 - logE_MAE: 0.7702 - logE_MSE: 0.9558 - SigmaMAE: 1.4103 - SigmaMSE: 2.2921 - 
+BATCH: 5424 
+loss_E: 1.17 - logE_MAE: 0.7688 - logE_MSE: 0.9526 - SigmaMAE: 1.4124 - SigmaMSE: 2.2975 - 
+BATCH: 5650 
+loss_E: 1.1615 - logE_MAE: 0.7671 - logE_MSE: 0.949 - SigmaMAE: 1.4144 - SigmaMSE: 2.3029 - 
+BATCH: 5876 
+loss_E: 1.1543 - logE_MAE: 0.7659 - logE_MSE: 0.9461 - SigmaMAE: 1.4162 - SigmaMSE: 2.3076 - 
+BATCH: 6102 
+loss_E: 1.1489 - logE_MAE: 0.7648 - logE_MSE: 0.9438 - SigmaMAE: 1.4179 - SigmaMSE: 2.3121 - 
+BATCH: 6328 
+loss_E: 1.1412 - logE_MAE: 0.7633 - logE_MSE: 0.9406 - SigmaMAE: 1.4197 - SigmaMSE: 2.3171 - 
+BATCH: 6554 
+loss_E: 1.1348 - logE_MAE: 0.7621 - logE_MSE: 0.9379 - SigmaMAE: 1.4213 - SigmaMSE: 2.3215 - 
+BATCH: 6780 
+loss_E: 1.1283 - logE_MAE: 0.7607 - logE_MSE: 0.9347 - SigmaMAE: 1.4229 - SigmaMSE: 2.3255 - 
+BATCH: 7006 
+loss_E: 1.123 - logE_MAE: 0.7596 - logE_MSE: 0.9323 - SigmaMAE: 1.4242 - SigmaMSE: 2.3289 - 
+BATCH: 7232 
+loss_E: 1.1186 - logE_MAE: 0.7584 - logE_MSE: 0.9298 - SigmaMAE: 1.4256 - SigmaMSE: 2.3327 - 
+BATCH: 7458 
+loss_E: 1.1133 - logE_MAE: 0.7572 - logE_MSE: 0.9271 - SigmaMAE: 1.4272 - SigmaMSE: 2.3368 - 
+BATCH: 7684 
+loss_E: 1.1093 - logE_MAE: 0.7566 - logE_MSE: 0.9258 - SigmaMAE: 1.428 - SigmaMSE: 2.3391 - 
+BATCH: 7910 
+loss_E: 1.1045 - logE_MAE: 0.7556 - logE_MSE: 0.9235 - SigmaMAE: 1.4292 - SigmaMSE: 2.3421 - 
+BATCH: 8136 
+loss_E: 1.1011 - logE_MAE: 0.755 - logE_MSE: 0.9222 - SigmaMAE: 1.4299 - SigmaMSE: 2.3442 - 
+BATCH: 8362 
+loss_E: 1.0969 - logE_MAE: 0.7542 - logE_MSE: 0.9204 - SigmaMAE: 1.431 - SigmaMSE: 2.347 - 
+BATCH: 8588 
+loss_E: 1.0928 - logE_MAE: 0.7532 - logE_MSE: 0.9183 - SigmaMAE: 1.4321 - SigmaMSE: 2.3499 - 
+BATCH: 8814 
+loss_E: 1.0891 - logE_MAE: 0.7525 - logE_MSE: 0.9167 - SigmaMAE: 1.433 - SigmaMSE: 2.3523 - 
+BATCH: 9040 
+loss_E: 1.0858 - logE_MAE: 0.7519 - logE_MSE: 0.9156 - SigmaMAE: 1.4337 - SigmaMSE: 2.3542 - 
+BATCH: 9266 
+loss_E: 1.083 - logE_MAE: 0.7514 - logE_MSE: 0.9143 - SigmaMAE: 1.4345 - SigmaMSE: 2.3563 - 
+BATCH: 9492 
+loss_E: 1.0798 - logE_MAE: 0.7506 - logE_MSE: 0.9127 - SigmaMAE: 1.4355 - SigmaMSE: 2.3589 - 
+BATCH: 9718 
+loss_E: 1.0768 - logE_MAE: 0.7502 - logE_MSE: 0.9115 - SigmaMAE: 1.4361 - SigmaMSE: 2.3604 - 
+BATCH: 9944 
+loss_E: 1.0732 - logE_MAE: 0.7494 - logE_MSE: 0.9099 - SigmaMAE: 1.4368 - SigmaMSE: 2.3622 - 
+BATCH: 10170 
+loss_E: 1.0726 - logE_MAE: 0.7495 - logE_MSE: 0.91 - SigmaMAE: 1.4366 - SigmaMSE: 2.3614 - 
+BATCH: 10396 
+loss_E: 1.0707 - logE_MAE: 0.7494 - logE_MSE: 0.9096 - SigmaMAE: 1.4367 - SigmaMSE: 2.3617 - 
+BATCH: 10622 
+loss_E: 1.0687 - logE_MAE: 0.7492 - logE_MSE: 0.909 - SigmaMAE: 1.4369 - SigmaMSE: 2.3621 - 
+BATCH: 10848 
+loss_E: 1.0665 - logE_MAE: 0.7488 - logE_MSE: 0.9083 - SigmaMAE: 1.4373 - SigmaMSE: 2.3632 - 
+BATCH: 11074 
+loss_E: 1.0637 - logE_MAE: 0.7481 - logE_MSE: 0.9069 - SigmaMAE: 1.4379 - SigmaMSE: 2.3648 - 
+BATCH: 11300 
+loss_E: 1.0608 - logE_MAE: 0.7475 - logE_MSE: 0.9056 - SigmaMAE: 1.4385 - SigmaMSE: 2.3663 - 
+BATCH: 0 
+loss_E: 0.7715 - logE_MAE: 0.7628 - logE_MSE: 0.9159 - SigmaMAE: 1.4272 - SigmaMSE: 2.3483 - 
+BATCH: 226 
+loss_E: 0.9614 - logE_MAE: 0.7265 - logE_MSE: 0.8596 - SigmaMAE: 1.4644 - SigmaMSE: 2.4334 - 
+BATCH: 452 
+loss_E: 0.9502 - logE_MAE: 0.7218 - logE_MSE: 0.8481 - SigmaMAE: 1.4677 - SigmaMSE: 2.4413 - 
+BATCH: 678 
+loss_E: 0.9593 - logE_MAE: 0.7221 - logE_MSE: 0.8494 - SigmaMAE: 1.4674 - SigmaMSE: 2.4399 - 
+BATCH: 904 
+loss_E: 0.962 - logE_MAE: 0.7238 - logE_MSE: 0.8529 - SigmaMAE: 1.4653 - SigmaMSE: 2.4352 - 
+BATCH: 1130 
+loss_E: 0.961 - logE_MAE: 0.7241 - logE_MSE: 0.853 - SigmaMAE: 1.4649 - SigmaMSE: 2.4338 - 
+BATCH: 1356 
+loss_E: 0.9743 - logE_MAE: 0.7257 - logE_MSE: 0.8561 - SigmaMAE: 1.463 - SigmaMSE: 2.4284 - 
+BATCH: 1582 
+loss_E: 0.9767 - logE_MAE: 0.7257 - logE_MSE: 0.856 - SigmaMAE: 1.4621 - SigmaMSE: 2.4255 - 
+BATCH: 1808 
+loss_E: 0.9746 - logE_MAE: 0.7265 - logE_MSE: 0.8569 - SigmaMAE: 1.4614 - SigmaMSE: 2.4232 - 
+BATCH: 2034 
+loss_E: 0.9732 - logE_MAE: 0.7276 - logE_MSE: 0.8591 - SigmaMAE: 1.4605 - SigmaMSE: 2.4216 - 
+BATCH: 2260 
+loss_E: 0.9753 - logE_MAE: 0.7284 - logE_MSE: 0.8611 - SigmaMAE: 1.4602 - SigmaMSE: 2.421 - 
+BATCH: 2486 
+loss_E: 0.9765 - logE_MAE: 0.7285 - logE_MSE: 0.8613 - SigmaMAE: 1.4606 - SigmaMSE: 2.4219 - 
+BATCH: 2712 
+loss_E: 0.9777 - logE_MAE: 0.7292 - logE_MSE: 0.8626 - SigmaMAE: 1.4601 - SigmaMSE: 2.4209 - 
+BATCH: 2938 
+loss_E: 0.9824 - logE_MAE: 0.7288 - logE_MSE: 0.8624 - SigmaMAE: 1.4606 - SigmaMSE: 2.4221 - 
+BATCH: 3164 
+loss_E: 0.9829 - logE_MAE: 0.7296 - logE_MSE: 0.8641 - SigmaMAE: 1.4601 - SigmaMSE: 2.4211 - 
+BATCH: 3390 
+loss_E: 0.9857 - logE_MAE: 0.7299 - logE_MSE: 0.8652 - SigmaMAE: 1.46 - SigmaMSE: 2.4213 - 
+BATCH: 3616 
+loss_E: 0.9891 - logE_MAE: 0.7309 - logE_MSE: 0.8674 - SigmaMAE: 1.4593 - SigmaMSE: 2.4198 - 
+BATCH: 3842 
+loss_E: 0.9881 - logE_MAE: 0.7307 - logE_MSE: 0.8672 - SigmaMAE: 1.4598 - SigmaMSE: 2.4213 - 
+BATCH: 4068 
+loss_E: 0.9883 - logE_MAE: 0.7308 - logE_MSE: 0.8675 - SigmaMAE: 1.46 - SigmaMSE: 2.422 - 
+BATCH: 4294 
+loss_E: 0.9869 - logE_MAE: 0.7307 - logE_MSE: 0.867 - SigmaMAE: 1.4603 - SigmaMSE: 2.4228 - 
+BATCH: 4520 
+loss_E: 0.989 - logE_MAE: 0.7309 - logE_MSE: 0.8674 - SigmaMAE: 1.4604 - SigmaMSE: 2.4233 - 
+BATCH: 4746 
+loss_E: 0.9891 - logE_MAE: 0.7316 - logE_MSE: 0.8687 - SigmaMAE: 1.46 - SigmaMSE: 2.4222 - 
+BATCH: 4972 
+loss_E: 0.9903 - logE_MAE: 0.7323 - logE_MSE: 0.8703 - SigmaMAE: 1.4596 - SigmaMSE: 2.4213 - 
+BATCH: 5198 
+loss_E: 0.9899 - logE_MAE: 0.7328 - logE_MSE: 0.8711 - SigmaMAE: 1.4594 - SigmaMSE: 2.4211 - 
+BATCH: 5424 
+loss_E: 0.9914 - logE_MAE: 0.733 - logE_MSE: 0.8717 - SigmaMAE: 1.4593 - SigmaMSE: 2.4208 - 
+BATCH: 5650 
+loss_E: 0.9914 - logE_MAE: 0.7334 - logE_MSE: 0.8724 - SigmaMAE: 1.4592 - SigmaMSE: 2.4205 - 
+BATCH: 5876 
+loss_E: 0.9914 - logE_MAE: 0.7336 - logE_MSE: 0.873 - SigmaMAE: 1.459 - SigmaMSE: 2.4203 - 
+BATCH: 6102 
+loss_E: 0.993 - logE_MAE: 0.7341 - logE_MSE: 0.8744 - SigmaMAE: 1.4587 - SigmaMSE: 2.4197 - 
+BATCH: 6328 
+loss_E: 0.9916 - logE_MAE: 0.7339 - logE_MSE: 0.8741 - SigmaMAE: 1.4592 - SigmaMSE: 2.4212 - 
+BATCH: 6554 
+loss_E: 0.9911 - logE_MAE: 0.734 - logE_MSE: 0.8746 - SigmaMAE: 1.4592 - SigmaMSE: 2.4217 - 
+BATCH: 6780 
+loss_E: 0.991 - logE_MAE: 0.7342 - logE_MSE: 0.8749 - SigmaMAE: 1.4593 - SigmaMSE: 2.4221 - 
+BATCH: 7006 
+loss_E: 0.9921 - logE_MAE: 0.7346 - logE_MSE: 0.8759 - SigmaMAE: 1.4591 - SigmaMSE: 2.4217 - 
+BATCH: 7232 
+loss_E: 0.9938 - logE_MAE: 0.7349 - logE_MSE: 0.8765 - SigmaMAE: 1.4589 - SigmaMSE: 2.4213 - 
+BATCH: 7458 
+loss_E: 0.9935 - logE_MAE: 0.7347 - logE_MSE: 0.8762 - SigmaMAE: 1.4592 - SigmaMSE: 2.4221 - 
+BATCH: 7684 
+loss_E: 0.9935 - logE_MAE: 0.7351 - logE_MSE: 0.8769 - SigmaMAE: 1.4589 - SigmaMSE: 2.4213 - 
+BATCH: 7910 
+loss_E: 0.9931 - logE_MAE: 0.7353 - logE_MSE: 0.8774 - SigmaMAE: 1.4588 - SigmaMSE: 2.4213 - 
+BATCH: 8136 
+loss_E: 0.9936 - logE_MAE: 0.7357 - logE_MSE: 0.8782 - SigmaMAE: 1.4584 - SigmaMSE: 2.4203 - 
+BATCH: 8362 
+loss_E: 0.9928 - logE_MAE: 0.7357 - logE_MSE: 0.878 - SigmaMAE: 1.4586 - SigmaMSE: 2.4206 - 
+BATCH: 8588 
+loss_E: 0.9916 - logE_MAE: 0.7353 - logE_MSE: 0.8773 - SigmaMAE: 1.4591 - SigmaMSE: 2.4222 - 
+BATCH: 8814 
+loss_E: 0.9905 - logE_MAE: 0.7351 - logE_MSE: 0.877 - SigmaMAE: 1.4593 - SigmaMSE: 2.4229 - 
+BATCH: 9040 
+loss_E: 0.9896 - logE_MAE: 0.7349 - logE_MSE: 0.8766 - SigmaMAE: 1.4596 - SigmaMSE: 2.4238 - 
+BATCH: 9266 
+loss_E: 0.9891 - logE_MAE: 0.7348 - logE_MSE: 0.8764 - SigmaMAE: 1.4598 - SigmaMSE: 2.4245 - 
+BATCH: 9492 
+loss_E: 0.9883 - logE_MAE: 0.7346 - logE_MSE: 0.876 - SigmaMAE: 1.4601 - SigmaMSE: 2.4252 - 
+BATCH: 9718 
+loss_E: 0.9878 - logE_MAE: 0.7344 - logE_MSE: 0.8756 - SigmaMAE: 1.4603 - SigmaMSE: 2.4258 - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 0 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 226 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 452 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 678 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 904 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1130 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1356 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1582 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 1808 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2034 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2260 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2486 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2712 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 2938 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3164 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3390 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3616 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 3842 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4068 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4294 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4520 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4746 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 4972 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5198 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5424 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5650 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 5876 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6102 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6328 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6554 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 6780 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7006 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7232 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7458 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7684 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 7910 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8136 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8362 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8588 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 8814 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9040 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9266 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9492 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9718 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 9944 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10170 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10396 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10622 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 10848 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11074 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 
+BATCH: 11300 
+loss_E: nan - logE_MAE: nan - logE_MSE: nan - SigmaMAE: nan - SigmaMSE: nan - 

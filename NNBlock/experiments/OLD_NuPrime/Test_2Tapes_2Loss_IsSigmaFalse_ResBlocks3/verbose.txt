@@ -1,0 +1,2 @@
+BATCH: 0 
+energy_loss: 1.7854 - logE_MAE: 0.8802 - logE_MSE: 1.1753 - 

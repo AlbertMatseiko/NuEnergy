@@ -1,0 +1,17 @@
+# dataset args. Do not set a "regime" here!
+
+#my path
+#path_to_h5: /home/albert/Baikal/NeutrinoSelection/DataBlock/data/baikal_multi_1223_flat_signal_doubles_H8_Q2_S2/step3_all_normed.h5
+
+#must be absolute!
+path_to_h5: /home/albert/Baikal/NuEnergy/DataBlock/data/baikal_multi_1223_flat_signal_H5_S2_Emu10to1000000/step3_all_1_1_train600000_test40000_normlog10E_normed.h5
+batch_size: 256
+start: 0
+set_up_Q_lim: True
+up_Q_lim: 100.
+apply_Q_log: False
+apply_add_gauss: True
+apply_mult_gauss: True
+g_add_stds: [0.03, 0.005, 0.005, 0.005, 0.00003]
+q_noise_fraction: 0.1
+use_weights: True

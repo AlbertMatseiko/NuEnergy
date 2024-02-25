@@ -1,0 +1,5 @@
+Experiment setup 
+ {'path_to_exp': '/home/albert/Baikal/NuEnergy/experiments/big_numbers_whole_training_nn_energy', 'dict_of_hp': {'u1': 64, 'u2': 256, 'num_res_blocks': 3, 'f_id_list': [128, 128, 128], 'k_id_list': [10, 4, 4], 'f_cd_list': [128, 128, 128], 'k_cd_list': [10, 4, 4], 's_cd_list': [2, 2, 2], 'dense_E_list': [256, 64, 16], 'dense_sigma_list': [256, 64, 16], 'E_activation': 'sigmoid', 'sigma_activation': 'sigmoid', 'stop_grad': False}}
+
+ Training parameters 
+ {'batch_size': 768, 'lr_initial': 0.03, 'lr_decay': 0.05, 'experiment_name': 'big_numbers_whole_training_nn_energy', 'path_to_h5': '/net/61/home3/ivkhar/Baikal/data/baikal_multi_nus_flat_pureMC_h5s2_norm.h5', 'num_of_epochs': 20, 'shape': (None, 6), 'path_to_exps': '/home/albert/Baikal/NuEnergy/experiments/', 'verbose': True, 'cutting': 1}

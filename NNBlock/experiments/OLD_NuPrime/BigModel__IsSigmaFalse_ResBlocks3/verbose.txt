@@ -1,0 +1,264 @@
+BATCH: 0 
+loss: 5.1847 - logE_MAE: 1.403 - logE_MSE: 3.4131 - 
+BATCH: 489 
+loss: 1.1889 - logE_MAE: 0.7125 - logE_MSE: 0.7961 - 
+BATCH: 978 
+loss: 1.119 - logE_MAE: 0.6894 - logE_MSE: 0.7506 - 
+BATCH: 1467 
+loss: 1.0827 - logE_MAE: 0.6762 - logE_MSE: 0.7268 - 
+BATCH: 1956 
+loss: 1.0638 - logE_MAE: 0.6684 - logE_MSE: 0.7136 - 
+BATCH: 2445 
+loss: 1.0567 - logE_MAE: 0.6634 - logE_MSE: 0.7052 - 
+BATCH: 2934 
+loss: 1.0631 - logE_MAE: 0.6611 - logE_MSE: 0.7015 - 
+BATCH: 3423 
+loss: 1.0653 - logE_MAE: 0.6586 - logE_MSE: 0.6976 - 
+BATCH: 3912 
+loss: 1.0656 - logE_MAE: 0.656 - logE_MSE: 0.6935 - 
+BATCH: 4401 
+loss: 1.0639 - logE_MAE: 0.6536 - logE_MSE: 0.6897 - 
+BATCH: 4890 
+loss: 1.0458 - logE_MAE: 0.649 - logE_MSE: 0.6817 - 
+BATCH: 5379 
+loss: 1.0309 - logE_MAE: 0.645 - logE_MSE: 0.6748 - 
+BATCH: 5868 
+loss: 1.0179 - logE_MAE: 0.6416 - logE_MSE: 0.6689 - 
+BATCH: 6357 
+loss: 1.0062 - logE_MAE: 0.6383 - logE_MSE: 0.6632 - 
+BATCH: 6846 
+loss: 0.9971 - logE_MAE: 0.6354 - logE_MSE: 0.6585 - 
+BATCH: 7335 
+loss: 0.9901 - logE_MAE: 0.633 - logE_MSE: 0.6545 - 
+BATCH: 7824 
+loss: 0.9836 - logE_MAE: 0.6307 - logE_MSE: 0.6508 - 
+BATCH: 8313 
+loss: 0.9781 - logE_MAE: 0.6287 - logE_MSE: 0.6475 - 
+BATCH: 8802 
+loss: 0.9728 - logE_MAE: 0.6268 - logE_MSE: 0.6444 - 
+BATCH: 9291 
+loss: 0.9702 - logE_MAE: 0.6253 - logE_MSE: 0.642 - 
+BATCH: 9780 
+loss: 0.9692 - logE_MAE: 0.6241 - logE_MSE: 0.6401 - 
+BATCH: 10269 
+loss: 0.9683 - logE_MAE: 0.623 - logE_MSE: 0.6384 - 
+BATCH: 10758 
+loss: 0.9673 - logE_MAE: 0.6219 - logE_MSE: 0.6367 - 
+BATCH: 11247 
+loss: 0.9651 - logE_MAE: 0.6207 - logE_MSE: 0.6348 - 
+BATCH: 11736 
+loss: 0.9591 - logE_MAE: 0.619 - logE_MSE: 0.6318 - 
+BATCH: 12225 
+loss: 0.9536 - logE_MAE: 0.6174 - logE_MSE: 0.6292 - 
+BATCH: 12714 
+loss: 0.9484 - logE_MAE: 0.6159 - logE_MSE: 0.6267 - 
+BATCH: 13203 
+loss: 0.9438 - logE_MAE: 0.6145 - logE_MSE: 0.6244 - 
+BATCH: 13692 
+loss: 0.9416 - logE_MAE: 0.6135 - logE_MSE: 0.6228 - 
+BATCH: 14181 
+loss: 0.9408 - logE_MAE: 0.6127 - logE_MSE: 0.6216 - 
+BATCH: 14670 
+loss: 0.9403 - logE_MAE: 0.6121 - logE_MSE: 0.6206 - 
+BATCH: 15159 
+loss: 0.9396 - logE_MAE: 0.6114 - logE_MSE: 0.6196 - 
+BATCH: 15648 
+loss: 0.9382 - logE_MAE: 0.6106 - logE_MSE: 0.6183 - 
+BATCH: 16137 
+loss: 0.9353 - logE_MAE: 0.6097 - logE_MSE: 0.6168 - 
+BATCH: 16626 
+loss: 0.9325 - logE_MAE: 0.6087 - logE_MSE: 0.6153 - 
+BATCH: 17115 
+loss: 0.9301 - logE_MAE: 0.6079 - logE_MSE: 0.6139 - 
+BATCH: 17604 
+loss: 0.9278 - logE_MAE: 0.6071 - logE_MSE: 0.6126 - 
+BATCH: 18093 
+loss: 0.9255 - logE_MAE: 0.6063 - logE_MSE: 0.6114 - 
+BATCH: 18582 
+loss: 0.9232 - logE_MAE: 0.6055 - logE_MSE: 0.6101 - 
+BATCH: 19071 
+loss: 0.9212 - logE_MAE: 0.6048 - logE_MSE: 0.6089 - 
+BATCH: 19560 
+loss: 0.9191 - logE_MAE: 0.6041 - logE_MSE: 0.6077 - 
+BATCH: 20049 
+loss: 0.9171 - logE_MAE: 0.6034 - logE_MSE: 0.6066 - 
+BATCH: 20538 
+loss: 0.9169 - logE_MAE: 0.603 - logE_MSE: 0.606 - 
+BATCH: 21027 
+loss: 0.9166 - logE_MAE: 0.6025 - logE_MSE: 0.6054 - 
+BATCH: 21516 
+loss: 0.9162 - logE_MAE: 0.6021 - logE_MSE: 0.6047 - 
+BATCH: 22005 
+loss: 0.9161 - logE_MAE: 0.6017 - logE_MSE: 0.6042 - 
+BATCH: 22494 
+loss: 0.9153 - logE_MAE: 0.6012 - logE_MSE: 0.6034 - 
+BATCH: 22983 
+loss: 0.9141 - logE_MAE: 0.6007 - logE_MSE: 0.6025 - 
+BATCH: 23472 
+loss: 0.913 - logE_MAE: 0.6002 - logE_MSE: 0.6017 - 
+BATCH: 23961 
+loss: 0.9119 - logE_MAE: 0.5997 - logE_MSE: 0.601 - 
+BATCH: 24450 
+loss: 0.9111 - logE_MAE: 0.5993 - logE_MSE: 0.6003 - 
+BATCH: 0 
+loss: 0.8591 - logE_MAE: 0.5766 - logE_MSE: 0.5655 - 
+BATCH: 489 
+loss: 0.8339 - logE_MAE: 0.5736 - logE_MSE: 0.5579 - 
+BATCH: 978 
+loss: 0.8296 - logE_MAE: 0.5724 - logE_MSE: 0.5563 - 
+BATCH: 1467 
+loss: 0.8268 - logE_MAE: 0.5715 - logE_MSE: 0.5549 - 
+BATCH: 1956 
+loss: 0.8276 - logE_MAE: 0.5715 - logE_MSE: 0.5551 - 
+BATCH: 2445 
+loss: 0.8349 - logE_MAE: 0.5725 - logE_MSE: 0.5569 - 
+BATCH: 2934 
+loss: 0.8504 - logE_MAE: 0.5746 - logE_MSE: 0.5606 - 
+BATCH: 3423 
+loss: 0.8608 - logE_MAE: 0.5759 - logE_MSE: 0.5629 - 
+BATCH: 3912 
+loss: 0.8688 - logE_MAE: 0.5768 - logE_MSE: 0.5645 - 
+BATCH: 4401 
+loss: 0.8741 - logE_MAE: 0.5774 - logE_MSE: 0.5657 - 
+BATCH: 4890 
+loss: 0.8647 - logE_MAE: 0.5759 - logE_MSE: 0.563 - 
+BATCH: 5379 
+loss: 0.8576 - logE_MAE: 0.5747 - logE_MSE: 0.561 - 
+BATCH: 5868 
+loss: 0.8515 - logE_MAE: 0.5738 - logE_MSE: 0.5593 - 
+BATCH: 6357 
+loss: 0.8462 - logE_MAE: 0.5728 - logE_MSE: 0.5577 - 
+BATCH: 6846 
+loss: 0.8429 - logE_MAE: 0.5722 - logE_MSE: 0.5567 - 
+BATCH: 7335 
+loss: 0.8413 - logE_MAE: 0.5719 - logE_MSE: 0.5562 - 
+BATCH: 7824 
+loss: 0.8397 - logE_MAE: 0.5716 - logE_MSE: 0.5557 - 
+BATCH: 8313 
+loss: 0.8389 - logE_MAE: 0.5714 - logE_MSE: 0.5555 - 
+BATCH: 8802 
+loss: 0.838 - logE_MAE: 0.5712 - logE_MSE: 0.5552 - 
+BATCH: 9291 
+loss: 0.8392 - logE_MAE: 0.5713 - logE_MSE: 0.5554 - 
+BATCH: 9780 
+loss: 0.8417 - logE_MAE: 0.5715 - logE_MSE: 0.5559 - 
+BATCH: 10269 
+loss: 0.8442 - logE_MAE: 0.5718 - logE_MSE: 0.5565 - 
+BATCH: 10758 
+loss: 0.8464 - logE_MAE: 0.5721 - logE_MSE: 0.557 - 
+BATCH: 11247 
+loss: 0.8472 - logE_MAE: 0.5721 - logE_MSE: 0.5571 - 
+BATCH: 11736 
+loss: 0.8442 - logE_MAE: 0.5716 - logE_MSE: 0.5561 - 
+BATCH: 12225 
+loss: 0.8417 - logE_MAE: 0.5711 - logE_MSE: 0.5553 - 
+BATCH: 12714 
+loss: 0.8393 - logE_MAE: 0.5707 - logE_MSE: 0.5546 - 
+BATCH: 13203 
+loss: 0.8373 - logE_MAE: 0.5703 - logE_MSE: 0.554 - 
+BATCH: 13692 
+loss: 0.8373 - logE_MAE: 0.5703 - logE_MSE: 0.5539 - 
+BATCH: 14181 
+loss: 0.8387 - logE_MAE: 0.5704 - logE_MSE: 0.5542 - 
+BATCH: 14670 
+loss: 0.8402 - logE_MAE: 0.5706 - logE_MSE: 0.5545 - 
+BATCH: 15159 
+loss: 0.8415 - logE_MAE: 0.5707 - logE_MSE: 0.5548 - 
+BATCH: 15648 
+loss: 0.8419 - logE_MAE: 0.5707 - logE_MSE: 0.5548 - 
+BATCH: 16137 
+loss: 0.841 - logE_MAE: 0.5705 - logE_MSE: 0.5545 - 
+BATCH: 16626 
+loss: 0.84 - logE_MAE: 0.5703 - logE_MSE: 0.5542 - 
+BATCH: 17115 
+loss: 0.8393 - logE_MAE: 0.5702 - logE_MSE: 0.554 - 
+BATCH: 17604 
+loss: 0.8386 - logE_MAE: 0.57 - logE_MSE: 0.5537 - 
+BATCH: 18093 
+loss: 0.8379 - logE_MAE: 0.5699 - logE_MSE: 0.5535 - 
+BATCH: 18582 
+loss: 0.8371 - logE_MAE: 0.5697 - logE_MSE: 0.5533 - 
+BATCH: 19071 
+loss: 0.8365 - logE_MAE: 0.5696 - logE_MSE: 0.553 - 
+BATCH: 19560 
+loss: 0.8358 - logE_MAE: 0.5694 - logE_MSE: 0.5527 - 
+BATCH: 20049 
+loss: 0.8351 - logE_MAE: 0.5693 - logE_MSE: 0.5525 - 
+BATCH: 20538 
+loss: 0.8361 - logE_MAE: 0.5694 - logE_MSE: 0.5527 - 
+BATCH: 21027 
+loss: 0.837 - logE_MAE: 0.5694 - logE_MSE: 0.5528 - 
+BATCH: 21516 
+loss: 0.8378 - logE_MAE: 0.5695 - logE_MSE: 0.5529 - 
+BATCH: 22005 
+loss: 0.8387 - logE_MAE: 0.5695 - logE_MSE: 0.5531 - 
+BATCH: 22494 
+loss: 0.8391 - logE_MAE: 0.5695 - logE_MSE: 0.5531 - 
+BATCH: 22983 
+loss: 0.8389 - logE_MAE: 0.5694 - logE_MSE: 0.5529 - 
+BATCH: 23472 
+loss: 0.8388 - logE_MAE: 0.5693 - logE_MSE: 0.5528 - 
+BATCH: 23961 
+loss: 0.8388 - logE_MAE: 0.5692 - logE_MSE: 0.5527 - 
+BATCH: 24450 
+loss: 0.8389 - logE_MAE: 0.5692 - logE_MSE: 0.5526 - 
+BATCH: 0 
+loss: 0.8408 - logE_MAE: 0.571 - logE_MSE: 0.5535 - 
+BATCH: 489 
+loss: 0.8092 - logE_MAE: 0.5628 - logE_MSE: 0.5414 - 
+BATCH: 978 
+loss: 0.8052 - logE_MAE: 0.5617 - logE_MSE: 0.54 - 
+BATCH: 1467 
+loss: 0.8028 - logE_MAE: 0.5611 - logE_MSE: 0.5389 - 
+BATCH: 1956 
+loss: 0.8041 - logE_MAE: 0.5613 - logE_MSE: 0.5393 - 
+BATCH: 2445 
+loss: 0.8122 - logE_MAE: 0.5627 - logE_MSE: 0.5417 - 
+BATCH: 2934 
+loss: 0.8278 - logE_MAE: 0.565 - logE_MSE: 0.5456 - 
+BATCH: 3423 
+loss: 0.8378 - logE_MAE: 0.5662 - logE_MSE: 0.5478 - 
+BATCH: 3912 
+loss: 0.8456 - logE_MAE: 0.5671 - logE_MSE: 0.5494 - 
+BATCH: 4401 
+loss: 0.8508 - logE_MAE: 0.5677 - logE_MSE: 0.5506 - 
+BATCH: 4890 
+loss: 0.8417 - logE_MAE: 0.5662 - logE_MSE: 0.548 - 
+BATCH: 5379 
+loss: 0.8349 - logE_MAE: 0.5651 - logE_MSE: 0.5461 - 
+BATCH: 5868 
+loss: 0.829 - logE_MAE: 0.5642 - logE_MSE: 0.5445 - 
+BATCH: 6357 
+loss: 0.8239 - logE_MAE: 0.5633 - logE_MSE: 0.543 - 
+BATCH: 6846 
+loss: 0.8208 - logE_MAE: 0.5628 - logE_MSE: 0.5421 - 
+BATCH: 7335 
+loss: 0.8194 - logE_MAE: 0.5625 - logE_MSE: 0.5417 - 
+BATCH: 7824 
+loss: 0.818 - logE_MAE: 0.5623 - logE_MSE: 0.5413 - 
+BATCH: 8313 
+loss: 0.8172 - logE_MAE: 0.5622 - logE_MSE: 0.5412 - 
+BATCH: 8802 
+loss: 0.8165 - logE_MAE: 0.562 - logE_MSE: 0.541 - 
+BATCH: 9291 
+loss: 0.8178 - logE_MAE: 0.5621 - logE_MSE: 0.5412 - 
+BATCH: 9780 
+loss: 0.8204 - logE_MAE: 0.5623 - logE_MSE: 0.5418 - 
+BATCH: 10269 
+loss: 0.8229 - logE_MAE: 0.5627 - logE_MSE: 0.5424 - 
+BATCH: 10758 
+loss: 0.8251 - logE_MAE: 0.563 - logE_MSE: 0.543 - 
+BATCH: 11247 
+loss: 0.826 - logE_MAE: 0.5631 - logE_MSE: 0.5431 - 
+BATCH: 11736 
+loss: 0.8232 - logE_MAE: 0.5626 - logE_MSE: 0.5423 - 
+BATCH: 12225 
+loss: 0.8208 - logE_MAE: 0.5622 - logE_MSE: 0.5416 - 
+BATCH: 12714 
+loss: 0.8186 - logE_MAE: 0.5618 - logE_MSE: 0.5409 - 
+BATCH: 13203 
+loss: 0.8167 - logE_MAE: 0.5615 - logE_MSE: 0.5404 - 
+BATCH: 13692 
+loss: 0.8225 - logE_MAE: 0.5639 - logE_MSE: 0.5441 - 
+BATCH: 14181 
+loss: 0.8282 - logE_MAE: 0.5658 - logE_MSE: 0.5472 - 

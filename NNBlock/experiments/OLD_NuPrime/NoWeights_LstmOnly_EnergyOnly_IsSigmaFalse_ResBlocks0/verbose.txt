@@ -1,0 +1,2 @@
+BATCH: 0 
+loss: 1.8351 - logE_MAE: 1.1626 - logE_MSE: 2.2377 - 

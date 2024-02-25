@@ -1,0 +1,21 @@
+Size is 7.22 GB
+Keys1: ['nu2', 'nuatm']
+Keys2: ['data', 'ev_ids', 'ev_starts', 'individ_muon_energy', 'log10Emu', 'num_un_strings', 'prime_prty']
+/home/albert/Baikal/NuEnergy/DataBlock/data/baikal_multi_1223_flat_signal_H5_S2/step1.h5/
+| nu2
+| | data: [shape: (341840684, 5), type: float32]
+| | ev_ids: [shape: (15306530,), type: |S16]
+| | ev_starts: [shape: (15306531,), type: int64]
+| | individ_muon_energy: [shape: (15306530, 1), type: float32]
+| | log10Emu: [shape: (15306530, 1), type: float32]
+| | num_un_strings: [shape: (15306530,), type: int64]
+| | prime_prty: [shape: (15306530, 3), type: float32]
+| nuatm
+| | data: [shape: (4494448, 5), type: float32]
+| | ev_ids: [shape: (594305,), type: |S16]
+| | ev_starts: [shape: (594306,), type: int64]
+| | individ_muon_energy: [shape: (594305, 1), type: float32]
+| | log10Emu: [shape: (594305, 1), type: float32]
+| | num_un_strings: [shape: (594305,), type: int64]
+| | prime_prty: [shape: (594305, 3), type: float32]
+
