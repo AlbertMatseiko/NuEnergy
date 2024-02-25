@@ -1,6 +1,6 @@
-./notebooks/*
-./Trash/*
-./NNBlock/*.npy
+**notebooks*
+**Trash*
+**.npy*
 **JustTest*
 **.h5
 **.png
