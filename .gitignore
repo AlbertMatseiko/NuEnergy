@@ -1,8 +1,9 @@
 ./notebooks/*
 ./Trash/*
 ./NNBlock/*.npy
-**JustTest*/*
+**JustTest*
 **.h5
 **.png
-**logs_tb/*
+**logs_tb*
 **.ipynb*
+**.idea*
