@@ -1,5 +1,9 @@
 from typing import Union
-from nn.custom_layers import *
+
+try:
+    from .nn.custom_layers import *
+except:
+    from nn.custom_layers import *
 
 @dataclass
 class TwoTapesModelInput:
@@ -74,16 +78,18 @@ class TwoTapesModel(tf.keras.Model):
 
     def train_step(self, data):
         inputs, target, weights = data
+        assert weights.shape[0] == inputs.shape[0]
+        assert weights.shape[1] == 1
         if self.sigma is not None:
             with tf.GradientTape(watch_accessed_variables=False) as tape_energy:
                 tape_energy.watch(self.train_vars_energy)
                 with tf.GradientTape(watch_accessed_variables=False) as tape_sigma:
                     tape_sigma.watch(self.train_vars_sigma)
                     preds = self.__call__(inputs)
-                    loss_E_value = self.loss_E(target, preds, weights)
+                    loss_E_value = self.loss_E(target, preds, sample_weight=weights)
                     self.loss_E_tracker.update_state(loss_E_value)
                     if self.loss_sigma is not None:
-                        loss_sigma_value = self.loss_sigma(target, preds, weights)
+                        loss_sigma_value = self.loss_sigma(target, preds, sample_weight=weights)
                         self.loss_sigma_tracker.update_state(loss_sigma_value)
 
             grads_E = tape_energy.gradient(loss_E_value, self.train_vars_energy)
@@ -99,7 +105,7 @@ class TwoTapesModel(tf.keras.Model):
             with tf.GradientTape(watch_accessed_variables=False) as tape_energy:
                 tape_energy.watch(self.train_vars_energy)
                 preds = self.__call__(inputs)
-                loss_E_value = self.loss_E(target, preds, weights)
+                loss_E_value = self.loss_E(target, preds, sample_weight=weights)
                 grads_E = tape_energy.gradient(loss_E_value, self.train_vars_energy)
                 self.optimizer_E.apply_gradients(zip(grads_E, self.train_vars_energy))
                 self.loss_E_tracker.update_state(loss_E_value)
@@ -132,18 +138,18 @@ class TwoTapesModel(tf.keras.Model):
         # Unpack the data
         inputs, target, weights = data
         # Compute predictions
-        preds = self.__call__(inputs)
+        preds = self.__call__(inputs, training=False)
 
-        loss_E_value = self.loss_E(target, preds, weights)
+        loss_E_value = self.loss_E(target, preds, sample_weight=weights)
         self.loss_E_tracker.update_state(loss_E_value)
         to_return = {self.loss_E_tracker.name: self.loss_E_tracker.result()}
         if (self.sigma is not None) and (self.loss_sigma is not None):
-            loss_sigma_value = self.loss_sigma(target, preds, weights)
+            loss_sigma_value = self.loss_sigma(target, preds, sample_weight=weights)
             self.loss_sigma_tracker.update_state(loss_sigma_value)
             to_return[self.loss_sigma_tracker.name] = self.loss_sigma_tracker.result()
 
         for m in self.metrics_given:
-            m.update_state(target, preds, weights)
+            m.update_state(target, preds, sample_weight=weights)
             to_return[m.name] = m.result()
         for m in self.weighted_metrics_given:
             m.update_state(target, preds, sample_weight=weights)

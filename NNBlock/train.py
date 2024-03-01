@@ -12,9 +12,14 @@ from pydantic.dataclasses import dataclass
 
 cb = tf.keras.callbacks
 
-from nn import losses
-from nn.metrics import nlogE_MAE, nSigmaMAE
-from models import TwoTapesModel
+try:
+    from nn import losses
+    from nn.metrics import nlogE_MAE, nSigmaMAE
+    from models import TwoTapesModel
+except:
+    from .nn import losses
+    from .nn.metrics import nlogE_MAE, nSigmaMAE
+    from .models import TwoTapesModel
 
 
 # function to save verbose of training in txt file
@@ -167,4 +172,4 @@ def compile_and_train(model: TwoTapesModel, path_to_save: str, train_ds_with_inf
     # Save the very last model instance
     model.save(f'{path_to_save}/last')
 
-    return history
+    return history, test_dataset #delete test_dataset!

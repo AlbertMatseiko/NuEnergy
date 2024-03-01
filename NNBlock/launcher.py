@@ -2,9 +2,12 @@ import os
 import numpy as np
 import yaml
 from dataclasses import asdict
-from train import compile_and_train
-from load_from_config import dataset_from_config, model_from_config, train_input_from_config
-
+try:
+    from train import compile_and_train
+    from load_from_config import dataset_from_config, model_from_config, train_input_from_config
+except:
+    from .train import compile_and_train
+    from .load_from_config import dataset_from_config, model_from_config, train_input_from_config
 
 # function for counting parameters of model
 def count_params(model):
@@ -21,7 +24,7 @@ def launch_exp(EXPERIMENT_NAME: str, MODEL_FUNC_NAME: str = "TwoTapesModel",
                compile_train_yml_name: str = "CompileAndTrainConfig",
                DESCRIPTION: str = ""):
     # Make dir for experiment
-    path_to_save = f"./experiments/{EXPERIMENT_NAME}"
+    path_to_save = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{EXPERIMENT_NAME}"
     os.makedirs(path_to_save, exist_ok=False)
 
     # Save short description to model directory
@@ -49,9 +52,10 @@ def launch_exp(EXPERIMENT_NAME: str, MODEL_FUNC_NAME: str = "TwoTapesModel",
         yaml.dump(asdict(dataset_input), file)
 
     # Start the fit! Logging of train config is inside!
-    history = compile_and_train(model,
+    history, test_dataset = compile_and_train(model,
                                 path_to_save=path_to_save,
                                 train_ds_with_info=train_ds_with_info,
                                 test_ds_with_info=test_ds_with_info,
                                 input_args=train_input_from_config(yml_name=compile_train_yml_name))
-    return history
+
+    return model, test_dataset, history

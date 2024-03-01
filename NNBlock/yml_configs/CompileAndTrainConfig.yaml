@@ -1,6 +1,6 @@
 # general args
 #datasets: tuple[str, Any, Any]
-num_of_epochs: 100
+num_of_epochs: 200
 cutting: 1.
 verbose: False
 verbose_cutting: 50.0
@@ -9,8 +9,8 @@ verbose_cutting: 50.0
 loss_E_name: MyLoss
 loss_sigma_name: null  #if null, sigma loss = E loss
 apply_lr_decay: True
-lr: 0.0002
-lr_sigma: 0.0002
+lr: 0.001
+lr_sigma: 0.001
 lr_decay: 0.001
 
 # callbacks params

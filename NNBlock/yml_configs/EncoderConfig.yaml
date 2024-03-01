@@ -2,11 +2,11 @@
 # Input Hyperparameters
 
 rnn_start_inputs:
-    # 1
-  - {units: 64,
-     return_sequences: True,
-     dropout: 0.1,
-     recurrent_dropout: 0.}
+   # 1
+ - {units: 64,
+    return_sequences: True,
+    dropout: 0.1,
+    recurrent_dropout: 0.}
 #     # 2
 #  - {units: 64,
 #     return_sequences: True,
@@ -14,30 +14,30 @@ rnn_start_inputs:
 #     recurrent_dropout: 0.}
 
 res_block_inputs: []
-#   # 1
-#   - {
-#      id: {filters: 64,
-#           kernel_size: 5,
-#           strides: 1},
-#      cd: {filters: 64,
-#           kernel_size: 5,
-#           strides: 2},
-#      skip: {filters: 64,
-#             kernel_size: 5,
-#             strides: 2},
-#      }
-#   # 2
-#   - {
-#      id: {filters: 128,
-#           kernel_size: 3,
-#           strides: 1},
-#      cd: {filters: 128,
-#           kernel_size: 3,
-#           strides: 2},
-#      skip: {filters: 128,
-#             kernel_size: 5,
-#             strides: 2},
-#      }
+#    # 1
+#    - {
+#       id: {filters: 32,
+#            kernel_size: 5,
+#            strides: 1},
+#       cd: {filters: 32,
+#            kernel_size: 5,
+#            strides: 2},
+#       skip: {filters: 32,
+#              kernel_size: 5,
+#              strides: 2},
+#       }
+#    # 2
+#    - {
+#       id: {filters: 64,
+#            kernel_size: 3,
+#            strides: 1},
+#       cd: {filters: 64,
+#            kernel_size: 3,
+#            strides: 2},
+#       skip: {filters: 64,
+#              kernel_size: 3,
+#              strides: 2},
+#       }
 #  # 3
 #   - {
 #     id: { filters: 64,
@@ -52,12 +52,12 @@ res_block_inputs: []
 #   }
 
 rnn_end_inputs:
-    # 1
-  - {units: 64,
-     return_sequences: False,
-     dropout: 0.1,
-     recurrent_dropout: 0.
-     }
+   # 1
+ - {units: 64,
+    return_sequences: False,
+    dropout: 0.1,
+    recurrent_dropout: 0.
+    }
   #   # 2
   # - {units: 64,
   #    return_sequences: False}

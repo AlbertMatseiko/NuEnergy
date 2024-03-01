@@ -1,0 +1,1 @@
+Cnn with 2 resblocks, big filters and num of dense units

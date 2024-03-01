@@ -4,10 +4,16 @@ Funcs for loading <structures> by their configs, that are described in yml_confi
 import yaml
 from pathlib import Path
 
-from dataset_from_h5 import DatasetInput, make_dataset
-from nn.custom_layers import EncoderBlockInput, DenseRegressionInput
-import models
-from train import CompileAndTrainInput
+try:
+    from dataset_from_h5 import DatasetInput, make_dataset
+    from nn.custom_layers import EncoderBlockInput, DenseRegressionInput
+    import models
+    from train import CompileAndTrainInput
+except:
+    from .dataset_from_h5 import DatasetInput, make_dataset
+    from .nn.custom_layers import EncoderBlockInput, DenseRegressionInput
+    from . import models
+    from .train import CompileAndTrainInput
 
 
 def dataset_from_config(regime, yml_name="DatasetConfig"):

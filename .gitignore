@@ -2,10 +2,11 @@
 **Trash*
 **.npy*
 **JustTest*
+**/TestLog/*
 **.h5
 **.png
 **logs_tb*
 **.ipynb*
 **.idea*
-**__pycache__*
-**.sh*
+**/__pycache__/
+add_my_github.sh

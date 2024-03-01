@@ -8,7 +8,11 @@ import tensorflow as tf
 from dataclasses import asdict
 from pydantic.dataclasses import dataclass
 from typing import Any
-from .activations import ShiftedRelu
+
+try:
+    from .activations import ShiftedRelu
+except:
+    from activations import ShiftedRelu
 
 tfl = tf.keras.layers
 SEED = 42
@@ -49,9 +53,9 @@ class RnnInput:
 
 # BidirLSTM layer
 class BidirLayer(tfl.Layer):
-    def __init__(self, rnn_input: RnnInput = RnnInput(), **kwargs):
+    def __init__(self, input_hp: RnnInput = RnnInput(), **kwargs):
         super(BidirLayer, self).__init__(**kwargs)
-        self.input_hp = rnn_input
+        self.input_hp = input_hp
         self.lstm_layer = tfl.LSTM(**({k: v for k, v in asdict(self.input_hp).items()
                                        if k not in ["merge_mode"]}))
         self.bidir = tfl.Bidirectional(self.lstm_layer,
@@ -82,8 +86,8 @@ class ConvInput:
 
 # 1D Convolution with mask
 class MaskedConv1D(tfl.Layer):
-    def __init__(self, conv_input: ConvInput = ConvInput(), **kwargs):
-        self.input_hp = conv_input
+    def __init__(self, input_hp: ConvInput = ConvInput(), **kwargs):
+        self.input_hp = input_hp
         self.conv = tfl.Conv1D(**({k: v for k, v in asdict(self.input_hp).items() if k not in ["dropout"]}))
         super(MaskedConv1D, self).__init__(**kwargs)
 
@@ -125,10 +129,10 @@ class ResBlockInput:
 
 
 class ResBlock(tfl.Layer):
-    def __init__(self, res_block_input: ResBlockInput = ResBlockInput(), **kwargs):
+    def __init__(self, input_hp: ResBlockInput = ResBlockInput(), **kwargs):
         super(ResBlock, self).__init__(**kwargs)
 
-        self.input_hp = res_block_input
+        self.input_hp = input_hp
 
         self.conv_id = MaskedConv1D(self.input_hp.id)
         self.conv_cd = MaskedConv1D(self.input_hp.cd)
@@ -178,8 +182,8 @@ class DenseInput:
 
 
 class DenseBlock(tfl.Layer):
-    def __init__(self, dense_block_input: DenseInput = DenseInput(), **kwargs):
-        self.input_hp = dense_block_input
+    def __init__(self, input_hp: DenseInput = DenseInput(), **kwargs):
+        self.input_hp = input_hp
         if self.input_hp.activation == 'shifted_relu':
             self.input_hp.activation = ShiftedRelu
         inp_dict = asdict(self.input_hp)
@@ -280,8 +284,8 @@ class DenseRegression(tfl.Layer):
             if i < len(self.input_hp.dense_blocks) - 1:
                 self.batch_norm_list.append(tfl.BatchNormalization(axis=-1))
             else:
-                assert dense_inp.dropout == 0.  #check that last layer has no dropout
-                assert dense_inp.units == 1  #check that last layer is regression
+                assert dense_inp.dropout == 0.  # check that last layer has no dropout
+                assert dense_inp.units == 1  # check that last layer is regression
                 self.batch_norm_list.append(None)
 
     def get_config(self):
@@ -298,6 +302,7 @@ class DenseRegression(tfl.Layer):
                 x = bath_norm(x)
 
         return x
+
 
 if __name__ == "__main__":
     inp = ConvInput()
