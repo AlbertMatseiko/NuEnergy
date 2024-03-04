@@ -23,7 +23,7 @@ class MyLoss(tf.keras.losses.Loss, ABC):
 
     def __call__(self, y_true, y_pred, sample_weight=None):
         if sample_weight is None:
-            sample_weight = [[1.]]*y_true.shape[0]
+            sample_weight = tf.ones((y_true.shape[0],1))
         sample_weight = tf.reshape(sample_weight, (sample_weight.shape[0],1))
 
         y_e_true = tf.cast(y_true[:, 0:1], tf.float32)  # these are NORMED LOG10 Energies

@@ -1,0 +1,7 @@
+batch_size: 1024
+ds_regime: val
+make_new_preds: true
+model_regime: best_by_train
+path_to_model_dir: /home/albert/Baikal/NuEnergy/NNBlock/experiments/BigRNN_NoNoise
+plot_with_weights: true
+renorm: true
