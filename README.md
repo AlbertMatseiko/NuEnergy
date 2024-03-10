@@ -33,8 +33,7 @@ git clone
 [Poetry](https://python-poetry.org/) will install proper environment for your start 
 
 ```python
-
-poetry init
+# to be written
 ```
 
 ### Command Line Interface
@@ -42,30 +41,16 @@ poetry init
 After installation project can be started solely from command: 
 
 ```
-    neutrino_selection start <WRITE YOUR h5 data> --architecture <CHOOSE ARCHITECTURE>
+# to be written
 ```
-
-Possible options are:
-- NN 
-- RNN
-- HYPER 
 
 ### Python 
 
 Minimal example
 
 ```python
-from neutrino_selection.net import RnnHyperNetwork
-from neutrino_selection.data import H5Dataset
-
-dataset = H5Dataset('<YOUR DATA>')
-
-net = RnnHyperNetwork(device='cuda')
-
-net.train(dataset)
+# to be written
 ```
-
-Proceed to tutorials for accustomation with framework
 
 ## Contact
 
