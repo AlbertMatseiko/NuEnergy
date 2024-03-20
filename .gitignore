@@ -11,3 +11,5 @@
 **/__pycache__/
 add_my_github.sh
 *git*.sh*
+**venvNE*
+**miniconda3*
