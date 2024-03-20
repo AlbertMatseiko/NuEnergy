@@ -2,8 +2,6 @@ import numpy as np
 import h5py as h5
 import tensorflow as tf
 from dataclasses import dataclass, asdict
-import yaml
-from pathlib import Path
 
 
 ### Defaults
@@ -167,7 +165,7 @@ class generator:
 class DatasetInput:
     path_to_h5: str = ""
     batch_size: int = 32
-    shape: tuple[int, int] = (None, 6)
+    shape: tuple = (None, 6)
     start: int = 0
     # limiting Q vals
     set_up_Q_lim: bool = True
@@ -176,7 +174,7 @@ class DatasetInput:
     # gauss noise
     # 0.1 ~ 1 p.e., 150 ns, 4, 4, 15 m
     apply_add_gauss: bool = False
-    g_add_stds: list[float] = None
+    g_add_stds: list = None
     apply_mult_gauss: bool = False
     q_noise_fraction: float = 0.1
     use_weights: bool = True

@@ -163,7 +163,7 @@ def step1(config_dict):
                             data_to_copy[i] = data[idxs_events[i], 0:3]
                         elif origin == "muons_prty/individ":
                             # get array of data in order to fast access
-                            data = hf[f"{pk}/{origin}/{part}/data"][:]
+                            data = hf[f"{pk}/{origin}/{part}/data"][:]         
                             data_to_copy[i] = data[idxs_events[i], -1:]
                         else:
                             pass

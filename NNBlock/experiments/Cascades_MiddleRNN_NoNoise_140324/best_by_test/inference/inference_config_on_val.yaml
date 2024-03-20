@@ -1,0 +1,7 @@
+batch_size: 1024
+ds_regime: val
+make_new_preds: false
+model_regime: best_by_test
+path_to_model_dir: /home/albert/Baikal/NuEnergy/NNBlock/experiments/Cascades_MiddleRNN_NoNoise_140324
+plot_with_weights: false
+renorm: true

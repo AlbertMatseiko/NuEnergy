@@ -1,9 +1,10 @@
 from typing import Union
+from .nn.custom_layers import *
 
-try:
-    from .nn.custom_layers import *
-except:
-    from nn.custom_layers import *
+# try:
+#     from .nn.custom_layers import *
+# except:
+#     from nn.custom_layers import *
 
 @dataclass
 class TwoTapesModelInput:

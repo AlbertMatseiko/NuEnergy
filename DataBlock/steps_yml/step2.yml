@@ -3,5 +3,5 @@ neutrino: "all"
 
 #typycal numbers after step1: ~1.5e7 nu2, ~5e5 nuatm
 atm_e2_ratio_in_train_test: [1, 1]
-num_in_train: 600000
+num_in_train: 500000
 num_in_test: 40000

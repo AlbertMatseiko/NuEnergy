@@ -1,7 +1,46 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+from pathlib import Path
+import h5py as h5
 
+
+def get_weights(nlogE, weights_hist):
+    """
+    Function to calculate weights for given batch of energies in dataset
+    with response to weights histogram
+    """
+    if len(nlogE.shape)==1:
+        nlogE = nlogE[:,np.newaxis]
+    nlogE_bin = weights_hist[:, 1:2]  # these are NORMED LOG10 Energies
+    weights_arr = weights_hist[:, 0:1]
+    j = np.argmin(np.abs(nlogE_bin.T - nlogE), axis=-1)
+    return weights_arr[j]
+
+def plot_datasets_energy(path_to_h5, key='log10Emu_norm'):
+    for r in ['train', 'test', 'val']:
+        with h5.File(path_to_h5, 'r') as hf:
+            Energy = hf[f"{r}/{key}"][:]
+        path_to_dir = str(Path(path_to_h5).parent)
+        weights_hist = np.load(f'{path_to_dir}/weights_distr_train.npy')
+        w = get_weights(Energy, weights_hist)
+        plt.hist(Energy, bins=50, color='green', density=True, label='Energy spectrum')
+        plt.grid()
+        plt.xlabel(f"log10E_norm, GeV")
+        plt.ylabel(f"Density")
+        plt.legend()
+        plt.savefig(f'{path_to_dir}/{r}_{key}_Spec.png')
+        plt.close()
+        
+        plt.hist(Energy, weights=w, bins=50, color='green', density=True, label='Weighted spectrum')
+        plt.grid()
+        plt.xlabel(f"log10E_norm, GeV")
+        plt.ylabel(f"Density")
+        plt.legend()
+        plt.savefig(f'{path_to_dir}/{r}_weighted_{key}_Spec.png')
+        plt.close()
+    return None
+    
 # Функция для отрисовки
 def plot_data_hists(data, len_ev=None, path_to_save=".",
                     title='Params distribution',

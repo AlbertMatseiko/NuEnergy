@@ -20,10 +20,10 @@ fields_to_map:
 
 define: &inf 100000000000
 filters:
-    hits: [5, *inf]
     only_signal: True
     filter_doubles: False
+    hits: [4, *inf]
     strings: [2, *inf]
     Q: [0, *inf]
     E_prime: [0, *inf]
-    E_indmu: [10, 1000000]
+    E_indmu: [1, 400000]

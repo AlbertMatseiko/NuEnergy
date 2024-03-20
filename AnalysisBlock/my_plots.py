@@ -130,9 +130,9 @@ def plot_x(pred, true, weights=None, x_axis=np.arange(-10, 10, 0.001),  # Plot b
 
     y_true = true[:pred.shape[0], 0]
     y_pred = pred[:, 0]
-    sigma = pred[:, 1]
+    sigma = pred[:, 1]+1e-3
     values = (y_true - y_pred) / sigma
-    values = values[sigma > 0.001]
+    #values = values[sigma > 0.001]
 
     fig, ax = plt.subplots(figsize=(10, 10))
     plt.plot(x_axis, norm.pdf(x_axis, 0, 1), label="Нормальное распределение, N(0,1)")

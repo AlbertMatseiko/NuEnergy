@@ -13,8 +13,9 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 # INPUTS
-path_to_model_dir = "/home/albert/Baikal/NuEnergy/NNBlock/experiments/BigRNN_NoNoise"
-model_regime = "best_by_train"
+MODEL_NAME = "19_03_RNN_NoNoise_400TeV"
+path_to_model_dir = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{MODEL_NAME}"
+model_regime = "best_by_test"
 ds_regime = "val"
 renorm = True
 make_new_preds = False

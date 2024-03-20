@@ -1,0 +1,102 @@
+nuatm train number: 250000
+
+nuatm test number: 20000
+
+nuatm val number: 482947
+
+nu2 train number: 250000
+
+nu2 test number: 20000
+
+nu2 val number: 15304839
+
+Regime: train
+  Data and EvStarts
+  nuatm is Done
+  nu2 is Done
+  data recalculated
+  ev_starts recalculated
+    Total hits: 6265443; Total events: 500001
+    Permutation is done. Total hits: 6265443; Total events: 500001
+  Other Keys
+  Key: ev_ids
+    nuatm is Done
+    nu2 is Done
+    output shape: (500000,)
+  output shape after permutation: (500000,)
+  Key: individ_muon_energy
+    nuatm is Done
+    nu2 is Done
+    output shape: (500000, 1)
+  output shape after permutation: (500000, 1)
+  Key: log10Emu
+    nuatm is Done
+    nu2 is Done
+    output shape: (500000, 1)
+  output shape after permutation: (500000, 1)
+  Key: num_un_strings
+    nuatm is Done
+    nu2 is Done
+    output shape: (500000,)
+  output shape after permutation: (500000,)
+  Key: prime_prty
+    nuatm is Done
+    nu2 is Done
+    output shape: (500000, 3)
+  output shape after permutation: (500000, 3)
+Regime: test
+  Data and EvStarts
+  nuatm is Done
+  nu2 is Done
+  data recalculated
+  ev_starts recalculated
+    Total hits: 525003; Total events: 40001
+  Other Keys
+  Key: ev_ids
+    nuatm is Done
+    nu2 is Done
+    output shape: (40000,)
+  Key: individ_muon_energy
+    nuatm is Done
+    nu2 is Done
+    output shape: (40000, 1)
+  Key: log10Emu
+    nuatm is Done
+    nu2 is Done
+    output shape: (40000, 1)
+  Key: num_un_strings
+    nuatm is Done
+    nu2 is Done
+    output shape: (40000,)
+  Key: prime_prty
+    nuatm is Done
+    nu2 is Done
+    output shape: (40000, 3)
+Regime: val
+  Data and EvStarts
+  nuatm is Done
+  nu2 is Done
+  data recalculated
+  ev_starts recalculated
+    Total hits: 279120814; Total events: 15787787
+  Other Keys
+  Key: ev_ids
+    nuatm is Done
+    nu2 is Done
+    output shape: (15787786,)
+  Key: individ_muon_energy
+    nuatm is Done
+    nu2 is Done
+    output shape: (15787786, 1)
+  Key: log10Emu
+    nuatm is Done
+    nu2 is Done
+    output shape: (15787786, 1)
+  Key: num_un_strings
+    nuatm is Done
+    nu2 is Done
+    output shape: (15787786,)
+  Key: prime_prty
+    nuatm is Done
+    nu2 is Done
+    output shape: (15787786, 3)

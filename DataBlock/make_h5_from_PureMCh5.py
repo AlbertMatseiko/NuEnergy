@@ -4,7 +4,7 @@ from pathlib import Path
 from step1 import step1
 from step2 import step2
 from step3 import step3
-from make_my_plots import make_plots
+from make_my_plots import make_distr_plots
 from DataAnalysis.weights import calc_weights_distr
 
 if __name__ == '__main__':
@@ -48,5 +48,5 @@ if __name__ == '__main__':
     print("Third step is done.")
 
     h5_step, list_of_keys, Q_max = f"{step3_name}.h5", ['train', 'test', 'val'], 0.2
-    make_plots(config_dict_3['h5_name'], h5_step, list_of_keys, Q_max)
-    _ = calc_weights_distr(f"{h5_dir_name}/{step3_name}.h5")
+    make_distr_plots(config_dict_3['h5_name'], h5_step, list_of_keys, Q_max)
+    _ = calc_weights_distr(f"data/{h5_dir_name}/{step3_name}.h5")

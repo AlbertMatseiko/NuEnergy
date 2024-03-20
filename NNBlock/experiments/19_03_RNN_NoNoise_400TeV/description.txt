@@ -1,0 +1,1 @@
+Training RNN on a new file where muon's E<400 TeV. Without gauss noise

@@ -5,9 +5,9 @@ sys.path.append(path_to_project)
 
 import numpy as np
 import tensorflow as tf
-from dataclasses import asdict
+from dataclasses import asdict, field
 from pydantic.dataclasses import dataclass
-from typing import Any
+from typing import Any, List
 
 try:
     from .activations import ShiftedRelu
@@ -120,16 +120,18 @@ class MaskedConv1D(tfl.Layer):
 
 @dataclass
 class ResBlockInput:
-    id: ConvInput = ConvInput(strides=1,
-                              custom_name="ConvID")
-    cd: ConvInput = ConvInput(strides=2,
-                              custom_name="ConvCD")
-    skip: ConvInput = ConvInput(strides=2,
-                                custom_name="ConvSKIP")
+    #default = ConvInput(strides=1, custom_name="ConvID")
+    id: ConvInput
+    
+    #default = ConvInput(strides=2, custom_name="ConvCD")
+    cd: ConvInput
+    
+    #default = ConvInput(strides=2, custom_name="ConvSKIP")
+    skip: ConvInput
 
 
 class ResBlock(tfl.Layer):
-    def __init__(self, input_hp: ResBlockInput = ResBlockInput(), **kwargs):
+    def __init__(self, input_hp: ResBlockInput, **kwargs): # = ResBlockInput()
         super(ResBlock, self).__init__(**kwargs)
 
         self.input_hp = input_hp
@@ -176,7 +178,7 @@ class ResBlock(tfl.Layer):
 @dataclass
 class DenseInput:
     units: int = 2
-    activation: Any = tfl.LeakyReLU()
+    activation: Any = (tfl.LeakyReLU())
     dropout: float = 0.1
     kernel_initializer: Any = GU
 
@@ -205,11 +207,11 @@ class DenseBlock(tfl.Layer):
 
 @dataclass
 class EncoderBlockInput:
-    rnn_start_inputs: list[RnnInput]
-    res_block_inputs: list[ResBlockInput]
-    rnn_end_inputs: list[RnnInput]
+    rnn_start_inputs: List[RnnInput]
+    res_block_inputs: List[ResBlockInput]
+    rnn_end_inputs: List[RnnInput]
     pooling: bool
-    dense_blocks: list[DenseInput]
+    dense_blocks: List[DenseInput]
 
 
 class EncoderBlock(tfl.Layer):
@@ -269,7 +271,7 @@ class EncoderBlock(tfl.Layer):
 
 @dataclass
 class DenseRegressionInput:
-    dense_blocks: list[DenseInput]
+    dense_blocks: List[DenseInput]
 
 
 class DenseRegression(tfl.Layer):
