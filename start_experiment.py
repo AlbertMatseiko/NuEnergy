@@ -10,8 +10,8 @@ for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
 
 
-EXPERIMENT_NAME = "20_03_test_new_venv_3"
-DESCRIPTION = 'testing' #"""Training big CNN on a new file where muon's E<400 TeV. Without gauss noise."""
+EXPERIMENT_NAME = "24_03_SmallCNN_OnFlatSpec"
+DESCRIPTION = """Training SMALL CNN on a new file with flat spectrum of energy. WITH gauss noise."""
 
 # starting training process with configs described in yml_configs directory
 model, test_dataset, history = launch_exp(EXPERIMENT_NAME, DESCRIPTION=DESCRIPTION)

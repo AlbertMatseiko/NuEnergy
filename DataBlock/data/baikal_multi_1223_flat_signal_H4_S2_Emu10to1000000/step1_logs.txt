@@ -1,0 +1,4402 @@
+Particle: nuatm, num of parts: 55
+  Field: raw
+    #0 part_1001, events: 53971, hits: 2039586
+       After filter. events:12856, hits:88462
+    Delta Time: 1.32
+    #1 part_1002, events: 53613, hits: 1941200
+       After filter. events:12056, hits:81065
+    Delta Time: 1.30
+    #2 part_1003, events: 54062, hits: 2043566
+       After filter. events:12854, hits:88782
+    Delta Time: 1.32
+    #3 part_1004, events: 54078, hits: 2059120
+       After filter. events:13240, hits:91284
+    Delta Time: 1.33
+    #4 part_1005, events: 54236, hits: 2077409
+       After filter. events:13327, hits:92369
+    Delta Time: 1.33
+    #5 part_1006, events: 53968, hits: 2055666
+       After filter. events:12973, hits:89479
+    Delta Time: 1.32
+    #6 part_1007, events: 53915, hits: 2052503
+       After filter. events:12968, hits:89973
+    Delta Time: 1.32
+    #7 part_1008, events: 53857, hits: 1986097
+       After filter. events:12540, hits:85033
+    Delta Time: 1.31
+    #8 part_1009, events: 53626, hits: 2083482
+       After filter. events:13246, hits:92896
+    Delta Time: 1.32
+    #9 part_1011, events: 53805, hits: 1948189
+       After filter. events:12155, hits:82513
+    Delta Time: 1.30
+    #10 part_1012, events: 54083, hits: 2055476
+       After filter. events:12889, hits:89251
+    Delta Time: 1.32
+    #11 part_1013, events: 54295, hits: 2064365
+       After filter. events:13082, hits:90118
+    Delta Time: 1.33
+    #12 part_1014, events: 54282, hits: 2107473
+       After filter. events:13534, hits:93980
+    Delta Time: 1.33
+    #13 part_1015, events: 53895, hits: 2090765
+       After filter. events:13198, hits:92686
+    Delta Time: 1.32
+    #14 part_1016, events: 53818, hits: 2093175
+       After filter. events:13561, hits:94263
+    Delta Time: 1.32
+    #15 part_1017, events: 53885, hits: 2047213
+       After filter. events:13002, hits:90102
+    Delta Time: 1.31
+    #16 part_1018, events: 53992, hits: 2011779
+       After filter. events:12926, hits:88376
+    Delta Time: 1.31
+    #17 part_1019, events: 54358, hits: 2066223
+       After filter. events:13017, hits:90045
+    Delta Time: 1.33
+    #18 part_1020, events: 54014, hits: 2056708
+       After filter. events:13177, hits:91068
+    Delta Time: 1.31
+    #19 part_1021, events: 54039, hits: 2050338
+       After filter. events:12895, hits:89383
+    Delta Time: 1.32
+    #20 part_1022, events: 54088, hits: 2060898
+       After filter. events:13279, hits:92231
+    Delta Time: 1.33
+    #21 part_1024, events: 53951, hits: 2052552
+       After filter. events:12833, hits:88938
+    Delta Time: 1.32
+    #22 part_1025, events: 53737, hits: 1982540
+       After filter. events:12482, hits:84879
+    Delta Time: 1.30
+    #23 part_1026, events: 53848, hits: 2090921
+       After filter. events:13317, hits:93069
+    Delta Time: 1.32
+    #24 part_1027, events: 53561, hits: 2082647
+       After filter. events:13256, hits:92564
+    Delta Time: 1.32
+    #25 part_1028, events: 54256, hits: 2066117
+       After filter. events:13091, hits:90644
+    Delta Time: 1.32
+    #26 part_1029, events: 53489, hits: 1939787
+       After filter. events:12146, hits:82352
+    Delta Time: 1.29
+    #27 part_1030, events: 54147, hits: 1960448
+       After filter. events:12164, hits:82272
+    Delta Time: 1.31
+    #28 part_1031, events: 53604, hits: 1980998
+       After filter. events:12557, hits:85916
+    Delta Time: 1.30
+    #29 part_1032, events: 54450, hits: 2069970
+       After filter. events:13207, hits:91161
+    Delta Time: 1.34
+    #30 part_1033, events: 54343, hits: 2063305
+       After filter. events:13164, hits:91463
+    Delta Time: 1.34
+    #31 part_1034, events: 54341, hits: 1964871
+       After filter. events:12276, hits:83515
+    Delta Time: 1.32
+    #32 part_1035, events: 54190, hits: 1999374
+       After filter. events:12894, hits:88015
+    Delta Time: 1.32
+    #33 part_1036, events: 54258, hits: 2065195
+       After filter. events:13046, hits:90758
+    Delta Time: 1.33
+    #34 part_1037, events: 53424, hits: 2028756
+       After filter. events:12792, hits:88427
+    Delta Time: 1.30
+    #35 part_1038, events: 54018, hits: 1997916
+       After filter. events:12765, hits:87667
+    Delta Time: 1.31
+    #36 part_1040, events: 53881, hits: 1950997
+       After filter. events:12382, hits:83726
+    Delta Time: 1.30
+    #37 part_1041, events: 54168, hits: 1964063
+       After filter. events:12249, hits:82806
+    Delta Time: 1.31
+    #38 part_1042, events: 54346, hits: 2067595
+       After filter. events:12992, hits:90061
+    Delta Time: 1.33
+    #39 part_1043, events: 53519, hits: 1936645
+       After filter. events:12228, hits:82508
+    Delta Time: 1.29
+    #40 part_1044, events: 54729, hits: 2086102
+       After filter. events:13166, hits:91767
+    Delta Time: 1.35
+    #41 part_1045, events: 54277, hits: 2066090
+       After filter. events:12920, hits:88651
+    Delta Time: 1.33
+    #42 part_1046, events: 53656, hits: 1942738
+       After filter. events:12049, hits:81161
+    Delta Time: 1.31
+    #43 part_1047, events: 53555, hits: 2036122
+       After filter. events:12963, hits:89100
+    Delta Time: 1.31
+    #44 part_1048, events: 54301, hits: 1972479
+       After filter. events:12542, hits:85439
+    Delta Time: 1.31
+    #45 part_1049, events: 53901, hits: 2046849
+       After filter. events:12979, hits:90157
+    Delta Time: 1.32
+    #46 part_1050, events: 54003, hits: 1969038
+       After filter. events:12509, hits:85319
+    Delta Time: 1.31
+    #47 part_1051, events: 54420, hits: 1967282
+       After filter. events:12326, hits:83997
+    Delta Time: 1.32
+    #48 part_1052, events: 54519, hits: 2072415
+       After filter. events:13051, hits:89993
+    Delta Time: 1.33
+    #49 part_1053, events: 54124, hits: 1956830
+       After filter. events:12217, hits:82583
+    Delta Time: 1.30
+    #50 part_1054, events: 54102, hits: 1957278
+       After filter. events:12339, hits:83808
+    Delta Time: 1.30
+    #51 part_1055, events: 54183, hits: 2003465
+       After filter. events:12784, hits:86581
+    Delta Time: 1.32
+    #52 part_1056, events: 54059, hits: 2041311
+       After filter. events:12969, hits:89568
+    Delta Time: 1.32
+    #53 part_1057, events: 53657, hits: 2083124
+       After filter. events:13290, hits:92888
+    Delta Time: 1.32
+    #54 part_1059, events: 53643, hits: 2039730
+       After filter. events:12876, hits:88879
+    Delta Time: 1.31
+  Field: ev_ids
+    #0 part_1001, events: 53971, hits: 2039586
+    Delta Time: 0.00
+    #1 part_1002, events: 53613, hits: 1941200
+    Delta Time: 0.00
+    #2 part_1003, events: 54062, hits: 2043566
+    Delta Time: 0.00
+    #3 part_1004, events: 54078, hits: 2059120
+    Delta Time: 0.00
+    #4 part_1005, events: 54236, hits: 2077409
+    Delta Time: 0.00
+    #5 part_1006, events: 53968, hits: 2055666
+    Delta Time: 0.00
+    #6 part_1007, events: 53915, hits: 2052503
+    Delta Time: 0.00
+    #7 part_1008, events: 53857, hits: 1986097
+    Delta Time: 0.00
+    #8 part_1009, events: 53626, hits: 2083482
+    Delta Time: 0.00
+    #9 part_1011, events: 53805, hits: 1948189
+    Delta Time: 0.00
+    #10 part_1012, events: 54083, hits: 2055476
+    Delta Time: 0.00
+    #11 part_1013, events: 54295, hits: 2064365
+    Delta Time: 0.00
+    #12 part_1014, events: 54282, hits: 2107473
+    Delta Time: 0.00
+    #13 part_1015, events: 53895, hits: 2090765
+    Delta Time: 0.00
+    #14 part_1016, events: 53818, hits: 2093175
+    Delta Time: 0.00
+    #15 part_1017, events: 53885, hits: 2047213
+    Delta Time: 0.00
+    #16 part_1018, events: 53992, hits: 2011779
+    Delta Time: 0.00
+    #17 part_1019, events: 54358, hits: 2066223
+    Delta Time: 0.00
+    #18 part_1020, events: 54014, hits: 2056708
+    Delta Time: 0.00
+    #19 part_1021, events: 54039, hits: 2050338
+    Delta Time: 0.00
+    #20 part_1022, events: 54088, hits: 2060898
+    Delta Time: 0.00
+    #21 part_1024, events: 53951, hits: 2052552
+    Delta Time: 0.00
+    #22 part_1025, events: 53737, hits: 1982540
+    Delta Time: 0.00
+    #23 part_1026, events: 53848, hits: 2090921
+    Delta Time: 0.00
+    #24 part_1027, events: 53561, hits: 2082647
+    Delta Time: 0.00
+    #25 part_1028, events: 54256, hits: 2066117
+    Delta Time: 0.00
+    #26 part_1029, events: 53489, hits: 1939787
+    Delta Time: 0.00
+    #27 part_1030, events: 54147, hits: 1960448
+    Delta Time: 0.00
+    #28 part_1031, events: 53604, hits: 1980998
+    Delta Time: 0.00
+    #29 part_1032, events: 54450, hits: 2069970
+    Delta Time: 0.00
+    #30 part_1033, events: 54343, hits: 2063305
+    Delta Time: 0.00
+    #31 part_1034, events: 54341, hits: 1964871
+    Delta Time: 0.00
+    #32 part_1035, events: 54190, hits: 1999374
+    Delta Time: 0.00
+    #33 part_1036, events: 54258, hits: 2065195
+    Delta Time: 0.00
+    #34 part_1037, events: 53424, hits: 2028756
+    Delta Time: 0.00
+    #35 part_1038, events: 54018, hits: 1997916
+    Delta Time: 0.00
+    #36 part_1040, events: 53881, hits: 1950997
+    Delta Time: 0.00
+    #37 part_1041, events: 54168, hits: 1964063
+    Delta Time: 0.00
+    #38 part_1042, events: 54346, hits: 2067595
+    Delta Time: 0.00
+    #39 part_1043, events: 53519, hits: 1936645
+    Delta Time: 0.00
+    #40 part_1044, events: 54729, hits: 2086102
+    Delta Time: 0.00
+    #41 part_1045, events: 54277, hits: 2066090
+    Delta Time: 0.00
+    #42 part_1046, events: 53656, hits: 1942738
+    Delta Time: 0.00
+    #43 part_1047, events: 53555, hits: 2036122
+    Delta Time: 0.00
+    #44 part_1048, events: 54301, hits: 1972479
+    Delta Time: 0.00
+    #45 part_1049, events: 53901, hits: 2046849
+    Delta Time: 0.00
+    #46 part_1050, events: 54003, hits: 1969038
+    Delta Time: 0.00
+    #47 part_1051, events: 54420, hits: 1967282
+    Delta Time: 0.00
+    #48 part_1052, events: 54519, hits: 2072415
+    Delta Time: 0.00
+    #49 part_1053, events: 54124, hits: 1956830
+    Delta Time: 0.00
+    #50 part_1054, events: 54102, hits: 1957278
+    Delta Time: 0.00
+    #51 part_1055, events: 54183, hits: 2003465
+    Delta Time: 0.00
+    #52 part_1056, events: 54059, hits: 2041311
+    Delta Time: 0.00
+    #53 part_1057, events: 53657, hits: 2083124
+    Delta Time: 0.00
+    #54 part_1059, events: 53643, hits: 2039730
+    Delta Time: 0.00
+  Field: prime_prty
+    #0 part_1001, events: 53971, hits: 2039586
+    Delta Time: 0.00
+    #1 part_1002, events: 53613, hits: 1941200
+    Delta Time: 0.00
+    #2 part_1003, events: 54062, hits: 2043566
+    Delta Time: 0.00
+    #3 part_1004, events: 54078, hits: 2059120
+    Delta Time: 0.00
+    #4 part_1005, events: 54236, hits: 2077409
+    Delta Time: 0.00
+    #5 part_1006, events: 53968, hits: 2055666
+    Delta Time: 0.00
+    #6 part_1007, events: 53915, hits: 2052503
+    Delta Time: 0.00
+    #7 part_1008, events: 53857, hits: 1986097
+    Delta Time: 0.00
+    #8 part_1009, events: 53626, hits: 2083482
+    Delta Time: 0.00
+    #9 part_1011, events: 53805, hits: 1948189
+    Delta Time: 0.00
+    #10 part_1012, events: 54083, hits: 2055476
+    Delta Time: 0.00
+    #11 part_1013, events: 54295, hits: 2064365
+    Delta Time: 0.00
+    #12 part_1014, events: 54282, hits: 2107473
+    Delta Time: 0.00
+    #13 part_1015, events: 53895, hits: 2090765
+    Delta Time: 0.00
+    #14 part_1016, events: 53818, hits: 2093175
+    Delta Time: 0.00
+    #15 part_1017, events: 53885, hits: 2047213
+    Delta Time: 0.00
+    #16 part_1018, events: 53992, hits: 2011779
+    Delta Time: 0.00
+    #17 part_1019, events: 54358, hits: 2066223
+    Delta Time: 0.00
+    #18 part_1020, events: 54014, hits: 2056708
+    Delta Time: 0.00
+    #19 part_1021, events: 54039, hits: 2050338
+    Delta Time: 0.00
+    #20 part_1022, events: 54088, hits: 2060898
+    Delta Time: 0.00
+    #21 part_1024, events: 53951, hits: 2052552
+    Delta Time: 0.00
+    #22 part_1025, events: 53737, hits: 1982540
+    Delta Time: 0.00
+    #23 part_1026, events: 53848, hits: 2090921
+    Delta Time: 0.00
+    #24 part_1027, events: 53561, hits: 2082647
+    Delta Time: 0.00
+    #25 part_1028, events: 54256, hits: 2066117
+    Delta Time: 0.00
+    #26 part_1029, events: 53489, hits: 1939787
+    Delta Time: 0.00
+    #27 part_1030, events: 54147, hits: 1960448
+    Delta Time: 0.00
+    #28 part_1031, events: 53604, hits: 1980998
+    Delta Time: 0.00
+    #29 part_1032, events: 54450, hits: 2069970
+    Delta Time: 0.00
+    #30 part_1033, events: 54343, hits: 2063305
+    Delta Time: 0.00
+    #31 part_1034, events: 54341, hits: 1964871
+    Delta Time: 0.00
+    #32 part_1035, events: 54190, hits: 1999374
+    Delta Time: 0.00
+    #33 part_1036, events: 54258, hits: 2065195
+    Delta Time: 0.00
+    #34 part_1037, events: 53424, hits: 2028756
+    Delta Time: 0.00
+    #35 part_1038, events: 54018, hits: 1997916
+    Delta Time: 0.00
+    #36 part_1040, events: 53881, hits: 1950997
+    Delta Time: 0.00
+    #37 part_1041, events: 54168, hits: 1964063
+    Delta Time: 0.00
+    #38 part_1042, events: 54346, hits: 2067595
+    Delta Time: 0.00
+    #39 part_1043, events: 53519, hits: 1936645
+    Delta Time: 0.00
+    #40 part_1044, events: 54729, hits: 2086102
+    Delta Time: 0.00
+    #41 part_1045, events: 54277, hits: 2066090
+    Delta Time: 0.00
+    #42 part_1046, events: 53656, hits: 1942738
+    Delta Time: 0.00
+    #43 part_1047, events: 53555, hits: 2036122
+    Delta Time: 0.00
+    #44 part_1048, events: 54301, hits: 1972479
+    Delta Time: 0.00
+    #45 part_1049, events: 53901, hits: 2046849
+    Delta Time: 0.00
+    #46 part_1050, events: 54003, hits: 1969038
+    Delta Time: 0.00
+    #47 part_1051, events: 54420, hits: 1967282
+    Delta Time: 0.00
+    #48 part_1052, events: 54519, hits: 2072415
+    Delta Time: 0.00
+    #49 part_1053, events: 54124, hits: 1956830
+    Delta Time: 0.00
+    #50 part_1054, events: 54102, hits: 1957278
+    Delta Time: 0.00
+    #51 part_1055, events: 54183, hits: 2003465
+    Delta Time: 0.00
+    #52 part_1056, events: 54059, hits: 2041311
+    Delta Time: 0.00
+    #53 part_1057, events: 53657, hits: 2083124
+    Delta Time: 0.00
+    #54 part_1059, events: 53643, hits: 2039730
+    Delta Time: 0.00
+  Field: muons_prty/individ
+    #0 part_1001, events: 53971, hits: 2039586
+    Delta Time: 0.01
+    #1 part_1002, events: 53613, hits: 1941200
+    Delta Time: 0.01
+    #2 part_1003, events: 54062, hits: 2043566
+    Delta Time: 0.01
+    #3 part_1004, events: 54078, hits: 2059120
+    Delta Time: 0.01
+    #4 part_1005, events: 54236, hits: 2077409
+    Delta Time: 0.01
+    #5 part_1006, events: 53968, hits: 2055666
+    Delta Time: 0.01
+    #6 part_1007, events: 53915, hits: 2052503
+    Delta Time: 0.01
+    #7 part_1008, events: 53857, hits: 1986097
+    Delta Time: 0.01
+    #8 part_1009, events: 53626, hits: 2083482
+    Delta Time: 0.01
+    #9 part_1011, events: 53805, hits: 1948189
+    Delta Time: 0.01
+    #10 part_1012, events: 54083, hits: 2055476
+    Delta Time: 0.01
+    #11 part_1013, events: 54295, hits: 2064365
+    Delta Time: 0.01
+    #12 part_1014, events: 54282, hits: 2107473
+    Delta Time: 0.01
+    #13 part_1015, events: 53895, hits: 2090765
+    Delta Time: 0.01
+    #14 part_1016, events: 53818, hits: 2093175
+    Delta Time: 0.01
+    #15 part_1017, events: 53885, hits: 2047213
+    Delta Time: 0.01
+    #16 part_1018, events: 53992, hits: 2011779
+    Delta Time: 0.01
+    #17 part_1019, events: 54358, hits: 2066223
+    Delta Time: 0.01
+    #18 part_1020, events: 54014, hits: 2056708
+    Delta Time: 0.01
+    #19 part_1021, events: 54039, hits: 2050338
+    Delta Time: 0.01
+    #20 part_1022, events: 54088, hits: 2060898
+    Delta Time: 0.01
+    #21 part_1024, events: 53951, hits: 2052552
+    Delta Time: 0.01
+    #22 part_1025, events: 53737, hits: 1982540
+    Delta Time: 0.01
+    #23 part_1026, events: 53848, hits: 2090921
+    Delta Time: 0.01
+    #24 part_1027, events: 53561, hits: 2082647
+    Delta Time: 0.01
+    #25 part_1028, events: 54256, hits: 2066117
+    Delta Time: 0.01
+    #26 part_1029, events: 53489, hits: 1939787
+    Delta Time: 0.01
+    #27 part_1030, events: 54147, hits: 1960448
+    Delta Time: 0.01
+    #28 part_1031, events: 53604, hits: 1980998
+    Delta Time: 0.01
+    #29 part_1032, events: 54450, hits: 2069970
+    Delta Time: 0.01
+    #30 part_1033, events: 54343, hits: 2063305
+    Delta Time: 0.01
+    #31 part_1034, events: 54341, hits: 1964871
+    Delta Time: 0.01
+    #32 part_1035, events: 54190, hits: 1999374
+    Delta Time: 0.01
+    #33 part_1036, events: 54258, hits: 2065195
+    Delta Time: 0.01
+    #34 part_1037, events: 53424, hits: 2028756
+    Delta Time: 0.01
+    #35 part_1038, events: 54018, hits: 1997916
+    Delta Time: 0.01
+    #36 part_1040, events: 53881, hits: 1950997
+    Delta Time: 0.01
+    #37 part_1041, events: 54168, hits: 1964063
+    Delta Time: 0.01
+    #38 part_1042, events: 54346, hits: 2067595
+    Delta Time: 0.01
+    #39 part_1043, events: 53519, hits: 1936645
+    Delta Time: 0.01
+    #40 part_1044, events: 54729, hits: 2086102
+    Delta Time: 0.01
+    #41 part_1045, events: 54277, hits: 2066090
+    Delta Time: 0.01
+    #42 part_1046, events: 53656, hits: 1942738
+    Delta Time: 0.01
+    #43 part_1047, events: 53555, hits: 2036122
+    Delta Time: 0.01
+    #44 part_1048, events: 54301, hits: 1972479
+    Delta Time: 0.01
+    #45 part_1049, events: 53901, hits: 2046849
+    Delta Time: 0.01
+    #46 part_1050, events: 54003, hits: 1969038
+    Delta Time: 0.01
+    #47 part_1051, events: 54420, hits: 1967282
+    Delta Time: 0.01
+    #48 part_1052, events: 54519, hits: 2072415
+    Delta Time: 0.01
+    #49 part_1053, events: 54124, hits: 1956830
+    Delta Time: 0.01
+    #50 part_1054, events: 54102, hits: 1957278
+    Delta Time: 0.01
+    #51 part_1055, events: 54183, hits: 2003465
+    Delta Time: 0.01
+    #52 part_1056, events: 54059, hits: 2041311
+    Delta Time: 0.01
+    #53 part_1057, events: 53657, hits: 2083124
+    Delta Time: 0.01
+    #54 part_1059, events: 53643, hits: 2039730
+    Delta Time: 0.01
+Particle: nu2, num of parts: 433
+  Field: raw
+    #0 part_1000_0, events: 53788, hits: 2841741
+       After filter. events:37890, hits:760474
+    Delta Time: 1.48
+    #1 part_1000_1, events: 53835, hits: 2835581
+       After filter. events:37717, hits:755706
+    Delta Time: 1.48
+    #2 part_1000_2, events: 53666, hits: 2831442
+       After filter. events:37356, hits:753435
+    Delta Time: 1.48
+    #3 part_1000_3, events: 53712, hits: 2835422
+       After filter. events:37485, hits:750554
+    Delta Time: 1.48
+    #4 part_1000_4, events: 52565, hits: 2779973
+       After filter. events:36907, hits:736567
+    Delta Time: 1.44
+    #5 part_1001_0, events: 53720, hits: 2779900
+       After filter. events:36978, hits:737433
+    Delta Time: 1.46
+    #6 part_1001_1, events: 53718, hits: 2775062
+       After filter. events:37162, hits:737035
+    Delta Time: 1.47
+    #7 part_1001_2, events: 53659, hits: 2776173
+       After filter. events:37050, hits:737238
+    Delta Time: 1.46
+    #8 part_1001_3, events: 53786, hits: 2778147
+       After filter. events:36820, hits:721388
+    Delta Time: 1.46
+    #9 part_1001_4, events: 53027, hits: 2736556
+       After filter. events:36613, hits:727573
+    Delta Time: 1.44
+    #10 part_1002_0, events: 53665, hits: 2760286
+       After filter. events:36902, hits:733144
+    Delta Time: 1.45
+    #11 part_1002_1, events: 53687, hits: 2768228
+       After filter. events:36720, hits:728259
+    Delta Time: 1.47
+    #12 part_1002_2, events: 53818, hits: 2792240
+       After filter. events:37271, hits:752992
+    Delta Time: 1.47
+    #13 part_1002_3, events: 53826, hits: 2790880
+       After filter. events:37176, hits:738464
+    Delta Time: 1.47
+    #14 part_1002_4, events: 52903, hits: 2732508
+       After filter. events:36618, hits:726890
+    Delta Time: 1.45
+    #15 part_1003_0, events: 53739, hits: 2646282
+       After filter. events:36422, hits:696048
+    Delta Time: 1.45
+    #16 part_1003_1, events: 53675, hits: 2642516
+       After filter. events:36234, hits:693785
+    Delta Time: 1.44
+    #17 part_1003_2, events: 53753, hits: 2639498
+       After filter. events:36473, hits:700332
+    Delta Time: 1.44
+    #18 part_1003_3, events: 53774, hits: 2643341
+       After filter. events:36396, hits:694730
+    Delta Time: 1.45
+    #19 part_1003_4, events: 52944, hits: 2601903
+       After filter. events:35724, hits:675303
+    Delta Time: 1.42
+    #20 part_1004_0, events: 53709, hits: 2634970
+       After filter. events:36211, hits:693079
+    Delta Time: 1.45
+    #21 part_1004_1, events: 53736, hits: 2643355
+       After filter. events:36089, hits:699540
+    Delta Time: 1.45
+    #22 part_1004_2, events: 53767, hits: 2662170
+       After filter. events:36432, hits:703854
+    Delta Time: 1.45
+    #23 part_1004_3, events: 53750, hits: 2637169
+       After filter. events:36232, hits:685217
+    Delta Time: 1.44
+    #24 part_1004_4, events: 53262, hits: 2609630
+       After filter. events:35885, hits:685304
+    Delta Time: 1.43
+    #25 part_1005_0, events: 53723, hits: 2697424
+       After filter. events:36931, hits:715014
+    Delta Time: 1.45
+    #26 part_1005_1, events: 53719, hits: 2716401
+       After filter. events:36899, hits:724806
+    Delta Time: 1.46
+    #27 part_1005_2, events: 53793, hits: 2715721
+       After filter. events:36935, hits:725319
+    Delta Time: 1.46
+    #28 part_1005_3, events: 53751, hits: 2707930
+       After filter. events:36837, hits:716815
+    Delta Time: 1.45
+    #29 part_1005_4, events: 52881, hits: 2665039
+       After filter. events:36323, hits:700174
+    Delta Time: 1.43
+    #30 part_1007_0, events: 53778, hits: 2774666
+       After filter. events:36990, hits:733554
+    Delta Time: 1.47
+    #31 part_1007_1, events: 53816, hits: 2766825
+       After filter. events:37243, hits:731328
+    Delta Time: 1.46
+    #32 part_1007_2, events: 53692, hits: 2770468
+       After filter. events:36796, hits:721383
+    Delta Time: 1.48
+    #33 part_1007_3, events: 53744, hits: 2770050
+       After filter. events:36900, hits:735302
+    Delta Time: 1.46
+    #34 part_1007_4, events: 52819, hits: 2717454
+       After filter. events:36383, hits:724874
+    Delta Time: 1.44
+    #35 part_1008_0, events: 53802, hits: 2652376
+       After filter. events:36581, hits:699324
+    Delta Time: 1.46
+    #36 part_1008_1, events: 53759, hits: 2648944
+       After filter. events:36460, hits:696887
+    Delta Time: 1.45
+    #37 part_1008_2, events: 53807, hits: 2640680
+       After filter. events:36502, hits:697299
+    Delta Time: 1.45
+    #38 part_1008_3, events: 53844, hits: 2640613
+       After filter. events:36540, hits:692455
+    Delta Time: 1.45
+    #39 part_1008_4, events: 53228, hits: 2615973
+       After filter. events:35911, hits:688910
+    Delta Time: 1.44
+    #40 part_1009_0, events: 53839, hits: 2844367
+       After filter. events:37610, hits:761879
+    Delta Time: 1.48
+    #41 part_1009_1, events: 53619, hits: 2832849
+       After filter. events:37290, hits:755205
+    Delta Time: 1.48
+    #42 part_1009_2, events: 53808, hits: 2827570
+       After filter. events:37686, hits:756172
+    Delta Time: 1.48
+    #43 part_1009_3, events: 53779, hits: 2834217
+       After filter. events:37594, hits:753340
+    Delta Time: 1.47
+    #44 part_1009_4, events: 53357, hits: 2808505
+       After filter. events:37340, hits:744584
+    Delta Time: 1.47
+    #45 part_1010_0, events: 53667, hits: 2641699
+       After filter. events:36130, hits:693730
+    Delta Time: 1.44
+    #46 part_1010_1, events: 53721, hits: 2653785
+       After filter. events:36349, hits:689356
+    Delta Time: 1.45
+    #47 part_1010_2, events: 53779, hits: 2657872
+       After filter. events:36432, hits:704829
+    Delta Time: 1.45
+    #48 part_1010_3, events: 53903, hits: 2663153
+       After filter. events:36283, hits:703524
+    Delta Time: 1.46
+    #49 part_1010_4, events: 52725, hits: 2587797
+       After filter. events:35612, hits:682920
+    Delta Time: 1.41
+    #50 part_1013_0, events: 53747, hits: 2778060
+       After filter. events:37011, hits:730608
+    Delta Time: 1.47
+    #51 part_1013_1, events: 53784, hits: 2796712
+       After filter. events:37333, hits:752239
+    Delta Time: 1.48
+    #52 part_1013_2, events: 53789, hits: 2790922
+       After filter. events:36838, hits:740261
+    Delta Time: 1.46
+    #53 part_1013_3, events: 53625, hits: 2768326
+       After filter. events:36698, hits:732240
+    Delta Time: 1.47
+    #54 part_1013_4, events: 52443, hits: 2709212
+       After filter. events:36239, hits:715632
+    Delta Time: 1.44
+    #55 part_1014_0, events: 53743, hits: 2636557
+       After filter. events:36232, hits:694473
+    Delta Time: 1.45
+    #56 part_1014_1, events: 53730, hits: 2650834
+       After filter. events:36221, hits:695749
+    Delta Time: 1.45
+    #57 part_1014_2, events: 53759, hits: 2652396
+       After filter. events:36452, hits:700595
+    Delta Time: 1.45
+    #58 part_1014_3, events: 53709, hits: 2641452
+       After filter. events:36472, hits:701363
+    Delta Time: 1.44
+    #59 part_1014_4, events: 52584, hits: 2599794
+       After filter. events:35617, hits:696637
+    Delta Time: 1.41
+    #60 part_1015_0, events: 53781, hits: 2842063
+       After filter. events:37535, hits:754778
+    Delta Time: 1.49
+    #61 part_1015_1, events: 53610, hits: 2823145
+       After filter. events:37458, hits:751747
+    Delta Time: 1.47
+    #62 part_1015_2, events: 53713, hits: 2835036
+       After filter. events:37534, hits:756957
+    Delta Time: 1.48
+    #63 part_1015_3, events: 53684, hits: 2850619
+       After filter. events:37428, hits:763163
+    Delta Time: 1.48
+    #64 part_1015_4, events: 52273, hits: 2755748
+       After filter. events:36652, hits:737440
+    Delta Time: 1.45
+    #65 part_1016_0, events: 53761, hits: 2644833
+       After filter. events:36338, hits:695646
+    Delta Time: 1.45
+    #66 part_1016_1, events: 53745, hits: 2651581
+       After filter. events:36316, hits:703581
+    Delta Time: 1.44
+    #67 part_1016_2, events: 53805, hits: 2646987
+       After filter. events:36397, hits:700026
+    Delta Time: 1.45
+    #68 part_1016_3, events: 53754, hits: 2648434
+       After filter. events:36342, hits:696397
+    Delta Time: 1.45
+    #69 part_1016_4, events: 53722, hits: 2634034
+       After filter. events:36293, hits:690588
+    Delta Time: 1.45
+    #70 part_1016_5, events: 144, hits: 8092
+       After filter. events:99, hits:2234
+    Delta Time: 0.02
+    #71 part_1017_0, events: 53869, hits: 2780863
+       After filter. events:37137, hits:735310
+    Delta Time: 1.48
+    #72 part_1017_1, events: 53769, hits: 2766908
+       After filter. events:37064, hits:734046
+    Delta Time: 1.47
+    #73 part_1017_2, events: 53758, hits: 2765900
+       After filter. events:36864, hits:724411
+    Delta Time: 1.47
+    #74 part_1017_3, events: 53731, hits: 2779405
+       After filter. events:36920, hits:732404
+    Delta Time: 1.47
+    #75 part_1017_4, events: 52204, hits: 2672679
+       After filter. events:35998, hits:702151
+    Delta Time: 1.42
+    #76 part_1019_0, events: 53715, hits: 2758001
+       After filter. events:36900, hits:733677
+    Delta Time: 1.46
+    #77 part_1019_1, events: 53780, hits: 2760609
+       After filter. events:36892, hits:733051
+    Delta Time: 1.46
+    #78 part_1019_2, events: 53785, hits: 2762384
+       After filter. events:36926, hits:735364
+    Delta Time: 1.46
+    #79 part_1019_3, events: 53771, hits: 2755788
+       After filter. events:36934, hits:735212
+    Delta Time: 1.47
+    #80 part_1019_4, events: 53720, hits: 2749924
+       After filter. events:36812, hits:733206
+    Delta Time: 1.47
+    #81 part_1019_5, events: 122, hits: 5891
+       After filter. events:86, hits:1642
+    Delta Time: 0.02
+    #82 part_1020_0, events: 53738, hits: 2782645
+       After filter. events:36958, hits:738211
+    Delta Time: 1.46
+    #83 part_1020_1, events: 53708, hits: 2767698
+       After filter. events:36774, hits:724676
+    Delta Time: 1.47
+    #84 part_1020_2, events: 53614, hits: 2773747
+       After filter. events:36785, hits:731916
+    Delta Time: 1.47
+    #85 part_1020_3, events: 53833, hits: 2791124
+       After filter. events:37111, hits:741997
+    Delta Time: 1.47
+    #86 part_1020_4, events: 52900, hits: 2738601
+       After filter. events:36514, hits:723017
+    Delta Time: 1.46
+    #87 part_1021_0, events: 53795, hits: 2673846
+       After filter. events:36360, hits:705356
+    Delta Time: 1.46
+    #88 part_1021_1, events: 53839, hits: 2661559
+       After filter. events:36412, hits:698744
+    Delta Time: 1.45
+    #89 part_1021_2, events: 53695, hits: 2654825
+       After filter. events:36496, hits:699590
+    Delta Time: 1.45
+    #90 part_1021_3, events: 53716, hits: 2661414
+       After filter. events:36275, hits:695885
+    Delta Time: 1.45
+    #91 part_1021_4, events: 53341, hits: 2654361
+       After filter. events:36008, hits:693321
+    Delta Time: 1.44
+    #92 part_1022_0, events: 53761, hits: 2646269
+       After filter. events:36252, hits:700567
+    Delta Time: 1.45
+    #93 part_1022_1, events: 53606, hits: 2624530
+       After filter. events:36411, hits:692407
+    Delta Time: 1.44
+    #94 part_1022_2, events: 53751, hits: 2649220
+       After filter. events:36268, hits:693656
+    Delta Time: 1.45
+    #95 part_1022_3, events: 53725, hits: 2640616
+       After filter. events:36287, hits:697590
+    Delta Time: 1.44
+    #96 part_1022_4, events: 53269, hits: 2607016
+       After filter. events:36059, hits:684524
+    Delta Time: 1.43
+    #97 part_1023_0, events: 53704, hits: 2828184
+       After filter. events:37565, hits:759062
+    Delta Time: 1.48
+    #98 part_1023_1, events: 53772, hits: 2831443
+       After filter. events:37484, hits:755336
+    Delta Time: 1.48
+    #99 part_1023_2, events: 53952, hits: 2861179
+       After filter. events:37838, hits:770724
+    Delta Time: 1.49
+    #100 part_1023_3, events: 53725, hits: 2833040
+       After filter. events:37648, hits:764822
+    Delta Time: 1.48
+    #101 part_1023_4, events: 53147, hits: 2799082
+       After filter. events:37162, hits:747055
+    Delta Time: 1.46
+    #102 part_1024_0, events: 53818, hits: 2831189
+       After filter. events:37444, hits:751623
+    Delta Time: 1.48
+    #103 part_1024_1, events: 53654, hits: 2819446
+       After filter. events:37515, hits:753604
+    Delta Time: 1.47
+    #104 part_1024_2, events: 53750, hits: 2817696
+       After filter. events:37702, hits:755147
+    Delta Time: 1.48
+    #105 part_1024_3, events: 53676, hits: 2817221
+       After filter. events:37380, hits:748193
+    Delta Time: 1.47
+    #106 part_1024_4, events: 53161, hits: 2784805
+       After filter. events:36977, hits:745697
+    Delta Time: 1.46
+    #107 part_1025_0, events: 53754, hits: 2637252
+       After filter. events:36367, hits:684548
+    Delta Time: 1.45
+    #108 part_1025_1, events: 53775, hits: 2641280
+       After filter. events:36378, hits:692642
+    Delta Time: 1.45
+    #109 part_1025_2, events: 53812, hits: 2656138
+       After filter. events:36379, hits:702281
+    Delta Time: 1.45
+    #110 part_1025_3, events: 53679, hits: 2636465
+       After filter. events:36202, hits:688470
+    Delta Time: 1.44
+    #111 part_1025_4, events: 52613, hits: 2596522
+       After filter. events:35658, hits:687809
+    Delta Time: 1.42
+    #112 part_1026_0, events: 53798, hits: 2783502
+       After filter. events:37120, hits:745071
+    Delta Time: 1.47
+    #113 part_1026_1, events: 53804, hits: 2794796
+       After filter. events:37269, hits:748937
+    Delta Time: 1.48
+    #114 part_1026_2, events: 53823, hits: 2794100
+       After filter. events:36935, hits:741675
+    Delta Time: 1.48
+    #115 part_1026_3, events: 53724, hits: 2778521
+       After filter. events:37163, hits:739533
+    Delta Time: 1.46
+    #116 part_1026_4, events: 53027, hits: 2744327
+       After filter. events:36610, hits:727841
+    Delta Time: 1.45
+    #117 part_1027_0, events: 53742, hits: 2845495
+       After filter. events:37645, hits:760911
+    Delta Time: 1.47
+    #118 part_1027_1, events: 53801, hits: 2835244
+       After filter. events:37648, hits:759108
+    Delta Time: 1.47
+    #119 part_1027_2, events: 53777, hits: 2837584
+       After filter. events:37532, hits:752687
+    Delta Time: 1.47
+    #120 part_1027_3, events: 53763, hits: 2840532
+       After filter. events:37645, hits:768994
+    Delta Time: 1.49
+    #121 part_1027_4, events: 52538, hits: 2769869
+       After filter. events:36657, hits:735552
+    Delta Time: 1.44
+    #122 part_1028_0, events: 53649, hits: 2631358
+       After filter. events:36396, hits:693815
+    Delta Time: 1.44
+    #123 part_1028_1, events: 53778, hits: 2656327
+       After filter. events:36317, hits:700846
+    Delta Time: 1.45
+    #124 part_1028_2, events: 53755, hits: 2643503
+       After filter. events:36353, hits:701199
+    Delta Time: 1.45
+    #125 part_1028_3, events: 53732, hits: 2634704
+       After filter. events:36161, hits:681145
+    Delta Time: 1.44
+    #126 part_1028_4, events: 53475, hits: 2631726
+       After filter. events:36242, hits:690656
+    Delta Time: 1.43
+    #127 part_1029_0, events: 53692, hits: 2828340
+       After filter. events:37482, hits:752353
+    Delta Time: 1.49
+    #128 part_1029_1, events: 53684, hits: 2837102
+       After filter. events:37456, hits:756839
+    Delta Time: 1.48
+    #129 part_1029_2, events: 53727, hits: 2842814
+       After filter. events:37452, hits:753905
+    Delta Time: 1.48
+    #130 part_1029_3, events: 53841, hits: 2849225
+       After filter. events:37711, hits:754038
+    Delta Time: 1.48
+    #131 part_1029_4, events: 53258, hits: 2814505
+       After filter. events:37021, hits:739418
+    Delta Time: 1.47
+    #132 part_1030_0, events: 53796, hits: 2652437
+       After filter. events:36455, hits:694527
+    Delta Time: 1.46
+    #133 part_1030_1, events: 53762, hits: 2648962
+       After filter. events:36526, hits:701967
+    Delta Time: 1.44
+    #134 part_1030_2, events: 53833, hits: 2650838
+       After filter. events:36349, hits:696149
+    Delta Time: 1.46
+    #135 part_1030_3, events: 53735, hits: 2636436
+       After filter. events:36453, hits:692374
+    Delta Time: 1.45
+    #136 part_1030_4, events: 52831, hits: 2596294
+       After filter. events:35778, hits:693236
+    Delta Time: 1.51
+    #137 part_1031_0, events: 53787, hits: 2773174
+       After filter. events:37154, hits:738170
+    Delta Time: 1.57
+    #138 part_1031_1, events: 53833, hits: 2785121
+       After filter. events:37103, hits:740402
+    Delta Time: 1.56
+    #139 part_1031_2, events: 53784, hits: 2770886
+       After filter. events:37034, hits:732739
+    Delta Time: 1.53
+    #140 part_1031_3, events: 53638, hits: 2769685
+       After filter. events:36776, hits:738731
+    Delta Time: 1.56
+    #141 part_1031_4, events: 52289, hits: 2706009
+       After filter. events:35986, hits:720656
+    Delta Time: 1.53
+    #142 part_1032_0, events: 53707, hits: 2766271
+       After filter. events:37030, hits:732022
+    Delta Time: 1.54
+    #143 part_1032_1, events: 53706, hits: 2768189
+       After filter. events:36896, hits:729028
+    Delta Time: 1.53
+    #144 part_1032_2, events: 53774, hits: 2788845
+       After filter. events:37115, hits:741394
+    Delta Time: 1.55
+    #145 part_1032_3, events: 53869, hits: 2787952
+       After filter. events:37071, hits:740730
+    Delta Time: 1.55
+    #146 part_1032_4, events: 53166, hits: 2748404
+       After filter. events:36585, hits:732241
+    Delta Time: 1.55
+    #147 part_1033_0, events: 53777, hits: 2784046
+       After filter. events:36932, hits:738376
+    Delta Time: 1.55
+    #148 part_1033_1, events: 53779, hits: 2787397
+       After filter. events:36938, hits:742269
+    Delta Time: 1.55
+    #149 part_1033_2, events: 53648, hits: 2767680
+       After filter. events:36871, hits:732947
+    Delta Time: 1.55
+    #150 part_1033_3, events: 53834, hits: 2787486
+       After filter. events:37033, hits:743119
+    Delta Time: 1.54
+    #151 part_1033_4, events: 52722, hits: 2714647
+       After filter. events:36384, hits:719007
+    Delta Time: 1.50
+    #152 part_1034_0, events: 53844, hits: 2862363
+       After filter. events:37503, hits:762173
+    Delta Time: 1.56
+    #153 part_1034_1, events: 53781, hits: 2828302
+       After filter. events:37621, hits:750479
+    Delta Time: 1.55
+    #154 part_1034_2, events: 53735, hits: 2829469
+       After filter. events:37627, hits:757630
+    Delta Time: 1.60
+    #155 part_1034_3, events: 53762, hits: 2853750
+       After filter. events:37641, hits:763610
+    Delta Time: 1.57
+    #156 part_1034_4, events: 53116, hits: 2808332
+       After filter. events:37073, hits:743965
+    Delta Time: 1.56
+    #157 part_1037_0, events: 53803, hits: 2782956
+       After filter. events:37150, hits:742507
+    Delta Time: 1.53
+    #158 part_1037_1, events: 53748, hits: 2780528
+       After filter. events:36971, hits:739959
+    Delta Time: 1.58
+    #159 part_1037_2, events: 53765, hits: 2765548
+       After filter. events:36892, hits:733640
+    Delta Time: 1.52
+    #160 part_1037_3, events: 53685, hits: 2771555
+       After filter. events:37049, hits:738799
+    Delta Time: 1.54
+    #161 part_1037_4, events: 53350, hits: 2747551
+       After filter. events:36594, hits:724187
+    Delta Time: 1.52
+    #162 part_1038_0, events: 53738, hits: 2749329
+       After filter. events:36602, hits:720235
+    Delta Time: 1.52
+    #163 part_1038_1, events: 53787, hits: 2757883
+       After filter. events:36803, hits:729512
+    Delta Time: 1.55
+    #164 part_1038_2, events: 53728, hits: 2745384
+       After filter. events:36738, hits:728767
+    Delta Time: 1.56
+    #165 part_1038_3, events: 53719, hits: 2747490
+       After filter. events:36859, hits:727192
+    Delta Time: 1.54
+    #166 part_1038_4, events: 53114, hits: 2719925
+       After filter. events:36329, hits:720129
+    Delta Time: 1.49
+    #167 part_1039_0, events: 53785, hits: 2647717
+       After filter. events:36396, hits:695080
+    Delta Time: 1.53
+    #168 part_1039_1, events: 53720, hits: 2649239
+       After filter. events:36466, hits:701109
+    Delta Time: 1.52
+    #169 part_1039_2, events: 53845, hits: 2656975
+       After filter. events:36446, hits:700476
+    Delta Time: 1.52
+    #170 part_1039_3, events: 53712, hits: 2647339
+       After filter. events:36491, hits:705095
+    Delta Time: 1.49
+    #171 part_1039_4, events: 52182, hits: 2563212
+       After filter. events:35176, hits:673580
+    Delta Time: 1.52
+    #172 part_1040_0, events: 53679, hits: 2769093
+       After filter. events:36886, hits:729691
+    Delta Time: 1.54
+    #173 part_1040_1, events: 53822, hits: 2789897
+       After filter. events:37095, hits:741134
+    Delta Time: 1.54
+    #174 part_1040_2, events: 53779, hits: 2774897
+       After filter. events:37126, hits:738554
+    Delta Time: 1.53
+    #175 part_1040_3, events: 53697, hits: 2780401
+       After filter. events:36806, hits:733644
+    Delta Time: 1.60
+    #176 part_1040_4, events: 53103, hits: 2734948
+       After filter. events:36439, hits:719731
+    Delta Time: 1.52
+    #177 part_1041_0, events: 53716, hits: 2640488
+       After filter. events:36324, hits:695941
+    Delta Time: 1.51
+    #178 part_1041_1, events: 53678, hits: 2654286
+       After filter. events:36234, hits:707455
+    Delta Time: 1.51
+    #179 part_1041_2, events: 53845, hits: 2658003
+       After filter. events:36491, hits:701153
+    Delta Time: 1.53
+    #180 part_1041_3, events: 53747, hits: 2659252
+       After filter. events:36420, hits:707919
+    Delta Time: 1.52
+    #181 part_1041_4, events: 53610, hits: 2648423
+       After filter. events:36277, hits:697221
+    Delta Time: 1.52
+    #182 part_1042_0, events: 53786, hits: 2712236
+       After filter. events:37039, hits:721426
+    Delta Time: 1.52
+    #183 part_1042_1, events: 53643, hits: 2695982
+       After filter. events:36848, hits:722596
+    Delta Time: 1.55
+    #184 part_1042_2, events: 53758, hits: 2711962
+       After filter. events:37017, hits:721324
+    Delta Time: 1.57
+    #185 part_1042_3, events: 53777, hits: 2706483
+       After filter. events:36921, hits:723165
+    Delta Time: 1.51
+    #186 part_1042_4, events: 53284, hits: 2669211
+       After filter. events:36497, hits:702139
+    Delta Time: 1.50
+    #187 part_1044_0, events: 53640, hits: 2758548
+       After filter. events:36743, hits:733027
+    Delta Time: 1.54
+    #188 part_1044_1, events: 53785, hits: 2792067
+       After filter. events:37192, hits:751987
+    Delta Time: 1.54
+    #189 part_1044_2, events: 53759, hits: 2786947
+       After filter. events:36980, hits:739771
+    Delta Time: 1.52
+    #190 part_1044_3, events: 53720, hits: 2779515
+       After filter. events:37068, hits:739572
+    Delta Time: 1.59
+    #191 part_1044_4, events: 53568, hits: 2759907
+       After filter. events:36944, hits:730595
+    Delta Time: 1.53
+    #192 part_1045_0, events: 53713, hits: 2715797
+       After filter. events:37074, hits:718350
+    Delta Time: 1.55
+    #193 part_1045_1, events: 53792, hits: 2746443
+       After filter. events:36958, hits:734210
+    Delta Time: 1.53
+    #194 part_1045_2, events: 53782, hits: 2735363
+       After filter. events:37011, hits:729950
+    Delta Time: 1.54
+    #195 part_1045_3, events: 53763, hits: 2755045
+       After filter. events:37172, hits:740802
+    Delta Time: 1.55
+    #196 part_1045_4, events: 52470, hits: 2674829
+       After filter. events:36399, hits:710169
+    Delta Time: 1.51
+    #197 part_1047_0, events: 53734, hits: 2780518
+       After filter. events:36935, hits:731231
+    Delta Time: 1.57
+    #198 part_1047_1, events: 53827, hits: 2780871
+       After filter. events:37012, hits:738132
+    Delta Time: 1.54
+    #199 part_1047_2, events: 53838, hits: 2779323
+       After filter. events:37073, hits:735239
+    Delta Time: 1.53
+    #200 part_1047_3, events: 53698, hits: 2769888
+       After filter. events:37005, hits:734789
+    Delta Time: 1.53
+    #201 part_1047_4, events: 53676, hits: 2764848
+       After filter. events:36879, hits:731245
+    Delta Time: 1.57
+    #202 part_1047_5, events: 319, hits: 17210
+       After filter. events:233, hits:4602
+    Delta Time: 0.02
+    #203 part_1048_0, events: 53749, hits: 2767573
+       After filter. events:36958, hits:732326
+    Delta Time: 1.55
+    #204 part_1048_1, events: 53849, hits: 2763159
+       After filter. events:36828, hits:726621
+    Delta Time: 1.52
+    #205 part_1048_2, events: 53711, hits: 2761924
+       After filter. events:36669, hits:726741
+    Delta Time: 1.67
+    #206 part_1048_3, events: 53827, hits: 2786672
+       After filter. events:37059, hits:736865
+    Delta Time: 1.53
+    #207 part_1048_4, events: 52558, hits: 2712640
+       After filter. events:35980, hits:716334
+    Delta Time: 1.51
+    #208 part_1049_0, events: 53752, hits: 2700577
+       After filter. events:36806, hits:711793
+    Delta Time: 1.54
+    #209 part_1049_1, events: 53816, hits: 2710979
+       After filter. events:36890, hits:723456
+    Delta Time: 1.54
+    #210 part_1049_2, events: 53825, hits: 2719284
+       After filter. events:36960, hits:725423
+    Delta Time: 1.52
+    #211 part_1049_3, events: 53717, hits: 2682217
+       After filter. events:36984, hits:713615
+    Delta Time: 1.53
+    #212 part_1049_4, events: 53379, hits: 2679740
+       After filter. events:36516, hits:709725
+    Delta Time: 1.53
+    #213 part_1050_0, events: 53733, hits: 2698830
+       After filter. events:36762, hits:714607
+    Delta Time: 1.54
+    #214 part_1050_1, events: 53761, hits: 2687643
+       After filter. events:36818, hits:708831
+    Delta Time: 1.54
+    #215 part_1050_2, events: 53700, hits: 2697057
+       After filter. events:36753, hits:725437
+    Delta Time: 1.53
+    #216 part_1050_3, events: 53778, hits: 2701963
+       After filter. events:37079, hits:725039
+    Delta Time: 1.50
+    #217 part_1050_4, events: 53143, hits: 2667034
+       After filter. events:36556, hits:711691
+    Delta Time: 1.54
+    #218 part_1051_0, events: 53666, hits: 2761113
+       After filter. events:36905, hits:734523
+    Delta Time: 1.56
+    #219 part_1051_1, events: 53733, hits: 2769137
+       After filter. events:36965, hits:742007
+    Delta Time: 1.54
+    #220 part_1051_2, events: 53704, hits: 2763287
+       After filter. events:36864, hits:730830
+    Delta Time: 1.54
+    #221 part_1051_3, events: 53697, hits: 2766625
+       After filter. events:36876, hits:729570
+    Delta Time: 1.56
+    #222 part_1051_4, events: 52395, hits: 2690563
+       After filter. events:36178, hits:720336
+    Delta Time: 1.50
+    #223 part_1052_0, events: 53728, hits: 2728703
+       After filter. events:36927, hits:725497
+    Delta Time: 1.54
+    #224 part_1052_1, events: 53807, hits: 2730666
+       After filter. events:37050, hits:729013
+    Delta Time: 1.53
+    #225 part_1052_2, events: 53858, hits: 2735512
+       After filter. events:37251, hits:734086
+    Delta Time: 1.54
+    #226 part_1052_3, events: 53627, hits: 2723626
+       After filter. events:37019, hits:733297
+    Delta Time: 1.52
+    #227 part_1052_4, events: 52637, hits: 2667763
+       After filter. events:36218, hits:710279
+    Delta Time: 1.49
+    #228 part_1053_0, events: 53762, hits: 2794423
+       After filter. events:37039, hits:743726
+    Delta Time: 1.59
+    #229 part_1053_1, events: 53751, hits: 2778917
+       After filter. events:36916, hits:738523
+    Delta Time: 1.56
+    #230 part_1053_2, events: 53764, hits: 2784506
+       After filter. events:36974, hits:740997
+    Delta Time: 1.55
+    #231 part_1053_3, events: 53595, hits: 2767413
+       After filter. events:36761, hits:725410
+    Delta Time: 1.54
+    #232 part_1053_4, events: 52980, hits: 2736394
+       After filter. events:36263, hits:727206
+    Delta Time: 1.53
+    #233 part_1054_0, events: 53737, hits: 2669640
+       After filter. events:36363, hits:704884
+    Delta Time: 1.51
+    #234 part_1054_1, events: 53754, hits: 2656658
+       After filter. events:36539, hits:699269
+    Delta Time: 1.53
+    #235 part_1054_2, events: 53733, hits: 2656420
+       After filter. events:36612, hits:699823
+    Delta Time: 1.51
+    #236 part_1054_3, events: 53664, hits: 2642449
+       After filter. events:36615, hits:700834
+    Delta Time: 1.51
+    #237 part_1054_4, events: 52945, hits: 2626132
+       After filter. events:36048, hits:695969
+    Delta Time: 1.51
+    #238 part_1056_0, events: 53771, hits: 2648231
+       After filter. events:36359, hits:699979
+    Delta Time: 1.51
+    #239 part_1056_1, events: 53813, hits: 2648952
+       After filter. events:36463, hits:700970
+    Delta Time: 1.52
+    #240 part_1056_2, events: 53823, hits: 2665696
+       After filter. events:36506, hits:706790
+    Delta Time: 1.52
+    #241 part_1056_3, events: 53711, hits: 2631541
+       After filter. events:36169, hits:685905
+    Delta Time: 1.51
+    #242 part_1056_4, events: 52707, hits: 2597010
+       After filter. events:35722, hits:687144
+    Delta Time: 1.50
+    #243 part_1057_0, events: 53759, hits: 2783497
+       After filter. events:37162, hits:743292
+    Delta Time: 1.53
+    #244 part_1057_1, events: 53740, hits: 2775842
+       After filter. events:36953, hits:739740
+    Delta Time: 1.54
+    #245 part_1057_2, events: 53709, hits: 2772544
+       After filter. events:37110, hits:735011
+    Delta Time: 1.58
+    #246 part_1057_3, events: 53758, hits: 2775053
+       After filter. events:37012, hits:741271
+    Delta Time: 1.54
+    #247 part_1057_4, events: 52914, hits: 2728914
+       After filter. events:36431, hits:731646
+    Delta Time: 1.51
+    #248 part_1058_0, events: 53755, hits: 2777437
+       After filter. events:36927, hits:735263
+    Delta Time: 1.55
+    #249 part_1058_1, events: 53721, hits: 2765074
+       After filter. events:37026, hits:734205
+    Delta Time: 1.56
+    #250 part_1058_2, events: 53732, hits: 2778611
+       After filter. events:36830, hits:725829
+    Delta Time: 1.55
+    #251 part_1058_3, events: 53761, hits: 2781089
+       After filter. events:36961, hits:735469
+    Delta Time: 1.53
+    #252 part_1058_4, events: 52801, hits: 2721856
+       After filter. events:36388, hits:725653
+    Delta Time: 1.52
+    #253 part_1059_0, events: 53904, hits: 2680284
+       After filter. events:36588, hits:711902
+    Delta Time: 1.53
+    #254 part_1059_1, events: 53743, hits: 2665207
+       After filter. events:36400, hits:709629
+    Delta Time: 1.54
+    #255 part_1059_2, events: 53710, hits: 2657229
+       After filter. events:36553, hits:704280
+    Delta Time: 1.51
+    #256 part_1059_3, events: 53751, hits: 2668091
+       After filter. events:36433, hits:713952
+    Delta Time: 1.52
+    #257 part_1059_4, events: 52756, hits: 2608464
+       After filter. events:35698, hits:683637
+    Delta Time: 1.51
+    #258 part_1060_0, events: 53734, hits: 2778015
+       After filter. events:36973, hits:738147
+    Delta Time: 1.57
+    #259 part_1060_1, events: 53613, hits: 2747445
+       After filter. events:37015, hits:716815
+    Delta Time: 1.53
+    #260 part_1060_2, events: 53734, hits: 2773181
+       After filter. events:37146, hits:737618
+    Delta Time: 1.68
+    #261 part_1060_3, events: 53802, hits: 2775427
+       After filter. events:36899, hits:735071
+    Delta Time: 1.53
+    #262 part_1060_4, events: 53155, hits: 2734326
+       After filter. events:36544, hits:718826
+    Delta Time: 1.52
+    #263 part_1061_0, events: 53853, hits: 2652252
+       After filter. events:36396, hits:696750
+    Delta Time: 1.53
+    #264 part_1061_1, events: 53624, hits: 2645150
+       After filter. events:36402, hits:699821
+    Delta Time: 1.56
+    #265 part_1061_2, events: 53875, hits: 2657286
+       After filter. events:36462, hits:702407
+    Delta Time: 1.52
+    #266 part_1061_3, events: 53749, hits: 2652207
+       After filter. events:36487, hits:700983
+    Delta Time: 1.50
+    #267 part_1061_4, events: 53502, hits: 2625552
+       After filter. events:36052, hits:691467
+    Delta Time: 1.58
+    #268 part_1062_0, events: 53774, hits: 2769907
+       After filter. events:37011, hits:725619
+    Delta Time: 1.56
+    #269 part_1062_1, events: 53720, hits: 2780187
+       After filter. events:37093, hits:746670
+    Delta Time: 1.53
+    #270 part_1062_2, events: 53735, hits: 2787632
+       After filter. events:36926, hits:744351
+    Delta Time: 1.54
+    #271 part_1062_3, events: 53780, hits: 2777739
+       After filter. events:37036, hits:734806
+    Delta Time: 1.60
+    #272 part_1062_4, events: 53718, hits: 2792473
+       After filter. events:37110, hits:742783
+    Delta Time: 1.53
+    #273 part_1063_0, events: 53822, hits: 2654045
+       After filter. events:36396, hits:696505
+    Delta Time: 1.51
+    #274 part_1063_1, events: 53770, hits: 2637958
+       After filter. events:36495, hits:688337
+    Delta Time: 1.52
+    #275 part_1063_2, events: 53673, hits: 2629943
+       After filter. events:36363, hits:690239
+    Delta Time: 1.51
+    #276 part_1063_3, events: 53592, hits: 2641119
+       After filter. events:36220, hits:695698
+    Delta Time: 1.50
+    #277 part_1063_4, events: 52979, hits: 2618113
+       After filter. events:35627, hits:687599
+    Delta Time: 1.51
+    #278 part_1064_0, events: 53673, hits: 2758015
+       After filter. events:37003, hits:737111
+    Delta Time: 1.52
+    #279 part_1064_1, events: 53805, hits: 2767553
+       After filter. events:37066, hits:740715
+    Delta Time: 1.53
+    #280 part_1064_2, events: 53754, hits: 2766807
+       After filter. events:36770, hits:732959
+    Delta Time: 1.59
+    #281 part_1064_3, events: 53811, hits: 2769084
+       After filter. events:36874, hits:732365
+    Delta Time: 1.51
+    #282 part_1064_4, events: 52579, hits: 2690369
+       After filter. events:36042, hits:708524
+    Delta Time: 1.49
+    #283 part_1065_0, events: 53743, hits: 2695658
+       After filter. events:36488, hits:705627
+    Delta Time: 1.54
+    #284 part_1065_1, events: 53711, hits: 2705367
+       After filter. events:36671, hits:714109
+    Delta Time: 1.51
+    #285 part_1065_2, events: 53726, hits: 2700064
+       After filter. events:36632, hits:709977
+    Delta Time: 1.53
+    #286 part_1065_3, events: 53778, hits: 2723945
+       After filter. events:36733, hits:725153
+    Delta Time: 1.55
+    #287 part_1065_4, events: 52703, hits: 2649193
+       After filter. events:35973, hits:701158
+    Delta Time: 1.52
+    #288 part_1066_0, events: 53853, hits: 2776100
+       After filter. events:36858, hits:724179
+    Delta Time: 1.55
+    #289 part_1066_1, events: 53752, hits: 2757182
+       After filter. events:37012, hits:735827
+    Delta Time: 1.53
+    #290 part_1066_2, events: 53758, hits: 2776607
+       After filter. events:36871, hits:737075
+    Delta Time: 1.52
+    #291 part_1066_3, events: 53758, hits: 2775319
+       After filter. events:37041, hits:734459
+    Delta Time: 1.52
+    #292 part_1066_4, events: 53183, hits: 2739926
+       After filter. events:36519, hits:722492
+    Delta Time: 1.53
+    #293 part_1067_0, events: 53679, hits: 2629094
+       After filter. events:36289, hits:695574
+    Delta Time: 1.51
+    #294 part_1067_1, events: 53726, hits: 2640600
+       After filter. events:36188, hits:695203
+    Delta Time: 1.55
+    #295 part_1067_2, events: 53694, hits: 2649940
+       After filter. events:36601, hits:700516
+    Delta Time: 1.51
+    #296 part_1067_3, events: 53682, hits: 2650295
+       After filter. events:36284, hits:699622
+    Delta Time: 1.52
+    #297 part_1067_4, events: 53477, hits: 2638702
+       After filter. events:36411, hits:704380
+    Delta Time: 1.52
+    #298 part_1069_0, events: 53691, hits: 2658318
+       After filter. events:36100, hits:699492
+    Delta Time: 1.53
+    #299 part_1069_1, events: 53780, hits: 2647463
+       After filter. events:36262, hits:695088
+    Delta Time: 1.53
+    #300 part_1069_2, events: 53725, hits: 2645640
+       After filter. events:36379, hits:700681
+    Delta Time: 1.51
+    #301 part_1069_3, events: 53742, hits: 2637640
+       After filter. events:36361, hits:694443
+    Delta Time: 1.52
+    #302 part_1069_4, events: 52857, hits: 2597610
+       After filter. events:35733, hits:685199
+    Delta Time: 1.51
+    #303 part_1070_0, events: 53832, hits: 2850725
+       After filter. events:37728, hits:763602
+    Delta Time: 1.57
+    #304 part_1070_1, events: 53677, hits: 2836233
+       After filter. events:37415, hits:754590
+    Delta Time: 1.57
+    #305 part_1070_2, events: 53722, hits: 2837406
+       After filter. events:37575, hits:750715
+    Delta Time: 1.55
+    #306 part_1070_3, events: 53723, hits: 2825114
+       After filter. events:37643, hits:748612
+    Delta Time: 1.54
+    #307 part_1070_4, events: 53210, hits: 2830992
+       After filter. events:37301, hits:757989
+    Delta Time: 1.59
+    #308 part_1071_0, events: 53730, hits: 2779306
+       After filter. events:37052, hits:737199
+    Delta Time: 1.54
+    #309 part_1071_1, events: 53667, hits: 2774416
+       After filter. events:36969, hits:736215
+    Delta Time: 1.55
+    #310 part_1071_2, events: 53711, hits: 2776853
+       After filter. events:36939, hits:737141
+    Delta Time: 1.56
+    #311 part_1071_3, events: 53842, hits: 2794232
+       After filter. events:36925, hits:732518
+    Delta Time: 1.55
+    #312 part_1071_4, events: 52651, hits: 2737287
+       After filter. events:36159, hits:721947
+    Delta Time: 1.52
+    #313 part_1072_0, events: 53666, hits: 2632240
+       After filter. events:36299, hits:696133
+    Delta Time: 1.59
+    #314 part_1072_1, events: 53763, hits: 2638892
+       After filter. events:36244, hits:695917
+    Delta Time: 1.57
+    #315 part_1072_2, events: 53786, hits: 2643995
+       After filter. events:36303, hits:693182
+    Delta Time: 1.55
+    #316 part_1072_3, events: 53727, hits: 2636499
+       After filter. events:36275, hits:692502
+    Delta Time: 1.52
+    #317 part_1072_4, events: 53069, hits: 2593956
+       After filter. events:35655, hits:671919
+    Delta Time: 1.51
+    #318 part_1074_0, events: 53781, hits: 2784439
+       After filter. events:37020, hits:742251
+    Delta Time: 1.56
+    #319 part_1074_1, events: 53816, hits: 2776352
+       After filter. events:37157, hits:738339
+    Delta Time: 1.52
+    #320 part_1074_2, events: 53769, hits: 2771912
+       After filter. events:37067, hits:727245
+    Delta Time: 1.55
+    #321 part_1074_3, events: 53796, hits: 2790570
+       After filter. events:37115, hits:741488
+    Delta Time: 1.59
+    #322 part_1074_4, events: 52680, hits: 2722513
+       After filter. events:36302, hits:726218
+    Delta Time: 1.51
+    #323 part_1075_0, events: 53735, hits: 2642676
+       After filter. events:36427, hits:695949
+    Delta Time: 1.53
+    #324 part_1075_1, events: 53714, hits: 2661149
+       After filter. events:36456, hits:705614
+    Delta Time: 1.53
+    #325 part_1075_2, events: 53802, hits: 2660251
+       After filter. events:36430, hits:701825
+    Delta Time: 1.54
+    #326 part_1075_3, events: 53714, hits: 2664887
+       After filter. events:36338, hits:703099
+    Delta Time: 1.53
+    #327 part_1075_4, events: 52666, hits: 2611133
+       After filter. events:35460, hits:683389
+    Delta Time: 1.51
+    #328 part_1077_0, events: 53663, hits: 2630622
+       After filter. events:36276, hits:688301
+    Delta Time: 1.55
+    #329 part_1077_1, events: 53837, hits: 2652402
+       After filter. events:36126, hits:702615
+    Delta Time: 1.52
+    #330 part_1077_2, events: 53727, hits: 2643089
+       After filter. events:36306, hits:700890
+    Delta Time: 1.50
+    #331 part_1077_3, events: 53801, hits: 2657282
+       After filter. events:36260, hits:701208
+    Delta Time: 1.54
+    #332 part_1077_4, events: 51926, hits: 2562675
+       After filter. events:35100, hits:671108
+    Delta Time: 1.48
+    #333 part_1078_0, events: 53827, hits: 2764160
+       After filter. events:37172, hits:729797
+    Delta Time: 1.53
+    #334 part_1078_1, events: 53748, hits: 2762118
+       After filter. events:37085, hits:728916
+    Delta Time: 1.56
+    #335 part_1078_2, events: 53760, hits: 2773137
+       After filter. events:36987, hits:733998
+    Delta Time: 1.61
+    #336 part_1078_3, events: 53709, hits: 2780320
+       After filter. events:36790, hits:738887
+    Delta Time: 1.69
+    #337 part_1078_4, events: 52826, hits: 2729460
+       After filter. events:36241, hits:719229
+    Delta Time: 1.53
+    #338 part_1079_0, events: 53751, hits: 2780587
+       After filter. events:37100, hits:736410
+    Delta Time: 1.55
+    #339 part_1079_1, events: 53921, hits: 2784805
+       After filter. events:37283, hits:737319
+    Delta Time: 1.55
+    #340 part_1079_2, events: 53725, hits: 2773285
+       After filter. events:36846, hits:729639
+    Delta Time: 1.54
+    #341 part_1079_3, events: 53696, hits: 2770795
+       After filter. events:36756, hits:727133
+    Delta Time: 1.56
+    #342 part_1079_4, events: 52370, hits: 2689963
+       After filter. events:36073, hits:706498
+    Delta Time: 1.52
+    #343 part_1080_0, events: 53769, hits: 2649897
+       After filter. events:36293, hits:709467
+    Delta Time: 1.52
+    #344 part_1080_1, events: 53766, hits: 2648629
+       After filter. events:36321, hits:696728
+    Delta Time: 1.53
+    #345 part_1080_2, events: 53610, hits: 2621707
+       After filter. events:36135, hits:686720
+    Delta Time: 1.54
+    #346 part_1080_3, events: 53768, hits: 2642612
+       After filter. events:36281, hits:696311
+    Delta Time: 1.55
+    #347 part_1080_4, events: 53565, hits: 2639467
+       After filter. events:36331, hits:698293
+    Delta Time: 1.50
+    #348 part_1081_0, events: 53625, hits: 2827716
+       After filter. events:37441, hits:750525
+    Delta Time: 1.54
+    #349 part_1081_1, events: 53797, hits: 2837079
+       After filter. events:37534, hits:759780
+    Delta Time: 1.56
+    #350 part_1081_2, events: 53786, hits: 2832261
+       After filter. events:37628, hits:758026
+    Delta Time: 1.55
+    #351 part_1081_3, events: 53754, hits: 2849837
+       After filter. events:37648, hits:765262
+    Delta Time: 1.56
+    #352 part_1081_4, events: 52389, hits: 2776385
+       After filter. events:36585, hits:738441
+    Delta Time: 1.51
+    #353 part_1082_0, events: 53701, hits: 2733357
+       After filter. events:37041, hits:727990
+    Delta Time: 1.55
+    #354 part_1082_1, events: 53769, hits: 2723594
+       After filter. events:36827, hits:726413
+    Delta Time: 1.52
+    #355 part_1082_2, events: 53650, hits: 2716955
+       After filter. events:37006, hits:722498
+    Delta Time: 1.51
+    #356 part_1082_3, events: 53776, hits: 2729602
+       After filter. events:37121, hits:722770
+    Delta Time: 1.56
+    #357 part_1082_4, events: 52830, hits: 2676660
+       After filter. events:36457, hits:712625
+    Delta Time: 1.52
+    #358 part_1083_0, events: 53798, hits: 2655677
+       After filter. events:36261, hits:698469
+    Delta Time: 1.58
+    #359 part_1083_1, events: 53758, hits: 2641588
+       After filter. events:36404, hits:697520
+    Delta Time: 1.55
+    #360 part_1083_2, events: 53833, hits: 2646337
+       After filter. events:36393, hits:703464
+    Delta Time: 1.54
+    #361 part_1083_3, events: 53711, hits: 2638625
+       After filter. events:36468, hits:690290
+    Delta Time: 1.52
+    #362 part_1083_4, events: 52564, hits: 2601856
+       After filter. events:35587, hits:685775
+    Delta Time: 1.52
+    #363 part_1084_0, events: 53697, hits: 2641469
+       After filter. events:36374, hits:696353
+    Delta Time: 1.61
+    #364 part_1084_1, events: 53807, hits: 2666218
+       After filter. events:36498, hits:711324
+    Delta Time: 1.55
+    #365 part_1084_2, events: 53711, hits: 2650683
+       After filter. events:36381, hits:705787
+    Delta Time: 1.52
+    #366 part_1084_3, events: 53749, hits: 2655119
+       After filter. events:36439, hits:697341
+    Delta Time: 1.54
+    #367 part_1084_4, events: 52474, hits: 2586550
+       After filter. events:35320, hits:671894
+    Delta Time: 1.49
+    #368 part_1085_0, events: 53804, hits: 2657331
+       After filter. events:36267, hits:705889
+    Delta Time: 1.55
+    #369 part_1085_1, events: 53822, hits: 2656841
+       After filter. events:36445, hits:696522
+    Delta Time: 1.54
+    #370 part_1085_2, events: 53727, hits: 2647181
+       After filter. events:36156, hits:698424
+    Delta Time: 1.53
+    #371 part_1085_3, events: 53832, hits: 2651805
+       After filter. events:36583, hits:703581
+    Delta Time: 1.54
+    #372 part_1085_4, events: 53301, hits: 2619284
+       After filter. events:36049, hits:685079
+    Delta Time: 1.53
+    #373 part_1086_0, events: 53741, hits: 2647392
+       After filter. events:36512, hits:701345
+    Delta Time: 1.52
+    #374 part_1086_1, events: 53800, hits: 2644555
+       After filter. events:36189, hits:697672
+    Delta Time: 1.53
+    #375 part_1086_2, events: 53746, hits: 2651954
+       After filter. events:36217, hits:695747
+    Delta Time: 1.55
+    #376 part_1086_3, events: 53666, hits: 2632385
+       After filter. events:36295, hits:694276
+    Delta Time: 1.52
+    #377 part_1086_4, events: 52893, hits: 2603701
+       After filter. events:35777, hits:686282
+    Delta Time: 1.50
+    #378 part_1087_0, events: 53720, hits: 2638312
+       After filter. events:36366, hits:694605
+    Delta Time: 1.52
+    #379 part_1087_1, events: 53743, hits: 2650305
+       After filter. events:36380, hits:695393
+    Delta Time: 1.56
+    #380 part_1087_2, events: 53728, hits: 2671074
+       After filter. events:36464, hits:704348
+    Delta Time: 1.53
+    #381 part_1087_3, events: 53738, hits: 2654040
+       After filter. events:36310, hits:694311
+    Delta Time: 1.52
+    #382 part_1087_4, events: 51938, hits: 2563276
+       After filter. events:35313, hits:676114
+    Delta Time: 1.48
+    #383 part_1089_0, events: 53750, hits: 2774860
+       After filter. events:37026, hits:729510
+    Delta Time: 1.60
+    #384 part_1089_1, events: 53611, hits: 2756452
+       After filter. events:36749, hits:724403
+    Delta Time: 1.53
+    #385 part_1089_2, events: 53653, hits: 2773485
+       After filter. events:37035, hits:728806
+    Delta Time: 1.53
+    #386 part_1089_3, events: 53644, hits: 2759230
+       After filter. events:36783, hits:725305
+    Delta Time: 1.55
+    #387 part_1089_4, events: 52798, hits: 2729466
+       After filter. events:36218, hits:718043
+    Delta Time: 1.55
+    #388 part_1090_0, events: 53734, hits: 2823396
+       After filter. events:37583, hits:754721
+    Delta Time: 1.58
+    #389 part_1090_1, events: 53642, hits: 2824850
+       After filter. events:37389, hits:752008
+    Delta Time: 1.55
+    #390 part_1090_2, events: 53776, hits: 2832420
+       After filter. events:37421, hits:751301
+    Delta Time: 1.60
+    #391 part_1090_3, events: 53707, hits: 2834122
+       After filter. events:37531, hits:754989
+    Delta Time: 1.54
+    #392 part_1090_4, events: 53349, hits: 2811770
+       After filter. events:37327, hits:746708
+    Delta Time: 1.53
+    #393 part_1091_0, events: 53786, hits: 2757689
+       After filter. events:36907, hits:735565
+    Delta Time: 1.55
+    #394 part_1091_1, events: 53752, hits: 2745423
+       After filter. events:36853, hits:723375
+    Delta Time: 1.55
+    #395 part_1091_2, events: 53824, hits: 2763276
+       After filter. events:37027, hits:734882
+    Delta Time: 1.54
+    #396 part_1091_3, events: 53771, hits: 2750045
+       After filter. events:36851, hits:724500
+    Delta Time: 1.54
+    #397 part_1091_4, events: 53183, hits: 2717520
+       After filter. events:36407, hits:723045
+    Delta Time: 1.59
+    #398 part_1092_0, events: 53750, hits: 2628300
+       After filter. events:36198, hits:697444
+    Delta Time: 1.50
+    #399 part_1092_1, events: 53786, hits: 2646289
+       After filter. events:36349, hits:701786
+    Delta Time: 1.54
+    #400 part_1092_2, events: 53722, hits: 2648206
+       After filter. events:36362, hits:696525
+    Delta Time: 1.53
+    #401 part_1092_3, events: 53844, hits: 2663000
+       After filter. events:36523, hits:707585
+    Delta Time: 1.53
+    #402 part_1092_4, events: 52596, hits: 2588384
+       After filter. events:35574, hits:677925
+    Delta Time: 1.47
+    #403 part_1093_0, events: 53815, hits: 2785639
+       After filter. events:37073, hits:736955
+    Delta Time: 1.55
+    #404 part_1093_1, events: 53795, hits: 2784418
+       After filter. events:36881, hits:741654
+    Delta Time: 1.56
+    #405 part_1093_2, events: 53686, hits: 2774090
+       After filter. events:36874, hits:730427
+    Delta Time: 1.55
+    #406 part_1093_3, events: 53657, hits: 2764981
+       After filter. events:36762, hits:727654
+    Delta Time: 1.53
+    #407 part_1093_4, events: 53515, hits: 2749500
+       After filter. events:36921, hits:729751
+    Delta Time: 1.53
+    #408 part_1094_0, events: 53843, hits: 2835801
+       After filter. events:37426, hits:758386
+    Delta Time: 1.60
+    #409 part_1094_1, events: 53869, hits: 2836197
+       After filter. events:37586, hits:758604
+    Delta Time: 1.56
+    #410 part_1094_2, events: 53721, hits: 2835827
+       After filter. events:37531, hits:760095
+    Delta Time: 1.61
+    #411 part_1094_3, events: 53781, hits: 2841106
+       After filter. events:37590, hits:761309
+    Delta Time: 1.56
+    #412 part_1094_4, events: 52030, hits: 2740506
+       After filter. events:36329, hits:734462
+    Delta Time: 1.53
+    #413 part_1095_0, events: 53740, hits: 2834068
+       After filter. events:37511, hits:754083
+    Delta Time: 1.58
+    #414 part_1095_1, events: 53785, hits: 2850064
+       After filter. events:37660, hits:763656
+    Delta Time: 1.61
+    #415 part_1095_2, events: 53787, hits: 2851648
+       After filter. events:37764, hits:766445
+    Delta Time: 1.54
+    #416 part_1095_3, events: 53720, hits: 2836283
+       After filter. events:37514, hits:759001
+    Delta Time: 1.59
+    #417 part_1095_4, events: 52823, hits: 2788682
+       After filter. events:37018, hits:745674
+    Delta Time: 1.55
+    #418 part_1096_0, events: 53760, hits: 2774762
+       After filter. events:36842, hits:729290
+    Delta Time: 1.53
+    #419 part_1096_1, events: 53834, hits: 2800580
+       After filter. events:37218, hits:744823
+    Delta Time: 1.48
+    #420 part_1096_2, events: 53730, hits: 2760007
+       After filter. events:37011, hits:730083
+    Delta Time: 1.47
+    #421 part_1096_3, events: 53840, hits: 2770700
+       After filter. events:37147, hits:741437
+    Delta Time: 1.48
+    #422 part_1096_4, events: 53231, hits: 2749972
+       After filter. events:36562, hits:725749
+    Delta Time: 1.47
+    #423 part_1097_0, events: 53670, hits: 2653145
+       After filter. events:36272, hits:693070
+    Delta Time: 1.46
+    #424 part_1097_1, events: 53717, hits: 2665617
+       After filter. events:36477, hits:704328
+    Delta Time: 1.46
+    #425 part_1097_2, events: 53755, hits: 2671526
+       After filter. events:36219, hits:701779
+    Delta Time: 1.45
+    #426 part_1097_3, events: 53795, hits: 2684034
+       After filter. events:36458, hits:709427
+    Delta Time: 1.46
+    #427 part_1097_4, events: 53418, hits: 2643489
+       After filter. events:36355, hits:694400
+    Delta Time: 1.45
+    #428 part_1098_0, events: 53876, hits: 2772432
+       After filter. events:37048, hits:739774
+    Delta Time: 1.48
+    #429 part_1098_1, events: 53736, hits: 2747934
+       After filter. events:36727, hits:725990
+    Delta Time: 1.47
+    #430 part_1098_2, events: 53657, hits: 2756880
+       After filter. events:37008, hits:732363
+    Delta Time: 1.46
+    #431 part_1098_3, events: 53704, hits: 2758139
+       After filter. events:37075, hits:733149
+    Delta Time: 1.47
+    #432 part_1098_4, events: 52494, hits: 2694834
+       After filter. events:35994, hits:707185
+    Delta Time: 1.44
+  Field: ev_ids
+    #0 part_1000_0, events: 53788, hits: 2841741
+    Delta Time: 0.00
+    #1 part_1000_1, events: 53835, hits: 2835581
+    Delta Time: 0.00
+    #2 part_1000_2, events: 53666, hits: 2831442
+    Delta Time: 0.00
+    #3 part_1000_3, events: 53712, hits: 2835422
+    Delta Time: 0.00
+    #4 part_1000_4, events: 52565, hits: 2779973
+    Delta Time: 0.00
+    #5 part_1001_0, events: 53720, hits: 2779900
+    Delta Time: 0.00
+    #6 part_1001_1, events: 53718, hits: 2775062
+    Delta Time: 0.00
+    #7 part_1001_2, events: 53659, hits: 2776173
+    Delta Time: 0.00
+    #8 part_1001_3, events: 53786, hits: 2778147
+    Delta Time: 0.00
+    #9 part_1001_4, events: 53027, hits: 2736556
+    Delta Time: 0.00
+    #10 part_1002_0, events: 53665, hits: 2760286
+    Delta Time: 0.00
+    #11 part_1002_1, events: 53687, hits: 2768228
+    Delta Time: 0.00
+    #12 part_1002_2, events: 53818, hits: 2792240
+    Delta Time: 0.00
+    #13 part_1002_3, events: 53826, hits: 2790880
+    Delta Time: 0.00
+    #14 part_1002_4, events: 52903, hits: 2732508
+    Delta Time: 0.00
+    #15 part_1003_0, events: 53739, hits: 2646282
+    Delta Time: 0.00
+    #16 part_1003_1, events: 53675, hits: 2642516
+    Delta Time: 0.00
+    #17 part_1003_2, events: 53753, hits: 2639498
+    Delta Time: 0.00
+    #18 part_1003_3, events: 53774, hits: 2643341
+    Delta Time: 0.00
+    #19 part_1003_4, events: 52944, hits: 2601903
+    Delta Time: 0.00
+    #20 part_1004_0, events: 53709, hits: 2634970
+    Delta Time: 0.00
+    #21 part_1004_1, events: 53736, hits: 2643355
+    Delta Time: 0.00
+    #22 part_1004_2, events: 53767, hits: 2662170
+    Delta Time: 0.00
+    #23 part_1004_3, events: 53750, hits: 2637169
+    Delta Time: 0.00
+    #24 part_1004_4, events: 53262, hits: 2609630
+    Delta Time: 0.00
+    #25 part_1005_0, events: 53723, hits: 2697424
+    Delta Time: 0.00
+    #26 part_1005_1, events: 53719, hits: 2716401
+    Delta Time: 0.00
+    #27 part_1005_2, events: 53793, hits: 2715721
+    Delta Time: 0.00
+    #28 part_1005_3, events: 53751, hits: 2707930
+    Delta Time: 0.00
+    #29 part_1005_4, events: 52881, hits: 2665039
+    Delta Time: 0.00
+    #30 part_1007_0, events: 53778, hits: 2774666
+    Delta Time: 0.00
+    #31 part_1007_1, events: 53816, hits: 2766825
+    Delta Time: 0.00
+    #32 part_1007_2, events: 53692, hits: 2770468
+    Delta Time: 0.00
+    #33 part_1007_3, events: 53744, hits: 2770050
+    Delta Time: 0.00
+    #34 part_1007_4, events: 52819, hits: 2717454
+    Delta Time: 0.00
+    #35 part_1008_0, events: 53802, hits: 2652376
+    Delta Time: 0.00
+    #36 part_1008_1, events: 53759, hits: 2648944
+    Delta Time: 0.00
+    #37 part_1008_2, events: 53807, hits: 2640680
+    Delta Time: 0.00
+    #38 part_1008_3, events: 53844, hits: 2640613
+    Delta Time: 0.00
+    #39 part_1008_4, events: 53228, hits: 2615973
+    Delta Time: 0.00
+    #40 part_1009_0, events: 53839, hits: 2844367
+    Delta Time: 0.00
+    #41 part_1009_1, events: 53619, hits: 2832849
+    Delta Time: 0.00
+    #42 part_1009_2, events: 53808, hits: 2827570
+    Delta Time: 0.00
+    #43 part_1009_3, events: 53779, hits: 2834217
+    Delta Time: 0.00
+    #44 part_1009_4, events: 53357, hits: 2808505
+    Delta Time: 0.00
+    #45 part_1010_0, events: 53667, hits: 2641699
+    Delta Time: 0.00
+    #46 part_1010_1, events: 53721, hits: 2653785
+    Delta Time: 0.00
+    #47 part_1010_2, events: 53779, hits: 2657872
+    Delta Time: 0.00
+    #48 part_1010_3, events: 53903, hits: 2663153
+    Delta Time: 0.00
+    #49 part_1010_4, events: 52725, hits: 2587797
+    Delta Time: 0.00
+    #50 part_1013_0, events: 53747, hits: 2778060
+    Delta Time: 0.00
+    #51 part_1013_1, events: 53784, hits: 2796712
+    Delta Time: 0.00
+    #52 part_1013_2, events: 53789, hits: 2790922
+    Delta Time: 0.00
+    #53 part_1013_3, events: 53625, hits: 2768326
+    Delta Time: 0.00
+    #54 part_1013_4, events: 52443, hits: 2709212
+    Delta Time: 0.00
+    #55 part_1014_0, events: 53743, hits: 2636557
+    Delta Time: 0.00
+    #56 part_1014_1, events: 53730, hits: 2650834
+    Delta Time: 0.00
+    #57 part_1014_2, events: 53759, hits: 2652396
+    Delta Time: 0.00
+    #58 part_1014_3, events: 53709, hits: 2641452
+    Delta Time: 0.00
+    #59 part_1014_4, events: 52584, hits: 2599794
+    Delta Time: 0.00
+    #60 part_1015_0, events: 53781, hits: 2842063
+    Delta Time: 0.00
+    #61 part_1015_1, events: 53610, hits: 2823145
+    Delta Time: 0.00
+    #62 part_1015_2, events: 53713, hits: 2835036
+    Delta Time: 0.00
+    #63 part_1015_3, events: 53684, hits: 2850619
+    Delta Time: 0.00
+    #64 part_1015_4, events: 52273, hits: 2755748
+    Delta Time: 0.00
+    #65 part_1016_0, events: 53761, hits: 2644833
+    Delta Time: 0.00
+    #66 part_1016_1, events: 53745, hits: 2651581
+    Delta Time: 0.00
+    #67 part_1016_2, events: 53805, hits: 2646987
+    Delta Time: 0.00
+    #68 part_1016_3, events: 53754, hits: 2648434
+    Delta Time: 0.00
+    #69 part_1016_4, events: 53722, hits: 2634034
+    Delta Time: 0.00
+    #70 part_1016_5, events: 144, hits: 8092
+    Delta Time: 0.00
+    #71 part_1017_0, events: 53869, hits: 2780863
+    Delta Time: 0.00
+    #72 part_1017_1, events: 53769, hits: 2766908
+    Delta Time: 0.00
+    #73 part_1017_2, events: 53758, hits: 2765900
+    Delta Time: 0.00
+    #74 part_1017_3, events: 53731, hits: 2779405
+    Delta Time: 0.00
+    #75 part_1017_4, events: 52204, hits: 2672679
+    Delta Time: 0.00
+    #76 part_1019_0, events: 53715, hits: 2758001
+    Delta Time: 0.00
+    #77 part_1019_1, events: 53780, hits: 2760609
+    Delta Time: 0.00
+    #78 part_1019_2, events: 53785, hits: 2762384
+    Delta Time: 0.00
+    #79 part_1019_3, events: 53771, hits: 2755788
+    Delta Time: 0.00
+    #80 part_1019_4, events: 53720, hits: 2749924
+    Delta Time: 0.00
+    #81 part_1019_5, events: 122, hits: 5891
+    Delta Time: 0.00
+    #82 part_1020_0, events: 53738, hits: 2782645
+    Delta Time: 0.00
+    #83 part_1020_1, events: 53708, hits: 2767698
+    Delta Time: 0.00
+    #84 part_1020_2, events: 53614, hits: 2773747
+    Delta Time: 0.00
+    #85 part_1020_3, events: 53833, hits: 2791124
+    Delta Time: 0.00
+    #86 part_1020_4, events: 52900, hits: 2738601
+    Delta Time: 0.00
+    #87 part_1021_0, events: 53795, hits: 2673846
+    Delta Time: 0.00
+    #88 part_1021_1, events: 53839, hits: 2661559
+    Delta Time: 0.00
+    #89 part_1021_2, events: 53695, hits: 2654825
+    Delta Time: 0.00
+    #90 part_1021_3, events: 53716, hits: 2661414
+    Delta Time: 0.00
+    #91 part_1021_4, events: 53341, hits: 2654361
+    Delta Time: 0.00
+    #92 part_1022_0, events: 53761, hits: 2646269
+    Delta Time: 0.00
+    #93 part_1022_1, events: 53606, hits: 2624530
+    Delta Time: 0.00
+    #94 part_1022_2, events: 53751, hits: 2649220
+    Delta Time: 0.00
+    #95 part_1022_3, events: 53725, hits: 2640616
+    Delta Time: 0.00
+    #96 part_1022_4, events: 53269, hits: 2607016
+    Delta Time: 0.00
+    #97 part_1023_0, events: 53704, hits: 2828184
+    Delta Time: 0.00
+    #98 part_1023_1, events: 53772, hits: 2831443
+    Delta Time: 0.00
+    #99 part_1023_2, events: 53952, hits: 2861179
+    Delta Time: 0.00
+    #100 part_1023_3, events: 53725, hits: 2833040
+    Delta Time: 0.00
+    #101 part_1023_4, events: 53147, hits: 2799082
+    Delta Time: 0.00
+    #102 part_1024_0, events: 53818, hits: 2831189
+    Delta Time: 0.00
+    #103 part_1024_1, events: 53654, hits: 2819446
+    Delta Time: 0.00
+    #104 part_1024_2, events: 53750, hits: 2817696
+    Delta Time: 0.00
+    #105 part_1024_3, events: 53676, hits: 2817221
+    Delta Time: 0.00
+    #106 part_1024_4, events: 53161, hits: 2784805
+    Delta Time: 0.00
+    #107 part_1025_0, events: 53754, hits: 2637252
+    Delta Time: 0.00
+    #108 part_1025_1, events: 53775, hits: 2641280
+    Delta Time: 0.00
+    #109 part_1025_2, events: 53812, hits: 2656138
+    Delta Time: 0.00
+    #110 part_1025_3, events: 53679, hits: 2636465
+    Delta Time: 0.00
+    #111 part_1025_4, events: 52613, hits: 2596522
+    Delta Time: 0.00
+    #112 part_1026_0, events: 53798, hits: 2783502
+    Delta Time: 0.00
+    #113 part_1026_1, events: 53804, hits: 2794796
+    Delta Time: 0.00
+    #114 part_1026_2, events: 53823, hits: 2794100
+    Delta Time: 0.00
+    #115 part_1026_3, events: 53724, hits: 2778521
+    Delta Time: 0.00
+    #116 part_1026_4, events: 53027, hits: 2744327
+    Delta Time: 0.00
+    #117 part_1027_0, events: 53742, hits: 2845495
+    Delta Time: 0.00
+    #118 part_1027_1, events: 53801, hits: 2835244
+    Delta Time: 0.00
+    #119 part_1027_2, events: 53777, hits: 2837584
+    Delta Time: 0.00
+    #120 part_1027_3, events: 53763, hits: 2840532
+    Delta Time: 0.00
+    #121 part_1027_4, events: 52538, hits: 2769869
+    Delta Time: 0.00
+    #122 part_1028_0, events: 53649, hits: 2631358
+    Delta Time: 0.00
+    #123 part_1028_1, events: 53778, hits: 2656327
+    Delta Time: 0.00
+    #124 part_1028_2, events: 53755, hits: 2643503
+    Delta Time: 0.00
+    #125 part_1028_3, events: 53732, hits: 2634704
+    Delta Time: 0.00
+    #126 part_1028_4, events: 53475, hits: 2631726
+    Delta Time: 0.00
+    #127 part_1029_0, events: 53692, hits: 2828340
+    Delta Time: 0.00
+    #128 part_1029_1, events: 53684, hits: 2837102
+    Delta Time: 0.00
+    #129 part_1029_2, events: 53727, hits: 2842814
+    Delta Time: 0.00
+    #130 part_1029_3, events: 53841, hits: 2849225
+    Delta Time: 0.00
+    #131 part_1029_4, events: 53258, hits: 2814505
+    Delta Time: 0.00
+    #132 part_1030_0, events: 53796, hits: 2652437
+    Delta Time: 0.00
+    #133 part_1030_1, events: 53762, hits: 2648962
+    Delta Time: 0.00
+    #134 part_1030_2, events: 53833, hits: 2650838
+    Delta Time: 0.00
+    #135 part_1030_3, events: 53735, hits: 2636436
+    Delta Time: 0.00
+    #136 part_1030_4, events: 52831, hits: 2596294
+    Delta Time: 0.00
+    #137 part_1031_0, events: 53787, hits: 2773174
+    Delta Time: 0.00
+    #138 part_1031_1, events: 53833, hits: 2785121
+    Delta Time: 0.00
+    #139 part_1031_2, events: 53784, hits: 2770886
+    Delta Time: 0.00
+    #140 part_1031_3, events: 53638, hits: 2769685
+    Delta Time: 0.00
+    #141 part_1031_4, events: 52289, hits: 2706009
+    Delta Time: 0.00
+    #142 part_1032_0, events: 53707, hits: 2766271
+    Delta Time: 0.00
+    #143 part_1032_1, events: 53706, hits: 2768189
+    Delta Time: 0.00
+    #144 part_1032_2, events: 53774, hits: 2788845
+    Delta Time: 0.00
+    #145 part_1032_3, events: 53869, hits: 2787952
+    Delta Time: 0.00
+    #146 part_1032_4, events: 53166, hits: 2748404
+    Delta Time: 0.00
+    #147 part_1033_0, events: 53777, hits: 2784046
+    Delta Time: 0.00
+    #148 part_1033_1, events: 53779, hits: 2787397
+    Delta Time: 0.00
+    #149 part_1033_2, events: 53648, hits: 2767680
+    Delta Time: 0.00
+    #150 part_1033_3, events: 53834, hits: 2787486
+    Delta Time: 0.00
+    #151 part_1033_4, events: 52722, hits: 2714647
+    Delta Time: 0.00
+    #152 part_1034_0, events: 53844, hits: 2862363
+    Delta Time: 0.00
+    #153 part_1034_1, events: 53781, hits: 2828302
+    Delta Time: 0.00
+    #154 part_1034_2, events: 53735, hits: 2829469
+    Delta Time: 0.00
+    #155 part_1034_3, events: 53762, hits: 2853750
+    Delta Time: 0.00
+    #156 part_1034_4, events: 53116, hits: 2808332
+    Delta Time: 0.00
+    #157 part_1037_0, events: 53803, hits: 2782956
+    Delta Time: 0.00
+    #158 part_1037_1, events: 53748, hits: 2780528
+    Delta Time: 0.00
+    #159 part_1037_2, events: 53765, hits: 2765548
+    Delta Time: 0.00
+    #160 part_1037_3, events: 53685, hits: 2771555
+    Delta Time: 0.00
+    #161 part_1037_4, events: 53350, hits: 2747551
+    Delta Time: 0.00
+    #162 part_1038_0, events: 53738, hits: 2749329
+    Delta Time: 0.00
+    #163 part_1038_1, events: 53787, hits: 2757883
+    Delta Time: 0.00
+    #164 part_1038_2, events: 53728, hits: 2745384
+    Delta Time: 0.00
+    #165 part_1038_3, events: 53719, hits: 2747490
+    Delta Time: 0.00
+    #166 part_1038_4, events: 53114, hits: 2719925
+    Delta Time: 0.00
+    #167 part_1039_0, events: 53785, hits: 2647717
+    Delta Time: 0.00
+    #168 part_1039_1, events: 53720, hits: 2649239
+    Delta Time: 0.00
+    #169 part_1039_2, events: 53845, hits: 2656975
+    Delta Time: 0.00
+    #170 part_1039_3, events: 53712, hits: 2647339
+    Delta Time: 0.00
+    #171 part_1039_4, events: 52182, hits: 2563212
+    Delta Time: 0.00
+    #172 part_1040_0, events: 53679, hits: 2769093
+    Delta Time: 0.00
+    #173 part_1040_1, events: 53822, hits: 2789897
+    Delta Time: 0.00
+    #174 part_1040_2, events: 53779, hits: 2774897
+    Delta Time: 0.00
+    #175 part_1040_3, events: 53697, hits: 2780401
+    Delta Time: 0.11
+    #176 part_1040_4, events: 53103, hits: 2734948
+    Delta Time: 0.00
+    #177 part_1041_0, events: 53716, hits: 2640488
+    Delta Time: 0.00
+    #178 part_1041_1, events: 53678, hits: 2654286
+    Delta Time: 0.00
+    #179 part_1041_2, events: 53845, hits: 2658003
+    Delta Time: 0.00
+    #180 part_1041_3, events: 53747, hits: 2659252
+    Delta Time: 0.00
+    #181 part_1041_4, events: 53610, hits: 2648423
+    Delta Time: 0.00
+    #182 part_1042_0, events: 53786, hits: 2712236
+    Delta Time: 0.00
+    #183 part_1042_1, events: 53643, hits: 2695982
+    Delta Time: 0.00
+    #184 part_1042_2, events: 53758, hits: 2711962
+    Delta Time: 0.00
+    #185 part_1042_3, events: 53777, hits: 2706483
+    Delta Time: 0.00
+    #186 part_1042_4, events: 53284, hits: 2669211
+    Delta Time: 0.00
+    #187 part_1044_0, events: 53640, hits: 2758548
+    Delta Time: 0.00
+    #188 part_1044_1, events: 53785, hits: 2792067
+    Delta Time: 0.00
+    #189 part_1044_2, events: 53759, hits: 2786947
+    Delta Time: 0.00
+    #190 part_1044_3, events: 53720, hits: 2779515
+    Delta Time: 0.00
+    #191 part_1044_4, events: 53568, hits: 2759907
+    Delta Time: 0.00
+    #192 part_1045_0, events: 53713, hits: 2715797
+    Delta Time: 0.00
+    #193 part_1045_1, events: 53792, hits: 2746443
+    Delta Time: 0.00
+    #194 part_1045_2, events: 53782, hits: 2735363
+    Delta Time: 0.00
+    #195 part_1045_3, events: 53763, hits: 2755045
+    Delta Time: 0.00
+    #196 part_1045_4, events: 52470, hits: 2674829
+    Delta Time: 0.00
+    #197 part_1047_0, events: 53734, hits: 2780518
+    Delta Time: 0.00
+    #198 part_1047_1, events: 53827, hits: 2780871
+    Delta Time: 0.00
+    #199 part_1047_2, events: 53838, hits: 2779323
+    Delta Time: 0.00
+    #200 part_1047_3, events: 53698, hits: 2769888
+    Delta Time: 0.00
+    #201 part_1047_4, events: 53676, hits: 2764848
+    Delta Time: 0.00
+    #202 part_1047_5, events: 319, hits: 17210
+    Delta Time: 0.00
+    #203 part_1048_0, events: 53749, hits: 2767573
+    Delta Time: 0.00
+    #204 part_1048_1, events: 53849, hits: 2763159
+    Delta Time: 0.00
+    #205 part_1048_2, events: 53711, hits: 2761924
+    Delta Time: 0.00
+    #206 part_1048_3, events: 53827, hits: 2786672
+    Delta Time: 0.00
+    #207 part_1048_4, events: 52558, hits: 2712640
+    Delta Time: 0.00
+    #208 part_1049_0, events: 53752, hits: 2700577
+    Delta Time: 0.00
+    #209 part_1049_1, events: 53816, hits: 2710979
+    Delta Time: 0.00
+    #210 part_1049_2, events: 53825, hits: 2719284
+    Delta Time: 0.00
+    #211 part_1049_3, events: 53717, hits: 2682217
+    Delta Time: 0.00
+    #212 part_1049_4, events: 53379, hits: 2679740
+    Delta Time: 0.00
+    #213 part_1050_0, events: 53733, hits: 2698830
+    Delta Time: 0.00
+    #214 part_1050_1, events: 53761, hits: 2687643
+    Delta Time: 0.00
+    #215 part_1050_2, events: 53700, hits: 2697057
+    Delta Time: 0.00
+    #216 part_1050_3, events: 53778, hits: 2701963
+    Delta Time: 0.00
+    #217 part_1050_4, events: 53143, hits: 2667034
+    Delta Time: 0.00
+    #218 part_1051_0, events: 53666, hits: 2761113
+    Delta Time: 0.00
+    #219 part_1051_1, events: 53733, hits: 2769137
+    Delta Time: 0.00
+    #220 part_1051_2, events: 53704, hits: 2763287
+    Delta Time: 0.00
+    #221 part_1051_3, events: 53697, hits: 2766625
+    Delta Time: 0.00
+    #222 part_1051_4, events: 52395, hits: 2690563
+    Delta Time: 0.00
+    #223 part_1052_0, events: 53728, hits: 2728703
+    Delta Time: 0.00
+    #224 part_1052_1, events: 53807, hits: 2730666
+    Delta Time: 0.00
+    #225 part_1052_2, events: 53858, hits: 2735512
+    Delta Time: 0.00
+    #226 part_1052_3, events: 53627, hits: 2723626
+    Delta Time: 0.00
+    #227 part_1052_4, events: 52637, hits: 2667763
+    Delta Time: 0.00
+    #228 part_1053_0, events: 53762, hits: 2794423
+    Delta Time: 0.00
+    #229 part_1053_1, events: 53751, hits: 2778917
+    Delta Time: 0.00
+    #230 part_1053_2, events: 53764, hits: 2784506
+    Delta Time: 0.00
+    #231 part_1053_3, events: 53595, hits: 2767413
+    Delta Time: 0.00
+    #232 part_1053_4, events: 52980, hits: 2736394
+    Delta Time: 0.00
+    #233 part_1054_0, events: 53737, hits: 2669640
+    Delta Time: 0.00
+    #234 part_1054_1, events: 53754, hits: 2656658
+    Delta Time: 0.00
+    #235 part_1054_2, events: 53733, hits: 2656420
+    Delta Time: 0.00
+    #236 part_1054_3, events: 53664, hits: 2642449
+    Delta Time: 0.00
+    #237 part_1054_4, events: 52945, hits: 2626132
+    Delta Time: 0.00
+    #238 part_1056_0, events: 53771, hits: 2648231
+    Delta Time: 0.00
+    #239 part_1056_1, events: 53813, hits: 2648952
+    Delta Time: 0.00
+    #240 part_1056_2, events: 53823, hits: 2665696
+    Delta Time: 0.00
+    #241 part_1056_3, events: 53711, hits: 2631541
+    Delta Time: 0.00
+    #242 part_1056_4, events: 52707, hits: 2597010
+    Delta Time: 0.00
+    #243 part_1057_0, events: 53759, hits: 2783497
+    Delta Time: 0.00
+    #244 part_1057_1, events: 53740, hits: 2775842
+    Delta Time: 0.00
+    #245 part_1057_2, events: 53709, hits: 2772544
+    Delta Time: 0.00
+    #246 part_1057_3, events: 53758, hits: 2775053
+    Delta Time: 0.00
+    #247 part_1057_4, events: 52914, hits: 2728914
+    Delta Time: 0.00
+    #248 part_1058_0, events: 53755, hits: 2777437
+    Delta Time: 0.00
+    #249 part_1058_1, events: 53721, hits: 2765074
+    Delta Time: 0.00
+    #250 part_1058_2, events: 53732, hits: 2778611
+    Delta Time: 0.00
+    #251 part_1058_3, events: 53761, hits: 2781089
+    Delta Time: 0.00
+    #252 part_1058_4, events: 52801, hits: 2721856
+    Delta Time: 0.00
+    #253 part_1059_0, events: 53904, hits: 2680284
+    Delta Time: 0.00
+    #254 part_1059_1, events: 53743, hits: 2665207
+    Delta Time: 0.00
+    #255 part_1059_2, events: 53710, hits: 2657229
+    Delta Time: 0.00
+    #256 part_1059_3, events: 53751, hits: 2668091
+    Delta Time: 0.00
+    #257 part_1059_4, events: 52756, hits: 2608464
+    Delta Time: 0.00
+    #258 part_1060_0, events: 53734, hits: 2778015
+    Delta Time: 0.00
+    #259 part_1060_1, events: 53613, hits: 2747445
+    Delta Time: 0.00
+    #260 part_1060_2, events: 53734, hits: 2773181
+    Delta Time: 0.00
+    #261 part_1060_3, events: 53802, hits: 2775427
+    Delta Time: 0.00
+    #262 part_1060_4, events: 53155, hits: 2734326
+    Delta Time: 0.00
+    #263 part_1061_0, events: 53853, hits: 2652252
+    Delta Time: 0.00
+    #264 part_1061_1, events: 53624, hits: 2645150
+    Delta Time: 0.00
+    #265 part_1061_2, events: 53875, hits: 2657286
+    Delta Time: 0.00
+    #266 part_1061_3, events: 53749, hits: 2652207
+    Delta Time: 0.00
+    #267 part_1061_4, events: 53502, hits: 2625552
+    Delta Time: 0.00
+    #268 part_1062_0, events: 53774, hits: 2769907
+    Delta Time: 0.00
+    #269 part_1062_1, events: 53720, hits: 2780187
+    Delta Time: 0.00
+    #270 part_1062_2, events: 53735, hits: 2787632
+    Delta Time: 0.00
+    #271 part_1062_3, events: 53780, hits: 2777739
+    Delta Time: 0.00
+    #272 part_1062_4, events: 53718, hits: 2792473
+    Delta Time: 0.00
+    #273 part_1063_0, events: 53822, hits: 2654045
+    Delta Time: 0.00
+    #274 part_1063_1, events: 53770, hits: 2637958
+    Delta Time: 0.00
+    #275 part_1063_2, events: 53673, hits: 2629943
+    Delta Time: 0.00
+    #276 part_1063_3, events: 53592, hits: 2641119
+    Delta Time: 0.00
+    #277 part_1063_4, events: 52979, hits: 2618113
+    Delta Time: 0.00
+    #278 part_1064_0, events: 53673, hits: 2758015
+    Delta Time: 0.00
+    #279 part_1064_1, events: 53805, hits: 2767553
+    Delta Time: 0.00
+    #280 part_1064_2, events: 53754, hits: 2766807
+    Delta Time: 0.00
+    #281 part_1064_3, events: 53811, hits: 2769084
+    Delta Time: 0.00
+    #282 part_1064_4, events: 52579, hits: 2690369
+    Delta Time: 0.00
+    #283 part_1065_0, events: 53743, hits: 2695658
+    Delta Time: 0.00
+    #284 part_1065_1, events: 53711, hits: 2705367
+    Delta Time: 0.00
+    #285 part_1065_2, events: 53726, hits: 2700064
+    Delta Time: 0.00
+    #286 part_1065_3, events: 53778, hits: 2723945
+    Delta Time: 0.00
+    #287 part_1065_4, events: 52703, hits: 2649193
+    Delta Time: 0.00
+    #288 part_1066_0, events: 53853, hits: 2776100
+    Delta Time: 0.00
+    #289 part_1066_1, events: 53752, hits: 2757182
+    Delta Time: 0.00
+    #290 part_1066_2, events: 53758, hits: 2776607
+    Delta Time: 0.00
+    #291 part_1066_3, events: 53758, hits: 2775319
+    Delta Time: 0.00
+    #292 part_1066_4, events: 53183, hits: 2739926
+    Delta Time: 0.00
+    #293 part_1067_0, events: 53679, hits: 2629094
+    Delta Time: 0.00
+    #294 part_1067_1, events: 53726, hits: 2640600
+    Delta Time: 0.00
+    #295 part_1067_2, events: 53694, hits: 2649940
+    Delta Time: 0.00
+    #296 part_1067_3, events: 53682, hits: 2650295
+    Delta Time: 0.00
+    #297 part_1067_4, events: 53477, hits: 2638702
+    Delta Time: 0.00
+    #298 part_1069_0, events: 53691, hits: 2658318
+    Delta Time: 0.00
+    #299 part_1069_1, events: 53780, hits: 2647463
+    Delta Time: 0.00
+    #300 part_1069_2, events: 53725, hits: 2645640
+    Delta Time: 0.00
+    #301 part_1069_3, events: 53742, hits: 2637640
+    Delta Time: 0.00
+    #302 part_1069_4, events: 52857, hits: 2597610
+    Delta Time: 0.00
+    #303 part_1070_0, events: 53832, hits: 2850725
+    Delta Time: 0.00
+    #304 part_1070_1, events: 53677, hits: 2836233
+    Delta Time: 0.00
+    #305 part_1070_2, events: 53722, hits: 2837406
+    Delta Time: 0.00
+    #306 part_1070_3, events: 53723, hits: 2825114
+    Delta Time: 0.00
+    #307 part_1070_4, events: 53210, hits: 2830992
+    Delta Time: 0.00
+    #308 part_1071_0, events: 53730, hits: 2779306
+    Delta Time: 0.00
+    #309 part_1071_1, events: 53667, hits: 2774416
+    Delta Time: 0.00
+    #310 part_1071_2, events: 53711, hits: 2776853
+    Delta Time: 0.00
+    #311 part_1071_3, events: 53842, hits: 2794232
+    Delta Time: 0.00
+    #312 part_1071_4, events: 52651, hits: 2737287
+    Delta Time: 0.00
+    #313 part_1072_0, events: 53666, hits: 2632240
+    Delta Time: 0.00
+    #314 part_1072_1, events: 53763, hits: 2638892
+    Delta Time: 0.00
+    #315 part_1072_2, events: 53786, hits: 2643995
+    Delta Time: 0.00
+    #316 part_1072_3, events: 53727, hits: 2636499
+    Delta Time: 0.00
+    #317 part_1072_4, events: 53069, hits: 2593956
+    Delta Time: 0.00
+    #318 part_1074_0, events: 53781, hits: 2784439
+    Delta Time: 0.00
+    #319 part_1074_1, events: 53816, hits: 2776352
+    Delta Time: 0.00
+    #320 part_1074_2, events: 53769, hits: 2771912
+    Delta Time: 0.00
+    #321 part_1074_3, events: 53796, hits: 2790570
+    Delta Time: 0.00
+    #322 part_1074_4, events: 52680, hits: 2722513
+    Delta Time: 0.00
+    #323 part_1075_0, events: 53735, hits: 2642676
+    Delta Time: 0.00
+    #324 part_1075_1, events: 53714, hits: 2661149
+    Delta Time: 0.00
+    #325 part_1075_2, events: 53802, hits: 2660251
+    Delta Time: 0.00
+    #326 part_1075_3, events: 53714, hits: 2664887
+    Delta Time: 0.00
+    #327 part_1075_4, events: 52666, hits: 2611133
+    Delta Time: 0.00
+    #328 part_1077_0, events: 53663, hits: 2630622
+    Delta Time: 0.00
+    #329 part_1077_1, events: 53837, hits: 2652402
+    Delta Time: 0.00
+    #330 part_1077_2, events: 53727, hits: 2643089
+    Delta Time: 0.00
+    #331 part_1077_3, events: 53801, hits: 2657282
+    Delta Time: 0.00
+    #332 part_1077_4, events: 51926, hits: 2562675
+    Delta Time: 0.00
+    #333 part_1078_0, events: 53827, hits: 2764160
+    Delta Time: 0.00
+    #334 part_1078_1, events: 53748, hits: 2762118
+    Delta Time: 0.00
+    #335 part_1078_2, events: 53760, hits: 2773137
+    Delta Time: 0.00
+    #336 part_1078_3, events: 53709, hits: 2780320
+    Delta Time: 0.00
+    #337 part_1078_4, events: 52826, hits: 2729460
+    Delta Time: 0.00
+    #338 part_1079_0, events: 53751, hits: 2780587
+    Delta Time: 0.00
+    #339 part_1079_1, events: 53921, hits: 2784805
+    Delta Time: 0.00
+    #340 part_1079_2, events: 53725, hits: 2773285
+    Delta Time: 0.00
+    #341 part_1079_3, events: 53696, hits: 2770795
+    Delta Time: 0.00
+    #342 part_1079_4, events: 52370, hits: 2689963
+    Delta Time: 0.00
+    #343 part_1080_0, events: 53769, hits: 2649897
+    Delta Time: 0.00
+    #344 part_1080_1, events: 53766, hits: 2648629
+    Delta Time: 0.00
+    #345 part_1080_2, events: 53610, hits: 2621707
+    Delta Time: 0.00
+    #346 part_1080_3, events: 53768, hits: 2642612
+    Delta Time: 0.00
+    #347 part_1080_4, events: 53565, hits: 2639467
+    Delta Time: 0.00
+    #348 part_1081_0, events: 53625, hits: 2827716
+    Delta Time: 0.00
+    #349 part_1081_1, events: 53797, hits: 2837079
+    Delta Time: 0.00
+    #350 part_1081_2, events: 53786, hits: 2832261
+    Delta Time: 0.00
+    #351 part_1081_3, events: 53754, hits: 2849837
+    Delta Time: 0.00
+    #352 part_1081_4, events: 52389, hits: 2776385
+    Delta Time: 0.00
+    #353 part_1082_0, events: 53701, hits: 2733357
+    Delta Time: 0.00
+    #354 part_1082_1, events: 53769, hits: 2723594
+    Delta Time: 0.00
+    #355 part_1082_2, events: 53650, hits: 2716955
+    Delta Time: 0.00
+    #356 part_1082_3, events: 53776, hits: 2729602
+    Delta Time: 0.00
+    #357 part_1082_4, events: 52830, hits: 2676660
+    Delta Time: 0.00
+    #358 part_1083_0, events: 53798, hits: 2655677
+    Delta Time: 0.00
+    #359 part_1083_1, events: 53758, hits: 2641588
+    Delta Time: 0.00
+    #360 part_1083_2, events: 53833, hits: 2646337
+    Delta Time: 0.00
+    #361 part_1083_3, events: 53711, hits: 2638625
+    Delta Time: 0.00
+    #362 part_1083_4, events: 52564, hits: 2601856
+    Delta Time: 0.00
+    #363 part_1084_0, events: 53697, hits: 2641469
+    Delta Time: 0.00
+    #364 part_1084_1, events: 53807, hits: 2666218
+    Delta Time: 0.00
+    #365 part_1084_2, events: 53711, hits: 2650683
+    Delta Time: 0.00
+    #366 part_1084_3, events: 53749, hits: 2655119
+    Delta Time: 0.00
+    #367 part_1084_4, events: 52474, hits: 2586550
+    Delta Time: 0.00
+    #368 part_1085_0, events: 53804, hits: 2657331
+    Delta Time: 0.00
+    #369 part_1085_1, events: 53822, hits: 2656841
+    Delta Time: 0.00
+    #370 part_1085_2, events: 53727, hits: 2647181
+    Delta Time: 0.00
+    #371 part_1085_3, events: 53832, hits: 2651805
+    Delta Time: 0.00
+    #372 part_1085_4, events: 53301, hits: 2619284
+    Delta Time: 0.00
+    #373 part_1086_0, events: 53741, hits: 2647392
+    Delta Time: 0.00
+    #374 part_1086_1, events: 53800, hits: 2644555
+    Delta Time: 0.00
+    #375 part_1086_2, events: 53746, hits: 2651954
+    Delta Time: 0.00
+    #376 part_1086_3, events: 53666, hits: 2632385
+    Delta Time: 0.00
+    #377 part_1086_4, events: 52893, hits: 2603701
+    Delta Time: 0.00
+    #378 part_1087_0, events: 53720, hits: 2638312
+    Delta Time: 0.00
+    #379 part_1087_1, events: 53743, hits: 2650305
+    Delta Time: 0.00
+    #380 part_1087_2, events: 53728, hits: 2671074
+    Delta Time: 0.00
+    #381 part_1087_3, events: 53738, hits: 2654040
+    Delta Time: 0.00
+    #382 part_1087_4, events: 51938, hits: 2563276
+    Delta Time: 0.00
+    #383 part_1089_0, events: 53750, hits: 2774860
+    Delta Time: 0.00
+    #384 part_1089_1, events: 53611, hits: 2756452
+    Delta Time: 0.00
+    #385 part_1089_2, events: 53653, hits: 2773485
+    Delta Time: 0.00
+    #386 part_1089_3, events: 53644, hits: 2759230
+    Delta Time: 0.00
+    #387 part_1089_4, events: 52798, hits: 2729466
+    Delta Time: 0.00
+    #388 part_1090_0, events: 53734, hits: 2823396
+    Delta Time: 0.00
+    #389 part_1090_1, events: 53642, hits: 2824850
+    Delta Time: 0.00
+    #390 part_1090_2, events: 53776, hits: 2832420
+    Delta Time: 0.00
+    #391 part_1090_3, events: 53707, hits: 2834122
+    Delta Time: 0.00
+    #392 part_1090_4, events: 53349, hits: 2811770
+    Delta Time: 0.00
+    #393 part_1091_0, events: 53786, hits: 2757689
+    Delta Time: 0.00
+    #394 part_1091_1, events: 53752, hits: 2745423
+    Delta Time: 0.00
+    #395 part_1091_2, events: 53824, hits: 2763276
+    Delta Time: 0.00
+    #396 part_1091_3, events: 53771, hits: 2750045
+    Delta Time: 0.00
+    #397 part_1091_4, events: 53183, hits: 2717520
+    Delta Time: 0.00
+    #398 part_1092_0, events: 53750, hits: 2628300
+    Delta Time: 0.00
+    #399 part_1092_1, events: 53786, hits: 2646289
+    Delta Time: 0.00
+    #400 part_1092_2, events: 53722, hits: 2648206
+    Delta Time: 0.00
+    #401 part_1092_3, events: 53844, hits: 2663000
+    Delta Time: 0.00
+    #402 part_1092_4, events: 52596, hits: 2588384
+    Delta Time: 0.00
+    #403 part_1093_0, events: 53815, hits: 2785639
+    Delta Time: 0.00
+    #404 part_1093_1, events: 53795, hits: 2784418
+    Delta Time: 0.00
+    #405 part_1093_2, events: 53686, hits: 2774090
+    Delta Time: 0.00
+    #406 part_1093_3, events: 53657, hits: 2764981
+    Delta Time: 0.00
+    #407 part_1093_4, events: 53515, hits: 2749500
+    Delta Time: 0.00
+    #408 part_1094_0, events: 53843, hits: 2835801
+    Delta Time: 0.00
+    #409 part_1094_1, events: 53869, hits: 2836197
+    Delta Time: 0.00
+    #410 part_1094_2, events: 53721, hits: 2835827
+    Delta Time: 0.00
+    #411 part_1094_3, events: 53781, hits: 2841106
+    Delta Time: 0.00
+    #412 part_1094_4, events: 52030, hits: 2740506
+    Delta Time: 0.00
+    #413 part_1095_0, events: 53740, hits: 2834068
+    Delta Time: 0.00
+    #414 part_1095_1, events: 53785, hits: 2850064
+    Delta Time: 0.00
+    #415 part_1095_2, events: 53787, hits: 2851648
+    Delta Time: 0.00
+    #416 part_1095_3, events: 53720, hits: 2836283
+    Delta Time: 0.00
+    #417 part_1095_4, events: 52823, hits: 2788682
+    Delta Time: 0.00
+    #418 part_1096_0, events: 53760, hits: 2774762
+    Delta Time: 0.00
+    #419 part_1096_1, events: 53834, hits: 2800580
+    Delta Time: 0.00
+    #420 part_1096_2, events: 53730, hits: 2760007
+    Delta Time: 0.00
+    #421 part_1096_3, events: 53840, hits: 2770700
+    Delta Time: 0.00
+    #422 part_1096_4, events: 53231, hits: 2749972
+    Delta Time: 0.00
+    #423 part_1097_0, events: 53670, hits: 2653145
+    Delta Time: 0.00
+    #424 part_1097_1, events: 53717, hits: 2665617
+    Delta Time: 0.00
+    #425 part_1097_2, events: 53755, hits: 2671526
+    Delta Time: 0.00
+    #426 part_1097_3, events: 53795, hits: 2684034
+    Delta Time: 0.00
+    #427 part_1097_4, events: 53418, hits: 2643489
+    Delta Time: 0.00
+    #428 part_1098_0, events: 53876, hits: 2772432
+    Delta Time: 0.00
+    #429 part_1098_1, events: 53736, hits: 2747934
+    Delta Time: 0.00
+    #430 part_1098_2, events: 53657, hits: 2756880
+    Delta Time: 0.00
+    #431 part_1098_3, events: 53704, hits: 2758139
+    Delta Time: 0.00
+    #432 part_1098_4, events: 52494, hits: 2694834
+    Delta Time: 0.00
+  Field: prime_prty
+    #0 part_1000_0, events: 53788, hits: 2841741
+    Delta Time: 0.00
+    #1 part_1000_1, events: 53835, hits: 2835581
+    Delta Time: 0.00
+    #2 part_1000_2, events: 53666, hits: 2831442
+    Delta Time: 0.00
+    #3 part_1000_3, events: 53712, hits: 2835422
+    Delta Time: 0.00
+    #4 part_1000_4, events: 52565, hits: 2779973
+    Delta Time: 0.00
+    #5 part_1001_0, events: 53720, hits: 2779900
+    Delta Time: 0.00
+    #6 part_1001_1, events: 53718, hits: 2775062
+    Delta Time: 0.00
+    #7 part_1001_2, events: 53659, hits: 2776173
+    Delta Time: 0.00
+    #8 part_1001_3, events: 53786, hits: 2778147
+    Delta Time: 0.00
+    #9 part_1001_4, events: 53027, hits: 2736556
+    Delta Time: 0.00
+    #10 part_1002_0, events: 53665, hits: 2760286
+    Delta Time: 0.00
+    #11 part_1002_1, events: 53687, hits: 2768228
+    Delta Time: 0.00
+    #12 part_1002_2, events: 53818, hits: 2792240
+    Delta Time: 0.00
+    #13 part_1002_3, events: 53826, hits: 2790880
+    Delta Time: 0.00
+    #14 part_1002_4, events: 52903, hits: 2732508
+    Delta Time: 0.00
+    #15 part_1003_0, events: 53739, hits: 2646282
+    Delta Time: 0.00
+    #16 part_1003_1, events: 53675, hits: 2642516
+    Delta Time: 0.00
+    #17 part_1003_2, events: 53753, hits: 2639498
+    Delta Time: 0.00
+    #18 part_1003_3, events: 53774, hits: 2643341
+    Delta Time: 0.00
+    #19 part_1003_4, events: 52944, hits: 2601903
+    Delta Time: 0.00
+    #20 part_1004_0, events: 53709, hits: 2634970
+    Delta Time: 0.00
+    #21 part_1004_1, events: 53736, hits: 2643355
+    Delta Time: 0.00
+    #22 part_1004_2, events: 53767, hits: 2662170
+    Delta Time: 0.00
+    #23 part_1004_3, events: 53750, hits: 2637169
+    Delta Time: 0.00
+    #24 part_1004_4, events: 53262, hits: 2609630
+    Delta Time: 0.00
+    #25 part_1005_0, events: 53723, hits: 2697424
+    Delta Time: 0.00
+    #26 part_1005_1, events: 53719, hits: 2716401
+    Delta Time: 0.00
+    #27 part_1005_2, events: 53793, hits: 2715721
+    Delta Time: 0.00
+    #28 part_1005_3, events: 53751, hits: 2707930
+    Delta Time: 0.00
+    #29 part_1005_4, events: 52881, hits: 2665039
+    Delta Time: 0.00
+    #30 part_1007_0, events: 53778, hits: 2774666
+    Delta Time: 0.00
+    #31 part_1007_1, events: 53816, hits: 2766825
+    Delta Time: 0.00
+    #32 part_1007_2, events: 53692, hits: 2770468
+    Delta Time: 0.00
+    #33 part_1007_3, events: 53744, hits: 2770050
+    Delta Time: 0.00
+    #34 part_1007_4, events: 52819, hits: 2717454
+    Delta Time: 0.00
+    #35 part_1008_0, events: 53802, hits: 2652376
+    Delta Time: 0.00
+    #36 part_1008_1, events: 53759, hits: 2648944
+    Delta Time: 0.00
+    #37 part_1008_2, events: 53807, hits: 2640680
+    Delta Time: 0.00
+    #38 part_1008_3, events: 53844, hits: 2640613
+    Delta Time: 0.00
+    #39 part_1008_4, events: 53228, hits: 2615973
+    Delta Time: 0.00
+    #40 part_1009_0, events: 53839, hits: 2844367
+    Delta Time: 0.00
+    #41 part_1009_1, events: 53619, hits: 2832849
+    Delta Time: 0.00
+    #42 part_1009_2, events: 53808, hits: 2827570
+    Delta Time: 0.00
+    #43 part_1009_3, events: 53779, hits: 2834217
+    Delta Time: 0.00
+    #44 part_1009_4, events: 53357, hits: 2808505
+    Delta Time: 0.00
+    #45 part_1010_0, events: 53667, hits: 2641699
+    Delta Time: 0.00
+    #46 part_1010_1, events: 53721, hits: 2653785
+    Delta Time: 0.00
+    #47 part_1010_2, events: 53779, hits: 2657872
+    Delta Time: 0.00
+    #48 part_1010_3, events: 53903, hits: 2663153
+    Delta Time: 0.00
+    #49 part_1010_4, events: 52725, hits: 2587797
+    Delta Time: 0.00
+    #50 part_1013_0, events: 53747, hits: 2778060
+    Delta Time: 0.00
+    #51 part_1013_1, events: 53784, hits: 2796712
+    Delta Time: 0.00
+    #52 part_1013_2, events: 53789, hits: 2790922
+    Delta Time: 0.00
+    #53 part_1013_3, events: 53625, hits: 2768326
+    Delta Time: 0.00
+    #54 part_1013_4, events: 52443, hits: 2709212
+    Delta Time: 0.00
+    #55 part_1014_0, events: 53743, hits: 2636557
+    Delta Time: 0.00
+    #56 part_1014_1, events: 53730, hits: 2650834
+    Delta Time: 0.00
+    #57 part_1014_2, events: 53759, hits: 2652396
+    Delta Time: 0.00
+    #58 part_1014_3, events: 53709, hits: 2641452
+    Delta Time: 0.00
+    #59 part_1014_4, events: 52584, hits: 2599794
+    Delta Time: 0.00
+    #60 part_1015_0, events: 53781, hits: 2842063
+    Delta Time: 0.00
+    #61 part_1015_1, events: 53610, hits: 2823145
+    Delta Time: 0.00
+    #62 part_1015_2, events: 53713, hits: 2835036
+    Delta Time: 0.00
+    #63 part_1015_3, events: 53684, hits: 2850619
+    Delta Time: 0.00
+    #64 part_1015_4, events: 52273, hits: 2755748
+    Delta Time: 0.00
+    #65 part_1016_0, events: 53761, hits: 2644833
+    Delta Time: 0.00
+    #66 part_1016_1, events: 53745, hits: 2651581
+    Delta Time: 0.00
+    #67 part_1016_2, events: 53805, hits: 2646987
+    Delta Time: 0.00
+    #68 part_1016_3, events: 53754, hits: 2648434
+    Delta Time: 0.00
+    #69 part_1016_4, events: 53722, hits: 2634034
+    Delta Time: 0.00
+    #70 part_1016_5, events: 144, hits: 8092
+    Delta Time: 0.00
+    #71 part_1017_0, events: 53869, hits: 2780863
+    Delta Time: 0.00
+    #72 part_1017_1, events: 53769, hits: 2766908
+    Delta Time: 0.00
+    #73 part_1017_2, events: 53758, hits: 2765900
+    Delta Time: 0.00
+    #74 part_1017_3, events: 53731, hits: 2779405
+    Delta Time: 0.00
+    #75 part_1017_4, events: 52204, hits: 2672679
+    Delta Time: 0.00
+    #76 part_1019_0, events: 53715, hits: 2758001
+    Delta Time: 0.00
+    #77 part_1019_1, events: 53780, hits: 2760609
+    Delta Time: 0.00
+    #78 part_1019_2, events: 53785, hits: 2762384
+    Delta Time: 0.00
+    #79 part_1019_3, events: 53771, hits: 2755788
+    Delta Time: 0.00
+    #80 part_1019_4, events: 53720, hits: 2749924
+    Delta Time: 0.00
+    #81 part_1019_5, events: 122, hits: 5891
+    Delta Time: 0.00
+    #82 part_1020_0, events: 53738, hits: 2782645
+    Delta Time: 0.00
+    #83 part_1020_1, events: 53708, hits: 2767698
+    Delta Time: 0.00
+    #84 part_1020_2, events: 53614, hits: 2773747
+    Delta Time: 0.00
+    #85 part_1020_3, events: 53833, hits: 2791124
+    Delta Time: 0.00
+    #86 part_1020_4, events: 52900, hits: 2738601
+    Delta Time: 0.00
+    #87 part_1021_0, events: 53795, hits: 2673846
+    Delta Time: 0.00
+    #88 part_1021_1, events: 53839, hits: 2661559
+    Delta Time: 0.00
+    #89 part_1021_2, events: 53695, hits: 2654825
+    Delta Time: 0.00
+    #90 part_1021_3, events: 53716, hits: 2661414
+    Delta Time: 0.00
+    #91 part_1021_4, events: 53341, hits: 2654361
+    Delta Time: 0.00
+    #92 part_1022_0, events: 53761, hits: 2646269
+    Delta Time: 0.00
+    #93 part_1022_1, events: 53606, hits: 2624530
+    Delta Time: 0.00
+    #94 part_1022_2, events: 53751, hits: 2649220
+    Delta Time: 0.00
+    #95 part_1022_3, events: 53725, hits: 2640616
+    Delta Time: 0.00
+    #96 part_1022_4, events: 53269, hits: 2607016
+    Delta Time: 0.00
+    #97 part_1023_0, events: 53704, hits: 2828184
+    Delta Time: 0.00
+    #98 part_1023_1, events: 53772, hits: 2831443
+    Delta Time: 0.00
+    #99 part_1023_2, events: 53952, hits: 2861179
+    Delta Time: 0.00
+    #100 part_1023_3, events: 53725, hits: 2833040
+    Delta Time: 0.00
+    #101 part_1023_4, events: 53147, hits: 2799082
+    Delta Time: 0.00
+    #102 part_1024_0, events: 53818, hits: 2831189
+    Delta Time: 0.00
+    #103 part_1024_1, events: 53654, hits: 2819446
+    Delta Time: 0.00
+    #104 part_1024_2, events: 53750, hits: 2817696
+    Delta Time: 0.00
+    #105 part_1024_3, events: 53676, hits: 2817221
+    Delta Time: 0.00
+    #106 part_1024_4, events: 53161, hits: 2784805
+    Delta Time: 0.00
+    #107 part_1025_0, events: 53754, hits: 2637252
+    Delta Time: 0.00
+    #108 part_1025_1, events: 53775, hits: 2641280
+    Delta Time: 0.00
+    #109 part_1025_2, events: 53812, hits: 2656138
+    Delta Time: 0.00
+    #110 part_1025_3, events: 53679, hits: 2636465
+    Delta Time: 0.00
+    #111 part_1025_4, events: 52613, hits: 2596522
+    Delta Time: 0.00
+    #112 part_1026_0, events: 53798, hits: 2783502
+    Delta Time: 0.00
+    #113 part_1026_1, events: 53804, hits: 2794796
+    Delta Time: 0.00
+    #114 part_1026_2, events: 53823, hits: 2794100
+    Delta Time: 0.00
+    #115 part_1026_3, events: 53724, hits: 2778521
+    Delta Time: 0.00
+    #116 part_1026_4, events: 53027, hits: 2744327
+    Delta Time: 0.00
+    #117 part_1027_0, events: 53742, hits: 2845495
+    Delta Time: 0.00
+    #118 part_1027_1, events: 53801, hits: 2835244
+    Delta Time: 0.00
+    #119 part_1027_2, events: 53777, hits: 2837584
+    Delta Time: 0.00
+    #120 part_1027_3, events: 53763, hits: 2840532
+    Delta Time: 0.00
+    #121 part_1027_4, events: 52538, hits: 2769869
+    Delta Time: 0.00
+    #122 part_1028_0, events: 53649, hits: 2631358
+    Delta Time: 0.00
+    #123 part_1028_1, events: 53778, hits: 2656327
+    Delta Time: 0.00
+    #124 part_1028_2, events: 53755, hits: 2643503
+    Delta Time: 0.00
+    #125 part_1028_3, events: 53732, hits: 2634704
+    Delta Time: 0.00
+    #126 part_1028_4, events: 53475, hits: 2631726
+    Delta Time: 0.00
+    #127 part_1029_0, events: 53692, hits: 2828340
+    Delta Time: 0.00
+    #128 part_1029_1, events: 53684, hits: 2837102
+    Delta Time: 0.00
+    #129 part_1029_2, events: 53727, hits: 2842814
+    Delta Time: 0.00
+    #130 part_1029_3, events: 53841, hits: 2849225
+    Delta Time: 0.00
+    #131 part_1029_4, events: 53258, hits: 2814505
+    Delta Time: 0.00
+    #132 part_1030_0, events: 53796, hits: 2652437
+    Delta Time: 0.00
+    #133 part_1030_1, events: 53762, hits: 2648962
+    Delta Time: 0.00
+    #134 part_1030_2, events: 53833, hits: 2650838
+    Delta Time: 0.00
+    #135 part_1030_3, events: 53735, hits: 2636436
+    Delta Time: 0.00
+    #136 part_1030_4, events: 52831, hits: 2596294
+    Delta Time: 0.00
+    #137 part_1031_0, events: 53787, hits: 2773174
+    Delta Time: 0.00
+    #138 part_1031_1, events: 53833, hits: 2785121
+    Delta Time: 0.00
+    #139 part_1031_2, events: 53784, hits: 2770886
+    Delta Time: 0.00
+    #140 part_1031_3, events: 53638, hits: 2769685
+    Delta Time: 0.00
+    #141 part_1031_4, events: 52289, hits: 2706009
+    Delta Time: 0.00
+    #142 part_1032_0, events: 53707, hits: 2766271
+    Delta Time: 0.00
+    #143 part_1032_1, events: 53706, hits: 2768189
+    Delta Time: 0.00
+    #144 part_1032_2, events: 53774, hits: 2788845
+    Delta Time: 0.00
+    #145 part_1032_3, events: 53869, hits: 2787952
+    Delta Time: 0.00
+    #146 part_1032_4, events: 53166, hits: 2748404
+    Delta Time: 0.00
+    #147 part_1033_0, events: 53777, hits: 2784046
+    Delta Time: 0.00
+    #148 part_1033_1, events: 53779, hits: 2787397
+    Delta Time: 0.00
+    #149 part_1033_2, events: 53648, hits: 2767680
+    Delta Time: 0.00
+    #150 part_1033_3, events: 53834, hits: 2787486
+    Delta Time: 0.00
+    #151 part_1033_4, events: 52722, hits: 2714647
+    Delta Time: 0.00
+    #152 part_1034_0, events: 53844, hits: 2862363
+    Delta Time: 0.00
+    #153 part_1034_1, events: 53781, hits: 2828302
+    Delta Time: 0.00
+    #154 part_1034_2, events: 53735, hits: 2829469
+    Delta Time: 0.00
+    #155 part_1034_3, events: 53762, hits: 2853750
+    Delta Time: 0.00
+    #156 part_1034_4, events: 53116, hits: 2808332
+    Delta Time: 0.00
+    #157 part_1037_0, events: 53803, hits: 2782956
+    Delta Time: 0.00
+    #158 part_1037_1, events: 53748, hits: 2780528
+    Delta Time: 0.00
+    #159 part_1037_2, events: 53765, hits: 2765548
+    Delta Time: 0.00
+    #160 part_1037_3, events: 53685, hits: 2771555
+    Delta Time: 0.00
+    #161 part_1037_4, events: 53350, hits: 2747551
+    Delta Time: 0.00
+    #162 part_1038_0, events: 53738, hits: 2749329
+    Delta Time: 0.00
+    #163 part_1038_1, events: 53787, hits: 2757883
+    Delta Time: 0.00
+    #164 part_1038_2, events: 53728, hits: 2745384
+    Delta Time: 0.00
+    #165 part_1038_3, events: 53719, hits: 2747490
+    Delta Time: 0.00
+    #166 part_1038_4, events: 53114, hits: 2719925
+    Delta Time: 0.00
+    #167 part_1039_0, events: 53785, hits: 2647717
+    Delta Time: 0.00
+    #168 part_1039_1, events: 53720, hits: 2649239
+    Delta Time: 0.00
+    #169 part_1039_2, events: 53845, hits: 2656975
+    Delta Time: 0.00
+    #170 part_1039_3, events: 53712, hits: 2647339
+    Delta Time: 0.00
+    #171 part_1039_4, events: 52182, hits: 2563212
+    Delta Time: 0.00
+    #172 part_1040_0, events: 53679, hits: 2769093
+    Delta Time: 0.00
+    #173 part_1040_1, events: 53822, hits: 2789897
+    Delta Time: 0.00
+    #174 part_1040_2, events: 53779, hits: 2774897
+    Delta Time: 0.00
+    #175 part_1040_3, events: 53697, hits: 2780401
+    Delta Time: 0.00
+    #176 part_1040_4, events: 53103, hits: 2734948
+    Delta Time: 0.00
+    #177 part_1041_0, events: 53716, hits: 2640488
+    Delta Time: 0.00
+    #178 part_1041_1, events: 53678, hits: 2654286
+    Delta Time: 0.00
+    #179 part_1041_2, events: 53845, hits: 2658003
+    Delta Time: 0.00
+    #180 part_1041_3, events: 53747, hits: 2659252
+    Delta Time: 0.00
+    #181 part_1041_4, events: 53610, hits: 2648423
+    Delta Time: 0.00
+    #182 part_1042_0, events: 53786, hits: 2712236
+    Delta Time: 0.00
+    #183 part_1042_1, events: 53643, hits: 2695982
+    Delta Time: 0.00
+    #184 part_1042_2, events: 53758, hits: 2711962
+    Delta Time: 0.00
+    #185 part_1042_3, events: 53777, hits: 2706483
+    Delta Time: 0.00
+    #186 part_1042_4, events: 53284, hits: 2669211
+    Delta Time: 0.00
+    #187 part_1044_0, events: 53640, hits: 2758548
+    Delta Time: 0.00
+    #188 part_1044_1, events: 53785, hits: 2792067
+    Delta Time: 0.00
+    #189 part_1044_2, events: 53759, hits: 2786947
+    Delta Time: 0.00
+    #190 part_1044_3, events: 53720, hits: 2779515
+    Delta Time: 0.00
+    #191 part_1044_4, events: 53568, hits: 2759907
+    Delta Time: 0.00
+    #192 part_1045_0, events: 53713, hits: 2715797
+    Delta Time: 0.00
+    #193 part_1045_1, events: 53792, hits: 2746443
+    Delta Time: 0.00
+    #194 part_1045_2, events: 53782, hits: 2735363
+    Delta Time: 0.00
+    #195 part_1045_3, events: 53763, hits: 2755045
+    Delta Time: 0.00
+    #196 part_1045_4, events: 52470, hits: 2674829
+    Delta Time: 0.00
+    #197 part_1047_0, events: 53734, hits: 2780518
+    Delta Time: 0.00
+    #198 part_1047_1, events: 53827, hits: 2780871
+    Delta Time: 0.00
+    #199 part_1047_2, events: 53838, hits: 2779323
+    Delta Time: 0.00
+    #200 part_1047_3, events: 53698, hits: 2769888
+    Delta Time: 0.00
+    #201 part_1047_4, events: 53676, hits: 2764848
+    Delta Time: 0.00
+    #202 part_1047_5, events: 319, hits: 17210
+    Delta Time: 0.00
+    #203 part_1048_0, events: 53749, hits: 2767573
+    Delta Time: 0.00
+    #204 part_1048_1, events: 53849, hits: 2763159
+    Delta Time: 0.00
+    #205 part_1048_2, events: 53711, hits: 2761924
+    Delta Time: 0.00
+    #206 part_1048_3, events: 53827, hits: 2786672
+    Delta Time: 0.00
+    #207 part_1048_4, events: 52558, hits: 2712640
+    Delta Time: 0.00
+    #208 part_1049_0, events: 53752, hits: 2700577
+    Delta Time: 0.00
+    #209 part_1049_1, events: 53816, hits: 2710979
+    Delta Time: 0.00
+    #210 part_1049_2, events: 53825, hits: 2719284
+    Delta Time: 0.00
+    #211 part_1049_3, events: 53717, hits: 2682217
+    Delta Time: 0.00
+    #212 part_1049_4, events: 53379, hits: 2679740
+    Delta Time: 0.00
+    #213 part_1050_0, events: 53733, hits: 2698830
+    Delta Time: 0.00
+    #214 part_1050_1, events: 53761, hits: 2687643
+    Delta Time: 0.00
+    #215 part_1050_2, events: 53700, hits: 2697057
+    Delta Time: 0.00
+    #216 part_1050_3, events: 53778, hits: 2701963
+    Delta Time: 0.00
+    #217 part_1050_4, events: 53143, hits: 2667034
+    Delta Time: 0.00
+    #218 part_1051_0, events: 53666, hits: 2761113
+    Delta Time: 0.00
+    #219 part_1051_1, events: 53733, hits: 2769137
+    Delta Time: 0.00
+    #220 part_1051_2, events: 53704, hits: 2763287
+    Delta Time: 0.00
+    #221 part_1051_3, events: 53697, hits: 2766625
+    Delta Time: 0.00
+    #222 part_1051_4, events: 52395, hits: 2690563
+    Delta Time: 0.00
+    #223 part_1052_0, events: 53728, hits: 2728703
+    Delta Time: 0.00
+    #224 part_1052_1, events: 53807, hits: 2730666
+    Delta Time: 0.00
+    #225 part_1052_2, events: 53858, hits: 2735512
+    Delta Time: 0.00
+    #226 part_1052_3, events: 53627, hits: 2723626
+    Delta Time: 0.00
+    #227 part_1052_4, events: 52637, hits: 2667763
+    Delta Time: 0.00
+    #228 part_1053_0, events: 53762, hits: 2794423
+    Delta Time: 0.00
+    #229 part_1053_1, events: 53751, hits: 2778917
+    Delta Time: 0.00
+    #230 part_1053_2, events: 53764, hits: 2784506
+    Delta Time: 0.00
+    #231 part_1053_3, events: 53595, hits: 2767413
+    Delta Time: 0.00
+    #232 part_1053_4, events: 52980, hits: 2736394
+    Delta Time: 0.00
+    #233 part_1054_0, events: 53737, hits: 2669640
+    Delta Time: 0.00
+    #234 part_1054_1, events: 53754, hits: 2656658
+    Delta Time: 0.00
+    #235 part_1054_2, events: 53733, hits: 2656420
+    Delta Time: 0.00
+    #236 part_1054_3, events: 53664, hits: 2642449
+    Delta Time: 0.00
+    #237 part_1054_4, events: 52945, hits: 2626132
+    Delta Time: 0.00
+    #238 part_1056_0, events: 53771, hits: 2648231
+    Delta Time: 0.00
+    #239 part_1056_1, events: 53813, hits: 2648952
+    Delta Time: 0.00
+    #240 part_1056_2, events: 53823, hits: 2665696
+    Delta Time: 0.00
+    #241 part_1056_3, events: 53711, hits: 2631541
+    Delta Time: 0.00
+    #242 part_1056_4, events: 52707, hits: 2597010
+    Delta Time: 0.00
+    #243 part_1057_0, events: 53759, hits: 2783497
+    Delta Time: 0.00
+    #244 part_1057_1, events: 53740, hits: 2775842
+    Delta Time: 0.00
+    #245 part_1057_2, events: 53709, hits: 2772544
+    Delta Time: 0.00
+    #246 part_1057_3, events: 53758, hits: 2775053
+    Delta Time: 0.00
+    #247 part_1057_4, events: 52914, hits: 2728914
+    Delta Time: 0.00
+    #248 part_1058_0, events: 53755, hits: 2777437
+    Delta Time: 0.00
+    #249 part_1058_1, events: 53721, hits: 2765074
+    Delta Time: 0.00
+    #250 part_1058_2, events: 53732, hits: 2778611
+    Delta Time: 0.00
+    #251 part_1058_3, events: 53761, hits: 2781089
+    Delta Time: 0.00
+    #252 part_1058_4, events: 52801, hits: 2721856
+    Delta Time: 0.00
+    #253 part_1059_0, events: 53904, hits: 2680284
+    Delta Time: 0.00
+    #254 part_1059_1, events: 53743, hits: 2665207
+    Delta Time: 0.00
+    #255 part_1059_2, events: 53710, hits: 2657229
+    Delta Time: 0.00
+    #256 part_1059_3, events: 53751, hits: 2668091
+    Delta Time: 0.00
+    #257 part_1059_4, events: 52756, hits: 2608464
+    Delta Time: 0.00
+    #258 part_1060_0, events: 53734, hits: 2778015
+    Delta Time: 0.00
+    #259 part_1060_1, events: 53613, hits: 2747445
+    Delta Time: 0.00
+    #260 part_1060_2, events: 53734, hits: 2773181
+    Delta Time: 0.00
+    #261 part_1060_3, events: 53802, hits: 2775427
+    Delta Time: 0.00
+    #262 part_1060_4, events: 53155, hits: 2734326
+    Delta Time: 0.00
+    #263 part_1061_0, events: 53853, hits: 2652252
+    Delta Time: 0.00
+    #264 part_1061_1, events: 53624, hits: 2645150
+    Delta Time: 0.00
+    #265 part_1061_2, events: 53875, hits: 2657286
+    Delta Time: 0.00
+    #266 part_1061_3, events: 53749, hits: 2652207
+    Delta Time: 0.00
+    #267 part_1061_4, events: 53502, hits: 2625552
+    Delta Time: 0.00
+    #268 part_1062_0, events: 53774, hits: 2769907
+    Delta Time: 0.00
+    #269 part_1062_1, events: 53720, hits: 2780187
+    Delta Time: 0.00
+    #270 part_1062_2, events: 53735, hits: 2787632
+    Delta Time: 0.00
+    #271 part_1062_3, events: 53780, hits: 2777739
+    Delta Time: 0.00
+    #272 part_1062_4, events: 53718, hits: 2792473
+    Delta Time: 0.00
+    #273 part_1063_0, events: 53822, hits: 2654045
+    Delta Time: 0.00
+    #274 part_1063_1, events: 53770, hits: 2637958
+    Delta Time: 0.00
+    #275 part_1063_2, events: 53673, hits: 2629943
+    Delta Time: 0.00
+    #276 part_1063_3, events: 53592, hits: 2641119
+    Delta Time: 0.00
+    #277 part_1063_4, events: 52979, hits: 2618113
+    Delta Time: 0.00
+    #278 part_1064_0, events: 53673, hits: 2758015
+    Delta Time: 0.00
+    #279 part_1064_1, events: 53805, hits: 2767553
+    Delta Time: 0.00
+    #280 part_1064_2, events: 53754, hits: 2766807
+    Delta Time: 0.00
+    #281 part_1064_3, events: 53811, hits: 2769084
+    Delta Time: 0.00
+    #282 part_1064_4, events: 52579, hits: 2690369
+    Delta Time: 0.00
+    #283 part_1065_0, events: 53743, hits: 2695658
+    Delta Time: 0.00
+    #284 part_1065_1, events: 53711, hits: 2705367
+    Delta Time: 0.00
+    #285 part_1065_2, events: 53726, hits: 2700064
+    Delta Time: 0.00
+    #286 part_1065_3, events: 53778, hits: 2723945
+    Delta Time: 0.00
+    #287 part_1065_4, events: 52703, hits: 2649193
+    Delta Time: 0.00
+    #288 part_1066_0, events: 53853, hits: 2776100
+    Delta Time: 0.00
+    #289 part_1066_1, events: 53752, hits: 2757182
+    Delta Time: 0.00
+    #290 part_1066_2, events: 53758, hits: 2776607
+    Delta Time: 0.00
+    #291 part_1066_3, events: 53758, hits: 2775319
+    Delta Time: 0.00
+    #292 part_1066_4, events: 53183, hits: 2739926
+    Delta Time: 0.00
+    #293 part_1067_0, events: 53679, hits: 2629094
+    Delta Time: 0.00
+    #294 part_1067_1, events: 53726, hits: 2640600
+    Delta Time: 0.00
+    #295 part_1067_2, events: 53694, hits: 2649940
+    Delta Time: 0.00
+    #296 part_1067_3, events: 53682, hits: 2650295
+    Delta Time: 0.00
+    #297 part_1067_4, events: 53477, hits: 2638702
+    Delta Time: 0.00
+    #298 part_1069_0, events: 53691, hits: 2658318
+    Delta Time: 0.00
+    #299 part_1069_1, events: 53780, hits: 2647463
+    Delta Time: 0.00
+    #300 part_1069_2, events: 53725, hits: 2645640
+    Delta Time: 0.00
+    #301 part_1069_3, events: 53742, hits: 2637640
+    Delta Time: 0.00
+    #302 part_1069_4, events: 52857, hits: 2597610
+    Delta Time: 0.00
+    #303 part_1070_0, events: 53832, hits: 2850725
+    Delta Time: 0.00
+    #304 part_1070_1, events: 53677, hits: 2836233
+    Delta Time: 0.00
+    #305 part_1070_2, events: 53722, hits: 2837406
+    Delta Time: 0.00
+    #306 part_1070_3, events: 53723, hits: 2825114
+    Delta Time: 0.00
+    #307 part_1070_4, events: 53210, hits: 2830992
+    Delta Time: 0.00
+    #308 part_1071_0, events: 53730, hits: 2779306
+    Delta Time: 0.00
+    #309 part_1071_1, events: 53667, hits: 2774416
+    Delta Time: 0.00
+    #310 part_1071_2, events: 53711, hits: 2776853
+    Delta Time: 0.00
+    #311 part_1071_3, events: 53842, hits: 2794232
+    Delta Time: 0.00
+    #312 part_1071_4, events: 52651, hits: 2737287
+    Delta Time: 0.00
+    #313 part_1072_0, events: 53666, hits: 2632240
+    Delta Time: 0.00
+    #314 part_1072_1, events: 53763, hits: 2638892
+    Delta Time: 0.00
+    #315 part_1072_2, events: 53786, hits: 2643995
+    Delta Time: 0.00
+    #316 part_1072_3, events: 53727, hits: 2636499
+    Delta Time: 0.00
+    #317 part_1072_4, events: 53069, hits: 2593956
+    Delta Time: 0.00
+    #318 part_1074_0, events: 53781, hits: 2784439
+    Delta Time: 0.00
+    #319 part_1074_1, events: 53816, hits: 2776352
+    Delta Time: 0.00
+    #320 part_1074_2, events: 53769, hits: 2771912
+    Delta Time: 0.00
+    #321 part_1074_3, events: 53796, hits: 2790570
+    Delta Time: 0.00
+    #322 part_1074_4, events: 52680, hits: 2722513
+    Delta Time: 0.00
+    #323 part_1075_0, events: 53735, hits: 2642676
+    Delta Time: 0.00
+    #324 part_1075_1, events: 53714, hits: 2661149
+    Delta Time: 0.00
+    #325 part_1075_2, events: 53802, hits: 2660251
+    Delta Time: 0.00
+    #326 part_1075_3, events: 53714, hits: 2664887
+    Delta Time: 0.00
+    #327 part_1075_4, events: 52666, hits: 2611133
+    Delta Time: 0.00
+    #328 part_1077_0, events: 53663, hits: 2630622
+    Delta Time: 0.00
+    #329 part_1077_1, events: 53837, hits: 2652402
+    Delta Time: 0.00
+    #330 part_1077_2, events: 53727, hits: 2643089
+    Delta Time: 0.00
+    #331 part_1077_3, events: 53801, hits: 2657282
+    Delta Time: 0.00
+    #332 part_1077_4, events: 51926, hits: 2562675
+    Delta Time: 0.00
+    #333 part_1078_0, events: 53827, hits: 2764160
+    Delta Time: 0.00
+    #334 part_1078_1, events: 53748, hits: 2762118
+    Delta Time: 0.00
+    #335 part_1078_2, events: 53760, hits: 2773137
+    Delta Time: 0.00
+    #336 part_1078_3, events: 53709, hits: 2780320
+    Delta Time: 0.00
+    #337 part_1078_4, events: 52826, hits: 2729460
+    Delta Time: 0.00
+    #338 part_1079_0, events: 53751, hits: 2780587
+    Delta Time: 0.00
+    #339 part_1079_1, events: 53921, hits: 2784805
+    Delta Time: 0.00
+    #340 part_1079_2, events: 53725, hits: 2773285
+    Delta Time: 0.00
+    #341 part_1079_3, events: 53696, hits: 2770795
+    Delta Time: 0.00
+    #342 part_1079_4, events: 52370, hits: 2689963
+    Delta Time: 0.00
+    #343 part_1080_0, events: 53769, hits: 2649897
+    Delta Time: 0.00
+    #344 part_1080_1, events: 53766, hits: 2648629
+    Delta Time: 0.00
+    #345 part_1080_2, events: 53610, hits: 2621707
+    Delta Time: 0.00
+    #346 part_1080_3, events: 53768, hits: 2642612
+    Delta Time: 0.00
+    #347 part_1080_4, events: 53565, hits: 2639467
+    Delta Time: 0.00
+    #348 part_1081_0, events: 53625, hits: 2827716
+    Delta Time: 0.00
+    #349 part_1081_1, events: 53797, hits: 2837079
+    Delta Time: 0.00
+    #350 part_1081_2, events: 53786, hits: 2832261
+    Delta Time: 0.00
+    #351 part_1081_3, events: 53754, hits: 2849837
+    Delta Time: 0.00
+    #352 part_1081_4, events: 52389, hits: 2776385
+    Delta Time: 0.00
+    #353 part_1082_0, events: 53701, hits: 2733357
+    Delta Time: 0.00
+    #354 part_1082_1, events: 53769, hits: 2723594
+    Delta Time: 0.00
+    #355 part_1082_2, events: 53650, hits: 2716955
+    Delta Time: 0.00
+    #356 part_1082_3, events: 53776, hits: 2729602
+    Delta Time: 0.00
+    #357 part_1082_4, events: 52830, hits: 2676660
+    Delta Time: 0.00
+    #358 part_1083_0, events: 53798, hits: 2655677
+    Delta Time: 0.00
+    #359 part_1083_1, events: 53758, hits: 2641588
+    Delta Time: 0.00
+    #360 part_1083_2, events: 53833, hits: 2646337
+    Delta Time: 0.00
+    #361 part_1083_3, events: 53711, hits: 2638625
+    Delta Time: 0.00
+    #362 part_1083_4, events: 52564, hits: 2601856
+    Delta Time: 0.00
+    #363 part_1084_0, events: 53697, hits: 2641469
+    Delta Time: 0.00
+    #364 part_1084_1, events: 53807, hits: 2666218
+    Delta Time: 0.00
+    #365 part_1084_2, events: 53711, hits: 2650683
+    Delta Time: 0.00
+    #366 part_1084_3, events: 53749, hits: 2655119
+    Delta Time: 0.00
+    #367 part_1084_4, events: 52474, hits: 2586550
+    Delta Time: 0.00
+    #368 part_1085_0, events: 53804, hits: 2657331
+    Delta Time: 0.00
+    #369 part_1085_1, events: 53822, hits: 2656841
+    Delta Time: 0.00
+    #370 part_1085_2, events: 53727, hits: 2647181
+    Delta Time: 0.00
+    #371 part_1085_3, events: 53832, hits: 2651805
+    Delta Time: 0.00
+    #372 part_1085_4, events: 53301, hits: 2619284
+    Delta Time: 0.00
+    #373 part_1086_0, events: 53741, hits: 2647392
+    Delta Time: 0.00
+    #374 part_1086_1, events: 53800, hits: 2644555
+    Delta Time: 0.00
+    #375 part_1086_2, events: 53746, hits: 2651954
+    Delta Time: 0.00
+    #376 part_1086_3, events: 53666, hits: 2632385
+    Delta Time: 0.00
+    #377 part_1086_4, events: 52893, hits: 2603701
+    Delta Time: 0.00
+    #378 part_1087_0, events: 53720, hits: 2638312
+    Delta Time: 0.00
+    #379 part_1087_1, events: 53743, hits: 2650305
+    Delta Time: 0.00
+    #380 part_1087_2, events: 53728, hits: 2671074
+    Delta Time: 0.00
+    #381 part_1087_3, events: 53738, hits: 2654040
+    Delta Time: 0.00
+    #382 part_1087_4, events: 51938, hits: 2563276
+    Delta Time: 0.00
+    #383 part_1089_0, events: 53750, hits: 2774860
+    Delta Time: 0.00
+    #384 part_1089_1, events: 53611, hits: 2756452
+    Delta Time: 0.00
+    #385 part_1089_2, events: 53653, hits: 2773485
+    Delta Time: 0.00
+    #386 part_1089_3, events: 53644, hits: 2759230
+    Delta Time: 0.00
+    #387 part_1089_4, events: 52798, hits: 2729466
+    Delta Time: 0.00
+    #388 part_1090_0, events: 53734, hits: 2823396
+    Delta Time: 0.00
+    #389 part_1090_1, events: 53642, hits: 2824850
+    Delta Time: 0.00
+    #390 part_1090_2, events: 53776, hits: 2832420
+    Delta Time: 0.00
+    #391 part_1090_3, events: 53707, hits: 2834122
+    Delta Time: 0.00
+    #392 part_1090_4, events: 53349, hits: 2811770
+    Delta Time: 0.00
+    #393 part_1091_0, events: 53786, hits: 2757689
+    Delta Time: 0.00
+    #394 part_1091_1, events: 53752, hits: 2745423
+    Delta Time: 0.00
+    #395 part_1091_2, events: 53824, hits: 2763276
+    Delta Time: 0.00
+    #396 part_1091_3, events: 53771, hits: 2750045
+    Delta Time: 0.00
+    #397 part_1091_4, events: 53183, hits: 2717520
+    Delta Time: 0.00
+    #398 part_1092_0, events: 53750, hits: 2628300
+    Delta Time: 0.00
+    #399 part_1092_1, events: 53786, hits: 2646289
+    Delta Time: 0.00
+    #400 part_1092_2, events: 53722, hits: 2648206
+    Delta Time: 0.00
+    #401 part_1092_3, events: 53844, hits: 2663000
+    Delta Time: 0.00
+    #402 part_1092_4, events: 52596, hits: 2588384
+    Delta Time: 0.00
+    #403 part_1093_0, events: 53815, hits: 2785639
+    Delta Time: 0.00
+    #404 part_1093_1, events: 53795, hits: 2784418
+    Delta Time: 0.00
+    #405 part_1093_2, events: 53686, hits: 2774090
+    Delta Time: 0.00
+    #406 part_1093_3, events: 53657, hits: 2764981
+    Delta Time: 0.00
+    #407 part_1093_4, events: 53515, hits: 2749500
+    Delta Time: 0.00
+    #408 part_1094_0, events: 53843, hits: 2835801
+    Delta Time: 0.00
+    #409 part_1094_1, events: 53869, hits: 2836197
+    Delta Time: 0.00
+    #410 part_1094_2, events: 53721, hits: 2835827
+    Delta Time: 0.00
+    #411 part_1094_3, events: 53781, hits: 2841106
+    Delta Time: 0.00
+    #412 part_1094_4, events: 52030, hits: 2740506
+    Delta Time: 0.00
+    #413 part_1095_0, events: 53740, hits: 2834068
+    Delta Time: 0.00
+    #414 part_1095_1, events: 53785, hits: 2850064
+    Delta Time: 0.00
+    #415 part_1095_2, events: 53787, hits: 2851648
+    Delta Time: 0.00
+    #416 part_1095_3, events: 53720, hits: 2836283
+    Delta Time: 0.00
+    #417 part_1095_4, events: 52823, hits: 2788682
+    Delta Time: 0.00
+    #418 part_1096_0, events: 53760, hits: 2774762
+    Delta Time: 0.00
+    #419 part_1096_1, events: 53834, hits: 2800580
+    Delta Time: 0.00
+    #420 part_1096_2, events: 53730, hits: 2760007
+    Delta Time: 0.00
+    #421 part_1096_3, events: 53840, hits: 2770700
+    Delta Time: 0.00
+    #422 part_1096_4, events: 53231, hits: 2749972
+    Delta Time: 0.00
+    #423 part_1097_0, events: 53670, hits: 2653145
+    Delta Time: 0.00
+    #424 part_1097_1, events: 53717, hits: 2665617
+    Delta Time: 0.00
+    #425 part_1097_2, events: 53755, hits: 2671526
+    Delta Time: 0.00
+    #426 part_1097_3, events: 53795, hits: 2684034
+    Delta Time: 0.00
+    #427 part_1097_4, events: 53418, hits: 2643489
+    Delta Time: 0.00
+    #428 part_1098_0, events: 53876, hits: 2772432
+    Delta Time: 0.00
+    #429 part_1098_1, events: 53736, hits: 2747934
+    Delta Time: 0.00
+    #430 part_1098_2, events: 53657, hits: 2756880
+    Delta Time: 0.00
+    #431 part_1098_3, events: 53704, hits: 2758139
+    Delta Time: 0.00
+    #432 part_1098_4, events: 52494, hits: 2694834
+    Delta Time: 0.00
+  Field: muons_prty/individ
+    #0 part_1000_0, events: 53788, hits: 2841741
+    Delta Time: 0.01
+    #1 part_1000_1, events: 53835, hits: 2835581
+    Delta Time: 0.01
+    #2 part_1000_2, events: 53666, hits: 2831442
+    Delta Time: 0.01
+    #3 part_1000_3, events: 53712, hits: 2835422
+    Delta Time: 0.01
+    #4 part_1000_4, events: 52565, hits: 2779973
+    Delta Time: 0.01
+    #5 part_1001_0, events: 53720, hits: 2779900
+    Delta Time: 0.01
+    #6 part_1001_1, events: 53718, hits: 2775062
+    Delta Time: 0.01
+    #7 part_1001_2, events: 53659, hits: 2776173
+    Delta Time: 0.01
+    #8 part_1001_3, events: 53786, hits: 2778147
+    Delta Time: 0.01
+    #9 part_1001_4, events: 53027, hits: 2736556
+    Delta Time: 0.01
+    #10 part_1002_0, events: 53665, hits: 2760286
+    Delta Time: 0.01
+    #11 part_1002_1, events: 53687, hits: 2768228
+    Delta Time: 0.01
+    #12 part_1002_2, events: 53818, hits: 2792240
+    Delta Time: 0.01
+    #13 part_1002_3, events: 53826, hits: 2790880
+    Delta Time: 0.01
+    #14 part_1002_4, events: 52903, hits: 2732508
+    Delta Time: 0.01
+    #15 part_1003_0, events: 53739, hits: 2646282
+    Delta Time: 0.01
+    #16 part_1003_1, events: 53675, hits: 2642516
+    Delta Time: 0.01
+    #17 part_1003_2, events: 53753, hits: 2639498
+    Delta Time: 0.01
+    #18 part_1003_3, events: 53774, hits: 2643341
+    Delta Time: 0.01
+    #19 part_1003_4, events: 52944, hits: 2601903
+    Delta Time: 0.01
+    #20 part_1004_0, events: 53709, hits: 2634970
+    Delta Time: 0.01
+    #21 part_1004_1, events: 53736, hits: 2643355
+    Delta Time: 0.01
+    #22 part_1004_2, events: 53767, hits: 2662170
+    Delta Time: 0.01
+    #23 part_1004_3, events: 53750, hits: 2637169
+    Delta Time: 0.01
+    #24 part_1004_4, events: 53262, hits: 2609630
+    Delta Time: 0.01
+    #25 part_1005_0, events: 53723, hits: 2697424
+    Delta Time: 0.01
+    #26 part_1005_1, events: 53719, hits: 2716401
+    Delta Time: 0.01
+    #27 part_1005_2, events: 53793, hits: 2715721
+    Delta Time: 0.01
+    #28 part_1005_3, events: 53751, hits: 2707930
+    Delta Time: 0.01
+    #29 part_1005_4, events: 52881, hits: 2665039
+    Delta Time: 0.01
+    #30 part_1007_0, events: 53778, hits: 2774666
+    Delta Time: 0.01
+    #31 part_1007_1, events: 53816, hits: 2766825
+    Delta Time: 0.01
+    #32 part_1007_2, events: 53692, hits: 2770468
+    Delta Time: 0.01
+    #33 part_1007_3, events: 53744, hits: 2770050
+    Delta Time: 0.01
+    #34 part_1007_4, events: 52819, hits: 2717454
+    Delta Time: 0.01
+    #35 part_1008_0, events: 53802, hits: 2652376
+    Delta Time: 0.01
+    #36 part_1008_1, events: 53759, hits: 2648944
+    Delta Time: 0.01
+    #37 part_1008_2, events: 53807, hits: 2640680
+    Delta Time: 0.01
+    #38 part_1008_3, events: 53844, hits: 2640613
+    Delta Time: 0.01
+    #39 part_1008_4, events: 53228, hits: 2615973
+    Delta Time: 0.01
+    #40 part_1009_0, events: 53839, hits: 2844367
+    Delta Time: 0.01
+    #41 part_1009_1, events: 53619, hits: 2832849
+    Delta Time: 0.01
+    #42 part_1009_2, events: 53808, hits: 2827570
+    Delta Time: 0.01
+    #43 part_1009_3, events: 53779, hits: 2834217
+    Delta Time: 0.01
+    #44 part_1009_4, events: 53357, hits: 2808505
+    Delta Time: 0.01
+    #45 part_1010_0, events: 53667, hits: 2641699
+    Delta Time: 0.01
+    #46 part_1010_1, events: 53721, hits: 2653785
+    Delta Time: 0.01
+    #47 part_1010_2, events: 53779, hits: 2657872
+    Delta Time: 0.01
+    #48 part_1010_3, events: 53903, hits: 2663153
+    Delta Time: 0.01
+    #49 part_1010_4, events: 52725, hits: 2587797
+    Delta Time: 0.01
+    #50 part_1013_0, events: 53747, hits: 2778060
+    Delta Time: 0.01
+    #51 part_1013_1, events: 53784, hits: 2796712
+    Delta Time: 0.01
+    #52 part_1013_2, events: 53789, hits: 2790922
+    Delta Time: 0.01
+    #53 part_1013_3, events: 53625, hits: 2768326
+    Delta Time: 0.01
+    #54 part_1013_4, events: 52443, hits: 2709212
+    Delta Time: 0.01
+    #55 part_1014_0, events: 53743, hits: 2636557
+    Delta Time: 0.01
+    #56 part_1014_1, events: 53730, hits: 2650834
+    Delta Time: 0.01
+    #57 part_1014_2, events: 53759, hits: 2652396
+    Delta Time: 0.01
+    #58 part_1014_3, events: 53709, hits: 2641452
+    Delta Time: 0.01
+    #59 part_1014_4, events: 52584, hits: 2599794
+    Delta Time: 0.01
+    #60 part_1015_0, events: 53781, hits: 2842063
+    Delta Time: 0.01
+    #61 part_1015_1, events: 53610, hits: 2823145
+    Delta Time: 0.01
+    #62 part_1015_2, events: 53713, hits: 2835036
+    Delta Time: 0.01
+    #63 part_1015_3, events: 53684, hits: 2850619
+    Delta Time: 0.01
+    #64 part_1015_4, events: 52273, hits: 2755748
+    Delta Time: 0.01
+    #65 part_1016_0, events: 53761, hits: 2644833
+    Delta Time: 0.01
+    #66 part_1016_1, events: 53745, hits: 2651581
+    Delta Time: 0.01
+    #67 part_1016_2, events: 53805, hits: 2646987
+    Delta Time: 0.01
+    #68 part_1016_3, events: 53754, hits: 2648434
+    Delta Time: 0.01
+    #69 part_1016_4, events: 53722, hits: 2634034
+    Delta Time: 0.01
+    #70 part_1016_5, events: 144, hits: 8092
+    Delta Time: 0.00
+    #71 part_1017_0, events: 53869, hits: 2780863
+    Delta Time: 0.01
+    #72 part_1017_1, events: 53769, hits: 2766908
+    Delta Time: 0.01
+    #73 part_1017_2, events: 53758, hits: 2765900
+    Delta Time: 0.01
+    #74 part_1017_3, events: 53731, hits: 2779405
+    Delta Time: 0.01
+    #75 part_1017_4, events: 52204, hits: 2672679
+    Delta Time: 0.01
+    #76 part_1019_0, events: 53715, hits: 2758001
+    Delta Time: 0.01
+    #77 part_1019_1, events: 53780, hits: 2760609
+    Delta Time: 0.01
+    #78 part_1019_2, events: 53785, hits: 2762384
+    Delta Time: 0.01
+    #79 part_1019_3, events: 53771, hits: 2755788
+    Delta Time: 0.01
+    #80 part_1019_4, events: 53720, hits: 2749924
+    Delta Time: 0.01
+    #81 part_1019_5, events: 122, hits: 5891
+    Delta Time: 0.00
+    #82 part_1020_0, events: 53738, hits: 2782645
+    Delta Time: 0.01
+    #83 part_1020_1, events: 53708, hits: 2767698
+    Delta Time: 0.01
+    #84 part_1020_2, events: 53614, hits: 2773747
+    Delta Time: 0.01
+    #85 part_1020_3, events: 53833, hits: 2791124
+    Delta Time: 0.01
+    #86 part_1020_4, events: 52900, hits: 2738601
+    Delta Time: 0.01
+    #87 part_1021_0, events: 53795, hits: 2673846
+    Delta Time: 0.01
+    #88 part_1021_1, events: 53839, hits: 2661559
+    Delta Time: 0.01
+    #89 part_1021_2, events: 53695, hits: 2654825
+    Delta Time: 0.01
+    #90 part_1021_3, events: 53716, hits: 2661414
+    Delta Time: 0.01
+    #91 part_1021_4, events: 53341, hits: 2654361
+    Delta Time: 0.01
+    #92 part_1022_0, events: 53761, hits: 2646269
+    Delta Time: 0.01
+    #93 part_1022_1, events: 53606, hits: 2624530
+    Delta Time: 0.01
+    #94 part_1022_2, events: 53751, hits: 2649220
+    Delta Time: 0.01
+    #95 part_1022_3, events: 53725, hits: 2640616
+    Delta Time: 0.01
+    #96 part_1022_4, events: 53269, hits: 2607016
+    Delta Time: 0.01
+    #97 part_1023_0, events: 53704, hits: 2828184
+    Delta Time: 0.01
+    #98 part_1023_1, events: 53772, hits: 2831443
+    Delta Time: 0.01
+    #99 part_1023_2, events: 53952, hits: 2861179
+    Delta Time: 0.01
+    #100 part_1023_3, events: 53725, hits: 2833040
+    Delta Time: 0.01
+    #101 part_1023_4, events: 53147, hits: 2799082
+    Delta Time: 0.01
+    #102 part_1024_0, events: 53818, hits: 2831189
+    Delta Time: 0.01
+    #103 part_1024_1, events: 53654, hits: 2819446
+    Delta Time: 0.01
+    #104 part_1024_2, events: 53750, hits: 2817696
+    Delta Time: 0.01
+    #105 part_1024_3, events: 53676, hits: 2817221
+    Delta Time: 0.01
+    #106 part_1024_4, events: 53161, hits: 2784805
+    Delta Time: 0.01
+    #107 part_1025_0, events: 53754, hits: 2637252
+    Delta Time: 0.01
+    #108 part_1025_1, events: 53775, hits: 2641280
+    Delta Time: 0.01
+    #109 part_1025_2, events: 53812, hits: 2656138
+    Delta Time: 0.01
+    #110 part_1025_3, events: 53679, hits: 2636465
+    Delta Time: 0.01
+    #111 part_1025_4, events: 52613, hits: 2596522
+    Delta Time: 0.01
+    #112 part_1026_0, events: 53798, hits: 2783502
+    Delta Time: 0.01
+    #113 part_1026_1, events: 53804, hits: 2794796
+    Delta Time: 0.96
+    #114 part_1026_2, events: 53823, hits: 2794100
+    Delta Time: 0.01
+    #115 part_1026_3, events: 53724, hits: 2778521
+    Delta Time: 0.01
+    #116 part_1026_4, events: 53027, hits: 2744327
+    Delta Time: 0.01
+    #117 part_1027_0, events: 53742, hits: 2845495
+    Delta Time: 0.01
+    #118 part_1027_1, events: 53801, hits: 2835244
+    Delta Time: 0.01
+    #119 part_1027_2, events: 53777, hits: 2837584
+    Delta Time: 0.01
+    #120 part_1027_3, events: 53763, hits: 2840532
+    Delta Time: 0.01
+    #121 part_1027_4, events: 52538, hits: 2769869
+    Delta Time: 0.01
+    #122 part_1028_0, events: 53649, hits: 2631358
+    Delta Time: 0.01
+    #123 part_1028_1, events: 53778, hits: 2656327
+    Delta Time: 0.01
+    #124 part_1028_2, events: 53755, hits: 2643503
+    Delta Time: 0.01
+    #125 part_1028_3, events: 53732, hits: 2634704
+    Delta Time: 0.01
+    #126 part_1028_4, events: 53475, hits: 2631726
+    Delta Time: 0.01
+    #127 part_1029_0, events: 53692, hits: 2828340
+    Delta Time: 0.01
+    #128 part_1029_1, events: 53684, hits: 2837102
+    Delta Time: 0.01
+    #129 part_1029_2, events: 53727, hits: 2842814
+    Delta Time: 0.01
+    #130 part_1029_3, events: 53841, hits: 2849225
+    Delta Time: 0.01
+    #131 part_1029_4, events: 53258, hits: 2814505
+    Delta Time: 0.01
+    #132 part_1030_0, events: 53796, hits: 2652437
+    Delta Time: 0.01
+    #133 part_1030_1, events: 53762, hits: 2648962
+    Delta Time: 0.01
+    #134 part_1030_2, events: 53833, hits: 2650838
+    Delta Time: 0.01
+    #135 part_1030_3, events: 53735, hits: 2636436
+    Delta Time: 0.01
+    #136 part_1030_4, events: 52831, hits: 2596294
+    Delta Time: 0.01
+    #137 part_1031_0, events: 53787, hits: 2773174
+    Delta Time: 0.01
+    #138 part_1031_1, events: 53833, hits: 2785121
+    Delta Time: 0.01
+    #139 part_1031_2, events: 53784, hits: 2770886
+    Delta Time: 0.01
+    #140 part_1031_3, events: 53638, hits: 2769685
+    Delta Time: 0.01
+    #141 part_1031_4, events: 52289, hits: 2706009
+    Delta Time: 0.01
+    #142 part_1032_0, events: 53707, hits: 2766271
+    Delta Time: 0.01
+    #143 part_1032_1, events: 53706, hits: 2768189
+    Delta Time: 0.01
+    #144 part_1032_2, events: 53774, hits: 2788845
+    Delta Time: 0.01
+    #145 part_1032_3, events: 53869, hits: 2787952
+    Delta Time: 0.01
+    #146 part_1032_4, events: 53166, hits: 2748404
+    Delta Time: 0.01
+    #147 part_1033_0, events: 53777, hits: 2784046
+    Delta Time: 0.01
+    #148 part_1033_1, events: 53779, hits: 2787397
+    Delta Time: 0.01
+    #149 part_1033_2, events: 53648, hits: 2767680
+    Delta Time: 0.01
+    #150 part_1033_3, events: 53834, hits: 2787486
+    Delta Time: 0.01
+    #151 part_1033_4, events: 52722, hits: 2714647
+    Delta Time: 0.01
+    #152 part_1034_0, events: 53844, hits: 2862363
+    Delta Time: 0.01
+    #153 part_1034_1, events: 53781, hits: 2828302
+    Delta Time: 0.01
+    #154 part_1034_2, events: 53735, hits: 2829469
+    Delta Time: 0.01
+    #155 part_1034_3, events: 53762, hits: 2853750
+    Delta Time: 0.01
+    #156 part_1034_4, events: 53116, hits: 2808332
+    Delta Time: 0.01
+    #157 part_1037_0, events: 53803, hits: 2782956
+    Delta Time: 0.01
+    #158 part_1037_1, events: 53748, hits: 2780528
+    Delta Time: 0.01
+    #159 part_1037_2, events: 53765, hits: 2765548
+    Delta Time: 0.01
+    #160 part_1037_3, events: 53685, hits: 2771555
+    Delta Time: 0.01
+    #161 part_1037_4, events: 53350, hits: 2747551
+    Delta Time: 0.01
+    #162 part_1038_0, events: 53738, hits: 2749329
+    Delta Time: 0.01
+    #163 part_1038_1, events: 53787, hits: 2757883
+    Delta Time: 0.01
+    #164 part_1038_2, events: 53728, hits: 2745384
+    Delta Time: 0.01
+    #165 part_1038_3, events: 53719, hits: 2747490
+    Delta Time: 0.01
+    #166 part_1038_4, events: 53114, hits: 2719925
+    Delta Time: 0.01
+    #167 part_1039_0, events: 53785, hits: 2647717
+    Delta Time: 0.01
+    #168 part_1039_1, events: 53720, hits: 2649239
+    Delta Time: 0.01
+    #169 part_1039_2, events: 53845, hits: 2656975
+    Delta Time: 0.01
+    #170 part_1039_3, events: 53712, hits: 2647339
+    Delta Time: 0.01
+    #171 part_1039_4, events: 52182, hits: 2563212
+    Delta Time: 0.01
+    #172 part_1040_0, events: 53679, hits: 2769093
+    Delta Time: 0.01
+    #173 part_1040_1, events: 53822, hits: 2789897
+    Delta Time: 0.01
+    #174 part_1040_2, events: 53779, hits: 2774897
+    Delta Time: 0.01
+    #175 part_1040_3, events: 53697, hits: 2780401
+    Delta Time: 0.01
+    #176 part_1040_4, events: 53103, hits: 2734948
+    Delta Time: 0.01
+    #177 part_1041_0, events: 53716, hits: 2640488
+    Delta Time: 0.01
+    #178 part_1041_1, events: 53678, hits: 2654286
+    Delta Time: 0.01
+    #179 part_1041_2, events: 53845, hits: 2658003
+    Delta Time: 0.01
+    #180 part_1041_3, events: 53747, hits: 2659252
+    Delta Time: 0.01
+    #181 part_1041_4, events: 53610, hits: 2648423
+    Delta Time: 0.01
+    #182 part_1042_0, events: 53786, hits: 2712236
+    Delta Time: 0.01
+    #183 part_1042_1, events: 53643, hits: 2695982
+    Delta Time: 0.01
+    #184 part_1042_2, events: 53758, hits: 2711962
+    Delta Time: 0.01
+    #185 part_1042_3, events: 53777, hits: 2706483
+    Delta Time: 0.01
+    #186 part_1042_4, events: 53284, hits: 2669211
+    Delta Time: 0.01
+    #187 part_1044_0, events: 53640, hits: 2758548
+    Delta Time: 0.01
+    #188 part_1044_1, events: 53785, hits: 2792067
+    Delta Time: 0.01
+    #189 part_1044_2, events: 53759, hits: 2786947
+    Delta Time: 0.01
+    #190 part_1044_3, events: 53720, hits: 2779515
+    Delta Time: 0.01
+    #191 part_1044_4, events: 53568, hits: 2759907
+    Delta Time: 0.01
+    #192 part_1045_0, events: 53713, hits: 2715797
+    Delta Time: 0.01
+    #193 part_1045_1, events: 53792, hits: 2746443
+    Delta Time: 0.01
+    #194 part_1045_2, events: 53782, hits: 2735363
+    Delta Time: 0.01
+    #195 part_1045_3, events: 53763, hits: 2755045
+    Delta Time: 0.01
+    #196 part_1045_4, events: 52470, hits: 2674829
+    Delta Time: 0.01
+    #197 part_1047_0, events: 53734, hits: 2780518
+    Delta Time: 0.01
+    #198 part_1047_1, events: 53827, hits: 2780871
+    Delta Time: 0.01
+    #199 part_1047_2, events: 53838, hits: 2779323
+    Delta Time: 0.01
+    #200 part_1047_3, events: 53698, hits: 2769888
+    Delta Time: 0.01
+    #201 part_1047_4, events: 53676, hits: 2764848
+    Delta Time: 0.01
+    #202 part_1047_5, events: 319, hits: 17210
+    Delta Time: 0.00
+    #203 part_1048_0, events: 53749, hits: 2767573
+    Delta Time: 0.01
+    #204 part_1048_1, events: 53849, hits: 2763159
+    Delta Time: 0.01
+    #205 part_1048_2, events: 53711, hits: 2761924
+    Delta Time: 0.01
+    #206 part_1048_3, events: 53827, hits: 2786672
+    Delta Time: 0.01
+    #207 part_1048_4, events: 52558, hits: 2712640
+    Delta Time: 0.01
+    #208 part_1049_0, events: 53752, hits: 2700577
+    Delta Time: 0.01
+    #209 part_1049_1, events: 53816, hits: 2710979
+    Delta Time: 0.01
+    #210 part_1049_2, events: 53825, hits: 2719284
+    Delta Time: 0.01
+    #211 part_1049_3, events: 53717, hits: 2682217
+    Delta Time: 0.01
+    #212 part_1049_4, events: 53379, hits: 2679740
+    Delta Time: 0.01
+    #213 part_1050_0, events: 53733, hits: 2698830
+    Delta Time: 0.01
+    #214 part_1050_1, events: 53761, hits: 2687643
+    Delta Time: 0.01
+    #215 part_1050_2, events: 53700, hits: 2697057
+    Delta Time: 0.01
+    #216 part_1050_3, events: 53778, hits: 2701963
+    Delta Time: 0.01
+    #217 part_1050_4, events: 53143, hits: 2667034
+    Delta Time: 0.01
+    #218 part_1051_0, events: 53666, hits: 2761113
+    Delta Time: 0.01
+    #219 part_1051_1, events: 53733, hits: 2769137
+    Delta Time: 0.01
+    #220 part_1051_2, events: 53704, hits: 2763287
+    Delta Time: 0.95
+    #221 part_1051_3, events: 53697, hits: 2766625
+    Delta Time: 0.01
+    #222 part_1051_4, events: 52395, hits: 2690563
+    Delta Time: 0.25
+    #223 part_1052_0, events: 53728, hits: 2728703
+    Delta Time: 0.01
+    #224 part_1052_1, events: 53807, hits: 2730666
+    Delta Time: 0.01
+    #225 part_1052_2, events: 53858, hits: 2735512
+    Delta Time: 0.01
+    #226 part_1052_3, events: 53627, hits: 2723626
+    Delta Time: 0.01
+    #227 part_1052_4, events: 52637, hits: 2667763
+    Delta Time: 0.01
+    #228 part_1053_0, events: 53762, hits: 2794423
+    Delta Time: 0.01
+    #229 part_1053_1, events: 53751, hits: 2778917
+    Delta Time: 0.01
+    #230 part_1053_2, events: 53764, hits: 2784506
+    Delta Time: 0.01
+    #231 part_1053_3, events: 53595, hits: 2767413
+    Delta Time: 0.01
+    #232 part_1053_4, events: 52980, hits: 2736394
+    Delta Time: 0.05
+    #233 part_1054_0, events: 53737, hits: 2669640
+    Delta Time: 0.01
+    #234 part_1054_1, events: 53754, hits: 2656658
+    Delta Time: 0.01
+    #235 part_1054_2, events: 53733, hits: 2656420
+    Delta Time: 0.01
+    #236 part_1054_3, events: 53664, hits: 2642449
+    Delta Time: 0.01
+    #237 part_1054_4, events: 52945, hits: 2626132
+    Delta Time: 0.01
+    #238 part_1056_0, events: 53771, hits: 2648231
+    Delta Time: 0.95
+    #239 part_1056_1, events: 53813, hits: 2648952
+    Delta Time: 0.01
+    #240 part_1056_2, events: 53823, hits: 2665696
+    Delta Time: 0.01
+    #241 part_1056_3, events: 53711, hits: 2631541
+    Delta Time: 0.96
+    #242 part_1056_4, events: 52707, hits: 2597010
+    Delta Time: 0.94
+    #243 part_1057_0, events: 53759, hits: 2783497
+    Delta Time: 0.01
+    #244 part_1057_1, events: 53740, hits: 2775842
+    Delta Time: 0.95
+    #245 part_1057_2, events: 53709, hits: 2772544
+    Delta Time: 0.93
+    #246 part_1057_3, events: 53758, hits: 2775053
+    Delta Time: 0.24
+    #247 part_1057_4, events: 52914, hits: 2728914
+    Delta Time: 0.96
+    #248 part_1058_0, events: 53755, hits: 2777437
+    Delta Time: 0.01
+    #249 part_1058_1, events: 53721, hits: 2765074
+    Delta Time: 0.95
+    #250 part_1058_2, events: 53732, hits: 2778611
+    Delta Time: 0.95
+    #251 part_1058_3, events: 53761, hits: 2781089
+    Delta Time: 0.01
+    #252 part_1058_4, events: 52801, hits: 2721856
+    Delta Time: 0.95
+    #253 part_1059_0, events: 53904, hits: 2680284
+    Delta Time: 0.01
+    #254 part_1059_1, events: 53743, hits: 2665207
+    Delta Time: 0.95
+    #255 part_1059_2, events: 53710, hits: 2657229
+    Delta Time: 0.01
+    #256 part_1059_3, events: 53751, hits: 2668091
+    Delta Time: 0.29
+    #257 part_1059_4, events: 52756, hits: 2608464
+    Delta Time: 0.96
+    #258 part_1060_0, events: 53734, hits: 2778015
+    Delta Time: 0.96
+    #259 part_1060_1, events: 53613, hits: 2747445
+    Delta Time: 0.96
+    #260 part_1060_2, events: 53734, hits: 2773181
+    Delta Time: 0.95
+    #261 part_1060_3, events: 53802, hits: 2775427
+    Delta Time: 0.89
+    #262 part_1060_4, events: 53155, hits: 2734326
+    Delta Time: 0.01
+    #263 part_1061_0, events: 53853, hits: 2652252
+    Delta Time: 0.23
+    #264 part_1061_1, events: 53624, hits: 2645150
+    Delta Time: 0.96
+    #265 part_1061_2, events: 53875, hits: 2657286
+    Delta Time: 0.96
+    #266 part_1061_3, events: 53749, hits: 2652207
+    Delta Time: 0.95
+    #267 part_1061_4, events: 53502, hits: 2625552
+    Delta Time: 0.95
+    #268 part_1062_0, events: 53774, hits: 2769907
+    Delta Time: 0.92
+    #269 part_1062_1, events: 53720, hits: 2780187
+    Delta Time: 0.01
+    #270 part_1062_2, events: 53735, hits: 2787632
+    Delta Time: 0.01
+    #271 part_1062_3, events: 53780, hits: 2777739
+    Delta Time: 0.22
+    #272 part_1062_4, events: 53718, hits: 2792473
+    Delta Time: 0.96
+    #273 part_1063_0, events: 53822, hits: 2654045
+    Delta Time: 0.01
+    #274 part_1063_1, events: 53770, hits: 2637958
+    Delta Time: 0.95
+    #275 part_1063_2, events: 53673, hits: 2629943
+    Delta Time: 0.01
+    #276 part_1063_3, events: 53592, hits: 2641119
+    Delta Time: 0.95
+    #277 part_1063_4, events: 52979, hits: 2618113
+    Delta Time: 0.01
+    #278 part_1064_0, events: 53673, hits: 2758015
+    Delta Time: 0.96
+    #279 part_1064_1, events: 53805, hits: 2767553
+    Delta Time: 0.92
+    #280 part_1064_2, events: 53754, hits: 2766807
+    Delta Time: 0.01
+    #281 part_1064_3, events: 53811, hits: 2769084
+    Delta Time: 0.30
+    #282 part_1064_4, events: 52579, hits: 2690369
+    Delta Time: 0.96
+    #283 part_1065_0, events: 53743, hits: 2695658
+    Delta Time: 0.01
+    #284 part_1065_1, events: 53711, hits: 2705367
+    Delta Time: 0.95
+    #285 part_1065_2, events: 53726, hits: 2700064
+    Delta Time: 0.01
+    #286 part_1065_3, events: 53778, hits: 2723945
+    Delta Time: 0.01
+    #287 part_1065_4, events: 52703, hits: 2649193
+    Delta Time: 0.95
+    #288 part_1066_0, events: 53853, hits: 2776100
+    Delta Time: 0.96
+    #289 part_1066_1, events: 53752, hits: 2757182
+    Delta Time: 0.92
+    #290 part_1066_2, events: 53758, hits: 2776607
+    Delta Time: 0.01
+    #291 part_1066_3, events: 53758, hits: 2775319
+    Delta Time: 0.36
+    #292 part_1066_4, events: 53183, hits: 2739926
+    Delta Time: 0.96
+    #293 part_1067_0, events: 53679, hits: 2629094
+    Delta Time: 0.96
+    #294 part_1067_1, events: 53726, hits: 2640600
+    Delta Time: 0.95
+    #295 part_1067_2, events: 53694, hits: 2649940
+    Delta Time: 0.95
+    #296 part_1067_3, events: 53682, hits: 2650295
+    Delta Time: 0.01
+    #297 part_1067_4, events: 53477, hits: 2638702
+    Delta Time: 0.25
+    #298 part_1069_0, events: 53691, hits: 2658318
+    Delta Time: 0.05
+    #299 part_1069_1, events: 53780, hits: 2647463
+    Delta Time: 0.01
+    #300 part_1069_2, events: 53725, hits: 2645640
+    Delta Time: 0.01
+    #301 part_1069_3, events: 53742, hits: 2637640
+    Delta Time: 0.01
+    #302 part_1069_4, events: 52857, hits: 2597610
+    Delta Time: 0.05
+    #303 part_1070_0, events: 53832, hits: 2850725
+    Delta Time: 0.05
+    #304 part_1070_1, events: 53677, hits: 2836233
+    Delta Time: 0.01
+    #305 part_1070_2, events: 53722, hits: 2837406
+    Delta Time: 0.01
+    #306 part_1070_3, events: 53723, hits: 2825114
+    Delta Time: 0.03
+    #307 part_1070_4, events: 53210, hits: 2830992
+    Delta Time: 0.05
+    #308 part_1071_0, events: 53730, hits: 2779306
+    Delta Time: 0.05
+    #309 part_1071_1, events: 53667, hits: 2774416
+    Delta Time: 0.02
+    #310 part_1071_2, events: 53711, hits: 2776853
+    Delta Time: 0.03
+    #311 part_1071_3, events: 53842, hits: 2794232
+    Delta Time: 0.02
+    #312 part_1071_4, events: 52651, hits: 2737287
+    Delta Time: 0.03
+    #313 part_1072_0, events: 53666, hits: 2632240
+    Delta Time: 0.02
+    #314 part_1072_1, events: 53763, hits: 2638892
+    Delta Time: 0.01
+    #315 part_1072_2, events: 53786, hits: 2643995
+    Delta Time: 0.02
+    #316 part_1072_3, events: 53727, hits: 2636499
+    Delta Time: 0.01
+    #317 part_1072_4, events: 53069, hits: 2593956
+    Delta Time: 0.02
+    #318 part_1074_0, events: 53781, hits: 2784439
+    Delta Time: 0.05
+    #319 part_1074_1, events: 53816, hits: 2776352
+    Delta Time: 0.02
+    #320 part_1074_2, events: 53769, hits: 2771912
+    Delta Time: 0.02
+    #321 part_1074_3, events: 53796, hits: 2790570
+    Delta Time: 0.02
+    #322 part_1074_4, events: 52680, hits: 2722513
+    Delta Time: 0.01
+    #323 part_1075_0, events: 53735, hits: 2642676
+    Delta Time: 0.03
+    #324 part_1075_1, events: 53714, hits: 2661149
+    Delta Time: 0.01
+    #325 part_1075_2, events: 53802, hits: 2660251
+    Delta Time: 0.01
+    #326 part_1075_3, events: 53714, hits: 2664887
+    Delta Time: 0.02
+    #327 part_1075_4, events: 52666, hits: 2611133
+    Delta Time: 0.01
+    #328 part_1077_0, events: 53663, hits: 2630622
+    Delta Time: 0.02
+    #329 part_1077_1, events: 53837, hits: 2652402
+    Delta Time: 0.01
+    #330 part_1077_2, events: 53727, hits: 2643089
+    Delta Time: 0.03
+    #331 part_1077_3, events: 53801, hits: 2657282
+    Delta Time: 0.02
+    #332 part_1077_4, events: 51926, hits: 2562675
+    Delta Time: 0.03
+    #333 part_1078_0, events: 53827, hits: 2764160
+    Delta Time: 0.02
+    #334 part_1078_1, events: 53748, hits: 2762118
+    Delta Time: 0.02
+    #335 part_1078_2, events: 53760, hits: 2773137
+    Delta Time: 0.03
+    #336 part_1078_3, events: 53709, hits: 2780320
+    Delta Time: 0.01
+    #337 part_1078_4, events: 52826, hits: 2729460
+    Delta Time: 0.02
+    #338 part_1079_0, events: 53751, hits: 2780587
+    Delta Time: 0.02
+    #339 part_1079_1, events: 53921, hits: 2784805
+    Delta Time: 0.02
+    #340 part_1079_2, events: 53725, hits: 2773285
+    Delta Time: 0.02
+    #341 part_1079_3, events: 53696, hits: 2770795
+    Delta Time: 0.03
+    #342 part_1079_4, events: 52370, hits: 2689963
+    Delta Time: 0.02
+    #343 part_1080_0, events: 53769, hits: 2649897
+    Delta Time: 0.01
+    #344 part_1080_1, events: 53766, hits: 2648629
+    Delta Time: 0.01
+    #345 part_1080_2, events: 53610, hits: 2621707
+    Delta Time: 0.01
+    #346 part_1080_3, events: 53768, hits: 2642612
+    Delta Time: 0.02
+    #347 part_1080_4, events: 53565, hits: 2639467
+    Delta Time: 0.01
+    #348 part_1081_0, events: 53625, hits: 2827716
+    Delta Time: 0.02
+    #349 part_1081_1, events: 53797, hits: 2837079
+    Delta Time: 0.02
+    #350 part_1081_2, events: 53786, hits: 2832261
+    Delta Time: 0.03
+    #351 part_1081_3, events: 53754, hits: 2849837
+    Delta Time: 0.03
+    #352 part_1081_4, events: 52389, hits: 2776385
+    Delta Time: 0.02
+    #353 part_1082_0, events: 53701, hits: 2733357
+    Delta Time: 0.02
+    #354 part_1082_1, events: 53769, hits: 2723594
+    Delta Time: 0.01
+    #355 part_1082_2, events: 53650, hits: 2716955
+    Delta Time: 0.01
+    #356 part_1082_3, events: 53776, hits: 2729602
+    Delta Time: 0.02
+    #357 part_1082_4, events: 52830, hits: 2676660
+    Delta Time: 0.01
+    #358 part_1083_0, events: 53798, hits: 2655677
+    Delta Time: 0.03
+    #359 part_1083_1, events: 53758, hits: 2641588
+    Delta Time: 0.02
+    #360 part_1083_2, events: 53833, hits: 2646337
+    Delta Time: 0.01
+    #361 part_1083_3, events: 53711, hits: 2638625
+    Delta Time: 0.02
+    #362 part_1083_4, events: 52564, hits: 2601856
+    Delta Time: 0.01
+    #363 part_1084_0, events: 53697, hits: 2641469
+    Delta Time: 0.02
+    #364 part_1084_1, events: 53807, hits: 2666218
+    Delta Time: 0.03
+    #365 part_1084_2, events: 53711, hits: 2650683
+    Delta Time: 0.03
+    #366 part_1084_3, events: 53749, hits: 2655119
+    Delta Time: 0.02
+    #367 part_1084_4, events: 52474, hits: 2586550
+    Delta Time: 0.01
+    #368 part_1085_0, events: 53804, hits: 2657331
+    Delta Time: 0.01
+    #369 part_1085_1, events: 53822, hits: 2656841
+    Delta Time: 0.01
+    #370 part_1085_2, events: 53727, hits: 2647181
+    Delta Time: 0.01
+    #371 part_1085_3, events: 53832, hits: 2651805
+    Delta Time: 0.02
+    #372 part_1085_4, events: 53301, hits: 2619284
+    Delta Time: 0.03
+    #373 part_1086_0, events: 53741, hits: 2647392
+    Delta Time: 0.01
+    #374 part_1086_1, events: 53800, hits: 2644555
+    Delta Time: 0.02
+    #375 part_1086_2, events: 53746, hits: 2651954
+    Delta Time: 0.01
+    #376 part_1086_3, events: 53666, hits: 2632385
+    Delta Time: 0.01
+    #377 part_1086_4, events: 52893, hits: 2603701
+    Delta Time: 0.02
+    #378 part_1087_0, events: 53720, hits: 2638312
+    Delta Time: 0.02
+    #379 part_1087_1, events: 53743, hits: 2650305
+    Delta Time: 0.02
+    #380 part_1087_2, events: 53728, hits: 2671074
+    Delta Time: 0.01
+    #381 part_1087_3, events: 53738, hits: 2654040
+    Delta Time: 0.03
+    #382 part_1087_4, events: 51938, hits: 2563276
+    Delta Time: 0.03
+    #383 part_1089_0, events: 53750, hits: 2774860
+    Delta Time: 0.02
+    #384 part_1089_1, events: 53611, hits: 2756452
+    Delta Time: 0.02
+    #385 part_1089_2, events: 53653, hits: 2773485
+    Delta Time: 0.03
+    #386 part_1089_3, events: 53644, hits: 2759230
+    Delta Time: 0.01
+    #387 part_1089_4, events: 52798, hits: 2729466
+    Delta Time: 0.03
+    #388 part_1090_0, events: 53734, hits: 2823396
+    Delta Time: 0.02
+    #389 part_1090_1, events: 53642, hits: 2824850
+    Delta Time: 0.02
+    #390 part_1090_2, events: 53776, hits: 2832420
+    Delta Time: 0.02
+    #391 part_1090_3, events: 53707, hits: 2834122
+    Delta Time: 0.02
+    #392 part_1090_4, events: 53349, hits: 2811770
+    Delta Time: 0.01
+    #393 part_1091_0, events: 53786, hits: 2757689
+    Delta Time: 0.02
+    #394 part_1091_1, events: 53752, hits: 2745423
+    Delta Time: 0.01
+    #395 part_1091_2, events: 53824, hits: 2763276
+    Delta Time: 0.02
+    #396 part_1091_3, events: 53771, hits: 2750045
+    Delta Time: 0.02
+    #397 part_1091_4, events: 53183, hits: 2717520
+    Delta Time: 0.02
+    #398 part_1092_0, events: 53750, hits: 2628300
+    Delta Time: 0.02
+    #399 part_1092_1, events: 53786, hits: 2646289
+    Delta Time: 0.02
+    #400 part_1092_2, events: 53722, hits: 2648206
+    Delta Time: 0.03
+    #401 part_1092_3, events: 53844, hits: 2663000
+    Delta Time: 0.01
+    #402 part_1092_4, events: 52596, hits: 2588384
+    Delta Time: 0.02
+    #403 part_1093_0, events: 53815, hits: 2785639
+    Delta Time: 0.01
+    #404 part_1093_1, events: 53795, hits: 2784418
+    Delta Time: 0.01
+    #405 part_1093_2, events: 53686, hits: 2774090
+    Delta Time: 0.01
+    #406 part_1093_3, events: 53657, hits: 2764981
+    Delta Time: 0.03
+    #407 part_1093_4, events: 53515, hits: 2749500
+    Delta Time: 0.01
+    #408 part_1094_0, events: 53843, hits: 2835801
+    Delta Time: 0.01
+    #409 part_1094_1, events: 53869, hits: 2836197
+    Delta Time: 0.03
+    #410 part_1094_2, events: 53721, hits: 2835827
+    Delta Time: 0.01
+    #411 part_1094_3, events: 53781, hits: 2841106
+    Delta Time: 0.01
+    #412 part_1094_4, events: 52030, hits: 2740506
+    Delta Time: 0.02
+    #413 part_1095_0, events: 53740, hits: 2834068
+    Delta Time: 0.01
+    #414 part_1095_1, events: 53785, hits: 2850064
+    Delta Time: 0.01
+    #415 part_1095_2, events: 53787, hits: 2851648
+    Delta Time: 0.02
+    #416 part_1095_3, events: 53720, hits: 2836283
+    Delta Time: 0.02
+    #417 part_1095_4, events: 52823, hits: 2788682
+    Delta Time: 0.02
+    #418 part_1096_0, events: 53760, hits: 2774762
+    Delta Time: 0.01
+    #419 part_1096_1, events: 53834, hits: 2800580
+    Delta Time: 0.01
+    #420 part_1096_2, events: 53730, hits: 2760007
+    Delta Time: 0.01
+    #421 part_1096_3, events: 53840, hits: 2770700
+    Delta Time: 0.01
+    #422 part_1096_4, events: 53231, hits: 2749972
+    Delta Time: 0.01
+    #423 part_1097_0, events: 53670, hits: 2653145
+    Delta Time: 0.01
+    #424 part_1097_1, events: 53717, hits: 2665617
+    Delta Time: 0.01
+    #425 part_1097_2, events: 53755, hits: 2671526
+    Delta Time: 0.01
+    #426 part_1097_3, events: 53795, hits: 2684034
+    Delta Time: 0.01
+    #427 part_1097_4, events: 53418, hits: 2643489
+    Delta Time: 0.01
+    #428 part_1098_0, events: 53876, hits: 2772432
+    Delta Time: 0.01
+    #429 part_1098_1, events: 53736, hits: 2747934
+    Delta Time: 0.01
+    #430 part_1098_2, events: 53657, hits: 2756880
+    Delta Time: 0.01
+    #431 part_1098_3, events: 53704, hits: 2758139
+    Delta Time: 0.01
+    #432 part_1098_4, events: 52494, hits: 2694834
+    Delta Time: 0.01

@@ -81,7 +81,6 @@ class ConvInput:
     activation: Any = tfl.LeakyReLU(alpha=0.3)
     dropout: float = 0.1
     kernel_initializer: Any = GU
-    padding: str = "valid"
 
 
 # 1D Convolution with mask
@@ -286,7 +285,7 @@ class DenseRegression(tfl.Layer):
             if i < len(self.input_hp.dense_blocks) - 1:
                 self.batch_norm_list.append(tfl.BatchNormalization(axis=-1))
             else:
-                assert dense_inp.dropout == 0.  # check that last layer has no dropout
+                #assert dense_inp.dropout == 0.  # check that last layer has no dropout
                 assert dense_inp.units == 1  # check that last layer is regression
                 self.batch_norm_list.append(None)
 

@@ -6,7 +6,7 @@ import time
 import yaml
 from pathlib import Path
 
-from h5_info.funcs import get_structure_h5, get_h5_name, collect_info
+from DataAnalysis.funcs import get_structure_h5, get_h5_name, collect_info
 
 
 def generate_postfix(filters):

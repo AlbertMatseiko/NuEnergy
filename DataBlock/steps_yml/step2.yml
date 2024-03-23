@@ -1,7 +1,5 @@
-filtered_h5_name: "baikal_multi_1223_flat_doubles_H6_Q2_S2"
-neutrino: "all"
+filtered_h5_name: "baikal_multi_1223_flat_signal_H5_S2"
 
 #typycal numbers after step1: ~1.5e7 nu2, ~5e5 nuatm
-atm_e2_ratio_in_train_test: [1, 1]
-num_in_train: 500000
-num_in_test: 40000
+num_in_train: 1500000
+num_in_test: 100000

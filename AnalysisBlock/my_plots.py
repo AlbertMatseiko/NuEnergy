@@ -5,8 +5,10 @@ from matplotlib import colors
 from scipy.stats import norm
 import os
 
-from NNBlock.preds_funcs import *
-
+try:
+    from .preds_funcs import *
+except:
+    from preds_funcs import *
 
 # Plotting functions
 
@@ -121,7 +123,7 @@ def plot_hists2d(pred, true, weights=None, size: int = None,
     return fig
 
 
-def plot_x(pred, true, weights=None, x_axis=np.arange(-10, 10, 0.001),  # Plot between -10 and 10 with .001 steps.
+def plot_z(pred, true, weights=None, x_axis=np.arange(-10, 10, 0.001),  # Plot between -10 and 10 with .001 steps.
            title="Z-score distribution", path_to_save="./"):
     if weights is None:
         weights = np.array([1.] * len(pred[:, 0]))
@@ -200,3 +202,5 @@ if __name__ == "__main__":
     # print(nlogE_MAE()(labels, preds))
 
     print(preds.shape)
+
+# TODO: add plot for z divergence

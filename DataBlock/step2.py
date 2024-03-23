@@ -3,21 +3,30 @@ import h5py as h5
 import time
 import yaml
 from pathlib import Path
-
-from h5_info.funcs import collect_info
-
+from DataAnalysis.funcs import collect_info
 
 # generate postfix to step2 h5 name from config
 def generate_postfix(config_dict):
-    nu_regime = config_dict['neutrino']
-    if nu_regime == 'all':
-        ratio = config_dict['atm_e2_ratio_in_train_test']
-    else:
-        ratio = ''
     num_train = config_dict['num_in_train']
     num_test = config_dict['num_in_test']
-    return f"_{nu_regime}_{ratio[0]}_{ratio[1]}_train{num_train}_test{num_test}"
+    return f"_FlatE_train{num_train}_test{num_test}"
 
+# mask events to make flat energy spectra
+def idxs_flatten_spec(E):
+    start, stop, bins = np.log10(10), 6., 200
+    e_range = np.linspace(start, stop, bins+1)
+
+    nums = []
+    for bin_start, bin_stop in zip(e_range[:-1], e_range[1:]):
+        nums.append(E[(E>bin_start) * (E<=bin_stop)].shape[0])
+    num_per_bin = min(nums)
+        
+    idxs = np.array([], dtype=int)
+    for bin_start, bin_stop in zip(e_range[:-1], e_range[1:]):
+        bin_mask = ((E>bin_start) * (E<=bin_stop)) #masks all events inside current bin
+        idxs_bin = np.where(bin_mask)[0]
+        idxs = np.append(idxs, idxs_bin[:num_per_bin], axis=0) #append (only a number) of global idxs of events inside current bin
+    return np.random.permutation(idxs)
 
 # routine to shuffle flat data
 def shuffle_data(permutation, data, ev_starts):
@@ -35,135 +44,123 @@ def shuffle_data(permutation, data, ev_starts):
         ev_starts_new[j + 1] = ev_starts_new[j] + length
     return data_new, ev_starts_new
 
+def get_new_flat_data(idxs, starts, data):
+    new_starts = np.zeros(len(idxs)+1, dtype=int)
+    for i_new, i_old in enumerate(idxs):
+        new_starts[i_new+1] = new_starts[i_new] + (starts[i_old+1]-starts[i_old])
+        
+    lengs = np.diff(new_starts)
+    new_data = np.zeros((sum(lengs),5), dtype=np.float32)
+    for i_new, i_old in enumerate(idxs):
+        new_data[new_starts[i_new]:new_starts[i_new+1]] = data[starts[i_old]:starts[i_old+1]]
+    return new_starts, new_data
 
-def get_indxs_dict(hf, config_dict, path_to_log):
-    len_train = config_dict[f'num_in_train']
-    len_test = config_dict[f'num_in_test']
-    ratio = config_dict['atm_e2_ratio_in_train_test'][0] / config_dict['atm_e2_ratio_in_train_test'][1]
-
-
-    if config_dict['neutrino'] == 'all':
-        idxs = {'nuatm': {}, 'nu2': {}}
-        # get train
-        len_train_nuatm = int(ratio / (1 + ratio) * len_train)
-        len_train_nu2 = len_train - len_train_nuatm
-        idxs['nuatm']['train'] = list(range(0, len_train_nuatm))
-        idxs['nu2']['train'] = list(range(0, len_train_nu2))
-
-        # get test
-        len_test_nuatm = int(ratio / (1 + ratio) * len_test)
-        len_test_nu2 = len_test - len_test_nuatm
-        idxs['nuatm']['test'] = list(range(len_train_nuatm, len_train_nuatm + len_test_nuatm))
-        idxs['nu2']['test'] = list(range(len_train_nu2, len_train_nu2 + len_test_nu2))
-
-        # get val
-        idxs['nuatm']['val'] = list(range(len_train_nuatm + len_test_nuatm, hf[f"nuatm/ev_ids"].shape[0]))
-        idxs['nu2']['val'] = list(range(len_train_nu2 + len_test_nu2, hf[f"nu2/ev_ids"].shape[0]))
-    else:
-        particle = config_dict['neutrino']
-        idxs = {particle: {}}
-        # get train
-        idxs[particle]['train'] = list(range(0, len_train))
-        # get test
-        idxs[particle]['test'] = list(range(len_train, len_train + len_test))
-        # get val
-        idxs[particle]['val'] = list(range(len_train + len_test, hf[f"{particle}/ev_ids"].shape[0]))
-
-    if path_to_log is not None:
-        for p, d in idxs.items():
-            for regime in d.keys():
-                print(f"{p} {regime} number: {len(d[regime])}\n",
-                      file=open(path_to_log, 'a'))
-    return idxs
-
-
+# MAIN
 def step2(config_dict, filtered_h5_name=None):
     '''
     Routine to split filtered h5 dataset in train, test and val datasets.
     '''
+    
+    # declare paths to output and logs
     if filtered_h5_name is None:
         filtered_h5_name = config_dict['filtered_h5_name']
     postfix = generate_postfix(config_dict)
-
+    
     time0 = time.time()
     path_to_output = Path(__file__).parent.absolute() / "data" / filtered_h5_name
     path_to_filtered_h5 = path_to_output / "step1.h5"
     path_to_output_h5 = path_to_output / f"step2{postfix}.h5"
-
+    
     # make dir to process
     # touch log file
     path_to_log = f"{path_to_output}/step2{postfix}_logs.txt"
-
+    print(f"Start of step2!", file=open(path_to_log, 'w'))
+    
+    """start reading and writing data"""
+    # concatenate particles
     with h5.File(path_to_filtered_h5, 'r') as hf:
         with h5.File(path_to_output_h5, 'w') as hfout:
-
-            # prepare indxs for each particle to take in new h5
-            ev_idxs_dict = get_indxs_dict(hf, config_dict, path_to_log=path_to_log)
-
-            # make datasets by their events idxs
-            for regime in ['train', 'test', 'val']:
-                print(f"Regime: {regime}", file=open(path_to_log, 'a'))
-
-                # separately work with flat data
-                data_fields = ["data", "ev_starts"]
-                particle_keys = list(ev_idxs_dict.keys())
-                data_list = []
-                ev_starts_list = []
-                print(f"  Data and EvStarts", file=open(path_to_log, 'a'))
-                for particle in particle_keys:
-                    idxs = ev_idxs_dict[particle][regime]
-                    starts = hf[f"{particle}/ev_starts"][idxs + [idxs[-1] + 1]]
-                    start, end = starts[0], starts[-1]
-                    data_list.append(hf[f"{particle}/data"][start:end])
-                    ev_starts_list.append(starts - start)
-                    print(f"  {particle} is Done", file=open(path_to_log, 'a'))
-                data_new = np.concatenate(data_list, axis=0)
-                print(f"  data recalculated", file=open(path_to_log, 'a'))
-                # shift nu hits' starts in order to concat mu and nu flat data correctly
-                for i in range(1, len(ev_starts_list)):
-                    ev_starts_list[i] = ev_starts_list[i][1:] + ev_starts_list[i - 1][-1]
-                ev_starts_new = np.concatenate(ev_starts_list, axis=0)
-                print(f"  ev_starts recalculated", file=open(path_to_log, 'a'))
-                print(f"    Total hits: {data_new.shape[0]}; Total events: {ev_starts_new.shape[0]}",
-                      file=open(path_to_log, 'a'))
-                assert ev_starts_new[-1] == data_new.shape[0]
-                # shuffle if train
-                if regime == 'train':
-                    # make permuted indexes of events for train
-                    permutation = np.random.permutation(ev_starts_new.shape[0] - 1)
-                    data_new, ev_starts_new = shuffle_data(permutation, data_new, ev_starts_new)
-                    print(
-                        f"    Permutation is done. Total hits: {data_new.shape[0]}; Total events: {ev_starts_new.shape[0]}",
-                        file=open(path_to_log, 'a'))
-                hfout.create_dataset(f"{regime}/data", data=data_new)
-                hfout.create_dataset(f"{regime}/ev_starts", data=ev_starts_new)
-
-                # separately work with not flat info
-                events_fields = [f for f in list(hf[f"nuatm"].keys()) if f not in data_fields]
-                print(f"  Other Keys", file=open(path_to_log, 'a'))
-                for field in events_fields:
-                    particle_keys = list(ev_idxs_dict.keys())
-                    list_to_concat = []
-                    print(f"  Key: {field}", file=open(path_to_log, 'a'))
-                    for particle in particle_keys:
-                        idxs = ev_idxs_dict[particle][regime]
-                        array = hf[f"{particle}/{field}"][idxs]
-                        list_to_concat.append(array)
-                        print(f"    {particle} is Done", file=open(path_to_log, 'a'))
-                    new_array = np.concatenate(list_to_concat, axis=0)
-                    print(f"    output shape: {new_array.shape}", file=open(path_to_log, 'a'))
-                    # shuffle if train
-                    if regime == 'train':
-                        new_array = new_array[permutation]
-                        print(f"  output shape after permutation: {new_array.shape}", file=open(path_to_log, 'a'))
-                    hfout.create_dataset(f"{regime}/{field}", data=new_array)
+            D = dict(data=[], ev_ids=[], ev_starts=[], 
+                     individ_muon_energy=[], log10Emu=[], 
+                     num_un_strings=[], prime_prty=[])
+            for key, arr in D.items():
+                for particle in hf.keys():
+                    arr.append(hf[f'{particle}/{key}'][:])
+                if key=='ev_starts':
+                    arr[1] = (arr[0][-1]-arr[0][0]) + (arr[1][1:]-arr[1][0])
+                arr = np.concatenate(arr, axis=0)
+                
+                hfout.create_dataset(f"all/{key}", data=arr)
+                arr = []
+    print(f"Dataset for 'all' is created", file=open(path_to_log, 'a'))
+                
+    # create train/test/val datasets       
+    with h5.File(path_to_output_h5, 'a') as hf:
+        E = hf['all/log10Emu'][:]
+        idxs = idxs_flatten_spec(E)
+        print(f"Idxes are loaded", file=open(path_to_log, 'a'))
+        
+        starts = hf['all/ev_starts'][:]
+        data = hf['all/data'][:]
+        starts, data = get_new_flat_data(idxs, starts, data)
+        print(f"Flat data is loaded", file=open(path_to_log, 'a'))
+        #print(len(data))
+        #print(len(starts))
+        #print(starts[0], starts[-1])
+        assert len(starts)==len(idxs)+1
+        assert len(data)==starts[-1]
+        assert len(data)==np.diff(starts).sum()
+        
+        num_in_train = config_dict['num_in_train']
+        num_in_test = config_dict['num_in_test']
+        start = 0
+        stop = num_in_train+1
+        hf.create_dataset(f"train/ev_starts", data=starts[start:stop]-starts[start])
+        hf.create_dataset(f"train/data", data=data[starts[start]:starts[stop]])
+        print(f"Train flat data is uploaded", file=open(path_to_log, 'a'))
+        
+        start = num_in_train
+        stop = num_in_test+num_in_train+1
+        hf.create_dataset(f"test/ev_starts", data=starts[start:stop]-starts[start])
+        hf.create_dataset(f"test/data", data=data[starts[start]:starts[stop]])
+        print(f"Test flat data is uploaded", file=open(path_to_log, 'a'))
+        
+        start = num_in_train + num_in_test
+        hf.create_dataset(f"val/ev_starts", data=starts[start:]-starts[start])
+        hf.create_dataset(f"val/data", data=data[starts[start]:starts[-1]])
+        print(f"Val flat data is uploaded", file=open(path_to_log, 'a'))
+        
+        starts, data = 0, 0
+        print(f"Flat data is splited", file=open(path_to_log, 'a'))
+        del hf[f'all/data']
+        del hf[f'all/ev_starts']
+        
+    for key in ['ev_ids', 'individ_muon_energy', 'log10Emu', 'num_un_strings', 'prime_prty']:
+        print(f'{key}')
+        with h5.File(path_to_output_h5, 'r') as hf:
+            train = hf[f'all/{key}'][:]
+            train = train[idxs[:num_in_train]]
+            
+            test = hf[f'all/{key}'][:]
+            test = test[idxs[num_in_train:num_in_train+num_in_test]]
+            
+            val = hf[f'all/{key}'][:]
+            val = val[idxs[num_in_train+num_in_test:]][:]
+            print(f"{key} is readed", file=open(path_to_log, 'a'))
+        with h5.File(path_to_output_h5, 'a') as hf:
+            hf.create_dataset(f"train/{key}", data=train)
+            hf.create_dataset(f"test/{key}", data=test)
+            hf.create_dataset(f"val/{key}", data=val)
+            del hf[f'all/{key}']
+            print(f"{key} is splited", file=open(path_to_log, 'a'))
+            train, test, val = 0, 0, 0
+    print(f"All data is splited!", file=open(path_to_log, 'a'))
+        
     collect_info(path_to_output_h5, path_to_output, name=f"Step2{postfix}FileStructure")
-    print(f"Totally passed = {time.time() - time0}")
-
+    print(f"Totally passed = {time.time() - time0}", file=open(path_to_log, 'a'))      
     return f"step2{postfix}"
 
-
 if __name__ == "__main__":
-    path_to_yml = Path(__file__).parent.absolute() / 'step2.yml'
+    path_to_yml = Path(__file__).parent.absolute() / 'steps_yml/step2v2.yml'
     config_dict = yaml.safe_load(Path(path_to_yml).read_text())
     step2(config_dict)

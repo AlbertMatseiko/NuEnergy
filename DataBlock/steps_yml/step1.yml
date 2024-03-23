@@ -26,4 +26,4 @@ filters:
     strings: [2, *inf]
     Q: [0, *inf]
     E_prime: [0, *inf]
-    E_indmu: [1, 400000]
+    E_indmu: [10, 1000000]

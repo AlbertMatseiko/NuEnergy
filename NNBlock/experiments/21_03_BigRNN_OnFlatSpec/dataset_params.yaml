@@ -1,0 +1,19 @@
+apply_Q_log: false
+apply_add_gauss: false
+apply_mult_gauss: false
+batch_size: 512
+g_add_stds:
+- 0.03
+- 0.005
+- 0.005
+- 0.005
+- 3.0e-05
+path_to_h5: /home/albert/Baikal/NuEnergy/DataBlock/data/baikal_multi_1223_flat_signal_H4_S2_Emu10to1000000/step3_FlatE_train1500000_test100000_normlog10E.h5
+q_noise_fraction: 0.1
+set_up_Q_lim: true
+shape: !!python/tuple
+- null
+- 6
+start: 0
+up_Q_lim: 100.0
+use_weights: false

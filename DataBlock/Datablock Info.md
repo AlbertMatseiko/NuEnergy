@@ -42,12 +42,12 @@ As function, *step1* returns the path to created dataset, that in term goes as i
 Function *step2* from ```step2.py``` script collects data from step1.h5 and devides it into train/test/val datasets according to ```steps_yml/step_2.yml``` configurations. That are:
 
 - ```filtered_h5_name``` $-$ name of directory, where step1.h5 file was created. 
-- ```neutrino```. 'nuatm', 'nu2' or 'all' $-$ which type of particle to include in the output dataset.
-- ```atm_e2_ratio_in_train_test```. Set [m,n] to have ratio of events in train/val equal to m/n. 
 - ```num_in_train``` $-$ number of events to add into 'train' dataset
 - ```num_in_test``` $-$ number of events to add into 'test' dataset
 
 'val' dataset contains evetns from *step1.h5* file, that were not added to 'train' or 'test'.
+
+It also SELECTS EVENTS such that ```log10Emu``` energy spectra is uniform!
 
 *step2* creates the output *HDF5* dataset (e.g. "baikal_multi_1223_flat_signal_H5_S2/step2_all_1_1_train600000_test40000.h5") and saves logs (e.g. "baikal_multi_1223_flat_signal_H5_S2/step2_all_1_1_train600000_test40000.txt").
 

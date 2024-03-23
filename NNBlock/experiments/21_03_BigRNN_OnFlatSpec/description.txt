@@ -1,0 +1,1 @@
+Training big RNN on a new file with flat spectrum of energy. Without gauss noise.

@@ -2,7 +2,7 @@ import numpy as np
 import h5py as h5
 import yaml
 from pathlib import Path
-from h5_info.funcs import collect_info
+from DataAnalysis.funcs import collect_info
 
 
 def step3(config_dict, h5_name=None):
@@ -14,7 +14,7 @@ def step3(config_dict, h5_name=None):
         postfix += '_normlog10E'
     path_to_output = Path(__file__).parent.absolute() / "data" / h5_name
     path_to_input_h5 = path_to_output / f"{step_name}.h5"
-    path_to_output_h5 = path_to_output / f"step3{postfix}_normed.h5"
+    path_to_output_h5 = path_to_output / f"step3{postfix}.h5"
     path_to_log = f"{path_to_output}/step3{postfix}_logs.txt"
     log_file = open(path_to_log, 'w')
     with h5.File(path_to_input_h5, 'r') as hf:
@@ -26,7 +26,7 @@ def step3(config_dict, h5_name=None):
             hfout.create_dataset(f"norm_params/mean", data=mean)
             hfout.create_dataset(f"norm_params/std", data=std)
 
-            for regime in list(hf.keys()):
+            for regime in ['train','test','val']:
                 data_normed = np.array((hf[f"{regime}/data"][:] - mean) / std, dtype=np.float32)
                 hfout.create_dataset(f"{regime}/data", data=data_normed)
 
@@ -41,7 +41,7 @@ def step3(config_dict, h5_name=None):
                       file=open(path_to_log, 'a'))
                 hfout.create_dataset(f"norm_params/log10Emu_mean", data=log10e_mean)
                 hfout.create_dataset(f"norm_params/log10Emu_std", data=log10e_std)
-                for regime in list(hf.keys()):
+                for regime in ['train','test','val']:
                     log10e_normed = np.array((hf[f"{regime}/log10Emu"][:] - log10e_mean) / log10e_std,
                                              dtype=np.float32)
                     hfout.create_dataset(f"{regime}/log10Emu_norm", data=log10e_normed)
@@ -49,7 +49,7 @@ def step3(config_dict, h5_name=None):
     collect_info(path_to_output_h5, path_to_output, name=f"Step3{postfix}FileStructure")
     log_file.close()
 
-    return f"step3{postfix}_normed"
+    return f"step3{postfix}"
 
 
 if __name__ == "__main__":
