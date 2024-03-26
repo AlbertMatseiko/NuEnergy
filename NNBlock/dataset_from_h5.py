@@ -53,7 +53,8 @@ class generator:
     def __init__(self, path_to_h5, regime, batch_size,
                  set_up_Q_lim, up_Q_lim,
                  apply_add_gauss, g_add_stds, apply_mult_gauss, q_noise_fraction, apply_Q_log=False, start=0,
-                 use_weights=True):
+                 use_weights=True,
+                 use_Enorm=False):
 
         self.path_to_h5 = path_to_h5
         self.regime = regime
@@ -91,6 +92,7 @@ class generator:
 
         # load weights for energy distribution
         self.use_weights = use_weights
+        self.use_Enorm = use_Enorm
         path_to_h5_dir = get_dir_name(path_to_h5)
         self.dist_of_weights = tf.cast(np.load(f"{path_to_h5_dir}/weights_distr_train.npy"), tf.float32)
 
@@ -117,7 +119,10 @@ class generator:
         data_stop = ev_starts[-1]
         data = hf[self.regime + '/data'][data_start: data_stop]
         labels = np.zeros((self.batch_size, 2))
-        labels[:, 0:1] = hf[f'{self.regime}/log10Emu_norm'][start:stop]
+        if self.use_Enorm:
+            labels[:, 0:1] = hf[f'{self.regime}/log10Emu_norm'][start:stop]
+        else:
+            labels[:, 0:1] = hf[f'{self.regime}/log10Emu'][start:stop]
         if self.set_up_Q_lim:
             data[:, 0:1] = np.where(data[:, 0:1] > self.Q_up_lim_norm, self.Q_up_lim_norm, data[:, 0:1])
 
@@ -132,16 +137,13 @@ class generator:
             data[:, 0] = (Q_log - self.Q_log_mean) / self.Q_log_std
             self.norm_zeros[0] = (-1e6 - self.Q_log_mean) / self.Q_log_std
 
-        check = 1
-        while check:
-            try:
-                data = tf.RaggedTensor.from_row_starts(values=data, row_starts=ev_starts[0:-1] - ev_starts[0])
-                check = 0
-            except:
-                check = 1
+        data = tf.RaggedTensor.from_row_starts(values=data, row_starts=ev_starts[0:-1]-ev_starts[0])
         data = data.to_tensor(default_value=self.norm_zeros)
-        mask = tf.where(tf.not_equal(data[:, :, 1:2], self.norm_zeros[1:2]), 1., 0.)
+        mask = tf.where(tf.not_equal(data[:,:,1:2], self.norm_zeros[1:2]), 1., 0.)
+
+        assert data.shape[-1]==5            
         data = tf.concat([data, mask], axis=-1)
+        assert data.shape[-1]==6    
 
         if self.use_weights:
             weights = get_weights_tf(labels[:, 0:1], weights_hist=self.dist_of_weights)
@@ -154,8 +156,22 @@ class generator:
         stop = self.start + self.batch_size
         for i in range(self.batch_num):
             ev_starts = self.hf[self.regime + '/ev_starts'][start:stop + 1]
-            out_data = self.step(start, stop, ev_starts)
-            #print(out_data[0].shape, file=open('./shapes.txt', "a"))
+            
+            # Костыль для правильной работы cnn. Есть какая-то фундаментальная проблема типа коллизии в tf
+            check=1
+            while check>0:
+                try:
+                    out_data = self.step(start, stop, ev_starts)
+                    check=0
+                except:
+                    print("Error occured")
+                    print("check num: ", check)
+                    print("Start-stop: ", start, stop)
+                    print("ev_starts shape: ", ev_starts.shape)
+                    out_data = self.step(start, stop, ev_starts)
+                    check+=1
+                    if check>50:
+                        break
             yield out_data
             start += self.batch_size
             stop += self.batch_size
@@ -178,6 +194,7 @@ class DatasetInput:
     apply_mult_gauss: bool = False
     q_noise_fraction: float = 0.1
     use_weights: bool = True
+    use_Enorm: bool = False
 
 
 def make_dataset(regime, ds_input: DatasetInput = DatasetInput()):

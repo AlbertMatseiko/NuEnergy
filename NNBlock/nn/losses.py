@@ -30,8 +30,8 @@ class MyLoss(tf.keras.losses.Loss, ABC):
         y_e_pred = tf.cast(y_pred[:, 0:1], tf.float32)
         y_sigma_pred = tf.cast(y_pred[:, 1:2], tf.float32)
         weights = tf.cast(sample_weight, tf.float32)
-        loss = tf.reduce_sum(tf.multiply(tf.math.log((y_sigma_pred + self.eps) ** 2) + (y_e_pred - y_e_true) ** 2 /
-                                         ((y_sigma_pred + self.eps) ** 2),
+        loss = tf.reduce_sum(tf.multiply(tf.math.log(y_sigma_pred ** 2 + self.eps) + (y_e_pred - y_e_true) ** 2 /
+                                         (y_sigma_pred**2 + self.eps),
                                          weights)
                              ) / tf.reduce_sum(weights)
         return loss

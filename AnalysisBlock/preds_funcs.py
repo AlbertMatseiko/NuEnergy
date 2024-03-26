@@ -45,12 +45,14 @@ def make_and_save_preds(path_to_model_dir, model_regime="best_by_test", ds_regim
     preds = np.zeros((total_num // bs * bs, 2))
     labels = np.zeros((total_num // bs * bs, 2))
     weights = np.zeros((total_num // bs * bs, 1))
+    lengths = np.zeros((total_num // bs * bs, ))
 
     # fill preds with model calls, labels with true values and also fill weights
     for j in range(total_num // bs):
-        if j % 1000 == 0:
+        if j % 100 == 0:
             print(f"Step {j} out of {total_num // bs}")
         data, y_true, w = gen.next()
+        lengths[j * bs:(j + 1) * bs] = np.sum(data[:,:,-1], axis=1)
         preds[j * bs:(j + 1) * bs] = model(data)
         labels[j * bs:(j + 1) * bs] = y_true
         weights[j * bs:(j + 1) * bs] = w
@@ -62,6 +64,7 @@ def make_and_save_preds(path_to_model_dir, model_regime="best_by_test", ds_regim
         hfout.create_dataset(f"preds", data=preds)
         hfout.create_dataset(f"labels", data=labels)
         hfout.create_dataset(f"weights", data=weights)
+        hfout.create_dataset(f"lengths", data=lengths)
 
         # dir for meta information of the process
         hfout.create_dataset(f"time_batchsize_wastotalnum",
@@ -70,13 +73,16 @@ def make_and_save_preds(path_to_model_dir, model_regime="best_by_test", ds_regim
     return preds, labels, weights
 
 def load_preds(path_to_model_dir, model_regime="best_by_test", ds_regime="val",
-               renorm: bool = True):
+               renorm: bool = True,
+               return_lengths=False):
     # load predictions from model dir, that should be made in advance
     with h5.File(f"{path_to_model_dir}/{model_regime}/Predictions_{ds_regime}.h5", 'r') as hf:
         preds = hf["preds"][:]
         labels = hf["labels"][:]
         weights = hf["weights"][:]
-
+        if return_lengths:
+            lengths = hf["lengths"][:]
+            
     # Do you want to get log10E itself?
     if renorm:
         ds_inp = load_ds_params(path_to_model_dir)
@@ -84,5 +90,8 @@ def load_preds(path_to_model_dir, model_regime="best_by_test", ds_regime="val",
         preds[:, 0] = preds[:, 0] * std + mean
         preds[:, 1] = preds[:, 1] * std
         labels[:, 0] = labels[:, 0] * std + mean
-
-    return preds, labels, weights
+    
+    if return_lengths:
+        return preds, labels, weights, lengths
+    else:
+        return preds, labels, weights

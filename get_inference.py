@@ -3,16 +3,10 @@ from AnalysisBlock.my_plots import plot_logE_hist, plot_hists2d, plot_z
 from AnalysisBlock.metric_funcs import my_loss, mae, mse
 import yaml
 import os
-import tensorflow as tf
 import numpy as np
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "0"
-gpus = tf.config.experimental.list_physical_devices('GPU')
-for gpu in gpus:
-    tf.config.experimental.set_memory_growth(gpu, True)
-
 # INPUTS
-MODEL_NAME = "21_03_BigRNN_OnFlatSpec"
+MODEL_NAME = "25_03_MiddleCNN_OnFlatSpec"
 
 inp_dict = dict(path_to_model_dir = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{MODEL_NAME}",
     model_regime = "best_by_test",

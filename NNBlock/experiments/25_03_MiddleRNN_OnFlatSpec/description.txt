@@ -1,0 +1,1 @@
+Training MIDDLE RNN on a file with flat spectrum of energy. WITH gauss noise. Bigger lr_rate.

@@ -9,8 +9,8 @@ def my_loss(y_true, y_pred, sample_weight=None, eps=1e-3):
     y_e_true = y_true[:, 0:1], # these are NORMED LOG10 Energies
     y_e_pred = y_pred[:, 0:1]
     y_sigma_pred = y_pred[:, 1:2]  
-    loss = np.sum(np.multiply(np.log((y_sigma_pred + eps) ** 2) + (y_e_pred - y_e_true) ** 2 /
-                                        ((y_sigma_pred + eps) ** 2),
+    loss = np.sum(np.multiply(np.log(y_sigma_pred ** 2 +eps) + (y_e_pred - y_e_true) ** 2 /
+                                        (y_sigma_pred**2 + eps),
                                         sample_weight)
                             ) / np.sum(sample_weight)
     return loss

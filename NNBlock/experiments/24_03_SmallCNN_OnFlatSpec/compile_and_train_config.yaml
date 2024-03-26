@@ -8,16 +8,16 @@ early_stop_params:
   patience: 75
 loss_E_name: MyLoss
 loss_sigma_name: null
-lr: 0.0004 <keras.src.optimizers.schedules.learning_rate_schedule.ExponentialDecay
-  object at 0x7f2739e05710>
+lr: 0.001 <keras.src.optimizers.schedules.learning_rate_schedule.ExponentialDecay
+  object at 0x7ff869fb5490>
 lr_decay: 0.001
-lr_sigma: 0.0004 0.0004 <keras.src.optimizers.schedules.learning_rate_schedule.ExponentialDecay
-  object at 0x7f2739e05710>
-metrics: '[<NNBlock.nn.metrics.nlogE_MAE object at 0x7f2739ce67d0>, <NNBlock.nn.metrics.nSigmaMAE
-  object at 0x7f2739bf4990>]'
+lr_sigma: 0.001 0.001 <keras.src.optimizers.schedules.learning_rate_schedule.ExponentialDecay
+  object at 0x7ff869fb5490>
+metrics: '[<NNBlock.nn.metrics.nlogE_MAE object at 0x7ff868a6bcd0>, <NNBlock.nn.metrics.nSigmaMAE
+  object at 0x7ff8689820d0>]'
 num_of_epochs: 500
 optimizer: <class 'keras.src.optimizers.adam.Adam'>
 verbose: false
 verbose_cutting: 50.0
-weighted_metrics: '[<NNBlock.nn.metrics.nlogE_MAE object at 0x7f2720048890>, <NNBlock.nn.metrics.nSigmaMAE
-  object at 0x7f2739b558d0>]'
+weighted_metrics: '[<NNBlock.nn.metrics.nlogE_MAE object at 0x7ff868bbe6d0>, <NNBlock.nn.metrics.nSigmaMAE
+  object at 0x7ff860530c90>]'

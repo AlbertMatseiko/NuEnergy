@@ -7,6 +7,7 @@ import numpy as np
 import tensorflow as tf
 from dataclasses import asdict, field
 from pydantic.dataclasses import dataclass
+from pydantic import Field
 from typing import Any, List
 
 try:
@@ -20,6 +21,7 @@ GU = tf.keras.initializers.GlorotUniform(seed=SEED)
 Ort = tf.keras.initializers.Orthogonal(seed=SEED)
 
 
+"""Pooling layers!"""
 class GlobalAveragePooling1DMasked(tfl.GlobalAveragePooling1D):
     def call(self, x, mask=None):
         if mask is not None:
@@ -38,6 +40,7 @@ class GlobalMaxPooling1DMasked(tfl.GlobalMaxPooling1D):
             return super().call(x)
 
 
+"""RNN Layers!"""
 @dataclass
 class RnnInput:
     units: int = 32
@@ -73,6 +76,7 @@ class BidirLayer(tfl.Layer):
             return self.bidir(x)
 
 
+"""CNN Layers!"""
 @dataclass
 class ConvInput:
     filters: int = 10
@@ -149,6 +153,7 @@ class ResBlock(tfl.Layer):
         return config
 
     def call(self, x, mask):
+               
         x_skip = x
         mask_skip = mask
 
@@ -156,7 +161,7 @@ class ResBlock(tfl.Layer):
         # identical dimensions
         x, mask = self.conv_id(x, mask)
         x = self.norm_id(x)
-
+        
         # change dimensions
         x, mask = self.conv_cd(x, mask)
         x = self.norm_cd(x)
@@ -166,14 +171,17 @@ class ResBlock(tfl.Layer):
         x_skip = self.norm_skip(x_skip)
 
         ### Concat
-        # just to be sure
+        ## just to be sure
         length = tf.minimum(tf.shape(x_skip)[1], tf.shape(x)[1])
+        
         x = tfl.Concatenate(axis=-1,
                             name=f'ResNetConcat')([x[:, :length, :], x_skip[:, :length, :]])
+
         mask, mask_skip = mask[:, :length, :], mask_skip[:, :length, :]
         return x, mask
 
 
+"""Last Dense Layers in Encoder part!"""
 @dataclass
 class DenseInput:
     units: int = 2
@@ -199,22 +207,152 @@ class DenseBlock(tfl.Layer):
         return config
 
     def call(self, x, *args, **kwargs):
-        x_out = self.dense_layer(x)
-        x_out = self.dropout_layer(x_out)
+        x_out = self.dropout_layer(x)
+        x_out = self.dense_layer(x_out)
         return x_out
 
 
+"""Multihead Attention Layers!"""
+# projecting to Qs, Ks, Vs
+class qkv_projector(tf.keras.layers.Layer):
+
+    def __init__(self, qk_dim, v_dim):
+        super().__init__()
+        self.qk_dim = qk_dim
+        self.v_dim = v_dim
+
+    def build(self, input_shape):
+        num_fs = input_shape[-1]
+        self.proj_matrix_Q = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(num_fs,self.qk_dim) ), trainable=True )
+        self.proj_matrix_K = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(num_fs,self.qk_dim) ), trainable=True )
+        self.proj_matrix_V = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(num_fs,self.v_dim) ), trainable=True )
+        self.bias_Q = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(self.qk_dim,) ), trainable=True )
+        self.bias_K = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(self.qk_dim,) ), trainable=True )
+        self.bias_V = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(self.v_dim,) ), trainable=True )
+
+    def call(self, node, training=False):
+        qs = tf.linalg.matmul( node, self.proj_matrix_Q ) + self.bias_Q
+        ks = tf.linalg.matmul( node, self.proj_matrix_K ) + self.bias_K
+        vs = tf.linalg.matmul( node, self.proj_matrix_V ) + self.bias_V
+        return (qs,ks,vs)
+
+# attention calculation
+class NLPAttention(tf.keras.layers.Layer):
+
+    def __init__(self):
+        super().__init__()
+
+    def build(self, input_shape):
+        self.norm_softmax = 1./tf.math.sqrt( tf.cast( input_shape[1][-1], tf.float32 ) )
+
+    def call(self, inputs, training=False):
+        qs, ks, vs = inputs
+        prods = tf.linalg.matmul( qs, ks, transpose_b=True )
+        att_scores = tf.nn.softmax( prods*self.norm_softmax )
+        messgs = tf.linalg.matmul( att_scores, vs )
+        return messgs
+
+# multihead
+class multiheadAttentionNLP(tf.keras.layers.Layer):
+
+    def __init__(self, num_heads, qk_dim, v_dim, out_dim, dr_rate):#num_heads, qk_dim, v_dim, out_dim, dr_rate):
+        super().__init__()
+        self.qk_dim = qk_dim
+        self.v_dim = v_dim
+        self.num_heads = num_heads
+        self.out_dim = out_dim    
+        self.dr_rate = dr_rate
+        
+        self.input_hp = dict(qk_dim=qk_dim, v_dim=v_dim, num_heads=num_heads, out_dim=out_dim, dr_rate=dr_rate)
+        
+        self.prog_layer = qkv_projector(self.num_heads*self.qk_dim, self.num_heads*self.v_dim)
+        self.att_layer = NLPAttention()
+        self.dropout = tf.keras.layers.Dropout( self.dr_rate )
+    
+    def get_config(self):
+        config = super().get_config()
+        config.update(asdict(self.input_hp))
+        return config
+    
+    def build(self, input_shape):
+        qk_shape = input_shape[:-1]+(self.qk_dim,)
+        v_shape =  input_shape[:-1]+(self.v_dim,)
+        self.att_layer.build((qk_shape,qk_shape,v_shape))
+        self.matrix_out = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(self.num_heads*self.v_dim, self.out_dim ) ), trainable=True )
+        self.prog_layer.build(input_shape)
+        self.bias = tf.Variable( initial_value=tf.keras.initializers.GlorotUniform()( shape=(self.out_dim,) ), trainable=True )
+        
+    def call(self, nodes, *args, **kwargs):
+        x = self.dropout(nodes)
+        (qs,ks,vs) = self.prog_layer(x)
+        qs = tf.stack( tf.split(qs, self.num_heads, axis=-1), axis=0 )
+        ks = tf.stack( tf.split(ks, self.num_heads, axis=-1), axis=0 )
+        vs = tf.stack( tf.split(vs, self.num_heads, axis=-1), axis=0 )
+        msgs = self.att_layer((qs,ks,vs))
+        msgs = tf.concat( tf.unstack(msgs, axis=0), axis=-1 )
+        res = tf.linalg.matmul(msgs,self.matrix_out) + self.bias
+        return res
+
+@dataclass
+class TransformerEncLayerInput:
+    num_heads: int = 8
+    qk_dim: int = 64
+    v_dim: int = 64
+    out_dim: int = 64
+    mha_dr_rate: float = 0.1
+    
+    # Feed Forward params
+    ff_units: list[int] = field(default_factory=lambda: [64, 64])
+    ff_dr_rate: float = 0.1
+    ff_activation: Any = (tfl.LeakyReLU())
+
+class TransformerEncLayer(tf.keras.layers.Layer):
+    def __init__(self, input_hp: TransformerEncLayerInput = TransformerEncLayerInput()):#num_heads, qk_dim, v_dim, out_dim, dr_rate):
+        super().__init__()
+        # MultiHeadAttention layers
+        self.input_hp = input_hp
+        self.mha_layer = multiheadAttentionNLP(input_hp.num_heads, input_hp.qk_dim, input_hp.v_dim, input_hp.out_dim, 
+                                               input_hp.mha_dr_rate)
+        #self.add_mha = tf.keras.layers.Add()
+        self.norm_mha = tf.keras.layers.BatchNormalization()
+        # Feed Forward layers
+        self.layers_ff = []
+        for un in input_hp.ff_units:
+            self.layers_ff.append(DenseBlock(DenseInput(units=un, dropout=input_hp.ff_dr_rate, activation=input_hp.ff_activation)))
+        self.norm_ff = tf.keras.layers.BatchNormalization()
+        #self.add_ff = tf.keras.layers.Add()
+    
+    def get_config(self):
+        config = super().get_config()
+        config.update(asdict(self.input_hp))
+        return config
+    
+    def call(self, data, mask, *args, **kwargs):
+        # MHA
+        messgs = self.mha_layer(data)
+        x = tf.concat([data,messgs], axis=-1)
+        mha_output = self.norm_mha(x)
+        # FF
+        for layer in self.layers_ff:
+            x = layer(mha_output)
+        x = tf.concat([x,mha_output], axis=-1)
+        x = self.norm_ff(x)
+        return x*mask, mask
+
+
+"""Building up a Universal ENCODER"""
 @dataclass
 class EncoderBlockInput:
-    rnn_start_inputs: List[RnnInput]
-    res_block_inputs: List[ResBlockInput]
-    rnn_end_inputs: List[RnnInput]
-    pooling: bool
-    dense_blocks: List[DenseInput]
+    rnn_start_inputs: List[RnnInput] = None
+    res_block_inputs: List[ResBlockInput] = None
+    transf_inputs: List[TransformerEncLayerInput] = None
+    rnn_end_inputs: List[RnnInput] = None
+    pooling: bool = False
+    dense_blocks: List[DenseInput] = None
 
 
 class EncoderBlock(tfl.Layer):
-    def __init__(self, input_hp: EncoderBlockInput, **kwargs):
+    def __init__(self, input_hp: EncoderBlockInput = EncoderBlockInput(), **kwargs):
         super(EncoderBlock, self).__init__(**kwargs)
         self.input_hp = input_hp
 
@@ -222,28 +360,38 @@ class EncoderBlock(tfl.Layer):
         self.start_layers_list = []
         self.final_layers_list = []
 
-        for rnn_inp in self.input_hp.rnn_start_inputs:
-            assert rnn_inp.return_sequences
-            self.start_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
+        if self.input_hp.rnn_start_inputs is not None:
+            for rnn_inp in self.input_hp.rnn_start_inputs:
+                assert rnn_inp.return_sequences
+                self.start_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
 
-        for res_block_inp in self.input_hp.res_block_inputs:
-            self.start_layers_list.append((ResBlock(res_block_inp), None))  # batch norm is already in resblocks
+        if self.input_hp.res_block_inputs is not None:
+            for res_block_inp in self.input_hp.res_block_inputs:
+                self.start_layers_list.append((ResBlock(res_block_inp), None))  # batch norm is already in resblocks
 
-        for rnn_inp in self.input_hp.rnn_end_inputs[:-1]:
-            assert rnn_inp.return_sequences
-            self.start_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
+        if self.input_hp.rnn_end_inputs is not None:
+            for rnn_inp in self.input_hp.rnn_end_inputs[:-1]:
+                assert rnn_inp.return_sequences
+                self.start_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
 
+        if self.input_hp.transf_inputs is not None:
+            for transf_inp in self.input_hp.transf_inputs:
+                self.start_layers_list.append((TransformerEncLayer(transf_inp), None)) # batch norm is already in transf block
+        
         # either pooling or rnn to encode. Not both!
-        assert (self.input_hp.pooling + (len(self.input_hp.rnn_end_inputs) > 0)) == 1
-        for rnn_inp in self.input_hp.rnn_end_inputs[-1:]:
-            assert not rnn_inp.return_sequences
-            self.final_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
+        assert (int(self.input_hp.pooling) + int(self.input_hp.rnn_end_inputs is not None)) == 1
+        if self.input_hp.rnn_end_inputs is not None:
+            for rnn_inp in self.input_hp.rnn_end_inputs[-1:]:
+                assert not rnn_inp.return_sequences
+                self.final_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
+        
         if self.input_hp.pooling:
             self.final_layers_list.append((GlobalAveragePooling1DMasked(), tfl.BatchNormalization(axis=-1)))
-
-        for dense_inp in self.input_hp.dense_blocks:
-            self.final_layers_list.append((DenseBlock(dense_inp), tfl.BatchNormalization(axis=-1)))
-            assert dense_inp.units > 1
+        
+        if self.input_hp.dense_blocks is not None:
+            for dense_inp in self.input_hp.dense_blocks:
+                self.final_layers_list.append((DenseBlock(dense_inp), tfl.BatchNormalization(axis=-1)))
+                assert dense_inp.units > 1
 
     def get_config(self):
         config = super().get_config()
@@ -268,6 +416,7 @@ class EncoderBlock(tfl.Layer):
         return x
 
 
+"""Dense Layers for Energy and Sigma Regression!"""
 @dataclass
 class DenseRegressionInput:
     dense_blocks: List[DenseInput]
@@ -305,6 +454,7 @@ class DenseRegression(tfl.Layer):
         return x
 
 
-if __name__ == "__main__":
-    inp = ConvInput()
-    print(tfl.Conv1D(**{k: v for k, v in asdict(inp).items() if k not in ["dropout"]}))
+if __name__=='__main__':
+    inp = EncoderBlockInput(rnn_end_inputs = [RnnInput()])
+    enc = EncoderBlock(inp)
+    print(enc.get_config())

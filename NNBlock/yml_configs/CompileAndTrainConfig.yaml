@@ -1,6 +1,6 @@
 # general args
 #datasets: tuple[str, Any, Any]
-num_of_epochs: 500
+num_of_epochs: 300
 cutting: 1.
 verbose: False
 verbose_cutting: 50.0
@@ -9,8 +9,8 @@ verbose_cutting: 50.0
 loss_E_name: MyLoss
 loss_sigma_name: null  #if null, sigma loss = E loss
 apply_lr_decay: True
-lr: 0.0004
-lr_sigma: 0.0004
+lr: 0.001
+lr_sigma: 0.001
 lr_decay: 0.001
 
 # callbacks params
@@ -19,4 +19,4 @@ early_stop_params:
   min_delta: 1.0e-06
   mode: min
   monitor: val_loss_E
-  patience: 75
+  patience: 20

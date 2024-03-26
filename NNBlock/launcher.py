@@ -52,10 +52,10 @@ def launch_exp(EXPERIMENT_NAME: str, MODEL_FUNC_NAME: str = "TwoTapesModel",
         yaml.dump(asdict(dataset_input), file)
 
     # Start the fit! Logging of train config is inside!
-    history, test_dataset = compile_and_train(model,
+    history = compile_and_train(model,
                                 path_to_save=path_to_save,
                                 train_ds_with_info=train_ds_with_info,
                                 test_ds_with_info=test_ds_with_info,
                                 input_args=train_input_from_config(yml_name=compile_train_yml_name))
 
-    return model, test_dataset, history
+    return model, history

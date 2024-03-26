@@ -124,7 +124,9 @@ def plot_hists2d(pred, true, weights=None, size: int = None,
 
 
 def plot_z(pred, true, weights=None, x_axis=np.arange(-10, 10, 0.001),  # Plot between -10 and 10 with .001 steps.
-           title="Z-score distribution", path_to_save="./"):
+           bins=1000,
+           title="Z-score distribution", path_to_save: str = None):
+    print(len(pred[:,0]))
     if weights is None:
         weights = np.array([1.] * len(pred[:, 0]))
     else:
@@ -134,11 +136,13 @@ def plot_z(pred, true, weights=None, x_axis=np.arange(-10, 10, 0.001),  # Plot b
     y_pred = pred[:, 0]
     sigma = pred[:, 1]+1e-3
     values = (y_true - y_pred) / sigma
+    print(values.shape)
     #values = values[sigma > 0.001]
 
     fig, ax = plt.subplots(figsize=(10, 10))
     plt.plot(x_axis, norm.pdf(x_axis, 0, 1), label="Нормальное распределение, N(0,1)")
-    h = plt.hist(values, bins=1000, density=True, weights=weights,
+    mask = ((values<10.) * (values>-10))
+    h = plt.hist(values[mask], bins=bins, density=True, weights=weights[mask],
                  label="Распределение z")
     plt.grid(which='both', linestyle=':')
     plt.xlabel(r"z=$\frac{(\log_{10}E_{true}-\log_{10}E*)}{\sigma}$", fontsize=20)
@@ -149,8 +153,9 @@ def plot_z(pred, true, weights=None, x_axis=np.arange(-10, 10, 0.001),  # Plot b
     plt.legend()
 
     plt.title(title)
-    os.makedirs(f"{path_to_save}", exist_ok=True)
-    plt.savefig(f"{path_to_save}/{title}.png")
+    if path_to_save is not None:
+        os.makedirs(f"{path_to_save}", exist_ok=True)
+        plt.savefig(f"{path_to_save}/{title}.png")
     plt.close()
 
     return fig

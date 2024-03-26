@@ -9,10 +9,9 @@ for gpu in gpus:
     print(gpu)
     tf.config.experimental.set_memory_growth(gpu, True)
 
-
-EXPERIMENT_NAME = "24_03_SmallCNN_OnFlatSpec"
-DESCRIPTION = """Training SMALL CNN on a new file with flat spectrum of energy. WITH gauss noise."""
+EXPERIMENT_NAME = "25_03_BigRNN_OnFlatSpec"
+DESCRIPTION = """Training BIG RNN on a file with flat spectrum of energy. WITH gauss noise. Bigger lr_rate."""
 
 # starting training process with configs described in yml_configs directory
-model, test_dataset, history = launch_exp(EXPERIMENT_NAME, DESCRIPTION=DESCRIPTION)
+model, history = launch_exp(EXPERIMENT_NAME, DESCRIPTION=DESCRIPTION)
 print(history.history, file=open(f"NNBlock/experiments/{EXPERIMENT_NAME}/history.txt", "w"))

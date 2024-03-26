@@ -1,0 +1,23 @@
+apply_lr_decay: true
+checkpoint_cutting: 1.0
+cutting: 1.0
+early_stop_params:
+  min_delta: 1.0e-06
+  mode: min
+  monitor: val_loss_E
+  patience: 20
+loss_E_name: MyLoss
+loss_sigma_name: null
+lr: 0.001 <keras.src.optimizers.schedules.learning_rate_schedule.ExponentialDecay
+  object at 0x7f8ce0e39bd0>
+lr_decay: 0.001
+lr_sigma: 0.001 0.001 <keras.src.optimizers.schedules.learning_rate_schedule.ExponentialDecay
+  object at 0x7f8ce0e39bd0>
+metrics: '[<NNBlock.nn.metrics.nlogE_MAE object at 0x7f8ce0e15250>, <NNBlock.nn.metrics.nSigmaMAE
+  object at 0x7f8ce0ed68d0>]'
+num_of_epochs: 300
+optimizer: <class 'keras.src.optimizers.adam.Adam'>
+verbose: false
+verbose_cutting: 50.0
+weighted_metrics: '[<NNBlock.nn.metrics.nlogE_MAE object at 0x7f8c587d82d0>, <NNBlock.nn.metrics.nSigmaMAE
+  object at 0x7f8ce0efff10>]'

@@ -5,7 +5,7 @@
 
 #must be absolute!
 path_to_h5: /home/albert/Baikal/NuEnergy/DataBlock/data/baikal_multi_1223_flat_signal_H4_S2_Emu10to1000000/step3_FlatE_train1500000_test100000_normlog10E.h5
-batch_size: 512
+batch_size: 256
 start: 0
 set_up_Q_lim: True
 up_Q_lim: 100.
@@ -15,3 +15,4 @@ apply_mult_gauss: True
 g_add_stds: [0.03, 0.005, 0.005, 0.005, 0.00003]
 q_noise_fraction: 0.1
 use_weights: False
+use_Enorm: True

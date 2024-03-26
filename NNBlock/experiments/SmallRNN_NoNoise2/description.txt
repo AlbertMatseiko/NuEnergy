@@ -1,1 +1,0 @@
-Traiining big rnn with no gauss noise. lr=0.0004, bs=512
