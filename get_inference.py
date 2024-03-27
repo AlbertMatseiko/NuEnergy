@@ -6,7 +6,7 @@ import os
 import numpy as np
 
 # INPUTS
-MODEL_NAME = "25_03_MiddleCNN_OnFlatSpec"
+MODEL_NAME = "26_03_SmallNN_OnFlatSpec"
 
 inp_dict = dict(path_to_model_dir = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{MODEL_NAME}",
     model_regime = "best_by_test",

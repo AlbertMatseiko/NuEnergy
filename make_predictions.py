@@ -2,13 +2,13 @@ import yaml
 import os
 import tensorflow as tf
 from AnalysisBlock.preds_funcs import make_and_save_preds
-
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 os.environ['CUDA_VISIBLE_DEVICES'] = "1"
 gpus = tf.config.experimental.list_physical_devices('GPU')
 for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
     
-MODEL_NAME = "25_03_BigRNN_OnFlatSpec"
+MODEL_NAME = "26_03_SmallNN_OnFlatSpec"
 
 inp_dict = dict(path_to_model_dir = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{MODEL_NAME}",
     model_regime = "best_by_test",

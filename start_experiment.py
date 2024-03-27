@@ -1,6 +1,6 @@
 import os
-
-os.environ['CUDA_VISIBLE_DEVICES'] = "0"
+os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+os.environ['CUDA_VISIBLE_DEVICES'] = "1"
 import tensorflow as tf
 from NNBlock.launcher import *
 
@@ -9,8 +9,8 @@ for gpu in gpus:
     print(gpu)
     tf.config.experimental.set_memory_growth(gpu, True)
 
-EXPERIMENT_NAME = "25_03_BigRNN_OnFlatSpec"
-DESCRIPTION = """Training BIG RNN on a file with flat spectrum of energy. WITH gauss noise. Bigger lr_rate."""
+EXPERIMENT_NAME = "26_03_Test6_Attention"
+DESCRIPTION = """Testing my 1st transformer. WITH gauss noise."""
 
 # starting training process with configs described in yml_configs directory
 model, history = launch_exp(EXPERIMENT_NAME, DESCRIPTION=DESCRIPTION)

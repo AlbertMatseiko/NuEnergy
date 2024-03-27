@@ -6,7 +6,10 @@ fi
 
 activate_here venvNE
 
-# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
-conda install -c conda-forge tensorflow-gpu=2.15.0 -y
+# Make sure youre python, tensorflow and cuda versions are compatible!
+# The build works for CUDA Version = 11.1 (GPU GeForce GTX 1080 and 2080)
+conda install python=3.10
+conda install -c conda-forge tensorflow-gpu=2.11 -y
 conda install jupyter numpy matplotlib scipy h5py pydantic -y
-pip install show_h5
+
+pip3 install show_h5

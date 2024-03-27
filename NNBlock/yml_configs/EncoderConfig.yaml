@@ -1,18 +1,39 @@
 # Input Hyperparameters
 
-rnn_start_inputs: #[]
-   # 1
- - {units: 512,
-    return_sequences: True,
-    dropout: 0.2,
-    recurrent_dropout: 0.}
-    # 2
+transf_inputs:
+   - {num_heads: 8,
+      qk_dim: 32,
+      v_dim: 32,
+      out_dim: 32,
+      mha_dr_rate: 0.1,
+      ff_units: [32,32],
+      ff_dr_rate: 0.1,
+      #ff_activation:
+      }
+
+   # - {num_heads: 8,
+   #    qk_dim: 64,
+   #    v_dim: 64,
+   #    out_dim: 64,
+   #    mha_dr_rate: 0.1,
+   #    ff_units: [64,64],
+   #    ff_dr_rate: 0.1,
+   #    #ff_activation:
+   #    }
+
+#rnn_start_inputs:
+#    # 1
+#  - {units: 64,
+#     return_sequences: True,
+#     dropout: 0.2,
+#     recurrent_dropout: 0.}
+#s    # 2
 #  - {units: 64,
 #     return_sequences: True,
 #     dropout: 0.1,
 #     recurrent_dropout: 0.}
 
-res_block_inputs: []
+#res_block_inputs: #[]
 #    # 1
 #    - {
 #       id: {filters: 64,
@@ -56,20 +77,20 @@ res_block_inputs: []
 #             strides: 2 },
 #   }
 
-rnn_end_inputs: #[]
-   # 1
- - {units: 128,
-    return_sequences: False,
-    dropout: 0.2,
-    recurrent_dropout: 0.
-    }
-# #     # 2
-# #   - {units: 64,
-# #      return_sequences: False}
+# rnn_end_inputs: 
+#    # 1
+#  - {units: 64,
+#     return_sequences: False,
+#     dropout: 0.2,
+#     recurrent_dropout: 0.
+#     }
+#     # 2
+#   - {units: 64,
+#      return_sequences: False}
 
-pooling: False
+pooling: True
 
-dense_blocks: []
+# dense_blocks: 
 #   - { units: 128,
 #      # activation: , # it is LRelu by default
 #       dropout: 0.1}
