@@ -17,11 +17,11 @@ cb = tf.keras.callbacks
 
 try:
     from nn import losses
-    from nn.metrics import nlogE_MAE, nSigmaMAE
+    from nn.metrics import nlogE_MAE, nSigmaAbsMAE
     from models import TwoTapesModel
 except:
     from .nn import losses
-    from .nn.metrics import nlogE_MAE, nSigmaMAE
+    from .nn.metrics import nlogE_MAE, nSigmaAbsMAE
     from .models import TwoTapesModel
 
 
@@ -106,9 +106,9 @@ def compile_and_train(model: TwoTapesModel, path_to_save: str, train_ds_with_inf
 
     # setting metrics
     if input_args.metrics is None:
-        input_args.metrics = [nlogE_MAE(weighted=False), nSigmaMAE(weighted=False)]
+        input_args.metrics = [nlogE_MAE(weighted=False), nSigmaAbsMAE(weighted=False)]
     if input_args.weighted_metrics is None:
-        input_args.weighted_metrics = [nlogE_MAE(weighted=True), nSigmaMAE(weighted=True)]
+        input_args.weighted_metrics = [nlogE_MAE(weighted=True), nSigmaAbsMAE(weighted=True)]
 
     # setting losses
     loss_E = getattr(losses, input_args.loss_E_name)()

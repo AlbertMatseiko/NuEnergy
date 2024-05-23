@@ -27,13 +27,18 @@ def load_log10e_normp(path_to_h5):
         log10Emu_std = hf["norm_params/log10Emu_std"][:]
     return log10E_mean, log10Emu_std
 
-def make_and_save_preds(path_to_model_dir, model_regime="best_by_test", ds_regime="val", batch_size=1024):
+def make_and_save_preds(path_to_model_dir, model_regime="best_by_test", ds_regime="val", batch_size=1024, ds_from_settings=False):
     time0 = time.time()
     # load model
     model = tf.saved_model.load(f"{path_to_model_dir}/{model_regime}")
 
     # create dataset with logged parameters, get some info
-    ds_inp = load_ds_params(path_to_model_dir)
+    if ds_from_settings:
+        path_to_yml = "/home/albert/Baikal/NuEnergy/NNBlock/yml_configs/DatasetConfig.yaml"
+        ds_dict = yaml.full_load(Path(path_to_yml).read_text())
+        ds_inp = DatasetInput(**ds_dict)
+    else:
+        ds_inp = load_ds_params(path_to_model_dir)
     ds_inp.batch_size = batch_size
     ds, bs, total_num = make_dataset(ds_regime, ds_inp)
     assert bs == batch_size

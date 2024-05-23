@@ -1,0 +1,1 @@
+nohup python start_experiment.py > "logs_exp/$(date +"%Y_%m_%d_%I_%M_%p").log" &

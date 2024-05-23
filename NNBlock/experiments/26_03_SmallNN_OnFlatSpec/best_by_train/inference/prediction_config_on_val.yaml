@@ -1,0 +1,4 @@
+batch_size: 512
+ds_regime: val
+model_regime: best_by_train
+path_to_model_dir: /home/albert/Baikal/NuEnergy/NNBlock/experiments/26_03_SmallNN_OnFlatSpec

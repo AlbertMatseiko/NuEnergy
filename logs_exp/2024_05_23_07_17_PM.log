@@ -1,0 +1,110 @@
+2024-05-23 19:17:30.902412: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-23 19:17:33.052896: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-23 19:17:33.140489: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22455 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Model: "two_tapes_model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ encoder_block (EncoderBlock  multiple                 102400    
+ )                                                               
+                                                                 
+ dense_regression (DenseRegr  multiple                 17409     
+ ession)                                                         
+                                                                 
+ dense_regression_1 (DenseRe  multiple                 17409     
+ gression)                                                       
+                                                                 
+=================================================================
+Total params: 137,222
+Trainable params: 136,194
+Non-trainable params: 1,028
+_________________________________________________________________
+2024-05-23 19:17:45.956458: W tensorflow/core/framework/op_kernel.cc:1818] INVALID_ARGUMENT: ValueError: could not broadcast input array from shape (1024,) into shape (1024,1)
+Traceback (most recent call last):
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/ops/script_ops.py", line 271, in __call__
+    ret = func(*args)
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/autograph/impl/api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 1039, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "/home/albert/Baikal/NuEnergy/NNBlock/dataset_from_h5.py", line 150, in __call__
+    out_data = self.step(start, stop, ev_starts)
+
+  File "/home/albert/Baikal/NuEnergy/NNBlock/dataset_from_h5.py", line 118, in step
+    labels[:, 0:1] = (np.log10(hf[f'{self.regime}/muons_prty/individ'][start:stop]) - self.lgEmean) / self.lgEstd
+
+ValueError: could not broadcast input array from shape (1024,) into shape (1024,1)
+
+
+None
+Steps per epoch: 1464
+Traceback (most recent call last):
+  File "/home/albert/Baikal/NuEnergy/start_experiment.py", line 17, in <module>
+    model, history = launch_exp(EXPERIMENT_NAME, DESCRIPTION=DESCRIPTION, CONTINUE_TRAINING=CONTINUE_TRAINING)
+  File "/home/albert/Baikal/NuEnergy/NNBlock/launcher.py", line 68, in launch_exp
+    history = compile_and_train(model,
+  File "/home/albert/Baikal/NuEnergy/NNBlock/train.py", line 172, in compile_and_train
+    history = model.fit(train_dataset, steps_per_epoch=steps_per_epoch, epochs=input_args.num_of_epochs,
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+2 root error(s) found.
+  (0) INVALID_ARGUMENT:  ValueError: could not broadcast input array from shape (1024,) into shape (1024,1)
+Traceback (most recent call last):
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/ops/script_ops.py", line 271, in __call__
+    ret = func(*args)
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/autograph/impl/api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 1039, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "/home/albert/Baikal/NuEnergy/NNBlock/dataset_from_h5.py", line 150, in __call__
+    out_data = self.step(start, stop, ev_starts)
+
+  File "/home/albert/Baikal/NuEnergy/NNBlock/dataset_from_h5.py", line 118, in step
+    labels[:, 0:1] = (np.log10(hf[f'{self.regime}/muons_prty/individ'][start:stop]) - self.lgEmean) / self.lgEstd
+
+ValueError: could not broadcast input array from shape (1024,) into shape (1024,1)
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]]
+	 [[IteratorGetNext/_4]]
+  (1) INVALID_ARGUMENT:  ValueError: could not broadcast input array from shape (1024,) into shape (1024,1)
+Traceback (most recent call last):
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/ops/script_ops.py", line 271, in __call__
+    ret = func(*args)
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/autograph/impl/api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/site-packages/tensorflow/python/data/ops/dataset_ops.py", line 1039, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "/home/albert/Baikal/NuEnergy/NNBlock/dataset_from_h5.py", line 150, in __call__
+    out_data = self.step(start, stop, ev_starts)
+
+  File "/home/albert/Baikal/NuEnergy/NNBlock/dataset_from_h5.py", line 118, in step
+    labels[:, 0:1] = (np.log10(hf[f'{self.regime}/muons_prty/individ'][start:stop]) - self.lgEmean) / self.lgEstd
+
+ValueError: could not broadcast input array from shape (1024,) into shape (1024,1)
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]]
+0 successful operations.
+0 derived errors ignored. [Op:__inference_train_function_24938]

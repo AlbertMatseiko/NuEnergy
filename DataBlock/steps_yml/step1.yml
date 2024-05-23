@@ -1,4 +1,4 @@
-path_to_h5: "/home/albert/Baikal/raw_data/baikal_multi_1223_flat.h5"
+path_to_h5: "/home/albert/Baikal/NeutrinoSelection/Data/h5_files/baikal_multi_1223_flat.h5"
 
 bad_parts:
     muatm: ['1280','1308','1809','1394','1116','1029','1315','1416','1129','1736','1228','1286','1043','1526','1815',
@@ -26,4 +26,4 @@ filters:
     strings: [2, *inf]
     Q: [0, *inf]
     E_prime: [0, *inf]
-    E_indmu: [10, 1000000]
+    E_indmu: [1, 10000000]

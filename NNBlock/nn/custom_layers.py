@@ -271,7 +271,7 @@ class multiheadAttentionNLP(tf.keras.layers.Layer):
     
     def get_config(self):
         config = super().get_config()
-        config.update(asdict(self.input_hp))
+        config.update(self.input_hp)
         return config
     
     def build(self, input_shape):

@@ -1,6 +1,5 @@
 import tensorflow as tf
 
-
 # METRICS FOR NORMED log10E values
 class nlogE_MAE(tf.keras.metrics.Metric):
     def __init__(self, name='nlogE_MAE', weighted: bool = True, **kwargs):
@@ -44,11 +43,11 @@ class nlogE_MSE(tf.keras.metrics.Metric):
         return self.MSE.result()
 
 
-class nSigmaMSE(tf.keras.metrics.Metric):
+class nSigmaAbsMSE(tf.keras.metrics.Metric):
     def __init__(self, name='nSigmaMSE', weighted: bool = True, **kwargs):
         if weighted:
             name += "_weighted"
-        super(nSigmaMSE, self).__init__(name=name, **kwargs)
+        super(nSigmaAbsMSE, self).__init__(name=name, **kwargs)
         self.MSE = tf.keras.metrics.MeanSquaredError()
         self.weighted = weighted
 
@@ -69,11 +68,11 @@ class nSigmaMSE(tf.keras.metrics.Metric):
         return self.MSE.result()
 
 
-class nSigmaMAE(tf.keras.metrics.Metric):
+class nSigmaAbsMAE(tf.keras.metrics.Metric):
     def __init__(self, name='nSigmaMAE', weighted: bool = True, **kwargs):
         if weighted:
             name += "_weighted"
-        super(nSigmaMAE, self).__init__(name=name, **kwargs)
+        super(nSigmaAbsMAE, self).__init__(name=name, **kwargs)
         self.MAE = tf.keras.metrics.MeanAbsoluteError()
         self.weighted = weighted
 
@@ -138,9 +137,9 @@ class logE_MSE(tf.keras.metrics.Metric):
         return self.MSE.result()
 
 
-class SigmaMSE(tf.keras.metrics.Metric):
+class SigmaAbsMSE(tf.keras.metrics.Metric):
     def __init__(self, name='SigmaMSE', **kwargs):
-        super(SigmaMSE, self).__init__(name=name, **kwargs)
+        super(SigmaAbsMSE, self).__init__(name=name, **kwargs)
         self.MSE = tf.keras.metrics.MeanSquaredError()
         self.mean = Mean
         self.std = Std
@@ -159,9 +158,9 @@ class SigmaMSE(tf.keras.metrics.Metric):
         return self.MSE.result()
 
 
-class SigmaMAE(tf.keras.metrics.Metric):
+class SigmaAbsMAE(tf.keras.metrics.Metric):
     def __init__(self, name='SigmaMAE', **kwargs):
-        super(SigmaMAE, self).__init__(name=name, **kwargs)
+        super(SigmaAbsMAE, self).__init__(name=name, **kwargs)
         self.MAE = tf.keras.metrics.MeanAbsoluteError()
         self.mean = Mean
         self.std = Std

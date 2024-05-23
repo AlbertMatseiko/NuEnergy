@@ -1,0 +1,1 @@
+Transformer Encoder. 8 heads. WITH gauss noise.

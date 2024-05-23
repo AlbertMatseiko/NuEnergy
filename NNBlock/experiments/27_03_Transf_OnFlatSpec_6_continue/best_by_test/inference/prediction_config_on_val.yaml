@@ -1,0 +1,4 @@
+batch_size: 256
+ds_regime: val
+model_regime: best_by_test
+path_to_model_dir: /home/albert/Baikal/NuEnergy/NNBlock/experiments/27_03_Transf_OnFlatSpec_6_continue

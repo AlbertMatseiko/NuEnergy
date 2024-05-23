@@ -3,17 +3,18 @@ import os
 import tensorflow as tf
 from AnalysisBlock.preds_funcs import make_and_save_preds
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ['CUDA_VISIBLE_DEVICES'] = "1"
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 gpus = tf.config.experimental.list_physical_devices('GPU')
 for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
     
-MODEL_NAME = "26_03_SmallNN_OnFlatSpec"
+MODEL_NAME = "21_05_CrazyStuff"
 
 inp_dict = dict(path_to_model_dir = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{MODEL_NAME}",
     model_regime = "best_by_test",
     ds_regime = "val",
-    batch_size = 512)
+    batch_size = 2048,
+    ds_from_settings=False)
 path_to_model = f"{inp_dict['path_to_model_dir']}/{inp_dict['model_regime']}"
 ds_regime = inp_dict['ds_regime']
 

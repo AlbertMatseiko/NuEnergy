@@ -2,6 +2,7 @@ import os
 import numpy as np
 import yaml
 from dataclasses import asdict
+import tensorflow as tf
 try:
     from train import compile_and_train
     from load_from_config import dataset_from_config, model_from_config, train_input_from_config
@@ -22,13 +23,10 @@ def launch_exp(EXPERIMENT_NAME: str, MODEL_FUNC_NAME: str = "TwoTapesModel",
                sigma_yml_name: str = "SigmaBlockConfig",
                dataset_yml_name: str = "DatasetConfig",
                compile_train_yml_name: str = "CompileAndTrainConfig",
-               DESCRIPTION: str = ""):
-    # Make dir for experiment
+               DESCRIPTION: str = "",
+               CONTINUE_TRAINING = False):
+    
     path_to_save = f"/home/albert/Baikal/NuEnergy/NNBlock/experiments/{EXPERIMENT_NAME}"
-    os.makedirs(path_to_save, exist_ok=False)
-
-    # Save short description to model directory
-    print(f"{DESCRIPTION}", file=open(f'{path_to_save}/description.txt', 'w'))
 
     # Create model
     model, model_inp = model_from_config(MODEL_FUNC_NAME,
@@ -36,17 +34,32 @@ def launch_exp(EXPERIMENT_NAME: str, MODEL_FUNC_NAME: str = "TwoTapesModel",
                                          energy_yml_name,
                                          sigma_yml_name)
     model.build(input_shape=(None, None, 6))
-
-    # Make logs of model config
-    with open(f'{path_to_save}/model_hyperparams.yaml', 'w') as file:
-        yaml.dump(asdict(model_inp), file)
-    print(f"Model architectue is: {MODEL_FUNC_NAME}, \
-            Number of params: {count_params(model)}", file=open(f'{path_to_save}/summary.txt', 'w'))
-
+    print(model.summary())
+    
     # Load datasets with info about batchsize and total events num
     train_ds_with_info, dataset_input = dataset_from_config('train', yml_name=dataset_yml_name)
     test_ds_with_info, _ = dataset_from_config('test', yml_name=dataset_yml_name)
-
+    
+    # Make dir for experiment
+    if CONTINUE_TRAINING:
+        path_to_model = path_to_save
+        path_to_save = f"{path_to_save}_continue"
+        os.makedirs(path_to_save, exist_ok=False)
+    else:
+        os.makedirs(path_to_save, exist_ok=False)
+    # Save short description to model directory
+    print(f"{DESCRIPTION}", file=open(f'{path_to_save}/description.txt', 'w'))
+    if CONTINUE_TRAINING:
+        pre_model = tf.saved_model.load(f"{path_to_model}/best_by_test")
+        model.set_weights(pre_model.variables[0:len(model.variables)])
+        pre_model = None
+    
+    # LOGGING
+    # Make logs of model config
+    print(f"Model architectue is: {MODEL_FUNC_NAME}, \
+            Number of params: {count_params(model)}", file=open(f'{path_to_save}/summary.txt', 'w'))
+    with open(f'{path_to_save}/model_hyperparams.yaml', 'w') as file:
+        yaml.dump(asdict(model_inp), file)
     # Make logs of dataset config
     with open(f'{path_to_save}/dataset_params.yaml', 'w') as file:
         yaml.dump(asdict(dataset_input), file)

@@ -1,12 +1,12 @@
 # Input Hyperparameters
 
 dense_blocks:
-  - { units: 64,
-     # activation: , # it is LRelu by default
-      dropout: 0.2}
-  - { units: 32,
+  - { units: 128,
    # activation: , # it is LRelu by default
-     dropout: 0.2}
+     dropout: 0.3}
+  - { units: 64,
+   # activation: , # it is LRelu by default
+     dropout: 0.3}
   - { units: 1,
      activation: 'shifted_relu', # it is LRelu by default
-     dropout: 0.1}
+     dropout: 0.3}
