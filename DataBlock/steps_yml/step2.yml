@@ -1,5 +1,0 @@
-filtered_h5_name: "baikal_multi_1223_flat_signal_H8_S2"
-
-#typycal numbers after step1: ~1.5e7 nu2, ~5e5 nuatm
-num_in_train: 400000
-num_in_test: 100000

@@ -1,0 +1,2856 @@
+BATCH: 0 
+loss_E: 1.5509 - nlogE_MAE: 0.3862 - nSigmaMAE: 0.2392 - nlogE_MAE_weighted: 0.3862 - nSigmaMAE_weighted: 0.2392 - 
+BATCH: 156 
+loss_E: -1.3006 - nlogE_MAE: 0.2556 - nSigmaMAE: 0.1647 - nlogE_MAE_weighted: 0.2556 - nSigmaMAE_weighted: 0.1647 - 
+BATCH: 312 
+loss_E: -1.4563 - nlogE_MAE: 0.2383 - nSigmaMAE: 0.1558 - nlogE_MAE_weighted: 0.2383 - nSigmaMAE_weighted: 0.1558 - 
+BATCH: 468 
+loss_E: -1.5183 - nlogE_MAE: 0.2315 - nSigmaMAE: 0.1528 - nlogE_MAE_weighted: 0.2315 - nSigmaMAE_weighted: 0.1528 - 
+BATCH: 624 
+loss_E: -1.5595 - nlogE_MAE: 0.2274 - nSigmaMAE: 0.151 - nlogE_MAE_weighted: 0.2274 - nSigmaMAE_weighted: 0.151 - 
+BATCH: 780 
+loss_E: -1.5856 - nlogE_MAE: 0.225 - nSigmaMAE: 0.1494 - nlogE_MAE_weighted: 0.225 - nSigmaMAE_weighted: 0.1494 - 
+BATCH: 936 
+loss_E: -1.609 - nlogE_MAE: 0.2228 - nSigmaMAE: 0.148 - nlogE_MAE_weighted: 0.2228 - nSigmaMAE_weighted: 0.148 - 
+BATCH: 1092 
+loss_E: -1.6315 - nlogE_MAE: 0.2208 - nSigmaMAE: 0.1466 - nlogE_MAE_weighted: 0.2208 - nSigmaMAE_weighted: 0.1466 - 
+BATCH: 1248 
+loss_E: -1.655 - nlogE_MAE: 0.219 - nSigmaMAE: 0.1451 - nlogE_MAE_weighted: 0.219 - nSigmaMAE_weighted: 0.1451 - 
+BATCH: 1404 
+loss_E: -1.6797 - nlogE_MAE: 0.2169 - nSigmaMAE: 0.1436 - nlogE_MAE_weighted: 0.2169 - nSigmaMAE_weighted: 0.1436 - 
+BATCH: 1560 
+loss_E: -1.6937 - nlogE_MAE: 0.2155 - nSigmaMAE: 0.1427 - nlogE_MAE_weighted: 0.2155 - nSigmaMAE_weighted: 0.1427 - 
+BATCH: 1716 
+loss_E: -1.715 - nlogE_MAE: 0.2138 - nSigmaMAE: 0.1415 - nlogE_MAE_weighted: 0.2138 - nSigmaMAE_weighted: 0.1415 - 
+BATCH: 1872 
+loss_E: -1.7332 - nlogE_MAE: 0.2125 - nSigmaMAE: 0.1405 - nlogE_MAE_weighted: 0.2125 - nSigmaMAE_weighted: 0.1405 - 
+BATCH: 2028 
+loss_E: -1.7487 - nlogE_MAE: 0.2113 - nSigmaMAE: 0.1397 - nlogE_MAE_weighted: 0.2113 - nSigmaMAE_weighted: 0.1397 - 
+BATCH: 2184 
+loss_E: -1.7661 - nlogE_MAE: 0.21 - nSigmaMAE: 0.1387 - nlogE_MAE_weighted: 0.21 - nSigmaMAE_weighted: 0.1387 - 
+BATCH: 2340 
+loss_E: -1.781 - nlogE_MAE: 0.2088 - nSigmaMAE: 0.1378 - nlogE_MAE_weighted: 0.2088 - nSigmaMAE_weighted: 0.1378 - 
+BATCH: 2496 
+loss_E: -1.7965 - nlogE_MAE: 0.2077 - nSigmaMAE: 0.137 - nlogE_MAE_weighted: 0.2077 - nSigmaMAE_weighted: 0.137 - 
+BATCH: 2652 
+loss_E: -1.81 - nlogE_MAE: 0.2067 - nSigmaMAE: 0.1362 - nlogE_MAE_weighted: 0.2067 - nSigmaMAE_weighted: 0.1362 - 
+BATCH: 2808 
+loss_E: -1.8233 - nlogE_MAE: 0.2057 - nSigmaMAE: 0.1355 - nlogE_MAE_weighted: 0.2057 - nSigmaMAE_weighted: 0.1355 - 
+BATCH: 2964 
+loss_E: -1.8377 - nlogE_MAE: 0.2046 - nSigmaMAE: 0.1347 - nlogE_MAE_weighted: 0.2046 - nSigmaMAE_weighted: 0.1347 - 
+BATCH: 3120 
+loss_E: -1.8513 - nlogE_MAE: 0.2036 - nSigmaMAE: 0.1339 - nlogE_MAE_weighted: 0.2036 - nSigmaMAE_weighted: 0.1339 - 
+BATCH: 3276 
+loss_E: -1.8604 - nlogE_MAE: 0.2029 - nSigmaMAE: 0.1334 - nlogE_MAE_weighted: 0.2029 - nSigmaMAE_weighted: 0.1334 - 
+BATCH: 3432 
+loss_E: -1.8715 - nlogE_MAE: 0.2021 - nSigmaMAE: 0.1327 - nlogE_MAE_weighted: 0.2021 - nSigmaMAE_weighted: 0.1327 - 
+BATCH: 3588 
+loss_E: -1.8835 - nlogE_MAE: 0.2012 - nSigmaMAE: 0.1321 - nlogE_MAE_weighted: 0.2012 - nSigmaMAE_weighted: 0.1321 - 
+BATCH: 3744 
+loss_E: -1.8928 - nlogE_MAE: 0.2005 - nSigmaMAE: 0.1315 - nlogE_MAE_weighted: 0.2005 - nSigmaMAE_weighted: 0.1315 - 
+BATCH: 3900 
+loss_E: -1.9021 - nlogE_MAE: 0.1998 - nSigmaMAE: 0.131 - nlogE_MAE_weighted: 0.1998 - nSigmaMAE_weighted: 0.131 - 
+BATCH: 4056 
+loss_E: -1.9106 - nlogE_MAE: 0.1992 - nSigmaMAE: 0.1305 - nlogE_MAE_weighted: 0.1992 - nSigmaMAE_weighted: 0.1305 - 
+BATCH: 4212 
+loss_E: -1.9197 - nlogE_MAE: 0.1986 - nSigmaMAE: 0.13 - nlogE_MAE_weighted: 0.1986 - nSigmaMAE_weighted: 0.13 - 
+BATCH: 4368 
+loss_E: -1.9285 - nlogE_MAE: 0.198 - nSigmaMAE: 0.1295 - nlogE_MAE_weighted: 0.198 - nSigmaMAE_weighted: 0.1295 - 
+BATCH: 4524 
+loss_E: -1.9358 - nlogE_MAE: 0.1974 - nSigmaMAE: 0.1291 - nlogE_MAE_weighted: 0.1974 - nSigmaMAE_weighted: 0.1291 - 
+BATCH: 4680 
+loss_E: -1.944 - nlogE_MAE: 0.1968 - nSigmaMAE: 0.1287 - nlogE_MAE_weighted: 0.1968 - nSigmaMAE_weighted: 0.1287 - 
+BATCH: 4836 
+loss_E: -1.9513 - nlogE_MAE: 0.1962 - nSigmaMAE: 0.1283 - nlogE_MAE_weighted: 0.1962 - nSigmaMAE_weighted: 0.1283 - 
+BATCH: 4992 
+loss_E: -1.9598 - nlogE_MAE: 0.1957 - nSigmaMAE: 0.1278 - nlogE_MAE_weighted: 0.1957 - nSigmaMAE_weighted: 0.1278 - 
+BATCH: 5148 
+loss_E: -1.967 - nlogE_MAE: 0.1951 - nSigmaMAE: 0.1275 - nlogE_MAE_weighted: 0.1951 - nSigmaMAE_weighted: 0.1275 - 
+BATCH: 5304 
+loss_E: -1.9741 - nlogE_MAE: 0.1946 - nSigmaMAE: 0.1271 - nlogE_MAE_weighted: 0.1946 - nSigmaMAE_weighted: 0.1271 - 
+BATCH: 5460 
+loss_E: -1.9808 - nlogE_MAE: 0.1941 - nSigmaMAE: 0.1267 - nlogE_MAE_weighted: 0.1941 - nSigmaMAE_weighted: 0.1267 - 
+BATCH: 5616 
+loss_E: -1.9867 - nlogE_MAE: 0.1937 - nSigmaMAE: 0.1264 - nlogE_MAE_weighted: 0.1937 - nSigmaMAE_weighted: 0.1264 - 
+BATCH: 5772 
+loss_E: -1.9935 - nlogE_MAE: 0.1932 - nSigmaMAE: 0.126 - nlogE_MAE_weighted: 0.1932 - nSigmaMAE_weighted: 0.126 - 
+BATCH: 5928 
+loss_E: -1.9993 - nlogE_MAE: 0.1928 - nSigmaMAE: 0.1257 - nlogE_MAE_weighted: 0.1928 - nSigmaMAE_weighted: 0.1257 - 
+BATCH: 6084 
+loss_E: -2.0047 - nlogE_MAE: 0.1924 - nSigmaMAE: 0.1254 - nlogE_MAE_weighted: 0.1924 - nSigmaMAE_weighted: 0.1254 - 
+BATCH: 6240 
+loss_E: -2.0111 - nlogE_MAE: 0.192 - nSigmaMAE: 0.1251 - nlogE_MAE_weighted: 0.192 - nSigmaMAE_weighted: 0.1251 - 
+BATCH: 6396 
+loss_E: -2.0176 - nlogE_MAE: 0.1915 - nSigmaMAE: 0.1247 - nlogE_MAE_weighted: 0.1915 - nSigmaMAE_weighted: 0.1247 - 
+BATCH: 6552 
+loss_E: -2.0234 - nlogE_MAE: 0.1911 - nSigmaMAE: 0.1244 - nlogE_MAE_weighted: 0.1911 - nSigmaMAE_weighted: 0.1244 - 
+BATCH: 6708 
+loss_E: -2.0284 - nlogE_MAE: 0.1907 - nSigmaMAE: 0.1241 - nlogE_MAE_weighted: 0.1907 - nSigmaMAE_weighted: 0.1241 - 
+BATCH: 6864 
+loss_E: -2.0338 - nlogE_MAE: 0.1903 - nSigmaMAE: 0.1239 - nlogE_MAE_weighted: 0.1903 - nSigmaMAE_weighted: 0.1239 - 
+BATCH: 7020 
+loss_E: -2.038 - nlogE_MAE: 0.19 - nSigmaMAE: 0.1236 - nlogE_MAE_weighted: 0.19 - nSigmaMAE_weighted: 0.1236 - 
+BATCH: 7176 
+loss_E: -2.0423 - nlogE_MAE: 0.1897 - nSigmaMAE: 0.1234 - nlogE_MAE_weighted: 0.1897 - nSigmaMAE_weighted: 0.1234 - 
+BATCH: 7332 
+loss_E: -2.0472 - nlogE_MAE: 0.1893 - nSigmaMAE: 0.1232 - nlogE_MAE_weighted: 0.1893 - nSigmaMAE_weighted: 0.1232 - 
+BATCH: 7488 
+loss_E: -2.0524 - nlogE_MAE: 0.189 - nSigmaMAE: 0.1229 - nlogE_MAE_weighted: 0.189 - nSigmaMAE_weighted: 0.1229 - 
+BATCH: 7644 
+loss_E: -2.057 - nlogE_MAE: 0.1886 - nSigmaMAE: 0.1227 - nlogE_MAE_weighted: 0.1886 - nSigmaMAE_weighted: 0.1227 - 
+BATCH: 7800 
+loss_E: -2.0608 - nlogE_MAE: 0.1883 - nSigmaMAE: 0.1225 - nlogE_MAE_weighted: 0.1883 - nSigmaMAE_weighted: 0.1225 - 
+BATCH: 0 
+loss_E: -2.3457 - nlogE_MAE: 0.1624 - nSigmaMAE: 0.1026 - nlogE_MAE_weighted: 0.1624 - nSigmaMAE_weighted: 0.1026 - 
+BATCH: 156 
+loss_E: -2.2886 - nlogE_MAE: 0.1717 - nSigmaMAE: 0.1107 - nlogE_MAE_weighted: 0.1717 - nSigmaMAE_weighted: 0.1107 - 
+BATCH: 312 
+loss_E: -2.2935 - nlogE_MAE: 0.1715 - nSigmaMAE: 0.11 - nlogE_MAE_weighted: 0.1715 - nSigmaMAE_weighted: 0.11 - 
+BATCH: 468 
+loss_E: -2.3032 - nlogE_MAE: 0.1708 - nSigmaMAE: 0.1099 - nlogE_MAE_weighted: 0.1708 - nSigmaMAE_weighted: 0.1099 - 
+BATCH: 624 
+loss_E: -2.3105 - nlogE_MAE: 0.1706 - nSigmaMAE: 0.1094 - nlogE_MAE_weighted: 0.1706 - nSigmaMAE_weighted: 0.1094 - 
+BATCH: 780 
+loss_E: -2.3104 - nlogE_MAE: 0.1707 - nSigmaMAE: 0.1094 - nlogE_MAE_weighted: 0.1707 - nSigmaMAE_weighted: 0.1094 - 
+BATCH: 936 
+loss_E: -2.3059 - nlogE_MAE: 0.171 - nSigmaMAE: 0.1095 - nlogE_MAE_weighted: 0.171 - nSigmaMAE_weighted: 0.1095 - 
+BATCH: 1092 
+loss_E: -2.3042 - nlogE_MAE: 0.1712 - nSigmaMAE: 0.1094 - nlogE_MAE_weighted: 0.1712 - nSigmaMAE_weighted: 0.1094 - 
+BATCH: 1248 
+loss_E: -2.3027 - nlogE_MAE: 0.1712 - nSigmaMAE: 0.1095 - nlogE_MAE_weighted: 0.1712 - nSigmaMAE_weighted: 0.1095 - 
+BATCH: 1404 
+loss_E: -2.3036 - nlogE_MAE: 0.1711 - nSigmaMAE: 0.1094 - nlogE_MAE_weighted: 0.1711 - nSigmaMAE_weighted: 0.1094 - 
+BATCH: 1560 
+loss_E: -2.3049 - nlogE_MAE: 0.1711 - nSigmaMAE: 0.1094 - nlogE_MAE_weighted: 0.1711 - nSigmaMAE_weighted: 0.1094 - 
+BATCH: 1716 
+loss_E: -2.3065 - nlogE_MAE: 0.171 - nSigmaMAE: 0.1094 - nlogE_MAE_weighted: 0.171 - nSigmaMAE_weighted: 0.1094 - 
+BATCH: 1872 
+loss_E: -2.3094 - nlogE_MAE: 0.1708 - nSigmaMAE: 0.1093 - nlogE_MAE_weighted: 0.1708 - nSigmaMAE_weighted: 0.1093 - 
+BATCH: 2028 
+loss_E: -2.3094 - nlogE_MAE: 0.1708 - nSigmaMAE: 0.1093 - nlogE_MAE_weighted: 0.1708 - nSigmaMAE_weighted: 0.1093 - 
+BATCH: 2184 
+loss_E: -2.3102 - nlogE_MAE: 0.1708 - nSigmaMAE: 0.1093 - nlogE_MAE_weighted: 0.1708 - nSigmaMAE_weighted: 0.1093 - 
+BATCH: 2340 
+loss_E: -2.3111 - nlogE_MAE: 0.1707 - nSigmaMAE: 0.1093 - nlogE_MAE_weighted: 0.1707 - nSigmaMAE_weighted: 0.1093 - 
+BATCH: 2496 
+loss_E: -2.3137 - nlogE_MAE: 0.1706 - nSigmaMAE: 0.1091 - nlogE_MAE_weighted: 0.1706 - nSigmaMAE_weighted: 0.1091 - 
+BATCH: 2652 
+loss_E: -2.3151 - nlogE_MAE: 0.1705 - nSigmaMAE: 0.1091 - nlogE_MAE_weighted: 0.1705 - nSigmaMAE_weighted: 0.1091 - 
+BATCH: 2808 
+loss_E: -2.3147 - nlogE_MAE: 0.1706 - nSigmaMAE: 0.1091 - nlogE_MAE_weighted: 0.1706 - nSigmaMAE_weighted: 0.1091 - 
+BATCH: 2964 
+loss_E: -2.317 - nlogE_MAE: 0.1704 - nSigmaMAE: 0.109 - nlogE_MAE_weighted: 0.1704 - nSigmaMAE_weighted: 0.109 - 
+BATCH: 3120 
+loss_E: -2.3192 - nlogE_MAE: 0.1702 - nSigmaMAE: 0.1088 - nlogE_MAE_weighted: 0.1702 - nSigmaMAE_weighted: 0.1088 - 
+BATCH: 3276 
+loss_E: -2.3188 - nlogE_MAE: 0.1703 - nSigmaMAE: 0.1088 - nlogE_MAE_weighted: 0.1703 - nSigmaMAE_weighted: 0.1088 - 
+BATCH: 3432 
+loss_E: -2.3195 - nlogE_MAE: 0.1702 - nSigmaMAE: 0.1087 - nlogE_MAE_weighted: 0.1702 - nSigmaMAE_weighted: 0.1087 - 
+BATCH: 3588 
+loss_E: -2.3217 - nlogE_MAE: 0.1701 - nSigmaMAE: 0.1087 - nlogE_MAE_weighted: 0.1701 - nSigmaMAE_weighted: 0.1087 - 
+BATCH: 3744 
+loss_E: -2.3235 - nlogE_MAE: 0.1699 - nSigmaMAE: 0.1086 - nlogE_MAE_weighted: 0.1699 - nSigmaMAE_weighted: 0.1086 - 
+BATCH: 3900 
+loss_E: -2.3238 - nlogE_MAE: 0.1699 - nSigmaMAE: 0.1086 - nlogE_MAE_weighted: 0.1699 - nSigmaMAE_weighted: 0.1086 - 
+BATCH: 4056 
+loss_E: -2.3245 - nlogE_MAE: 0.1699 - nSigmaMAE: 0.1086 - nlogE_MAE_weighted: 0.1699 - nSigmaMAE_weighted: 0.1086 - 
+BATCH: 4212 
+loss_E: -2.325 - nlogE_MAE: 0.1699 - nSigmaMAE: 0.1086 - nlogE_MAE_weighted: 0.1699 - nSigmaMAE_weighted: 0.1086 - 
+BATCH: 4368 
+loss_E: -2.3263 - nlogE_MAE: 0.1698 - nSigmaMAE: 0.1085 - nlogE_MAE_weighted: 0.1698 - nSigmaMAE_weighted: 0.1085 - 
+BATCH: 4524 
+loss_E: -2.3275 - nlogE_MAE: 0.1697 - nSigmaMAE: 0.1084 - nlogE_MAE_weighted: 0.1697 - nSigmaMAE_weighted: 0.1084 - 
+BATCH: 4680 
+loss_E: -2.3286 - nlogE_MAE: 0.1696 - nSigmaMAE: 0.1084 - nlogE_MAE_weighted: 0.1696 - nSigmaMAE_weighted: 0.1084 - 
+BATCH: 4836 
+loss_E: -2.3292 - nlogE_MAE: 0.1696 - nSigmaMAE: 0.1084 - nlogE_MAE_weighted: 0.1696 - nSigmaMAE_weighted: 0.1084 - 
+BATCH: 4992 
+loss_E: -2.3314 - nlogE_MAE: 0.1694 - nSigmaMAE: 0.1083 - nlogE_MAE_weighted: 0.1694 - nSigmaMAE_weighted: 0.1083 - 
+BATCH: 5148 
+loss_E: -2.3328 - nlogE_MAE: 0.1693 - nSigmaMAE: 0.1082 - nlogE_MAE_weighted: 0.1693 - nSigmaMAE_weighted: 0.1082 - 
+BATCH: 5304 
+loss_E: -2.3342 - nlogE_MAE: 0.1692 - nSigmaMAE: 0.1082 - nlogE_MAE_weighted: 0.1692 - nSigmaMAE_weighted: 0.1082 - 
+BATCH: 5460 
+loss_E: -2.3356 - nlogE_MAE: 0.1691 - nSigmaMAE: 0.1081 - nlogE_MAE_weighted: 0.1691 - nSigmaMAE_weighted: 0.1081 - 
+BATCH: 5616 
+loss_E: -2.3365 - nlogE_MAE: 0.169 - nSigmaMAE: 0.1081 - nlogE_MAE_weighted: 0.169 - nSigmaMAE_weighted: 0.1081 - 
+BATCH: 5772 
+loss_E: -2.3382 - nlogE_MAE: 0.1689 - nSigmaMAE: 0.108 - nlogE_MAE_weighted: 0.1689 - nSigmaMAE_weighted: 0.108 - 
+BATCH: 5928 
+loss_E: -2.3393 - nlogE_MAE: 0.1688 - nSigmaMAE: 0.108 - nlogE_MAE_weighted: 0.1688 - nSigmaMAE_weighted: 0.108 - 
+BATCH: 6084 
+loss_E: -2.3401 - nlogE_MAE: 0.1688 - nSigmaMAE: 0.108 - nlogE_MAE_weighted: 0.1688 - nSigmaMAE_weighted: 0.108 - 
+BATCH: 6240 
+loss_E: -2.3421 - nlogE_MAE: 0.1686 - nSigmaMAE: 0.1078 - nlogE_MAE_weighted: 0.1686 - nSigmaMAE_weighted: 0.1078 - 
+BATCH: 6396 
+loss_E: -2.3443 - nlogE_MAE: 0.1685 - nSigmaMAE: 0.1078 - nlogE_MAE_weighted: 0.1685 - nSigmaMAE_weighted: 0.1078 - 
+BATCH: 6552 
+loss_E: -2.3458 - nlogE_MAE: 0.1684 - nSigmaMAE: 0.1077 - nlogE_MAE_weighted: 0.1684 - nSigmaMAE_weighted: 0.1077 - 
+BATCH: 6708 
+loss_E: -2.3471 - nlogE_MAE: 0.1683 - nSigmaMAE: 0.1076 - nlogE_MAE_weighted: 0.1683 - nSigmaMAE_weighted: 0.1076 - 
+BATCH: 6864 
+loss_E: -2.3484 - nlogE_MAE: 0.1682 - nSigmaMAE: 0.1076 - nlogE_MAE_weighted: 0.1682 - nSigmaMAE_weighted: 0.1076 - 
+BATCH: 7020 
+loss_E: -2.3488 - nlogE_MAE: 0.1681 - nSigmaMAE: 0.1076 - nlogE_MAE_weighted: 0.1681 - nSigmaMAE_weighted: 0.1076 - 
+BATCH: 7176 
+loss_E: -2.3494 - nlogE_MAE: 0.1681 - nSigmaMAE: 0.1075 - nlogE_MAE_weighted: 0.1681 - nSigmaMAE_weighted: 0.1075 - 
+BATCH: 7332 
+loss_E: -2.3507 - nlogE_MAE: 0.168 - nSigmaMAE: 0.1075 - nlogE_MAE_weighted: 0.168 - nSigmaMAE_weighted: 0.1075 - 
+BATCH: 7488 
+loss_E: -2.3522 - nlogE_MAE: 0.1679 - nSigmaMAE: 0.1074 - nlogE_MAE_weighted: 0.1679 - nSigmaMAE_weighted: 0.1074 - 
+BATCH: 7644 
+loss_E: -2.3538 - nlogE_MAE: 0.1678 - nSigmaMAE: 0.1074 - nlogE_MAE_weighted: 0.1678 - nSigmaMAE_weighted: 0.1074 - 
+BATCH: 7800 
+loss_E: -2.3546 - nlogE_MAE: 0.1677 - nSigmaMAE: 0.1074 - nlogE_MAE_weighted: 0.1677 - nSigmaMAE_weighted: 0.1074 - 
+BATCH: 0 
+loss_E: -2.6992 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0928 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0928 - 
+BATCH: 156 
+loss_E: -2.4111 - nlogE_MAE: 0.1632 - nSigmaMAE: 0.1051 - nlogE_MAE_weighted: 0.1632 - nSigmaMAE_weighted: 0.1051 - 
+BATCH: 312 
+loss_E: -2.4193 - nlogE_MAE: 0.163 - nSigmaMAE: 0.1044 - nlogE_MAE_weighted: 0.163 - nSigmaMAE_weighted: 0.1044 - 
+BATCH: 468 
+loss_E: -2.4318 - nlogE_MAE: 0.1623 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1623 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 624 
+loss_E: -2.4384 - nlogE_MAE: 0.1621 - nSigmaMAE: 0.1037 - nlogE_MAE_weighted: 0.1621 - nSigmaMAE_weighted: 0.1037 - 
+BATCH: 780 
+loss_E: -2.438 - nlogE_MAE: 0.1622 - nSigmaMAE: 0.1037 - nlogE_MAE_weighted: 0.1622 - nSigmaMAE_weighted: 0.1037 - 
+BATCH: 936 
+loss_E: -2.431 - nlogE_MAE: 0.1626 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1626 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 1092 
+loss_E: -2.428 - nlogE_MAE: 0.1627 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1627 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 1248 
+loss_E: -2.4264 - nlogE_MAE: 0.1627 - nSigmaMAE: 0.1041 - nlogE_MAE_weighted: 0.1627 - nSigmaMAE_weighted: 0.1041 - 
+BATCH: 1404 
+loss_E: -2.4263 - nlogE_MAE: 0.1626 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1626 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 1560 
+loss_E: -2.4265 - nlogE_MAE: 0.1626 - nSigmaMAE: 0.1041 - nlogE_MAE_weighted: 0.1626 - nSigmaMAE_weighted: 0.1041 - 
+BATCH: 1716 
+loss_E: -2.4281 - nlogE_MAE: 0.1625 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1625 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 1872 
+loss_E: -2.4307 - nlogE_MAE: 0.1623 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1623 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 2028 
+loss_E: -2.4305 - nlogE_MAE: 0.1624 - nSigmaMAE: 0.104 - nlogE_MAE_weighted: 0.1624 - nSigmaMAE_weighted: 0.104 - 
+BATCH: 2184 
+loss_E: -2.4316 - nlogE_MAE: 0.1623 - nSigmaMAE: 0.1039 - nlogE_MAE_weighted: 0.1623 - nSigmaMAE_weighted: 0.1039 - 
+BATCH: 2340 
+loss_E: -2.432 - nlogE_MAE: 0.1623 - nSigmaMAE: 0.1039 - nlogE_MAE_weighted: 0.1623 - nSigmaMAE_weighted: 0.1039 - 
+BATCH: 2496 
+loss_E: -2.4347 - nlogE_MAE: 0.1621 - nSigmaMAE: 0.1038 - nlogE_MAE_weighted: 0.1621 - nSigmaMAE_weighted: 0.1038 - 
+BATCH: 2652 
+loss_E: -2.4356 - nlogE_MAE: 0.1621 - nSigmaMAE: 0.1037 - nlogE_MAE_weighted: 0.1621 - nSigmaMAE_weighted: 0.1037 - 
+BATCH: 2808 
+loss_E: -2.4356 - nlogE_MAE: 0.1621 - nSigmaMAE: 0.1037 - nlogE_MAE_weighted: 0.1621 - nSigmaMAE_weighted: 0.1037 - 
+BATCH: 2964 
+loss_E: -2.4372 - nlogE_MAE: 0.162 - nSigmaMAE: 0.1036 - nlogE_MAE_weighted: 0.162 - nSigmaMAE_weighted: 0.1036 - 
+BATCH: 3120 
+loss_E: -2.4388 - nlogE_MAE: 0.1618 - nSigmaMAE: 0.1035 - nlogE_MAE_weighted: 0.1618 - nSigmaMAE_weighted: 0.1035 - 
+BATCH: 3276 
+loss_E: -2.438 - nlogE_MAE: 0.1619 - nSigmaMAE: 0.1035 - nlogE_MAE_weighted: 0.1619 - nSigmaMAE_weighted: 0.1035 - 
+BATCH: 3432 
+loss_E: -2.4387 - nlogE_MAE: 0.1619 - nSigmaMAE: 0.1035 - nlogE_MAE_weighted: 0.1619 - nSigmaMAE_weighted: 0.1035 - 
+BATCH: 3588 
+loss_E: -2.4397 - nlogE_MAE: 0.1618 - nSigmaMAE: 0.1035 - nlogE_MAE_weighted: 0.1618 - nSigmaMAE_weighted: 0.1035 - 
+BATCH: 3744 
+loss_E: -2.4405 - nlogE_MAE: 0.1618 - nSigmaMAE: 0.1034 - nlogE_MAE_weighted: 0.1618 - nSigmaMAE_weighted: 0.1034 - 
+BATCH: 3900 
+loss_E: -2.4406 - nlogE_MAE: 0.1618 - nSigmaMAE: 0.1034 - nlogE_MAE_weighted: 0.1618 - nSigmaMAE_weighted: 0.1034 - 
+BATCH: 4056 
+loss_E: -2.4405 - nlogE_MAE: 0.1618 - nSigmaMAE: 0.1034 - nlogE_MAE_weighted: 0.1618 - nSigmaMAE_weighted: 0.1034 - 
+BATCH: 4212 
+loss_E: -2.4408 - nlogE_MAE: 0.1618 - nSigmaMAE: 0.1034 - nlogE_MAE_weighted: 0.1618 - nSigmaMAE_weighted: 0.1034 - 
+BATCH: 4368 
+loss_E: -2.442 - nlogE_MAE: 0.1617 - nSigmaMAE: 0.1034 - nlogE_MAE_weighted: 0.1617 - nSigmaMAE_weighted: 0.1034 - 
+BATCH: 4524 
+loss_E: -2.4428 - nlogE_MAE: 0.1617 - nSigmaMAE: 0.1033 - nlogE_MAE_weighted: 0.1617 - nSigmaMAE_weighted: 0.1033 - 
+BATCH: 4680 
+loss_E: -2.4436 - nlogE_MAE: 0.1616 - nSigmaMAE: 0.1033 - nlogE_MAE_weighted: 0.1616 - nSigmaMAE_weighted: 0.1033 - 
+BATCH: 4836 
+loss_E: -2.4441 - nlogE_MAE: 0.1616 - nSigmaMAE: 0.1033 - nlogE_MAE_weighted: 0.1616 - nSigmaMAE_weighted: 0.1033 - 
+BATCH: 4992 
+loss_E: -2.4458 - nlogE_MAE: 0.1615 - nSigmaMAE: 0.1032 - nlogE_MAE_weighted: 0.1615 - nSigmaMAE_weighted: 0.1032 - 
+BATCH: 5148 
+loss_E: -2.4468 - nlogE_MAE: 0.1614 - nSigmaMAE: 0.1031 - nlogE_MAE_weighted: 0.1614 - nSigmaMAE_weighted: 0.1031 - 
+BATCH: 5304 
+loss_E: -2.4479 - nlogE_MAE: 0.1613 - nSigmaMAE: 0.1031 - nlogE_MAE_weighted: 0.1613 - nSigmaMAE_weighted: 0.1031 - 
+BATCH: 5460 
+loss_E: -2.449 - nlogE_MAE: 0.1612 - nSigmaMAE: 0.1031 - nlogE_MAE_weighted: 0.1612 - nSigmaMAE_weighted: 0.1031 - 
+BATCH: 5616 
+loss_E: -2.4494 - nlogE_MAE: 0.1612 - nSigmaMAE: 0.1031 - nlogE_MAE_weighted: 0.1612 - nSigmaMAE_weighted: 0.1031 - 
+BATCH: 5772 
+loss_E: -2.4512 - nlogE_MAE: 0.1611 - nSigmaMAE: 0.103 - nlogE_MAE_weighted: 0.1611 - nSigmaMAE_weighted: 0.103 - 
+BATCH: 5928 
+loss_E: -2.4519 - nlogE_MAE: 0.161 - nSigmaMAE: 0.103 - nlogE_MAE_weighted: 0.161 - nSigmaMAE_weighted: 0.103 - 
+BATCH: 6084 
+loss_E: -2.4529 - nlogE_MAE: 0.161 - nSigmaMAE: 0.1029 - nlogE_MAE_weighted: 0.161 - nSigmaMAE_weighted: 0.1029 - 
+BATCH: 6240 
+loss_E: -2.4548 - nlogE_MAE: 0.1608 - nSigmaMAE: 0.1028 - nlogE_MAE_weighted: 0.1608 - nSigmaMAE_weighted: 0.1028 - 
+BATCH: 6396 
+loss_E: -2.457 - nlogE_MAE: 0.1607 - nSigmaMAE: 0.1027 - nlogE_MAE_weighted: 0.1607 - nSigmaMAE_weighted: 0.1027 - 
+BATCH: 6552 
+loss_E: -2.4585 - nlogE_MAE: 0.1606 - nSigmaMAE: 0.1027 - nlogE_MAE_weighted: 0.1606 - nSigmaMAE_weighted: 0.1027 - 
+BATCH: 6708 
+loss_E: -2.4595 - nlogE_MAE: 0.1605 - nSigmaMAE: 0.1026 - nlogE_MAE_weighted: 0.1605 - nSigmaMAE_weighted: 0.1026 - 
+BATCH: 6864 
+loss_E: -2.4606 - nlogE_MAE: 0.1604 - nSigmaMAE: 0.1026 - nlogE_MAE_weighted: 0.1604 - nSigmaMAE_weighted: 0.1026 - 
+BATCH: 7020 
+loss_E: -2.4607 - nlogE_MAE: 0.1604 - nSigmaMAE: 0.1026 - nlogE_MAE_weighted: 0.1604 - nSigmaMAE_weighted: 0.1026 - 
+BATCH: 7176 
+loss_E: -2.4616 - nlogE_MAE: 0.1603 - nSigmaMAE: 0.1025 - nlogE_MAE_weighted: 0.1603 - nSigmaMAE_weighted: 0.1025 - 
+BATCH: 7332 
+loss_E: -2.4631 - nlogE_MAE: 0.1602 - nSigmaMAE: 0.1025 - nlogE_MAE_weighted: 0.1602 - nSigmaMAE_weighted: 0.1025 - 
+BATCH: 7488 
+loss_E: -2.4645 - nlogE_MAE: 0.1601 - nSigmaMAE: 0.1024 - nlogE_MAE_weighted: 0.1601 - nSigmaMAE_weighted: 0.1024 - 
+BATCH: 7644 
+loss_E: -2.4659 - nlogE_MAE: 0.16 - nSigmaMAE: 0.1024 - nlogE_MAE_weighted: 0.16 - nSigmaMAE_weighted: 0.1024 - 
+BATCH: 7800 
+loss_E: -2.467 - nlogE_MAE: 0.1599 - nSigmaMAE: 0.1023 - nlogE_MAE_weighted: 0.1599 - nSigmaMAE_weighted: 0.1023 - 
+BATCH: 0 
+loss_E: -2.9284 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0844 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0844 - 
+BATCH: 156 
+loss_E: -2.5385 - nlogE_MAE: 0.1551 - nSigmaMAE: 0.0994 - nlogE_MAE_weighted: 0.1551 - nSigmaMAE_weighted: 0.0994 - 
+BATCH: 312 
+loss_E: -2.5375 - nlogE_MAE: 0.1553 - nSigmaMAE: 0.0989 - nlogE_MAE_weighted: 0.1553 - nSigmaMAE_weighted: 0.0989 - 
+BATCH: 468 
+loss_E: -2.5548 - nlogE_MAE: 0.1542 - nSigmaMAE: 0.0983 - nlogE_MAE_weighted: 0.1542 - nSigmaMAE_weighted: 0.0983 - 
+BATCH: 624 
+loss_E: -2.5613 - nlogE_MAE: 0.154 - nSigmaMAE: 0.0981 - nlogE_MAE_weighted: 0.154 - nSigmaMAE_weighted: 0.0981 - 
+BATCH: 780 
+loss_E: -2.5606 - nlogE_MAE: 0.154 - nSigmaMAE: 0.0982 - nlogE_MAE_weighted: 0.154 - nSigmaMAE_weighted: 0.0982 - 
+BATCH: 936 
+loss_E: -2.5547 - nlogE_MAE: 0.1543 - nSigmaMAE: 0.0985 - nlogE_MAE_weighted: 0.1543 - nSigmaMAE_weighted: 0.0985 - 
+BATCH: 1092 
+loss_E: -2.5503 - nlogE_MAE: 0.1545 - nSigmaMAE: 0.0985 - nlogE_MAE_weighted: 0.1545 - nSigmaMAE_weighted: 0.0985 - 
+BATCH: 1248 
+loss_E: -2.5488 - nlogE_MAE: 0.1544 - nSigmaMAE: 0.0986 - nlogE_MAE_weighted: 0.1544 - nSigmaMAE_weighted: 0.0986 - 
+BATCH: 1404 
+loss_E: -2.5485 - nlogE_MAE: 0.1544 - nSigmaMAE: 0.0985 - nlogE_MAE_weighted: 0.1544 - nSigmaMAE_weighted: 0.0985 - 
+BATCH: 1560 
+loss_E: -2.5489 - nlogE_MAE: 0.1544 - nSigmaMAE: 0.0986 - nlogE_MAE_weighted: 0.1544 - nSigmaMAE_weighted: 0.0986 - 
+BATCH: 1716 
+loss_E: -2.551 - nlogE_MAE: 0.1543 - nSigmaMAE: 0.0986 - nlogE_MAE_weighted: 0.1543 - nSigmaMAE_weighted: 0.0986 - 
+BATCH: 1872 
+loss_E: -2.5549 - nlogE_MAE: 0.1541 - nSigmaMAE: 0.0985 - nlogE_MAE_weighted: 0.1541 - nSigmaMAE_weighted: 0.0985 - 
+BATCH: 2028 
+loss_E: -2.5552 - nlogE_MAE: 0.1541 - nSigmaMAE: 0.0985 - nlogE_MAE_weighted: 0.1541 - nSigmaMAE_weighted: 0.0985 - 
+BATCH: 2184 
+loss_E: -2.5564 - nlogE_MAE: 0.154 - nSigmaMAE: 0.0984 - nlogE_MAE_weighted: 0.154 - nSigmaMAE_weighted: 0.0984 - 
+BATCH: 2340 
+loss_E: -2.5582 - nlogE_MAE: 0.1539 - nSigmaMAE: 0.0983 - nlogE_MAE_weighted: 0.1539 - nSigmaMAE_weighted: 0.0983 - 
+BATCH: 2496 
+loss_E: -2.5607 - nlogE_MAE: 0.1537 - nSigmaMAE: 0.0982 - nlogE_MAE_weighted: 0.1537 - nSigmaMAE_weighted: 0.0982 - 
+BATCH: 2652 
+loss_E: -2.5609 - nlogE_MAE: 0.1537 - nSigmaMAE: 0.0982 - nlogE_MAE_weighted: 0.1537 - nSigmaMAE_weighted: 0.0982 - 
+BATCH: 2808 
+loss_E: -2.5615 - nlogE_MAE: 0.1537 - nSigmaMAE: 0.0982 - nlogE_MAE_weighted: 0.1537 - nSigmaMAE_weighted: 0.0982 - 
+BATCH: 2964 
+loss_E: -2.5636 - nlogE_MAE: 0.1536 - nSigmaMAE: 0.098 - nlogE_MAE_weighted: 0.1536 - nSigmaMAE_weighted: 0.098 - 
+BATCH: 3120 
+loss_E: -2.5648 - nlogE_MAE: 0.1534 - nSigmaMAE: 0.0979 - nlogE_MAE_weighted: 0.1534 - nSigmaMAE_weighted: 0.0979 - 
+BATCH: 3276 
+loss_E: -2.5643 - nlogE_MAE: 0.1535 - nSigmaMAE: 0.0979 - nlogE_MAE_weighted: 0.1535 - nSigmaMAE_weighted: 0.0979 - 
+BATCH: 3432 
+loss_E: -2.565 - nlogE_MAE: 0.1534 - nSigmaMAE: 0.0979 - nlogE_MAE_weighted: 0.1534 - nSigmaMAE_weighted: 0.0979 - 
+BATCH: 3588 
+loss_E: -2.5661 - nlogE_MAE: 0.1534 - nSigmaMAE: 0.0978 - nlogE_MAE_weighted: 0.1534 - nSigmaMAE_weighted: 0.0978 - 
+BATCH: 3744 
+loss_E: -2.5666 - nlogE_MAE: 0.1533 - nSigmaMAE: 0.0978 - nlogE_MAE_weighted: 0.1533 - nSigmaMAE_weighted: 0.0978 - 
+BATCH: 3900 
+loss_E: -2.5673 - nlogE_MAE: 0.1533 - nSigmaMAE: 0.0978 - nlogE_MAE_weighted: 0.1533 - nSigmaMAE_weighted: 0.0978 - 
+BATCH: 4056 
+loss_E: -2.5669 - nlogE_MAE: 0.1533 - nSigmaMAE: 0.0978 - nlogE_MAE_weighted: 0.1533 - nSigmaMAE_weighted: 0.0978 - 
+BATCH: 4212 
+loss_E: -2.5672 - nlogE_MAE: 0.1533 - nSigmaMAE: 0.0978 - nlogE_MAE_weighted: 0.1533 - nSigmaMAE_weighted: 0.0978 - 
+BATCH: 4368 
+loss_E: -2.5678 - nlogE_MAE: 0.1533 - nSigmaMAE: 0.0978 - nlogE_MAE_weighted: 0.1533 - nSigmaMAE_weighted: 0.0978 - 
+BATCH: 4524 
+loss_E: -2.5689 - nlogE_MAE: 0.1532 - nSigmaMAE: 0.0977 - nlogE_MAE_weighted: 0.1532 - nSigmaMAE_weighted: 0.0977 - 
+BATCH: 4680 
+loss_E: -2.57 - nlogE_MAE: 0.1531 - nSigmaMAE: 0.0977 - nlogE_MAE_weighted: 0.1531 - nSigmaMAE_weighted: 0.0977 - 
+BATCH: 4836 
+loss_E: -2.5705 - nlogE_MAE: 0.1531 - nSigmaMAE: 0.0977 - nlogE_MAE_weighted: 0.1531 - nSigmaMAE_weighted: 0.0977 - 
+BATCH: 4992 
+loss_E: -2.5718 - nlogE_MAE: 0.153 - nSigmaMAE: 0.0976 - nlogE_MAE_weighted: 0.153 - nSigmaMAE_weighted: 0.0976 - 
+BATCH: 5148 
+loss_E: -2.5724 - nlogE_MAE: 0.1529 - nSigmaMAE: 0.0976 - nlogE_MAE_weighted: 0.1529 - nSigmaMAE_weighted: 0.0976 - 
+BATCH: 5304 
+loss_E: -2.5734 - nlogE_MAE: 0.1528 - nSigmaMAE: 0.0976 - nlogE_MAE_weighted: 0.1528 - nSigmaMAE_weighted: 0.0976 - 
+BATCH: 5460 
+loss_E: -2.5743 - nlogE_MAE: 0.1528 - nSigmaMAE: 0.0975 - nlogE_MAE_weighted: 0.1528 - nSigmaMAE_weighted: 0.0975 - 
+BATCH: 5616 
+loss_E: -2.5746 - nlogE_MAE: 0.1528 - nSigmaMAE: 0.0975 - nlogE_MAE_weighted: 0.1528 - nSigmaMAE_weighted: 0.0975 - 
+BATCH: 5772 
+loss_E: -2.5757 - nlogE_MAE: 0.1527 - nSigmaMAE: 0.0975 - nlogE_MAE_weighted: 0.1527 - nSigmaMAE_weighted: 0.0975 - 
+BATCH: 5928 
+loss_E: -2.576 - nlogE_MAE: 0.1527 - nSigmaMAE: 0.0975 - nlogE_MAE_weighted: 0.1527 - nSigmaMAE_weighted: 0.0975 - 
+BATCH: 6084 
+loss_E: -2.5767 - nlogE_MAE: 0.1526 - nSigmaMAE: 0.0975 - nlogE_MAE_weighted: 0.1526 - nSigmaMAE_weighted: 0.0975 - 
+BATCH: 6240 
+loss_E: -2.5781 - nlogE_MAE: 0.1525 - nSigmaMAE: 0.0974 - nlogE_MAE_weighted: 0.1525 - nSigmaMAE_weighted: 0.0974 - 
+BATCH: 6396 
+loss_E: -2.58 - nlogE_MAE: 0.1524 - nSigmaMAE: 0.0973 - nlogE_MAE_weighted: 0.1524 - nSigmaMAE_weighted: 0.0973 - 
+BATCH: 6552 
+loss_E: -2.5811 - nlogE_MAE: 0.1523 - nSigmaMAE: 0.0973 - nlogE_MAE_weighted: 0.1523 - nSigmaMAE_weighted: 0.0973 - 
+BATCH: 6708 
+loss_E: -2.5816 - nlogE_MAE: 0.1522 - nSigmaMAE: 0.0973 - nlogE_MAE_weighted: 0.1522 - nSigmaMAE_weighted: 0.0973 - 
+BATCH: 6864 
+loss_E: -2.5825 - nlogE_MAE: 0.1522 - nSigmaMAE: 0.0973 - nlogE_MAE_weighted: 0.1522 - nSigmaMAE_weighted: 0.0973 - 
+BATCH: 7020 
+loss_E: -2.5822 - nlogE_MAE: 0.1522 - nSigmaMAE: 0.0973 - nlogE_MAE_weighted: 0.1522 - nSigmaMAE_weighted: 0.0973 - 
+BATCH: 7176 
+loss_E: -2.583 - nlogE_MAE: 0.1521 - nSigmaMAE: 0.0972 - nlogE_MAE_weighted: 0.1521 - nSigmaMAE_weighted: 0.0972 - 
+BATCH: 7332 
+loss_E: -2.5839 - nlogE_MAE: 0.152 - nSigmaMAE: 0.0972 - nlogE_MAE_weighted: 0.152 - nSigmaMAE_weighted: 0.0972 - 
+BATCH: 7488 
+loss_E: -2.5851 - nlogE_MAE: 0.152 - nSigmaMAE: 0.0972 - nlogE_MAE_weighted: 0.152 - nSigmaMAE_weighted: 0.0972 - 
+BATCH: 7644 
+loss_E: -2.5864 - nlogE_MAE: 0.1519 - nSigmaMAE: 0.0971 - nlogE_MAE_weighted: 0.1519 - nSigmaMAE_weighted: 0.0971 - 
+BATCH: 7800 
+loss_E: -2.5871 - nlogE_MAE: 0.1518 - nSigmaMAE: 0.0971 - nlogE_MAE_weighted: 0.1518 - nSigmaMAE_weighted: 0.0971 - 
+BATCH: 0 
+loss_E: -2.9464 - nlogE_MAE: 0.1349 - nSigmaMAE: 0.0838 - nlogE_MAE_weighted: 0.1349 - nSigmaMAE_weighted: 0.0838 - 
+BATCH: 156 
+loss_E: -2.6274 - nlogE_MAE: 0.1496 - nSigmaMAE: 0.0957 - nlogE_MAE_weighted: 0.1496 - nSigmaMAE_weighted: 0.0957 - 
+BATCH: 312 
+loss_E: -2.6273 - nlogE_MAE: 0.1498 - nSigmaMAE: 0.095 - nlogE_MAE_weighted: 0.1498 - nSigmaMAE_weighted: 0.095 - 
+BATCH: 468 
+loss_E: -2.6418 - nlogE_MAE: 0.1487 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1487 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 624 
+loss_E: -2.6488 - nlogE_MAE: 0.1483 - nSigmaMAE: 0.0944 - nlogE_MAE_weighted: 0.1483 - nSigmaMAE_weighted: 0.0944 - 
+BATCH: 780 
+loss_E: -2.6464 - nlogE_MAE: 0.1485 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1485 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 936 
+loss_E: -2.6396 - nlogE_MAE: 0.1489 - nSigmaMAE: 0.0949 - nlogE_MAE_weighted: 0.1489 - nSigmaMAE_weighted: 0.0949 - 
+BATCH: 1092 
+loss_E: -2.634 - nlogE_MAE: 0.1491 - nSigmaMAE: 0.095 - nlogE_MAE_weighted: 0.1491 - nSigmaMAE_weighted: 0.095 - 
+BATCH: 1248 
+loss_E: -2.6314 - nlogE_MAE: 0.1491 - nSigmaMAE: 0.0952 - nlogE_MAE_weighted: 0.1491 - nSigmaMAE_weighted: 0.0952 - 
+BATCH: 1404 
+loss_E: -2.6304 - nlogE_MAE: 0.1491 - nSigmaMAE: 0.0951 - nlogE_MAE_weighted: 0.1491 - nSigmaMAE_weighted: 0.0951 - 
+BATCH: 1560 
+loss_E: -2.6305 - nlogE_MAE: 0.1492 - nSigmaMAE: 0.0952 - nlogE_MAE_weighted: 0.1492 - nSigmaMAE_weighted: 0.0952 - 
+BATCH: 1716 
+loss_E: -2.633 - nlogE_MAE: 0.149 - nSigmaMAE: 0.0951 - nlogE_MAE_weighted: 0.149 - nSigmaMAE_weighted: 0.0951 - 
+BATCH: 1872 
+loss_E: -2.6372 - nlogE_MAE: 0.1488 - nSigmaMAE: 0.095 - nlogE_MAE_weighted: 0.1488 - nSigmaMAE_weighted: 0.095 - 
+BATCH: 2028 
+loss_E: -2.6359 - nlogE_MAE: 0.1489 - nSigmaMAE: 0.095 - nlogE_MAE_weighted: 0.1489 - nSigmaMAE_weighted: 0.095 - 
+BATCH: 2184 
+loss_E: -2.6366 - nlogE_MAE: 0.1489 - nSigmaMAE: 0.095 - nlogE_MAE_weighted: 0.1489 - nSigmaMAE_weighted: 0.095 - 
+BATCH: 2340 
+loss_E: -2.6382 - nlogE_MAE: 0.1488 - nSigmaMAE: 0.0949 - nlogE_MAE_weighted: 0.1488 - nSigmaMAE_weighted: 0.0949 - 
+BATCH: 2496 
+loss_E: -2.6405 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0948 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0948 - 
+BATCH: 2652 
+loss_E: -2.6404 - nlogE_MAE: 0.1487 - nSigmaMAE: 0.0948 - nlogE_MAE_weighted: 0.1487 - nSigmaMAE_weighted: 0.0948 - 
+BATCH: 2808 
+loss_E: -2.6405 - nlogE_MAE: 0.1487 - nSigmaMAE: 0.0948 - nlogE_MAE_weighted: 0.1487 - nSigmaMAE_weighted: 0.0948 - 
+BATCH: 2964 
+loss_E: -2.6421 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0947 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0947 - 
+BATCH: 3120 
+loss_E: -2.6433 - nlogE_MAE: 0.1485 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1485 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 3276 
+loss_E: -2.6416 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 3432 
+loss_E: -2.6412 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 3588 
+loss_E: -2.6415 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 3744 
+loss_E: -2.6415 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0947 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0947 - 
+BATCH: 3900 
+loss_E: -2.6415 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0947 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0947 - 
+BATCH: 4056 
+loss_E: -2.6411 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0947 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0947 - 
+BATCH: 4212 
+loss_E: -2.6412 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0947 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0947 - 
+BATCH: 4368 
+loss_E: -2.6412 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0947 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0947 - 
+BATCH: 4524 
+loss_E: -2.6419 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 4680 
+loss_E: -2.6428 - nlogE_MAE: 0.1486 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1486 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 4836 
+loss_E: -2.6433 - nlogE_MAE: 0.1485 - nSigmaMAE: 0.0946 - nlogE_MAE_weighted: 0.1485 - nSigmaMAE_weighted: 0.0946 - 
+BATCH: 4992 
+loss_E: -2.6444 - nlogE_MAE: 0.1484 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1484 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 5148 
+loss_E: -2.6451 - nlogE_MAE: 0.1484 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1484 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 5304 
+loss_E: -2.6457 - nlogE_MAE: 0.1483 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1483 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 5460 
+loss_E: -2.6464 - nlogE_MAE: 0.1482 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1482 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 5616 
+loss_E: -2.6463 - nlogE_MAE: 0.1483 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1483 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 5772 
+loss_E: -2.6471 - nlogE_MAE: 0.1482 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1482 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 5928 
+loss_E: -2.6471 - nlogE_MAE: 0.1482 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1482 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 6084 
+loss_E: -2.6477 - nlogE_MAE: 0.1482 - nSigmaMAE: 0.0945 - nlogE_MAE_weighted: 0.1482 - nSigmaMAE_weighted: 0.0945 - 
+BATCH: 6240 
+loss_E: -2.6486 - nlogE_MAE: 0.1481 - nSigmaMAE: 0.0944 - nlogE_MAE_weighted: 0.1481 - nSigmaMAE_weighted: 0.0944 - 
+BATCH: 6396 
+loss_E: -2.6501 - nlogE_MAE: 0.148 - nSigmaMAE: 0.0944 - nlogE_MAE_weighted: 0.148 - nSigmaMAE_weighted: 0.0944 - 
+BATCH: 6552 
+loss_E: -2.651 - nlogE_MAE: 0.1479 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1479 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 6708 
+loss_E: -2.6513 - nlogE_MAE: 0.1479 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1479 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 6864 
+loss_E: -2.6515 - nlogE_MAE: 0.1479 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1479 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 7020 
+loss_E: -2.6509 - nlogE_MAE: 0.1479 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1479 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 7176 
+loss_E: -2.6514 - nlogE_MAE: 0.1479 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1479 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 7332 
+loss_E: -2.652 - nlogE_MAE: 0.1478 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1478 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 7488 
+loss_E: -2.653 - nlogE_MAE: 0.1477 - nSigmaMAE: 0.0943 - nlogE_MAE_weighted: 0.1477 - nSigmaMAE_weighted: 0.0943 - 
+BATCH: 7644 
+loss_E: -2.6535 - nlogE_MAE: 0.1477 - nSigmaMAE: 0.0942 - nlogE_MAE_weighted: 0.1477 - nSigmaMAE_weighted: 0.0942 - 
+BATCH: 7800 
+loss_E: -2.6541 - nlogE_MAE: 0.1476 - nSigmaMAE: 0.0942 - nlogE_MAE_weighted: 0.1476 - nSigmaMAE_weighted: 0.0942 - 
+BATCH: 0 
+loss_E: -3.0045 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.089 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.089 - 
+BATCH: 156 
+loss_E: -2.6762 - nlogE_MAE: 0.1463 - nSigmaMAE: 0.0938 - nlogE_MAE_weighted: 0.1463 - nSigmaMAE_weighted: 0.0938 - 
+BATCH: 312 
+loss_E: -2.6769 - nlogE_MAE: 0.1466 - nSigmaMAE: 0.0931 - nlogE_MAE_weighted: 0.1466 - nSigmaMAE_weighted: 0.0931 - 
+BATCH: 468 
+loss_E: -2.6917 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0925 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0925 - 
+BATCH: 624 
+loss_E: -2.6977 - nlogE_MAE: 0.1452 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.1452 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 780 
+loss_E: -2.694 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0927 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0927 - 
+BATCH: 936 
+loss_E: -2.687 - nlogE_MAE: 0.1458 - nSigmaMAE: 0.0929 - nlogE_MAE_weighted: 0.1458 - nSigmaMAE_weighted: 0.0929 - 
+BATCH: 1092 
+loss_E: -2.68 - nlogE_MAE: 0.1462 - nSigmaMAE: 0.0931 - nlogE_MAE_weighted: 0.1462 - nSigmaMAE_weighted: 0.0931 - 
+BATCH: 1248 
+loss_E: -2.6787 - nlogE_MAE: 0.1461 - nSigmaMAE: 0.0932 - nlogE_MAE_weighted: 0.1461 - nSigmaMAE_weighted: 0.0932 - 
+BATCH: 1404 
+loss_E: -2.6785 - nlogE_MAE: 0.1461 - nSigmaMAE: 0.093 - nlogE_MAE_weighted: 0.1461 - nSigmaMAE_weighted: 0.093 - 
+BATCH: 1560 
+loss_E: -2.6779 - nlogE_MAE: 0.1462 - nSigmaMAE: 0.0932 - nlogE_MAE_weighted: 0.1462 - nSigmaMAE_weighted: 0.0932 - 
+BATCH: 1716 
+loss_E: -2.6805 - nlogE_MAE: 0.146 - nSigmaMAE: 0.0931 - nlogE_MAE_weighted: 0.146 - nSigmaMAE_weighted: 0.0931 - 
+BATCH: 1872 
+loss_E: -2.6842 - nlogE_MAE: 0.1459 - nSigmaMAE: 0.093 - nlogE_MAE_weighted: 0.1459 - nSigmaMAE_weighted: 0.093 - 
+BATCH: 2028 
+loss_E: -2.6843 - nlogE_MAE: 0.1459 - nSigmaMAE: 0.093 - nlogE_MAE_weighted: 0.1459 - nSigmaMAE_weighted: 0.093 - 
+BATCH: 2184 
+loss_E: -2.6851 - nlogE_MAE: 0.1459 - nSigmaMAE: 0.0929 - nlogE_MAE_weighted: 0.1459 - nSigmaMAE_weighted: 0.0929 - 
+BATCH: 2340 
+loss_E: -2.6864 - nlogE_MAE: 0.1458 - nSigmaMAE: 0.0929 - nlogE_MAE_weighted: 0.1458 - nSigmaMAE_weighted: 0.0929 - 
+BATCH: 2496 
+loss_E: -2.6885 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0928 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0928 - 
+BATCH: 2652 
+loss_E: -2.6877 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0928 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0928 - 
+BATCH: 2808 
+loss_E: -2.688 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0928 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0928 - 
+BATCH: 2964 
+loss_E: -2.6895 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0927 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0927 - 
+BATCH: 3120 
+loss_E: -2.6904 - nlogE_MAE: 0.1455 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1455 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 3276 
+loss_E: -2.6893 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 3432 
+loss_E: -2.6895 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 3588 
+loss_E: -2.6899 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 3744 
+loss_E: -2.6892 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 3900 
+loss_E: -2.6888 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0927 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0927 - 
+BATCH: 4056 
+loss_E: -2.6884 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0927 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0927 - 
+BATCH: 4212 
+loss_E: -2.6884 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0927 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0927 - 
+BATCH: 4368 
+loss_E: -2.6882 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0927 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0927 - 
+BATCH: 4524 
+loss_E: -2.6885 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 4680 
+loss_E: -2.6892 - nlogE_MAE: 0.1457 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1457 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 4836 
+loss_E: -2.6895 - nlogE_MAE: 0.1456 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1456 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 4992 
+loss_E: -2.6906 - nlogE_MAE: 0.1455 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1455 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 5148 
+loss_E: -2.6912 - nlogE_MAE: 0.1455 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1455 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 5304 
+loss_E: -2.6918 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 5460 
+loss_E: -2.6923 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 5616 
+loss_E: -2.6923 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0926 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0926 - 
+BATCH: 5772 
+loss_E: -2.6928 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0925 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0925 - 
+BATCH: 5928 
+loss_E: -2.6929 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0925 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0925 - 
+BATCH: 6084 
+loss_E: -2.6933 - nlogE_MAE: 0.1454 - nSigmaMAE: 0.0925 - nlogE_MAE_weighted: 0.1454 - nSigmaMAE_weighted: 0.0925 - 
+BATCH: 6240 
+loss_E: -2.6941 - nlogE_MAE: 0.1453 - nSigmaMAE: 0.0925 - nlogE_MAE_weighted: 0.1453 - nSigmaMAE_weighted: 0.0925 - 
+BATCH: 6396 
+loss_E: -2.6955 - nlogE_MAE: 0.1452 - nSigmaMAE: 0.0925 - nlogE_MAE_weighted: 0.1452 - nSigmaMAE_weighted: 0.0925 - 
+BATCH: 6552 
+loss_E: -2.6965 - nlogE_MAE: 0.1451 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.1451 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 6708 
+loss_E: -2.6965 - nlogE_MAE: 0.1451 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.1451 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 6864 
+loss_E: -2.6969 - nlogE_MAE: 0.1451 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.1451 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 7020 
+loss_E: -2.6961 - nlogE_MAE: 0.1451 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.1451 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 7176 
+loss_E: -2.6966 - nlogE_MAE: 0.1451 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.1451 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 7332 
+loss_E: -2.6971 - nlogE_MAE: 0.145 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.145 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 7488 
+loss_E: -2.6979 - nlogE_MAE: 0.145 - nSigmaMAE: 0.0924 - nlogE_MAE_weighted: 0.145 - nSigmaMAE_weighted: 0.0924 - 
+BATCH: 7644 
+loss_E: -2.6984 - nlogE_MAE: 0.145 - nSigmaMAE: 0.0923 - nlogE_MAE_weighted: 0.145 - nSigmaMAE_weighted: 0.0923 - 
+BATCH: 7800 
+loss_E: -2.6986 - nlogE_MAE: 0.1449 - nSigmaMAE: 0.0923 - nlogE_MAE_weighted: 0.1449 - nSigmaMAE_weighted: 0.0923 - 
+BATCH: 0 
+loss_E: -3.0302 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0884 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0884 - 
+BATCH: 156 
+loss_E: -2.721 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0918 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0918 - 
+BATCH: 312 
+loss_E: -2.7211 - nlogE_MAE: 0.1439 - nSigmaMAE: 0.0914 - nlogE_MAE_weighted: 0.1439 - nSigmaMAE_weighted: 0.0914 - 
+BATCH: 468 
+loss_E: -2.7315 - nlogE_MAE: 0.1431 - nSigmaMAE: 0.091 - nlogE_MAE_weighted: 0.1431 - nSigmaMAE_weighted: 0.091 - 
+BATCH: 624 
+loss_E: -2.7354 - nlogE_MAE: 0.1429 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1429 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 780 
+loss_E: -2.7287 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0913 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0913 - 
+BATCH: 936 
+loss_E: -2.7227 - nlogE_MAE: 0.1437 - nSigmaMAE: 0.0915 - nlogE_MAE_weighted: 0.1437 - nSigmaMAE_weighted: 0.0915 - 
+BATCH: 1092 
+loss_E: -2.7175 - nlogE_MAE: 0.1439 - nSigmaMAE: 0.0916 - nlogE_MAE_weighted: 0.1439 - nSigmaMAE_weighted: 0.0916 - 
+BATCH: 1248 
+loss_E: -2.7159 - nlogE_MAE: 0.1439 - nSigmaMAE: 0.0917 - nlogE_MAE_weighted: 0.1439 - nSigmaMAE_weighted: 0.0917 - 
+BATCH: 1404 
+loss_E: -2.7151 - nlogE_MAE: 0.144 - nSigmaMAE: 0.0916 - nlogE_MAE_weighted: 0.144 - nSigmaMAE_weighted: 0.0916 - 
+BATCH: 1560 
+loss_E: -2.7141 - nlogE_MAE: 0.1441 - nSigmaMAE: 0.0917 - nlogE_MAE_weighted: 0.1441 - nSigmaMAE_weighted: 0.0917 - 
+BATCH: 1716 
+loss_E: -2.7166 - nlogE_MAE: 0.1439 - nSigmaMAE: 0.0917 - nlogE_MAE_weighted: 0.1439 - nSigmaMAE_weighted: 0.0917 - 
+BATCH: 1872 
+loss_E: -2.7203 - nlogE_MAE: 0.1438 - nSigmaMAE: 0.0915 - nlogE_MAE_weighted: 0.1438 - nSigmaMAE_weighted: 0.0915 - 
+BATCH: 2028 
+loss_E: -2.7204 - nlogE_MAE: 0.1438 - nSigmaMAE: 0.0915 - nlogE_MAE_weighted: 0.1438 - nSigmaMAE_weighted: 0.0915 - 
+BATCH: 2184 
+loss_E: -2.7208 - nlogE_MAE: 0.1438 - nSigmaMAE: 0.0915 - nlogE_MAE_weighted: 0.1438 - nSigmaMAE_weighted: 0.0915 - 
+BATCH: 2340 
+loss_E: -2.7217 - nlogE_MAE: 0.1437 - nSigmaMAE: 0.0914 - nlogE_MAE_weighted: 0.1437 - nSigmaMAE_weighted: 0.0914 - 
+BATCH: 2496 
+loss_E: -2.7241 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0913 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0913 - 
+BATCH: 2652 
+loss_E: -2.7242 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0913 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0913 - 
+BATCH: 2808 
+loss_E: -2.7244 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0912 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0912 - 
+BATCH: 2964 
+loss_E: -2.726 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 3120 
+loss_E: -2.7268 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 3276 
+loss_E: -2.7253 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 3432 
+loss_E: -2.7257 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 3588 
+loss_E: -2.7264 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 3744 
+loss_E: -2.7256 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 3900 
+loss_E: -2.725 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0912 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0912 - 
+BATCH: 4056 
+loss_E: -2.7246 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0912 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0912 - 
+BATCH: 4212 
+loss_E: -2.7244 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0912 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0912 - 
+BATCH: 4368 
+loss_E: -2.7244 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0912 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0912 - 
+BATCH: 4524 
+loss_E: -2.7246 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0912 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0912 - 
+BATCH: 4680 
+loss_E: -2.7253 - nlogE_MAE: 0.1436 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1436 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 4836 
+loss_E: -2.7257 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 4992 
+loss_E: -2.7269 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 5148 
+loss_E: -2.7274 - nlogE_MAE: 0.1435 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1435 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 5304 
+loss_E: -2.7278 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 5460 
+loss_E: -2.7283 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 5616 
+loss_E: -2.7281 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 5772 
+loss_E: -2.7287 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 5928 
+loss_E: -2.7285 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 6084 
+loss_E: -2.729 - nlogE_MAE: 0.1434 - nSigmaMAE: 0.0911 - nlogE_MAE_weighted: 0.1434 - nSigmaMAE_weighted: 0.0911 - 
+BATCH: 6240 
+loss_E: -2.7297 - nlogE_MAE: 0.1433 - nSigmaMAE: 0.091 - nlogE_MAE_weighted: 0.1433 - nSigmaMAE_weighted: 0.091 - 
+BATCH: 6396 
+loss_E: -2.731 - nlogE_MAE: 0.1432 - nSigmaMAE: 0.091 - nlogE_MAE_weighted: 0.1432 - nSigmaMAE_weighted: 0.091 - 
+BATCH: 6552 
+loss_E: -2.7318 - nlogE_MAE: 0.1432 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1432 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 6708 
+loss_E: -2.7316 - nlogE_MAE: 0.1432 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1432 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 6864 
+loss_E: -2.7317 - nlogE_MAE: 0.1431 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1431 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 7020 
+loss_E: -2.7309 - nlogE_MAE: 0.1432 - nSigmaMAE: 0.091 - nlogE_MAE_weighted: 0.1432 - nSigmaMAE_weighted: 0.091 - 
+BATCH: 7176 
+loss_E: -2.7313 - nlogE_MAE: 0.1432 - nSigmaMAE: 0.091 - nlogE_MAE_weighted: 0.1432 - nSigmaMAE_weighted: 0.091 - 
+BATCH: 7332 
+loss_E: -2.7318 - nlogE_MAE: 0.1431 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1431 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 7488 
+loss_E: -2.7325 - nlogE_MAE: 0.1431 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1431 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 7644 
+loss_E: -2.733 - nlogE_MAE: 0.1431 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.1431 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 7800 
+loss_E: -2.7334 - nlogE_MAE: 0.143 - nSigmaMAE: 0.0909 - nlogE_MAE_weighted: 0.143 - nSigmaMAE_weighted: 0.0909 - 
+BATCH: 0 
+loss_E: -3.1031 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0883 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0883 - 
+BATCH: 156 
+loss_E: -2.7492 - nlogE_MAE: 0.1419 - nSigmaMAE: 0.091 - nlogE_MAE_weighted: 0.1419 - nSigmaMAE_weighted: 0.091 - 
+BATCH: 312 
+loss_E: -2.7477 - nlogE_MAE: 0.1424 - nSigmaMAE: 0.0903 - nlogE_MAE_weighted: 0.1424 - nSigmaMAE_weighted: 0.0903 - 
+BATCH: 468 
+loss_E: -2.7612 - nlogE_MAE: 0.1415 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1415 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 624 
+loss_E: -2.7662 - nlogE_MAE: 0.1412 - nSigmaMAE: 0.0896 - nlogE_MAE_weighted: 0.1412 - nSigmaMAE_weighted: 0.0896 - 
+BATCH: 780 
+loss_E: -2.7602 - nlogE_MAE: 0.1416 - nSigmaMAE: 0.09 - nlogE_MAE_weighted: 0.1416 - nSigmaMAE_weighted: 0.09 - 
+BATCH: 936 
+loss_E: -2.7524 - nlogE_MAE: 0.142 - nSigmaMAE: 0.0903 - nlogE_MAE_weighted: 0.142 - nSigmaMAE_weighted: 0.0903 - 
+BATCH: 1092 
+loss_E: -2.747 - nlogE_MAE: 0.1422 - nSigmaMAE: 0.0905 - nlogE_MAE_weighted: 0.1422 - nSigmaMAE_weighted: 0.0905 - 
+BATCH: 1248 
+loss_E: -2.7464 - nlogE_MAE: 0.1422 - nSigmaMAE: 0.0904 - nlogE_MAE_weighted: 0.1422 - nSigmaMAE_weighted: 0.0904 - 
+BATCH: 1404 
+loss_E: -2.7456 - nlogE_MAE: 0.1423 - nSigmaMAE: 0.0903 - nlogE_MAE_weighted: 0.1423 - nSigmaMAE_weighted: 0.0903 - 
+BATCH: 1560 
+loss_E: -2.7448 - nlogE_MAE: 0.1424 - nSigmaMAE: 0.0905 - nlogE_MAE_weighted: 0.1424 - nSigmaMAE_weighted: 0.0905 - 
+BATCH: 1716 
+loss_E: -2.7471 - nlogE_MAE: 0.1423 - nSigmaMAE: 0.0904 - nlogE_MAE_weighted: 0.1423 - nSigmaMAE_weighted: 0.0904 - 
+BATCH: 1872 
+loss_E: -2.7501 - nlogE_MAE: 0.1421 - nSigmaMAE: 0.0903 - nlogE_MAE_weighted: 0.1421 - nSigmaMAE_weighted: 0.0903 - 
+BATCH: 2028 
+loss_E: -2.7503 - nlogE_MAE: 0.1422 - nSigmaMAE: 0.0903 - nlogE_MAE_weighted: 0.1422 - nSigmaMAE_weighted: 0.0903 - 
+BATCH: 2184 
+loss_E: -2.7515 - nlogE_MAE: 0.1421 - nSigmaMAE: 0.0902 - nlogE_MAE_weighted: 0.1421 - nSigmaMAE_weighted: 0.0902 - 
+BATCH: 2340 
+loss_E: -2.7522 - nlogE_MAE: 0.142 - nSigmaMAE: 0.0902 - nlogE_MAE_weighted: 0.142 - nSigmaMAE_weighted: 0.0902 - 
+BATCH: 2496 
+loss_E: -2.7546 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0901 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0901 - 
+BATCH: 2652 
+loss_E: -2.7553 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.09 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.09 - 
+BATCH: 2808 
+loss_E: -2.7553 - nlogE_MAE: 0.1419 - nSigmaMAE: 0.09 - nlogE_MAE_weighted: 0.1419 - nSigmaMAE_weighted: 0.09 - 
+BATCH: 2964 
+loss_E: -2.7564 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 3120 
+loss_E: -2.7568 - nlogE_MAE: 0.1417 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1417 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 3276 
+loss_E: -2.7555 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 3432 
+loss_E: -2.7559 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 3588 
+loss_E: -2.7566 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 3744 
+loss_E: -2.7563 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 3900 
+loss_E: -2.7559 - nlogE_MAE: 0.1419 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1419 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 4056 
+loss_E: -2.7552 - nlogE_MAE: 0.1419 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1419 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 4212 
+loss_E: -2.755 - nlogE_MAE: 0.142 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.142 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 4368 
+loss_E: -2.7548 - nlogE_MAE: 0.142 - nSigmaMAE: 0.09 - nlogE_MAE_weighted: 0.142 - nSigmaMAE_weighted: 0.09 - 
+BATCH: 4524 
+loss_E: -2.7548 - nlogE_MAE: 0.1419 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1419 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 4680 
+loss_E: -2.7551 - nlogE_MAE: 0.142 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.142 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 4836 
+loss_E: -2.7555 - nlogE_MAE: 0.1419 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1419 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 4992 
+loss_E: -2.7566 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 5148 
+loss_E: -2.7568 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 5304 
+loss_E: -2.757 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 5460 
+loss_E: -2.7573 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 5616 
+loss_E: -2.7569 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 5772 
+loss_E: -2.7577 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 5928 
+loss_E: -2.7577 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 6084 
+loss_E: -2.7581 - nlogE_MAE: 0.1418 - nSigmaMAE: 0.0899 - nlogE_MAE_weighted: 0.1418 - nSigmaMAE_weighted: 0.0899 - 
+BATCH: 6240 
+loss_E: -2.7591 - nlogE_MAE: 0.1417 - nSigmaMAE: 0.0898 - nlogE_MAE_weighted: 0.1417 - nSigmaMAE_weighted: 0.0898 - 
+BATCH: 6396 
+loss_E: -2.7604 - nlogE_MAE: 0.1416 - nSigmaMAE: 0.0898 - nlogE_MAE_weighted: 0.1416 - nSigmaMAE_weighted: 0.0898 - 
+BATCH: 6552 
+loss_E: -2.7612 - nlogE_MAE: 0.1416 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1416 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 6708 
+loss_E: -2.7611 - nlogE_MAE: 0.1416 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1416 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 6864 
+loss_E: -2.761 - nlogE_MAE: 0.1415 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1415 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 7020 
+loss_E: -2.76 - nlogE_MAE: 0.1416 - nSigmaMAE: 0.0898 - nlogE_MAE_weighted: 0.1416 - nSigmaMAE_weighted: 0.0898 - 
+BATCH: 7176 
+loss_E: -2.7605 - nlogE_MAE: 0.1416 - nSigmaMAE: 0.0898 - nlogE_MAE_weighted: 0.1416 - nSigmaMAE_weighted: 0.0898 - 
+BATCH: 7332 
+loss_E: -2.761 - nlogE_MAE: 0.1415 - nSigmaMAE: 0.0898 - nlogE_MAE_weighted: 0.1415 - nSigmaMAE_weighted: 0.0898 - 
+BATCH: 7488 
+loss_E: -2.7618 - nlogE_MAE: 0.1415 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1415 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 7644 
+loss_E: -2.762 - nlogE_MAE: 0.1415 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1415 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 7800 
+loss_E: -2.7623 - nlogE_MAE: 0.1415 - nSigmaMAE: 0.0897 - nlogE_MAE_weighted: 0.1415 - nSigmaMAE_weighted: 0.0897 - 
+BATCH: 0 
+loss_E: -3.1296 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0856 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0856 - 
+BATCH: 156 
+loss_E: -2.7733 - nlogE_MAE: 0.1407 - nSigmaMAE: 0.0898 - nlogE_MAE_weighted: 0.1407 - nSigmaMAE_weighted: 0.0898 - 
+BATCH: 312 
+loss_E: -2.776 - nlogE_MAE: 0.1411 - nSigmaMAE: 0.0891 - nlogE_MAE_weighted: 0.1411 - nSigmaMAE_weighted: 0.0891 - 
+BATCH: 468 
+loss_E: -2.7901 - nlogE_MAE: 0.1401 - nSigmaMAE: 0.0884 - nlogE_MAE_weighted: 0.1401 - nSigmaMAE_weighted: 0.0884 - 
+BATCH: 624 
+loss_E: -2.7946 - nlogE_MAE: 0.1398 - nSigmaMAE: 0.0883 - nlogE_MAE_weighted: 0.1398 - nSigmaMAE_weighted: 0.0883 - 
+BATCH: 780 
+loss_E: -2.7896 - nlogE_MAE: 0.14 - nSigmaMAE: 0.0886 - nlogE_MAE_weighted: 0.14 - nSigmaMAE_weighted: 0.0886 - 
+BATCH: 936 
+loss_E: -2.7828 - nlogE_MAE: 0.1403 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1403 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 1092 
+loss_E: -2.7775 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.089 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.089 - 
+BATCH: 1248 
+loss_E: -2.7763 - nlogE_MAE: 0.1407 - nSigmaMAE: 0.089 - nlogE_MAE_weighted: 0.1407 - nSigmaMAE_weighted: 0.089 - 
+BATCH: 1404 
+loss_E: -2.7759 - nlogE_MAE: 0.1407 - nSigmaMAE: 0.0889 - nlogE_MAE_weighted: 0.1407 - nSigmaMAE_weighted: 0.0889 - 
+BATCH: 1560 
+loss_E: -2.7742 - nlogE_MAE: 0.1409 - nSigmaMAE: 0.0891 - nlogE_MAE_weighted: 0.1409 - nSigmaMAE_weighted: 0.0891 - 
+BATCH: 1716 
+loss_E: -2.7767 - nlogE_MAE: 0.1407 - nSigmaMAE: 0.089 - nlogE_MAE_weighted: 0.1407 - nSigmaMAE_weighted: 0.089 - 
+BATCH: 1872 
+loss_E: -2.7796 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0889 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0889 - 
+BATCH: 2028 
+loss_E: -2.7796 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0889 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0889 - 
+BATCH: 2184 
+loss_E: -2.7776 - nlogE_MAE: 0.1408 - nSigmaMAE: 0.089 - nlogE_MAE_weighted: 0.1408 - nSigmaMAE_weighted: 0.089 - 
+BATCH: 2340 
+loss_E: -2.778 - nlogE_MAE: 0.1407 - nSigmaMAE: 0.089 - nlogE_MAE_weighted: 0.1407 - nSigmaMAE_weighted: 0.089 - 
+BATCH: 2496 
+loss_E: -2.7801 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0889 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0889 - 
+BATCH: 2652 
+loss_E: -2.7802 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0889 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0889 - 
+BATCH: 2808 
+loss_E: -2.7801 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0889 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0889 - 
+BATCH: 2964 
+loss_E: -2.7813 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 3120 
+loss_E: -2.7824 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 3276 
+loss_E: -2.7814 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 3432 
+loss_E: -2.7819 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 3588 
+loss_E: -2.7827 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 3744 
+loss_E: -2.7822 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 3900 
+loss_E: -2.7816 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 4056 
+loss_E: -2.781 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 4212 
+loss_E: -2.781 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 4368 
+loss_E: -2.781 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 4524 
+loss_E: -2.7813 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 4680 
+loss_E: -2.7817 - nlogE_MAE: 0.1406 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1406 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 4836 
+loss_E: -2.7822 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 4992 
+loss_E: -2.7833 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 5148 
+loss_E: -2.7836 - nlogE_MAE: 0.1405 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1405 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 5304 
+loss_E: -2.7839 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 5460 
+loss_E: -2.7843 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 5616 
+loss_E: -2.7842 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 5772 
+loss_E: -2.7849 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0886 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0886 - 
+BATCH: 5928 
+loss_E: -2.7846 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 6084 
+loss_E: -2.7851 - nlogE_MAE: 0.1404 - nSigmaMAE: 0.0887 - nlogE_MAE_weighted: 0.1404 - nSigmaMAE_weighted: 0.0887 - 
+BATCH: 6240 
+loss_E: -2.786 - nlogE_MAE: 0.1403 - nSigmaMAE: 0.0886 - nlogE_MAE_weighted: 0.1403 - nSigmaMAE_weighted: 0.0886 - 
+BATCH: 6396 
+loss_E: -2.7872 - nlogE_MAE: 0.1402 - nSigmaMAE: 0.0886 - nlogE_MAE_weighted: 0.1402 - nSigmaMAE_weighted: 0.0886 - 
+BATCH: 6552 
+loss_E: -2.788 - nlogE_MAE: 0.1402 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1402 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 6708 
+loss_E: -2.7879 - nlogE_MAE: 0.1402 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1402 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 6864 
+loss_E: -2.7882 - nlogE_MAE: 0.1401 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1401 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 7020 
+loss_E: -2.7874 - nlogE_MAE: 0.1402 - nSigmaMAE: 0.0886 - nlogE_MAE_weighted: 0.1402 - nSigmaMAE_weighted: 0.0886 - 
+BATCH: 7176 
+loss_E: -2.7879 - nlogE_MAE: 0.1402 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1402 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 7332 
+loss_E: -2.7884 - nlogE_MAE: 0.1401 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1401 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 7488 
+loss_E: -2.7891 - nlogE_MAE: 0.1401 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1401 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 7644 
+loss_E: -2.7894 - nlogE_MAE: 0.1401 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1401 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 7800 
+loss_E: -2.7894 - nlogE_MAE: 0.1401 - nSigmaMAE: 0.0885 - nlogE_MAE_weighted: 0.1401 - nSigmaMAE_weighted: 0.0885 - 
+BATCH: 0 
+loss_E: -3.156 - nlogE_MAE: 0.1213 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1213 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 156 
+loss_E: -2.804 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0888 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0888 - 
+BATCH: 312 
+loss_E: -2.8028 - nlogE_MAE: 0.1396 - nSigmaMAE: 0.0881 - nlogE_MAE_weighted: 0.1396 - nSigmaMAE_weighted: 0.0881 - 
+BATCH: 468 
+loss_E: -2.8162 - nlogE_MAE: 0.1387 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1387 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 624 
+loss_E: -2.8214 - nlogE_MAE: 0.1385 - nSigmaMAE: 0.0873 - nlogE_MAE_weighted: 0.1385 - nSigmaMAE_weighted: 0.0873 - 
+BATCH: 780 
+loss_E: -2.8156 - nlogE_MAE: 0.1387 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1387 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 936 
+loss_E: -2.8077 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0879 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0879 - 
+BATCH: 1092 
+loss_E: -2.8027 - nlogE_MAE: 0.1393 - nSigmaMAE: 0.088 - nlogE_MAE_weighted: 0.1393 - nSigmaMAE_weighted: 0.088 - 
+BATCH: 1248 
+loss_E: -2.8014 - nlogE_MAE: 0.1394 - nSigmaMAE: 0.0881 - nlogE_MAE_weighted: 0.1394 - nSigmaMAE_weighted: 0.0881 - 
+BATCH: 1404 
+loss_E: -2.8007 - nlogE_MAE: 0.1394 - nSigmaMAE: 0.088 - nlogE_MAE_weighted: 0.1394 - nSigmaMAE_weighted: 0.088 - 
+BATCH: 1560 
+loss_E: -2.8 - nlogE_MAE: 0.1395 - nSigmaMAE: 0.0881 - nlogE_MAE_weighted: 0.1395 - nSigmaMAE_weighted: 0.0881 - 
+BATCH: 1716 
+loss_E: -2.8017 - nlogE_MAE: 0.1394 - nSigmaMAE: 0.088 - nlogE_MAE_weighted: 0.1394 - nSigmaMAE_weighted: 0.088 - 
+BATCH: 1872 
+loss_E: -2.8049 - nlogE_MAE: 0.1393 - nSigmaMAE: 0.0879 - nlogE_MAE_weighted: 0.1393 - nSigmaMAE_weighted: 0.0879 - 
+BATCH: 2028 
+loss_E: -2.8049 - nlogE_MAE: 0.1393 - nSigmaMAE: 0.0879 - nlogE_MAE_weighted: 0.1393 - nSigmaMAE_weighted: 0.0879 - 
+BATCH: 2184 
+loss_E: -2.8056 - nlogE_MAE: 0.1393 - nSigmaMAE: 0.0879 - nlogE_MAE_weighted: 0.1393 - nSigmaMAE_weighted: 0.0879 - 
+BATCH: 2340 
+loss_E: -2.8056 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0878 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0878 - 
+BATCH: 2496 
+loss_E: -2.8077 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 2652 
+loss_E: -2.8086 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 2808 
+loss_E: -2.8081 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 2964 
+loss_E: -2.809 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 3120 
+loss_E: -2.81 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 3276 
+loss_E: -2.8084 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 3432 
+loss_E: -2.8091 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 3588 
+loss_E: -2.8099 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 3744 
+loss_E: -2.8096 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 3900 
+loss_E: -2.8089 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 4056 
+loss_E: -2.8085 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 4212 
+loss_E: -2.8083 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 4368 
+loss_E: -2.8087 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 4524 
+loss_E: -2.8091 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 4680 
+loss_E: -2.8093 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 4836 
+loss_E: -2.81 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 4992 
+loss_E: -2.8111 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 5148 
+loss_E: -2.8115 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 5304 
+loss_E: -2.8118 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 5460 
+loss_E: -2.8095 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 5616 
+loss_E: -2.8087 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 5772 
+loss_E: -2.8088 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 5928 
+loss_E: -2.8084 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 6084 
+loss_E: -2.8087 - nlogE_MAE: 0.1392 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1392 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 6240 
+loss_E: -2.8096 - nlogE_MAE: 0.1391 - nSigmaMAE: 0.0877 - nlogE_MAE_weighted: 0.1391 - nSigmaMAE_weighted: 0.0877 - 
+BATCH: 6396 
+loss_E: -2.811 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 6552 
+loss_E: -2.8117 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 6708 
+loss_E: -2.8114 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 6864 
+loss_E: -2.8117 - nlogE_MAE: 0.1389 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1389 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 7020 
+loss_E: -2.8109 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 7176 
+loss_E: -2.8116 - nlogE_MAE: 0.139 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.139 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 7332 
+loss_E: -2.812 - nlogE_MAE: 0.1389 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1389 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 7488 
+loss_E: -2.8127 - nlogE_MAE: 0.1389 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.1389 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 7644 
+loss_E: -2.8132 - nlogE_MAE: 0.1388 - nSigmaMAE: 0.0875 - nlogE_MAE_weighted: 0.1388 - nSigmaMAE_weighted: 0.0875 - 
+BATCH: 7800 
+loss_E: -2.8135 - nlogE_MAE: 0.1388 - nSigmaMAE: 0.0875 - nlogE_MAE_weighted: 0.1388 - nSigmaMAE_weighted: 0.0875 - 
+BATCH: 0 
+loss_E: -3.1136 - nlogE_MAE: 0.122 - nSigmaMAE: 0.0876 - nlogE_MAE_weighted: 0.122 - nSigmaMAE_weighted: 0.0876 - 
+BATCH: 156 
+loss_E: -2.8362 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0867 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0867 - 
+BATCH: 312 
+loss_E: -2.8309 - nlogE_MAE: 0.1381 - nSigmaMAE: 0.0865 - nlogE_MAE_weighted: 0.1381 - nSigmaMAE_weighted: 0.0865 - 
+BATCH: 468 
+loss_E: -2.8396 - nlogE_MAE: 0.1374 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1374 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 624 
+loss_E: -2.8434 - nlogE_MAE: 0.1372 - nSigmaMAE: 0.0861 - nlogE_MAE_weighted: 0.1372 - nSigmaMAE_weighted: 0.0861 - 
+BATCH: 780 
+loss_E: -2.8396 - nlogE_MAE: 0.1374 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1374 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 936 
+loss_E: -2.8336 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0866 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0866 - 
+BATCH: 1092 
+loss_E: -2.83 - nlogE_MAE: 0.1379 - nSigmaMAE: 0.0866 - nlogE_MAE_weighted: 0.1379 - nSigmaMAE_weighted: 0.0866 - 
+BATCH: 1248 
+loss_E: -2.8303 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0867 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0867 - 
+BATCH: 1404 
+loss_E: -2.8291 - nlogE_MAE: 0.1379 - nSigmaMAE: 0.0866 - nlogE_MAE_weighted: 0.1379 - nSigmaMAE_weighted: 0.0866 - 
+BATCH: 1560 
+loss_E: -2.828 - nlogE_MAE: 0.1381 - nSigmaMAE: 0.0867 - nlogE_MAE_weighted: 0.1381 - nSigmaMAE_weighted: 0.0867 - 
+BATCH: 1716 
+loss_E: -2.8301 - nlogE_MAE: 0.138 - nSigmaMAE: 0.0867 - nlogE_MAE_weighted: 0.138 - nSigmaMAE_weighted: 0.0867 - 
+BATCH: 1872 
+loss_E: -2.833 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0865 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0865 - 
+BATCH: 2028 
+loss_E: -2.8328 - nlogE_MAE: 0.1379 - nSigmaMAE: 0.0865 - nlogE_MAE_weighted: 0.1379 - nSigmaMAE_weighted: 0.0865 - 
+BATCH: 2184 
+loss_E: -2.8336 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0865 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0865 - 
+BATCH: 2340 
+loss_E: -2.8345 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0865 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0865 - 
+BATCH: 2496 
+loss_E: -2.8361 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 2652 
+loss_E: -2.837 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 2808 
+loss_E: -2.8368 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 2964 
+loss_E: -2.8377 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 3120 
+loss_E: -2.8382 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 3276 
+loss_E: -2.8365 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 3432 
+loss_E: -2.837 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 3588 
+loss_E: -2.8377 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 3744 
+loss_E: -2.8373 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 3900 
+loss_E: -2.837 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 4056 
+loss_E: -2.8362 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 4212 
+loss_E: -2.8359 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 4368 
+loss_E: -2.8361 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 4524 
+loss_E: -2.8366 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 4680 
+loss_E: -2.8367 - nlogE_MAE: 0.1378 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1378 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 4836 
+loss_E: -2.8373 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 4992 
+loss_E: -2.8386 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 5148 
+loss_E: -2.8387 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 5304 
+loss_E: -2.839 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 5460 
+loss_E: -2.8388 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 5616 
+loss_E: -2.8383 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 5772 
+loss_E: -2.8383 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 5928 
+loss_E: -2.8374 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 6084 
+loss_E: -2.8376 - nlogE_MAE: 0.1377 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1377 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 6240 
+loss_E: -2.8386 - nlogE_MAE: 0.1376 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1376 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 6396 
+loss_E: -2.8397 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 6552 
+loss_E: -2.8403 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 6708 
+loss_E: -2.8399 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 6864 
+loss_E: -2.8404 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 7020 
+loss_E: -2.8395 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 7176 
+loss_E: -2.8402 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 7332 
+loss_E: -2.8407 - nlogE_MAE: 0.1375 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1375 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 7488 
+loss_E: -2.8409 - nlogE_MAE: 0.1374 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1374 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 7644 
+loss_E: -2.841 - nlogE_MAE: 0.1374 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1374 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 7800 
+loss_E: -2.841 - nlogE_MAE: 0.1374 - nSigmaMAE: 0.0863 - nlogE_MAE_weighted: 0.1374 - nSigmaMAE_weighted: 0.0863 - 
+BATCH: 0 
+loss_E: -3.1592 - nlogE_MAE: 0.1233 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1233 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 156 
+loss_E: -2.8548 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0864 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0864 - 
+BATCH: 312 
+loss_E: -2.8531 - nlogE_MAE: 0.137 - nSigmaMAE: 0.0857 - nlogE_MAE_weighted: 0.137 - nSigmaMAE_weighted: 0.0857 - 
+BATCH: 468 
+loss_E: -2.8651 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 624 
+loss_E: -2.8669 - nlogE_MAE: 0.136 - nSigmaMAE: 0.0851 - nlogE_MAE_weighted: 0.136 - nSigmaMAE_weighted: 0.0851 - 
+BATCH: 780 
+loss_E: -2.8623 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 936 
+loss_E: -2.8559 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0856 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0856 - 
+BATCH: 1092 
+loss_E: -2.8524 - nlogE_MAE: 0.1367 - nSigmaMAE: 0.0857 - nlogE_MAE_weighted: 0.1367 - nSigmaMAE_weighted: 0.0857 - 
+BATCH: 1248 
+loss_E: -2.8502 - nlogE_MAE: 0.1368 - nSigmaMAE: 0.0858 - nlogE_MAE_weighted: 0.1368 - nSigmaMAE_weighted: 0.0858 - 
+BATCH: 1404 
+loss_E: -2.849 - nlogE_MAE: 0.1369 - nSigmaMAE: 0.0858 - nlogE_MAE_weighted: 0.1369 - nSigmaMAE_weighted: 0.0858 - 
+BATCH: 1560 
+loss_E: -2.8483 - nlogE_MAE: 0.1371 - nSigmaMAE: 0.0859 - nlogE_MAE_weighted: 0.1371 - nSigmaMAE_weighted: 0.0859 - 
+BATCH: 1716 
+loss_E: -2.85 - nlogE_MAE: 0.137 - nSigmaMAE: 0.0859 - nlogE_MAE_weighted: 0.137 - nSigmaMAE_weighted: 0.0859 - 
+BATCH: 1872 
+loss_E: -2.8535 - nlogE_MAE: 0.1368 - nSigmaMAE: 0.0857 - nlogE_MAE_weighted: 0.1368 - nSigmaMAE_weighted: 0.0857 - 
+BATCH: 2028 
+loss_E: -2.854 - nlogE_MAE: 0.1368 - nSigmaMAE: 0.0857 - nlogE_MAE_weighted: 0.1368 - nSigmaMAE_weighted: 0.0857 - 
+BATCH: 2184 
+loss_E: -2.8553 - nlogE_MAE: 0.1368 - nSigmaMAE: 0.0856 - nlogE_MAE_weighted: 0.1368 - nSigmaMAE_weighted: 0.0856 - 
+BATCH: 2340 
+loss_E: -2.8557 - nlogE_MAE: 0.1367 - nSigmaMAE: 0.0856 - nlogE_MAE_weighted: 0.1367 - nSigmaMAE_weighted: 0.0856 - 
+BATCH: 2496 
+loss_E: -2.8577 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0855 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0855 - 
+BATCH: 2652 
+loss_E: -2.8592 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 2808 
+loss_E: -2.859 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 2964 
+loss_E: -2.8598 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 3120 
+loss_E: -2.8606 - nlogE_MAE: 0.1364 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1364 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 3276 
+loss_E: -2.8596 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 3432 
+loss_E: -2.8601 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 3588 
+loss_E: -2.8609 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 3744 
+loss_E: -2.8608 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 3900 
+loss_E: -2.8606 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 4056 
+loss_E: -2.8601 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 4212 
+loss_E: -2.8597 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 4368 
+loss_E: -2.8601 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 4524 
+loss_E: -2.8604 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0854 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0854 - 
+BATCH: 4680 
+loss_E: -2.8607 - nlogE_MAE: 0.1366 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1366 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 4836 
+loss_E: -2.8612 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 4992 
+loss_E: -2.8622 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 5148 
+loss_E: -2.8621 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 5304 
+loss_E: -2.8624 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 5460 
+loss_E: -2.8624 - nlogE_MAE: 0.1364 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1364 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 5616 
+loss_E: -2.862 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 5772 
+loss_E: -2.8623 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 5928 
+loss_E: -2.8616 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 6084 
+loss_E: -2.8618 - nlogE_MAE: 0.1365 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1365 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 6240 
+loss_E: -2.8625 - nlogE_MAE: 0.1364 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1364 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 6396 
+loss_E: -2.8635 - nlogE_MAE: 0.1364 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1364 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 6552 
+loss_E: -2.8643 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 6708 
+loss_E: -2.8639 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 6864 
+loss_E: -2.8647 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 7020 
+loss_E: -2.8633 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 7176 
+loss_E: -2.8636 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0853 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0853 - 
+BATCH: 7332 
+loss_E: -2.8641 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 7488 
+loss_E: -2.8639 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 7644 
+loss_E: -2.8642 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 7800 
+loss_E: -2.8641 - nlogE_MAE: 0.1363 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1363 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 0 
+loss_E: -3.2027 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0803 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0803 - 
+BATCH: 156 
+loss_E: -2.8779 - nlogE_MAE: 0.1354 - nSigmaMAE: 0.0855 - nlogE_MAE_weighted: 0.1354 - nSigmaMAE_weighted: 0.0855 - 
+BATCH: 312 
+loss_E: -2.8772 - nlogE_MAE: 0.1357 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1357 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 468 
+loss_E: -2.8867 - nlogE_MAE: 0.1351 - nSigmaMAE: 0.0842 - nlogE_MAE_weighted: 0.1351 - nSigmaMAE_weighted: 0.0842 - 
+BATCH: 624 
+loss_E: -2.8901 - nlogE_MAE: 0.1348 - nSigmaMAE: 0.0841 - nlogE_MAE_weighted: 0.1348 - nSigmaMAE_weighted: 0.0841 - 
+BATCH: 780 
+loss_E: -2.8873 - nlogE_MAE: 0.1349 - nSigmaMAE: 0.0843 - nlogE_MAE_weighted: 0.1349 - nSigmaMAE_weighted: 0.0843 - 
+BATCH: 936 
+loss_E: -2.8819 - nlogE_MAE: 0.1352 - nSigmaMAE: 0.0845 - nlogE_MAE_weighted: 0.1352 - nSigmaMAE_weighted: 0.0845 - 
+BATCH: 1092 
+loss_E: -2.8782 - nlogE_MAE: 0.1354 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1354 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 1248 
+loss_E: -2.8771 - nlogE_MAE: 0.1354 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1354 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 1404 
+loss_E: -2.8759 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 1560 
+loss_E: -2.8739 - nlogE_MAE: 0.1357 - nSigmaMAE: 0.0848 - nlogE_MAE_weighted: 0.1357 - nSigmaMAE_weighted: 0.0848 - 
+BATCH: 1716 
+loss_E: -2.8766 - nlogE_MAE: 0.1356 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1356 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 1872 
+loss_E: -2.8793 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 2028 
+loss_E: -2.8789 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 2184 
+loss_E: -2.8793 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 2340 
+loss_E: -2.8809 - nlogE_MAE: 0.1353 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1353 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 2496 
+loss_E: -2.8768 - nlogE_MAE: 0.1356 - nSigmaMAE: 0.0848 - nlogE_MAE_weighted: 0.1356 - nSigmaMAE_weighted: 0.0848 - 
+BATCH: 2652 
+loss_E: -2.8709 - nlogE_MAE: 0.136 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.136 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 2808 
+loss_E: -2.8674 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 2964 
+loss_E: -2.8674 - nlogE_MAE: 0.1361 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1361 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 3120 
+loss_E: -2.8671 - nlogE_MAE: 0.1361 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1361 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 3276 
+loss_E: -2.8654 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 3432 
+loss_E: -2.8655 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 3588 
+loss_E: -2.8662 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 3744 
+loss_E: -2.8662 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 3900 
+loss_E: -2.8663 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 4056 
+loss_E: -2.8663 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 4212 
+loss_E: -2.866 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 4368 
+loss_E: -2.8664 - nlogE_MAE: 0.1362 - nSigmaMAE: 0.0852 - nlogE_MAE_weighted: 0.1362 - nSigmaMAE_weighted: 0.0852 - 
+BATCH: 4524 
+loss_E: -2.8673 - nlogE_MAE: 0.1361 - nSigmaMAE: 0.0851 - nlogE_MAE_weighted: 0.1361 - nSigmaMAE_weighted: 0.0851 - 
+BATCH: 4680 
+loss_E: -2.8681 - nlogE_MAE: 0.1361 - nSigmaMAE: 0.0851 - nlogE_MAE_weighted: 0.1361 - nSigmaMAE_weighted: 0.0851 - 
+BATCH: 4836 
+loss_E: -2.8692 - nlogE_MAE: 0.136 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.136 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 4992 
+loss_E: -2.8706 - nlogE_MAE: 0.136 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.136 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 5148 
+loss_E: -2.8708 - nlogE_MAE: 0.1359 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.1359 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 5304 
+loss_E: -2.8714 - nlogE_MAE: 0.1359 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.1359 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 5460 
+loss_E: -2.8716 - nlogE_MAE: 0.1359 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.1359 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 5616 
+loss_E: -2.8715 - nlogE_MAE: 0.1359 - nSigmaMAE: 0.085 - nlogE_MAE_weighted: 0.1359 - nSigmaMAE_weighted: 0.085 - 
+BATCH: 5772 
+loss_E: -2.8725 - nlogE_MAE: 0.1358 - nSigmaMAE: 0.0849 - nlogE_MAE_weighted: 0.1358 - nSigmaMAE_weighted: 0.0849 - 
+BATCH: 5928 
+loss_E: -2.8723 - nlogE_MAE: 0.1359 - nSigmaMAE: 0.0849 - nlogE_MAE_weighted: 0.1359 - nSigmaMAE_weighted: 0.0849 - 
+BATCH: 6084 
+loss_E: -2.873 - nlogE_MAE: 0.1358 - nSigmaMAE: 0.0849 - nlogE_MAE_weighted: 0.1358 - nSigmaMAE_weighted: 0.0849 - 
+BATCH: 6240 
+loss_E: -2.8743 - nlogE_MAE: 0.1357 - nSigmaMAE: 0.0849 - nlogE_MAE_weighted: 0.1357 - nSigmaMAE_weighted: 0.0849 - 
+BATCH: 6396 
+loss_E: -2.8758 - nlogE_MAE: 0.1356 - nSigmaMAE: 0.0848 - nlogE_MAE_weighted: 0.1356 - nSigmaMAE_weighted: 0.0848 - 
+BATCH: 6552 
+loss_E: -2.8771 - nlogE_MAE: 0.1356 - nSigmaMAE: 0.0848 - nlogE_MAE_weighted: 0.1356 - nSigmaMAE_weighted: 0.0848 - 
+BATCH: 6708 
+loss_E: -2.8771 - nlogE_MAE: 0.1356 - nSigmaMAE: 0.0848 - nlogE_MAE_weighted: 0.1356 - nSigmaMAE_weighted: 0.0848 - 
+BATCH: 6864 
+loss_E: -2.8781 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 7020 
+loss_E: -2.8773 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 7176 
+loss_E: -2.878 - nlogE_MAE: 0.1355 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1355 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 7332 
+loss_E: -2.8791 - nlogE_MAE: 0.1354 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1354 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 7488 
+loss_E: -2.8798 - nlogE_MAE: 0.1354 - nSigmaMAE: 0.0847 - nlogE_MAE_weighted: 0.1354 - nSigmaMAE_weighted: 0.0847 - 
+BATCH: 7644 
+loss_E: -2.8805 - nlogE_MAE: 0.1354 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1354 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 7800 
+loss_E: -2.8807 - nlogE_MAE: 0.1353 - nSigmaMAE: 0.0846 - nlogE_MAE_weighted: 0.1353 - nSigmaMAE_weighted: 0.0846 - 
+BATCH: 0 
+loss_E: -3.1206 - nlogE_MAE: 0.1217 - nSigmaMAE: 0.082 - nlogE_MAE_weighted: 0.1217 - nSigmaMAE_weighted: 0.082 - 
+BATCH: 156 
+loss_E: -2.8976 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0849 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0849 - 
+BATCH: 312 
+loss_E: -2.8935 - nlogE_MAE: 0.1346 - nSigmaMAE: 0.0841 - nlogE_MAE_weighted: 0.1346 - nSigmaMAE_weighted: 0.0841 - 
+BATCH: 468 
+loss_E: -2.9103 - nlogE_MAE: 0.1335 - nSigmaMAE: 0.0833 - nlogE_MAE_weighted: 0.1335 - nSigmaMAE_weighted: 0.0833 - 
+BATCH: 624 
+loss_E: -2.9132 - nlogE_MAE: 0.1333 - nSigmaMAE: 0.0833 - nlogE_MAE_weighted: 0.1333 - nSigmaMAE_weighted: 0.0833 - 
+BATCH: 780 
+loss_E: -2.9111 - nlogE_MAE: 0.1335 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1335 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 936 
+loss_E: -2.9069 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 1092 
+loss_E: -2.9045 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 1248 
+loss_E: -2.9035 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 1404 
+loss_E: -2.9029 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 1560 
+loss_E: -2.902 - nlogE_MAE: 0.1341 - nSigmaMAE: 0.0837 - nlogE_MAE_weighted: 0.1341 - nSigmaMAE_weighted: 0.0837 - 
+BATCH: 1716 
+loss_E: -2.9041 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 1872 
+loss_E: -2.9073 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2028 
+loss_E: -2.907 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2184 
+loss_E: -2.9076 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2340 
+loss_E: -2.9085 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2496 
+loss_E: -2.9097 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2652 
+loss_E: -2.9092 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2808 
+loss_E: -2.9078 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 2964 
+loss_E: -2.9079 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 3120 
+loss_E: -2.9078 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 3276 
+loss_E: -2.9062 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 3432 
+loss_E: -2.9066 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 3588 
+loss_E: -2.9068 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 3744 
+loss_E: -2.9064 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 3900 
+loss_E: -2.9062 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 4056 
+loss_E: -2.9054 - nlogE_MAE: 0.1341 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1341 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 4212 
+loss_E: -2.9049 - nlogE_MAE: 0.1341 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1341 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 4368 
+loss_E: -2.9053 - nlogE_MAE: 0.1341 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1341 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 4524 
+loss_E: -2.9054 - nlogE_MAE: 0.1341 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1341 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 4680 
+loss_E: -2.9057 - nlogE_MAE: 0.1341 - nSigmaMAE: 0.0836 - nlogE_MAE_weighted: 0.1341 - nSigmaMAE_weighted: 0.0836 - 
+BATCH: 4836 
+loss_E: -2.9064 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 4992 
+loss_E: -2.9079 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 5148 
+loss_E: -2.9078 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 5304 
+loss_E: -2.9086 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 5460 
+loss_E: -2.9087 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 5616 
+loss_E: -2.9083 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 5772 
+loss_E: -2.9087 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 5928 
+loss_E: -2.9079 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 6084 
+loss_E: -2.9083 - nlogE_MAE: 0.134 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.134 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 6240 
+loss_E: -2.9092 - nlogE_MAE: 0.1339 - nSigmaMAE: 0.0835 - nlogE_MAE_weighted: 0.1339 - nSigmaMAE_weighted: 0.0835 - 
+BATCH: 6396 
+loss_E: -2.9106 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 6552 
+loss_E: -2.9112 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 6708 
+loss_E: -2.9106 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 6864 
+loss_E: -2.9114 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 7020 
+loss_E: -2.9104 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 7176 
+loss_E: -2.9108 - nlogE_MAE: 0.1338 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1338 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 7332 
+loss_E: -2.9114 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 7488 
+loss_E: -2.912 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0834 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0834 - 
+BATCH: 7644 
+loss_E: -2.9125 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0833 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0833 - 
+BATCH: 7800 
+loss_E: -2.9121 - nlogE_MAE: 0.1337 - nSigmaMAE: 0.0833 - nlogE_MAE_weighted: 0.1337 - nSigmaMAE_weighted: 0.0833 - 
+BATCH: 0 
+loss_E: -3.1834 - nlogE_MAE: 0.1216 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1216 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 156 
+loss_E: -2.9153 - nlogE_MAE: 0.1332 - nSigmaMAE: 0.0841 - nlogE_MAE_weighted: 0.1332 - nSigmaMAE_weighted: 0.0841 - 
+BATCH: 312 
+loss_E: -2.9149 - nlogE_MAE: 0.1336 - nSigmaMAE: 0.0832 - nlogE_MAE_weighted: 0.1336 - nSigmaMAE_weighted: 0.0832 - 
+BATCH: 468 
+loss_E: -2.9279 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 624 
+loss_E: -2.9315 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 780 
+loss_E: -2.9286 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 936 
+loss_E: -2.9246 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0828 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0828 - 
+BATCH: 1092 
+loss_E: -2.9221 - nlogE_MAE: 0.1331 - nSigmaMAE: 0.0828 - nlogE_MAE_weighted: 0.1331 - nSigmaMAE_weighted: 0.0828 - 
+BATCH: 1248 
+loss_E: -2.9204 - nlogE_MAE: 0.1332 - nSigmaMAE: 0.0829 - nlogE_MAE_weighted: 0.1332 - nSigmaMAE_weighted: 0.0829 - 
+BATCH: 1404 
+loss_E: -2.9195 - nlogE_MAE: 0.1333 - nSigmaMAE: 0.0828 - nlogE_MAE_weighted: 0.1333 - nSigmaMAE_weighted: 0.0828 - 
+BATCH: 1560 
+loss_E: -2.9178 - nlogE_MAE: 0.1335 - nSigmaMAE: 0.083 - nlogE_MAE_weighted: 0.1335 - nSigmaMAE_weighted: 0.083 - 
+BATCH: 1716 
+loss_E: -2.9206 - nlogE_MAE: 0.1333 - nSigmaMAE: 0.0829 - nlogE_MAE_weighted: 0.1333 - nSigmaMAE_weighted: 0.0829 - 
+BATCH: 1872 
+loss_E: -2.9242 - nlogE_MAE: 0.1331 - nSigmaMAE: 0.0828 - nlogE_MAE_weighted: 0.1331 - nSigmaMAE_weighted: 0.0828 - 
+BATCH: 2028 
+loss_E: -2.9253 - nlogE_MAE: 0.1331 - nSigmaMAE: 0.0828 - nlogE_MAE_weighted: 0.1331 - nSigmaMAE_weighted: 0.0828 - 
+BATCH: 2184 
+loss_E: -2.9264 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 2340 
+loss_E: -2.928 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 2496 
+loss_E: -2.9293 - nlogE_MAE: 0.1327 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1327 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 2652 
+loss_E: -2.9291 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 2808 
+loss_E: -2.927 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 2964 
+loss_E: -2.9272 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 3120 
+loss_E: -2.9274 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 3276 
+loss_E: -2.9263 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 3432 
+loss_E: -2.9274 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 3588 
+loss_E: -2.9286 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 3744 
+loss_E: -2.9284 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 3900 
+loss_E: -2.9284 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 4056 
+loss_E: -2.928 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 4212 
+loss_E: -2.9274 - nlogE_MAE: 0.1331 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1331 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 4368 
+loss_E: -2.9277 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 4524 
+loss_E: -2.9279 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 4680 
+loss_E: -2.9279 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 4836 
+loss_E: -2.9281 - nlogE_MAE: 0.133 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.133 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 4992 
+loss_E: -2.9295 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 5148 
+loss_E: -2.9292 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 5304 
+loss_E: -2.9298 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 5460 
+loss_E: -2.9297 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 5616 
+loss_E: -2.9291 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0827 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0827 - 
+BATCH: 5772 
+loss_E: -2.9296 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 5928 
+loss_E: -2.9292 - nlogE_MAE: 0.1329 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1329 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 6084 
+loss_E: -2.9296 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 6240 
+loss_E: -2.9303 - nlogE_MAE: 0.1328 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1328 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 6396 
+loss_E: -2.9316 - nlogE_MAE: 0.1327 - nSigmaMAE: 0.0826 - nlogE_MAE_weighted: 0.1327 - nSigmaMAE_weighted: 0.0826 - 
+BATCH: 6552 
+loss_E: -2.9324 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 6708 
+loss_E: -2.9321 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 6864 
+loss_E: -2.933 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 7020 
+loss_E: -2.9318 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 7176 
+loss_E: -2.9323 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 7332 
+loss_E: -2.9331 - nlogE_MAE: 0.1326 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1326 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 7488 
+loss_E: -2.9333 - nlogE_MAE: 0.1325 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1325 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 7644 
+loss_E: -2.9337 - nlogE_MAE: 0.1325 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1325 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 7800 
+loss_E: -2.9338 - nlogE_MAE: 0.1325 - nSigmaMAE: 0.0825 - nlogE_MAE_weighted: 0.1325 - nSigmaMAE_weighted: 0.0825 - 
+BATCH: 0 
+loss_E: -3.2187 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0773 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0773 - 
+BATCH: 156 
+loss_E: -2.9463 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0822 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0822 - 
+BATCH: 312 
+loss_E: -2.9434 - nlogE_MAE: 0.1322 - nSigmaMAE: 0.0816 - nlogE_MAE_weighted: 0.1322 - nSigmaMAE_weighted: 0.0816 - 
+BATCH: 468 
+loss_E: -2.9559 - nlogE_MAE: 0.1313 - nSigmaMAE: 0.0812 - nlogE_MAE_weighted: 0.1313 - nSigmaMAE_weighted: 0.0812 - 
+BATCH: 624 
+loss_E: -2.9548 - nlogE_MAE: 0.1314 - nSigmaMAE: 0.0814 - nlogE_MAE_weighted: 0.1314 - nSigmaMAE_weighted: 0.0814 - 
+BATCH: 780 
+loss_E: -2.9524 - nlogE_MAE: 0.1316 - nSigmaMAE: 0.0816 - nlogE_MAE_weighted: 0.1316 - nSigmaMAE_weighted: 0.0816 - 
+BATCH: 936 
+loss_E: -2.9478 - nlogE_MAE: 0.1318 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.1318 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 1092 
+loss_E: -2.9446 - nlogE_MAE: 0.1319 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.1319 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 1248 
+loss_E: -2.9449 - nlogE_MAE: 0.1319 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.1319 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 1404 
+loss_E: -2.9436 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 1560 
+loss_E: -2.9417 - nlogE_MAE: 0.1322 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1322 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 1716 
+loss_E: -2.9439 - nlogE_MAE: 0.1321 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1321 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 1872 
+loss_E: -2.9474 - nlogE_MAE: 0.1319 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1319 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 2028 
+loss_E: -2.948 - nlogE_MAE: 0.1318 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1318 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 2184 
+loss_E: -2.949 - nlogE_MAE: 0.1317 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1317 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 2340 
+loss_E: -2.9501 - nlogE_MAE: 0.1316 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.1316 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 2496 
+loss_E: -2.9517 - nlogE_MAE: 0.1315 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.1315 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 2652 
+loss_E: -2.9515 - nlogE_MAE: 0.1316 - nSigmaMAE: 0.0817 - nlogE_MAE_weighted: 0.1316 - nSigmaMAE_weighted: 0.0817 - 
+BATCH: 2808 
+loss_E: -2.9451 - nlogE_MAE: 0.1319 - nSigmaMAE: 0.082 - nlogE_MAE_weighted: 0.1319 - nSigmaMAE_weighted: 0.082 - 
+BATCH: 2964 
+loss_E: -2.9399 - nlogE_MAE: 0.1321 - nSigmaMAE: 0.0822 - nlogE_MAE_weighted: 0.1321 - nSigmaMAE_weighted: 0.0822 - 
+BATCH: 3120 
+loss_E: -2.9383 - nlogE_MAE: 0.1322 - nSigmaMAE: 0.0822 - nlogE_MAE_weighted: 0.1322 - nSigmaMAE_weighted: 0.0822 - 
+BATCH: 3276 
+loss_E: -2.936 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 3432 
+loss_E: -2.9365 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 3588 
+loss_E: -2.9369 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 3744 
+loss_E: -2.9363 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 3900 
+loss_E: -2.9364 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 4056 
+loss_E: -2.9364 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 4212 
+loss_E: -2.9365 - nlogE_MAE: 0.1324 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1324 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 4368 
+loss_E: -2.9371 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 4524 
+loss_E: -2.9375 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0823 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0823 - 
+BATCH: 4680 
+loss_E: -2.9381 - nlogE_MAE: 0.1323 - nSigmaMAE: 0.0822 - nlogE_MAE_weighted: 0.1323 - nSigmaMAE_weighted: 0.0822 - 
+BATCH: 4836 
+loss_E: -2.939 - nlogE_MAE: 0.1322 - nSigmaMAE: 0.0822 - nlogE_MAE_weighted: 0.1322 - nSigmaMAE_weighted: 0.0822 - 
+BATCH: 4992 
+loss_E: -2.941 - nlogE_MAE: 0.1321 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.1321 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 5148 
+loss_E: -2.941 - nlogE_MAE: 0.1321 - nSigmaMAE: 0.0822 - nlogE_MAE_weighted: 0.1321 - nSigmaMAE_weighted: 0.0822 - 
+BATCH: 5304 
+loss_E: -2.9421 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 5460 
+loss_E: -2.9424 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 5616 
+loss_E: -2.942 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 5772 
+loss_E: -2.9428 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 5928 
+loss_E: -2.9425 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 6084 
+loss_E: -2.9429 - nlogE_MAE: 0.132 - nSigmaMAE: 0.0821 - nlogE_MAE_weighted: 0.132 - nSigmaMAE_weighted: 0.0821 - 
+BATCH: 6240 
+loss_E: -2.9438 - nlogE_MAE: 0.1319 - nSigmaMAE: 0.082 - nlogE_MAE_weighted: 0.1319 - nSigmaMAE_weighted: 0.082 - 
+BATCH: 6396 
+loss_E: -2.9455 - nlogE_MAE: 0.1318 - nSigmaMAE: 0.082 - nlogE_MAE_weighted: 0.1318 - nSigmaMAE_weighted: 0.082 - 
+BATCH: 6552 
+loss_E: -2.9466 - nlogE_MAE: 0.1317 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1317 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 6708 
+loss_E: -2.9465 - nlogE_MAE: 0.1317 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1317 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 6864 
+loss_E: -2.9477 - nlogE_MAE: 0.1316 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1316 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 7020 
+loss_E: -2.9471 - nlogE_MAE: 0.1317 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1317 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 7176 
+loss_E: -2.9478 - nlogE_MAE: 0.1317 - nSigmaMAE: 0.0819 - nlogE_MAE_weighted: 0.1317 - nSigmaMAE_weighted: 0.0819 - 
+BATCH: 7332 
+loss_E: -2.9488 - nlogE_MAE: 0.1316 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1316 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 7488 
+loss_E: -2.9493 - nlogE_MAE: 0.1316 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1316 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 7644 
+loss_E: -2.95 - nlogE_MAE: 0.1315 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1315 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 7800 
+loss_E: -2.9503 - nlogE_MAE: 0.1315 - nSigmaMAE: 0.0818 - nlogE_MAE_weighted: 0.1315 - nSigmaMAE_weighted: 0.0818 - 
+BATCH: 0 
+loss_E: -3.1822 - nlogE_MAE: 0.1228 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1228 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 156 
+loss_E: -2.9669 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0816 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0816 - 
+BATCH: 312 
+loss_E: -2.9641 - nlogE_MAE: 0.1307 - nSigmaMAE: 0.0811 - nlogE_MAE_weighted: 0.1307 - nSigmaMAE_weighted: 0.0811 - 
+BATCH: 468 
+loss_E: -2.9794 - nlogE_MAE: 0.1298 - nSigmaMAE: 0.0805 - nlogE_MAE_weighted: 0.1298 - nSigmaMAE_weighted: 0.0805 - 
+BATCH: 624 
+loss_E: -2.9815 - nlogE_MAE: 0.1297 - nSigmaMAE: 0.0805 - nlogE_MAE_weighted: 0.1297 - nSigmaMAE_weighted: 0.0805 - 
+BATCH: 780 
+loss_E: -2.98 - nlogE_MAE: 0.1298 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.1298 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 936 
+loss_E: -2.9765 - nlogE_MAE: 0.13 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.13 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 1092 
+loss_E: -2.9737 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 1248 
+loss_E: -2.9724 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 1404 
+loss_E: -2.971 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 1560 
+loss_E: -2.9707 - nlogE_MAE: 0.1305 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1305 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 1716 
+loss_E: -2.9716 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 1872 
+loss_E: -2.9731 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2028 
+loss_E: -2.973 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2184 
+loss_E: -2.9743 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2340 
+loss_E: -2.9751 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2496 
+loss_E: -2.9764 - nlogE_MAE: 0.13 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.13 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2652 
+loss_E: -2.9763 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2808 
+loss_E: -2.9748 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 2964 
+loss_E: -2.9734 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 3120 
+loss_E: -2.9731 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 3276 
+loss_E: -2.9715 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 3432 
+loss_E: -2.9721 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 3588 
+loss_E: -2.9732 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 3744 
+loss_E: -2.9725 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 3900 
+loss_E: -2.9717 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4056 
+loss_E: -2.9709 - nlogE_MAE: 0.1305 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1305 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4212 
+loss_E: -2.9699 - nlogE_MAE: 0.1306 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1306 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4368 
+loss_E: -2.97 - nlogE_MAE: 0.1305 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1305 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4524 
+loss_E: -2.9701 - nlogE_MAE: 0.1305 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1305 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4680 
+loss_E: -2.97 - nlogE_MAE: 0.1306 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1306 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4836 
+loss_E: -2.9708 - nlogE_MAE: 0.1305 - nSigmaMAE: 0.081 - nlogE_MAE_weighted: 0.1305 - nSigmaMAE_weighted: 0.081 - 
+BATCH: 4992 
+loss_E: -2.9724 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 5148 
+loss_E: -2.9722 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 5304 
+loss_E: -2.9733 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 5460 
+loss_E: -2.9734 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 5616 
+loss_E: -2.9723 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 5772 
+loss_E: -2.973 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 5928 
+loss_E: -2.9724 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 6084 
+loss_E: -2.9727 - nlogE_MAE: 0.1304 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1304 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 6240 
+loss_E: -2.9739 - nlogE_MAE: 0.1303 - nSigmaMAE: 0.0809 - nlogE_MAE_weighted: 0.1303 - nSigmaMAE_weighted: 0.0809 - 
+BATCH: 6396 
+loss_E: -2.9751 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 6552 
+loss_E: -2.9762 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 6708 
+loss_E: -2.9756 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 6864 
+loss_E: -2.9766 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 7020 
+loss_E: -2.9754 - nlogE_MAE: 0.1302 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1302 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 7176 
+loss_E: -2.9762 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0808 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0808 - 
+BATCH: 7332 
+loss_E: -2.9771 - nlogE_MAE: 0.1301 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.1301 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 7488 
+loss_E: -2.9777 - nlogE_MAE: 0.13 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.13 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 7644 
+loss_E: -2.9779 - nlogE_MAE: 0.13 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.13 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 7800 
+loss_E: -2.9779 - nlogE_MAE: 0.13 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.13 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 0 
+loss_E: -3.2675 - nlogE_MAE: 0.1194 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.1194 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 156 
+loss_E: -2.9794 - nlogE_MAE: 0.13 - nSigmaMAE: 0.0807 - nlogE_MAE_weighted: 0.13 - nSigmaMAE_weighted: 0.0807 - 
+BATCH: 312 
+loss_E: -2.981 - nlogE_MAE: 0.1299 - nSigmaMAE: 0.0804 - nlogE_MAE_weighted: 0.1299 - nSigmaMAE_weighted: 0.0804 - 
+BATCH: 468 
+loss_E: -2.9958 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 624 
+loss_E: -3.0032 - nlogE_MAE: 0.1286 - nSigmaMAE: 0.0796 - nlogE_MAE_weighted: 0.1286 - nSigmaMAE_weighted: 0.0796 - 
+BATCH: 780 
+loss_E: -3.0015 - nlogE_MAE: 0.1288 - nSigmaMAE: 0.0797 - nlogE_MAE_weighted: 0.1288 - nSigmaMAE_weighted: 0.0797 - 
+BATCH: 936 
+loss_E: -2.9983 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.0798 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.0798 - 
+BATCH: 1092 
+loss_E: -2.9947 - nlogE_MAE: 0.129 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.129 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 1248 
+loss_E: -2.992 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 1404 
+loss_E: -2.9895 - nlogE_MAE: 0.1294 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1294 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 1560 
+loss_E: -2.9883 - nlogE_MAE: 0.1295 - nSigmaMAE: 0.0802 - nlogE_MAE_weighted: 0.1295 - nSigmaMAE_weighted: 0.0802 - 
+BATCH: 1716 
+loss_E: -2.9899 - nlogE_MAE: 0.1295 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1295 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 1872 
+loss_E: -2.9927 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 2028 
+loss_E: -2.993 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 2184 
+loss_E: -2.9939 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 2340 
+loss_E: -2.9945 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 2496 
+loss_E: -2.9961 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 2652 
+loss_E: -2.9959 - nlogE_MAE: 0.129 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.129 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 2808 
+loss_E: -2.9942 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 2964 
+loss_E: -2.9932 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 3120 
+loss_E: -2.9929 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 3276 
+loss_E: -2.9921 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 3432 
+loss_E: -2.9927 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 3588 
+loss_E: -2.9939 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 3744 
+loss_E: -2.9938 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 3900 
+loss_E: -2.994 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4056 
+loss_E: -2.9932 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4212 
+loss_E: -2.9925 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4368 
+loss_E: -2.9928 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4524 
+loss_E: -2.9933 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4680 
+loss_E: -2.993 - nlogE_MAE: 0.1293 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1293 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4836 
+loss_E: -2.9936 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 4992 
+loss_E: -2.9954 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 5148 
+loss_E: -2.9955 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 5304 
+loss_E: -2.996 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 5460 
+loss_E: -2.9962 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 5616 
+loss_E: -2.9948 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 5772 
+loss_E: -2.9954 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 5928 
+loss_E: -2.9945 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 6084 
+loss_E: -2.9947 - nlogE_MAE: 0.1292 - nSigmaMAE: 0.0801 - nlogE_MAE_weighted: 0.1292 - nSigmaMAE_weighted: 0.0801 - 
+BATCH: 6240 
+loss_E: -2.9956 - nlogE_MAE: 0.1291 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1291 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 6396 
+loss_E: -2.9969 - nlogE_MAE: 0.129 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.129 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 6552 
+loss_E: -2.9979 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 6708 
+loss_E: -2.9976 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 6864 
+loss_E: -2.9983 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 7020 
+loss_E: -2.9973 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.08 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.08 - 
+BATCH: 7176 
+loss_E: -2.998 - nlogE_MAE: 0.1289 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1289 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 7332 
+loss_E: -2.9989 - nlogE_MAE: 0.1288 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1288 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 7488 
+loss_E: -2.9996 - nlogE_MAE: 0.1288 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1288 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 7644 
+loss_E: -3.0002 - nlogE_MAE: 0.1288 - nSigmaMAE: 0.0798 - nlogE_MAE_weighted: 0.1288 - nSigmaMAE_weighted: 0.0798 - 
+BATCH: 7800 
+loss_E: -2.9997 - nlogE_MAE: 0.1288 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1288 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 0 
+loss_E: -3.2372 - nlogE_MAE: 0.1142 - nSigmaMAE: 0.0795 - nlogE_MAE_weighted: 0.1142 - nSigmaMAE_weighted: 0.0795 - 
+BATCH: 156 
+loss_E: -2.9959 - nlogE_MAE: 0.1286 - nSigmaMAE: 0.0805 - nlogE_MAE_weighted: 0.1286 - nSigmaMAE_weighted: 0.0805 - 
+BATCH: 312 
+loss_E: -3.001 - nlogE_MAE: 0.1283 - nSigmaMAE: 0.0799 - nlogE_MAE_weighted: 0.1283 - nSigmaMAE_weighted: 0.0799 - 
+BATCH: 468 
+loss_E: -3.0187 - nlogE_MAE: 0.1274 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1274 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 624 
+loss_E: -3.0244 - nlogE_MAE: 0.1272 - nSigmaMAE: 0.0788 - nlogE_MAE_weighted: 0.1272 - nSigmaMAE_weighted: 0.0788 - 
+BATCH: 780 
+loss_E: -3.0231 - nlogE_MAE: 0.1273 - nSigmaMAE: 0.0789 - nlogE_MAE_weighted: 0.1273 - nSigmaMAE_weighted: 0.0789 - 
+BATCH: 936 
+loss_E: -3.0171 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 1092 
+loss_E: -3.0134 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 1248 
+loss_E: -3.0116 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 1404 
+loss_E: -3.0098 - nlogE_MAE: 0.1281 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1281 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 1560 
+loss_E: -3.0083 - nlogE_MAE: 0.1283 - nSigmaMAE: 0.0795 - nlogE_MAE_weighted: 0.1283 - nSigmaMAE_weighted: 0.0795 - 
+BATCH: 1716 
+loss_E: -3.0103 - nlogE_MAE: 0.1282 - nSigmaMAE: 0.0794 - nlogE_MAE_weighted: 0.1282 - nSigmaMAE_weighted: 0.0794 - 
+BATCH: 1872 
+loss_E: -3.0129 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 2028 
+loss_E: -3.0137 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 2184 
+loss_E: -3.015 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 2340 
+loss_E: -3.0163 - nlogE_MAE: 0.1278 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1278 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 2496 
+loss_E: -3.0177 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 2652 
+loss_E: -3.0178 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 2808 
+loss_E: -3.0164 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 2964 
+loss_E: -3.0146 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 3120 
+loss_E: -3.0144 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 3276 
+loss_E: -3.0132 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 3432 
+loss_E: -3.0139 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 3588 
+loss_E: -3.0151 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 3744 
+loss_E: -3.0149 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 3900 
+loss_E: -3.015 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 4056 
+loss_E: -3.0143 - nlogE_MAE: 0.1281 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1281 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 4212 
+loss_E: -3.0135 - nlogE_MAE: 0.1281 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1281 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 4368 
+loss_E: -3.0138 - nlogE_MAE: 0.1281 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1281 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 4524 
+loss_E: -3.0142 - nlogE_MAE: 0.1281 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1281 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 4680 
+loss_E: -3.014 - nlogE_MAE: 0.1281 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1281 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 4836 
+loss_E: -3.0144 - nlogE_MAE: 0.128 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.128 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 4992 
+loss_E: -3.016 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 5148 
+loss_E: -3.0163 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 5304 
+loss_E: -3.017 - nlogE_MAE: 0.1278 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1278 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 5460 
+loss_E: -3.0169 - nlogE_MAE: 0.1278 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1278 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 5616 
+loss_E: -3.016 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0793 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0793 - 
+BATCH: 5772 
+loss_E: -3.0166 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 5928 
+loss_E: -3.0159 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 6084 
+loss_E: -3.0164 - nlogE_MAE: 0.1279 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1279 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 6240 
+loss_E: -3.0174 - nlogE_MAE: 0.1278 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1278 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 6396 
+loss_E: -3.0187 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0792 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0792 - 
+BATCH: 6552 
+loss_E: -3.0195 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 6708 
+loss_E: -3.0192 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 6864 
+loss_E: -3.0203 - nlogE_MAE: 0.1276 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1276 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 7020 
+loss_E: -3.019 - nlogE_MAE: 0.1277 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1277 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 7176 
+loss_E: -3.0195 - nlogE_MAE: 0.1276 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1276 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 7332 
+loss_E: -3.0202 - nlogE_MAE: 0.1276 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1276 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 7488 
+loss_E: -3.0207 - nlogE_MAE: 0.1276 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1276 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 7644 
+loss_E: -3.0209 - nlogE_MAE: 0.1276 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1276 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 7800 
+loss_E: -3.0208 - nlogE_MAE: 0.1276 - nSigmaMAE: 0.0791 - nlogE_MAE_weighted: 0.1276 - nSigmaMAE_weighted: 0.0791 - 
+BATCH: 0 
+loss_E: -3.316 - nlogE_MAE: 0.112 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.112 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 156 
+loss_E: -3.0467 - nlogE_MAE: 0.1261 - nSigmaMAE: 0.0789 - nlogE_MAE_weighted: 0.1261 - nSigmaMAE_weighted: 0.0789 - 
+BATCH: 312 
+loss_E: -3.0364 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0787 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0787 - 
+BATCH: 468 
+loss_E: -3.0476 - nlogE_MAE: 0.1259 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1259 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 624 
+loss_E: -3.0504 - nlogE_MAE: 0.1257 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1257 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 780 
+loss_E: -3.0502 - nlogE_MAE: 0.1257 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1257 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 936 
+loss_E: -3.0438 - nlogE_MAE: 0.126 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.126 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 1092 
+loss_E: -3.0387 - nlogE_MAE: 0.1262 - nSigmaMAE: 0.0787 - nlogE_MAE_weighted: 0.1262 - nSigmaMAE_weighted: 0.0787 - 
+BATCH: 1248 
+loss_E: -3.0374 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0786 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0786 - 
+BATCH: 1404 
+loss_E: -3.037 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0786 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0786 - 
+BATCH: 1560 
+loss_E: -3.0354 - nlogE_MAE: 0.1267 - nSigmaMAE: 0.0788 - nlogE_MAE_weighted: 0.1267 - nSigmaMAE_weighted: 0.0788 - 
+BATCH: 1716 
+loss_E: -3.0376 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0787 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0787 - 
+BATCH: 1872 
+loss_E: -3.0415 - nlogE_MAE: 0.1264 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1264 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 2028 
+loss_E: -3.042 - nlogE_MAE: 0.1264 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1264 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 2184 
+loss_E: -3.0425 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 2340 
+loss_E: -3.0428 - nlogE_MAE: 0.1262 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1262 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 2496 
+loss_E: -3.044 - nlogE_MAE: 0.1261 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1261 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 2652 
+loss_E: -3.0438 - nlogE_MAE: 0.1262 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1262 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 2808 
+loss_E: -3.0421 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 2964 
+loss_E: -3.0407 - nlogE_MAE: 0.1264 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1264 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 3120 
+loss_E: -3.0403 - nlogE_MAE: 0.1264 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1264 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 3276 
+loss_E: -3.0391 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 3432 
+loss_E: -3.0398 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 3588 
+loss_E: -3.0404 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 3744 
+loss_E: -3.0399 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 3900 
+loss_E: -3.0398 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4056 
+loss_E: -3.0392 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4212 
+loss_E: -3.0388 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4368 
+loss_E: -3.0394 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4524 
+loss_E: -3.0388 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4680 
+loss_E: -3.038 - nlogE_MAE: 0.1267 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1267 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4836 
+loss_E: -3.0384 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 4992 
+loss_E: -3.0395 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 5148 
+loss_E: -3.039 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 5304 
+loss_E: -3.0393 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 5460 
+loss_E: -3.0397 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 5616 
+loss_E: -3.039 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 5772 
+loss_E: -3.0393 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 5928 
+loss_E: -3.0384 - nlogE_MAE: 0.1266 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1266 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 6084 
+loss_E: -3.0389 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0785 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0785 - 
+BATCH: 6240 
+loss_E: -3.0398 - nlogE_MAE: 0.1265 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1265 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 6396 
+loss_E: -3.0411 - nlogE_MAE: 0.1264 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1264 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 6552 
+loss_E: -3.042 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 6708 
+loss_E: -3.0414 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 6864 
+loss_E: -3.0423 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 7020 
+loss_E: -3.0407 - nlogE_MAE: 0.1264 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1264 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 7176 
+loss_E: -3.041 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 7332 
+loss_E: -3.042 - nlogE_MAE: 0.1263 - nSigmaMAE: 0.0784 - nlogE_MAE_weighted: 0.1263 - nSigmaMAE_weighted: 0.0784 - 
+BATCH: 7488 
+loss_E: -3.0426 - nlogE_MAE: 0.1262 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1262 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 7644 
+loss_E: -3.0429 - nlogE_MAE: 0.1262 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1262 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 7800 
+loss_E: -3.0429 - nlogE_MAE: 0.1262 - nSigmaMAE: 0.0783 - nlogE_MAE_weighted: 0.1262 - nSigmaMAE_weighted: 0.0783 - 
+BATCH: 0 
+loss_E: -3.3411 - nlogE_MAE: 0.1177 - nSigmaMAE: 0.0676 - nlogE_MAE_weighted: 0.1177 - nSigmaMAE_weighted: 0.0676 - 
+BATCH: 156 
+loss_E: -3.0596 - nlogE_MAE: 0.1255 - nSigmaMAE: 0.0778 - nlogE_MAE_weighted: 0.1255 - nSigmaMAE_weighted: 0.0778 - 
+BATCH: 312 
+loss_E: -3.0605 - nlogE_MAE: 0.1253 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1253 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 468 
+loss_E: -3.0724 - nlogE_MAE: 0.1247 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1247 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 624 
+loss_E: -3.0768 - nlogE_MAE: 0.1244 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1244 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 780 
+loss_E: -3.0738 - nlogE_MAE: 0.1245 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1245 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 936 
+loss_E: -3.0696 - nlogE_MAE: 0.1247 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1247 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 1092 
+loss_E: -3.0658 - nlogE_MAE: 0.1248 - nSigmaMAE: 0.0773 - nlogE_MAE_weighted: 0.1248 - nSigmaMAE_weighted: 0.0773 - 
+BATCH: 1248 
+loss_E: -3.0644 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 1404 
+loss_E: -3.0636 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 1560 
+loss_E: -3.0605 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0776 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0776 - 
+BATCH: 1716 
+loss_E: -3.0618 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0776 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0776 - 
+BATCH: 1872 
+loss_E: -3.0645 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 2028 
+loss_E: -3.0639 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0776 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0776 - 
+BATCH: 2184 
+loss_E: -3.0646 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0776 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0776 - 
+BATCH: 2340 
+loss_E: -3.0651 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 2496 
+loss_E: -3.0667 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 2652 
+loss_E: -3.0664 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 2808 
+loss_E: -3.0646 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 2964 
+loss_E: -3.0636 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 3120 
+loss_E: -3.064 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 3276 
+loss_E: -3.0632 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 3432 
+loss_E: -3.0644 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 3588 
+loss_E: -3.0651 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 3744 
+loss_E: -3.0648 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 3900 
+loss_E: -3.0647 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 4056 
+loss_E: -3.0647 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 4212 
+loss_E: -3.064 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 4368 
+loss_E: -3.0644 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 4524 
+loss_E: -3.0643 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 4680 
+loss_E: -3.0634 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 4836 
+loss_E: -3.0638 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 4992 
+loss_E: -3.0651 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 5148 
+loss_E: -3.0652 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 5304 
+loss_E: -3.0658 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 5460 
+loss_E: -3.0659 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 5616 
+loss_E: -3.0651 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 5772 
+loss_E: -3.0658 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 5928 
+loss_E: -3.0651 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 6084 
+loss_E: -3.0655 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 6240 
+loss_E: -3.0661 - nlogE_MAE: 0.125 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.125 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 6396 
+loss_E: -3.0671 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0775 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0775 - 
+BATCH: 6552 
+loss_E: -3.0679 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 6708 
+loss_E: -3.0677 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 6864 
+loss_E: -3.0684 - nlogE_MAE: 0.1248 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1248 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 7020 
+loss_E: -3.0669 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 7176 
+loss_E: -3.0672 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 7332 
+loss_E: -3.0681 - nlogE_MAE: 0.1248 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1248 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 7488 
+loss_E: -3.0685 - nlogE_MAE: 0.1248 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1248 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 7644 
+loss_E: -3.0688 - nlogE_MAE: 0.1248 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1248 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 7800 
+loss_E: -3.0686 - nlogE_MAE: 0.1248 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1248 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 0 
+loss_E: -3.1963 - nlogE_MAE: 0.123 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.123 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 156 
+loss_E: -3.0915 - nlogE_MAE: 0.1235 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1235 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 312 
+loss_E: -3.0849 - nlogE_MAE: 0.1239 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1239 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 468 
+loss_E: -3.0935 - nlogE_MAE: 0.1234 - nSigmaMAE: 0.0766 - nlogE_MAE_weighted: 0.1234 - nSigmaMAE_weighted: 0.0766 - 
+BATCH: 624 
+loss_E: -3.0984 - nlogE_MAE: 0.1231 - nSigmaMAE: 0.0766 - nlogE_MAE_weighted: 0.1231 - nSigmaMAE_weighted: 0.0766 - 
+BATCH: 780 
+loss_E: -3.096 - nlogE_MAE: 0.1233 - nSigmaMAE: 0.0765 - nlogE_MAE_weighted: 0.1233 - nSigmaMAE_weighted: 0.0765 - 
+BATCH: 936 
+loss_E: -3.0887 - nlogE_MAE: 0.1236 - nSigmaMAE: 0.0767 - nlogE_MAE_weighted: 0.1236 - nSigmaMAE_weighted: 0.0767 - 
+BATCH: 1092 
+loss_E: -3.0823 - nlogE_MAE: 0.1238 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1238 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 1248 
+loss_E: -3.0808 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 1404 
+loss_E: -3.0792 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 1560 
+loss_E: -3.0766 - nlogE_MAE: 0.1244 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1244 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 1716 
+loss_E: -3.0765 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 1872 
+loss_E: -3.0792 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 2028 
+loss_E: -3.0789 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 2184 
+loss_E: -3.0762 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 2340 
+loss_E: -3.0754 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 2496 
+loss_E: -3.0767 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 2652 
+loss_E: -3.0765 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 2808 
+loss_E: -3.075 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 2964 
+loss_E: -3.0739 - nlogE_MAE: 0.1244 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1244 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 3120 
+loss_E: -3.0746 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 3276 
+loss_E: -3.0742 - nlogE_MAE: 0.1244 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1244 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 3432 
+loss_E: -3.0754 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 3588 
+loss_E: -3.0762 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 3744 
+loss_E: -3.0761 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 3900 
+loss_E: -3.0769 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 4056 
+loss_E: -3.0772 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 4212 
+loss_E: -3.0767 - nlogE_MAE: 0.1244 - nSigmaMAE: 0.0771 - nlogE_MAE_weighted: 0.1244 - nSigmaMAE_weighted: 0.0771 - 
+BATCH: 4368 
+loss_E: -3.0776 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 4524 
+loss_E: -3.078 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 4680 
+loss_E: -3.0777 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 4836 
+loss_E: -3.0782 - nlogE_MAE: 0.1242 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1242 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 4992 
+loss_E: -3.0796 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 5148 
+loss_E: -3.0793 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 5304 
+loss_E: -3.0803 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 5460 
+loss_E: -3.0807 - nlogE_MAE: 0.124 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.124 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 5616 
+loss_E: -3.0797 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 5772 
+loss_E: -3.08 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 5928 
+loss_E: -3.0794 - nlogE_MAE: 0.1241 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1241 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 6084 
+loss_E: -3.0746 - nlogE_MAE: 0.1244 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.1244 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 6240 
+loss_E: -3.0671 - nlogE_MAE: 0.1247 - nSigmaMAE: 0.0774 - nlogE_MAE_weighted: 0.1247 - nSigmaMAE_weighted: 0.0774 - 
+BATCH: 6396 
+loss_E: -3.0629 - nlogE_MAE: 0.1249 - nSigmaMAE: 0.0776 - nlogE_MAE_weighted: 0.1249 - nSigmaMAE_weighted: 0.0776 - 
+BATCH: 6552 
+loss_E: -3.059 - nlogE_MAE: 0.1251 - nSigmaMAE: 0.0777 - nlogE_MAE_weighted: 0.1251 - nSigmaMAE_weighted: 0.0777 - 
+BATCH: 6708 
+loss_E: -3.0554 - nlogE_MAE: 0.1252 - nSigmaMAE: 0.0779 - nlogE_MAE_weighted: 0.1252 - nSigmaMAE_weighted: 0.0779 - 
+BATCH: 6864 
+loss_E: -3.0539 - nlogE_MAE: 0.1253 - nSigmaMAE: 0.0779 - nlogE_MAE_weighted: 0.1253 - nSigmaMAE_weighted: 0.0779 - 
+BATCH: 7020 
+loss_E: -3.0512 - nlogE_MAE: 0.1254 - nSigmaMAE: 0.078 - nlogE_MAE_weighted: 0.1254 - nSigmaMAE_weighted: 0.078 - 
+BATCH: 7176 
+loss_E: -3.0505 - nlogE_MAE: 0.1254 - nSigmaMAE: 0.078 - nlogE_MAE_weighted: 0.1254 - nSigmaMAE_weighted: 0.078 - 
+BATCH: 7332 
+loss_E: -3.0502 - nlogE_MAE: 0.1254 - nSigmaMAE: 0.0781 - nlogE_MAE_weighted: 0.1254 - nSigmaMAE_weighted: 0.0781 - 
+BATCH: 7488 
+loss_E: -3.0503 - nlogE_MAE: 0.1254 - nSigmaMAE: 0.0781 - nlogE_MAE_weighted: 0.1254 - nSigmaMAE_weighted: 0.0781 - 
+BATCH: 7644 
+loss_E: -3.05 - nlogE_MAE: 0.1254 - nSigmaMAE: 0.0781 - nlogE_MAE_weighted: 0.1254 - nSigmaMAE_weighted: 0.0781 - 
+BATCH: 7800 
+loss_E: -3.0498 - nlogE_MAE: 0.1254 - nSigmaMAE: 0.0781 - nlogE_MAE_weighted: 0.1254 - nSigmaMAE_weighted: 0.0781 - 
+BATCH: 0 
+loss_E: -3.213 - nlogE_MAE: 0.1238 - nSigmaMAE: 0.0709 - nlogE_MAE_weighted: 0.1238 - nSigmaMAE_weighted: 0.0709 - 
+BATCH: 156 
+loss_E: -3.0603 - nlogE_MAE: 0.1243 - nSigmaMAE: 0.0781 - nlogE_MAE_weighted: 0.1243 - nSigmaMAE_weighted: 0.0781 - 
+BATCH: 312 
+loss_E: -3.0602 - nlogE_MAE: 0.1246 - nSigmaMAE: 0.0777 - nlogE_MAE_weighted: 0.1246 - nSigmaMAE_weighted: 0.0777 - 
+BATCH: 468 
+loss_E: -3.071 - nlogE_MAE: 0.124 - nSigmaMAE: 0.0772 - nlogE_MAE_weighted: 0.124 - nSigmaMAE_weighted: 0.0772 - 
+BATCH: 624 
+loss_E: -3.0783 - nlogE_MAE: 0.1236 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1236 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 780 
+loss_E: -3.081 - nlogE_MAE: 0.1235 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1235 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 936 
+loss_E: -3.0781 - nlogE_MAE: 0.1236 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1236 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 1092 
+loss_E: -3.0747 - nlogE_MAE: 0.1237 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1237 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 1248 
+loss_E: -3.0738 - nlogE_MAE: 0.1239 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.1239 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 1404 
+loss_E: -3.0757 - nlogE_MAE: 0.1239 - nSigmaMAE: 0.0768 - nlogE_MAE_weighted: 0.1239 - nSigmaMAE_weighted: 0.0768 - 
+BATCH: 1560 
+loss_E: -3.0757 - nlogE_MAE: 0.124 - nSigmaMAE: 0.077 - nlogE_MAE_weighted: 0.124 - nSigmaMAE_weighted: 0.077 - 
+BATCH: 1716 
+loss_E: -3.0785 - nlogE_MAE: 0.1238 - nSigmaMAE: 0.0769 - nlogE_MAE_weighted: 0.1238 - nSigmaMAE_weighted: 0.0769 - 
+BATCH: 1872 
+loss_E: -3.0825 - nlogE_MAE: 0.1236 - nSigmaMAE: 0.0768 - nlogE_MAE_weighted: 0.1236 - nSigmaMAE_weighted: 0.0768 - 
+BATCH: 2028 
+loss_E: -3.0847 - nlogE_MAE: 0.1235 - nSigmaMAE: 0.0767 - nlogE_MAE_weighted: 0.1235 - nSigmaMAE_weighted: 0.0767 - 
+BATCH: 2184 
+loss_E: -3.0859 - nlogE_MAE: 0.1234 - nSigmaMAE: 0.0766 - nlogE_MAE_weighted: 0.1234 - nSigmaMAE_weighted: 0.0766 - 
+BATCH: 2340 
+loss_E: -3.0863 - nlogE_MAE: 0.1233 - nSigmaMAE: 0.0767 - nlogE_MAE_weighted: 0.1233 - nSigmaMAE_weighted: 0.0767 - 
+BATCH: 2496 
+loss_E: -3.0884 - nlogE_MAE: 0.1232 - nSigmaMAE: 0.0766 - nlogE_MAE_weighted: 0.1232 - nSigmaMAE_weighted: 0.0766 - 
+BATCH: 2652 
+loss_E: -3.0884 - nlogE_MAE: 0.1233 - nSigmaMAE: 0.0766 - nlogE_MAE_weighted: 0.1233 - nSigmaMAE_weighted: 0.0766 - 
+BATCH: 2808 
+loss_E: -3.0878 - nlogE_MAE: 0.1233 - nSigmaMAE: 0.0766 - nlogE_MAE_weighted: 0.1233 - nSigmaMAE_weighted: 0.0766 - 
+BATCH: 2964 
+loss_E: -3.0863 - nlogE_MAE: 0.1234 - nSigmaMAE: 0.0767 - nlogE_MAE_weighted: 0.1234 - nSigmaMAE_weighted: 0.0767 - 
+BATCH: 3120 
+loss_E: -3.0871 - nlogE_MAE: 0.1233 - nSigmaMAE: 0.0767 - nlogE_MAE_weighted: 0.1233 - nSigmaMAE_weighted: 0.0767 - 
+BATCH: 3276 
+loss_E: -3.0872 - nlogE_MAE: 0.1234 - nSigmaMAE: 0.0767 - nlogE_MAE_weighted: 0.1234 - nSigmaMAE_weighted: 0.0767 - 
+BATCH: 3432 
+loss_E: -3.0899 - nlogE_MAE: 0.1232 - nSigmaMAE: 0.0765 - nlogE_MAE_weighted: 0.1232 - nSigmaMAE_weighted: 0.0765 - 
+BATCH: 3588 
+loss_E: -3.0913 - nlogE_MAE: 0.1232 - nSigmaMAE: 0.0765 - nlogE_MAE_weighted: 0.1232 - nSigmaMAE_weighted: 0.0765 - 
+BATCH: 3744 
+loss_E: -3.0915 - nlogE_MAE: 0.1232 - nSigmaMAE: 0.0765 - nlogE_MAE_weighted: 0.1232 - nSigmaMAE_weighted: 0.0765 - 
+BATCH: 3900 
+loss_E: -3.0927 - nlogE_MAE: 0.1231 - nSigmaMAE: 0.0765 - nlogE_MAE_weighted: 0.1231 - nSigmaMAE_weighted: 0.0765 - 
+BATCH: 4056 
+loss_E: -3.0941 - nlogE_MAE: 0.1231 - nSigmaMAE: 0.0764 - nlogE_MAE_weighted: 0.1231 - nSigmaMAE_weighted: 0.0764 - 
+BATCH: 4212 
+loss_E: -3.0938 - nlogE_MAE: 0.1231 - nSigmaMAE: 0.0764 - nlogE_MAE_weighted: 0.1231 - nSigmaMAE_weighted: 0.0764 - 
+BATCH: 4368 
+loss_E: -3.0953 - nlogE_MAE: 0.123 - nSigmaMAE: 0.0764 - nlogE_MAE_weighted: 0.123 - nSigmaMAE_weighted: 0.0764 - 
+BATCH: 4524 
+loss_E: -3.0959 - nlogE_MAE: 0.123 - nSigmaMAE: 0.0764 - nlogE_MAE_weighted: 0.123 - nSigmaMAE_weighted: 0.0764 - 
+BATCH: 4680 
+loss_E: -3.096 - nlogE_MAE: 0.123 - nSigmaMAE: 0.0764 - nlogE_MAE_weighted: 0.123 - nSigmaMAE_weighted: 0.0764 - 
+BATCH: 4836 
+loss_E: -3.0973 - nlogE_MAE: 0.1229 - nSigmaMAE: 0.0764 - nlogE_MAE_weighted: 0.1229 - nSigmaMAE_weighted: 0.0764 - 
+BATCH: 4992 
+loss_E: -3.0992 - nlogE_MAE: 0.1228 - nSigmaMAE: 0.0763 - nlogE_MAE_weighted: 0.1228 - nSigmaMAE_weighted: 0.0763 - 
+BATCH: 5148 
+loss_E: -3.1001 - nlogE_MAE: 0.1228 - nSigmaMAE: 0.0763 - nlogE_MAE_weighted: 0.1228 - nSigmaMAE_weighted: 0.0763 - 
+BATCH: 5304 
+loss_E: -3.1009 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 5460 
+loss_E: -3.1013 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 5616 
+loss_E: -3.1007 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0763 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0763 - 
+BATCH: 5772 
+loss_E: -3.1015 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 5928 
+loss_E: -3.1013 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 6084 
+loss_E: -3.101 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 6240 
+loss_E: -3.1011 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 6396 
+loss_E: -3.1013 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 6552 
+loss_E: -3.1011 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 6708 
+loss_E: -3.1002 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0763 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0763 - 
+BATCH: 6864 
+loss_E: -3.1008 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 7020 
+loss_E: -3.0995 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0763 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0763 - 
+BATCH: 7176 
+loss_E: -3.1 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0763 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0763 - 
+BATCH: 7332 
+loss_E: -3.1007 - nlogE_MAE: 0.1227 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1227 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 7488 
+loss_E: -3.1011 - nlogE_MAE: 0.1226 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1226 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 7644 
+loss_E: -3.1011 - nlogE_MAE: 0.1226 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1226 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 7800 
+loss_E: -3.1011 - nlogE_MAE: 0.1226 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1226 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 0 
+loss_E: -3.2401 - nlogE_MAE: 0.1155 - nSigmaMAE: 0.0752 - nlogE_MAE_weighted: 0.1155 - nSigmaMAE_weighted: 0.0752 - 
+BATCH: 156 
+loss_E: -3.1237 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 312 
+loss_E: -3.1145 - nlogE_MAE: 0.122 - nSigmaMAE: 0.0762 - nlogE_MAE_weighted: 0.122 - nSigmaMAE_weighted: 0.0762 - 
+BATCH: 468 
+loss_E: -3.1273 - nlogE_MAE: 0.1212 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1212 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 624 
+loss_E: -3.1331 - nlogE_MAE: 0.121 - nSigmaMAE: 0.0754 - nlogE_MAE_weighted: 0.121 - nSigmaMAE_weighted: 0.0754 - 
+BATCH: 780 
+loss_E: -3.1318 - nlogE_MAE: 0.121 - nSigmaMAE: 0.0753 - nlogE_MAE_weighted: 0.121 - nSigmaMAE_weighted: 0.0753 - 
+BATCH: 936 
+loss_E: -3.1234 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 1092 
+loss_E: -3.1186 - nlogE_MAE: 0.1216 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1216 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 1248 
+loss_E: -3.1156 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0758 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0758 - 
+BATCH: 1404 
+loss_E: -3.1133 - nlogE_MAE: 0.122 - nSigmaMAE: 0.0758 - nlogE_MAE_weighted: 0.122 - nSigmaMAE_weighted: 0.0758 - 
+BATCH: 1560 
+loss_E: -3.1126 - nlogE_MAE: 0.1221 - nSigmaMAE: 0.0759 - nlogE_MAE_weighted: 0.1221 - nSigmaMAE_weighted: 0.0759 - 
+BATCH: 1716 
+loss_E: -3.115 - nlogE_MAE: 0.122 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.122 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 1872 
+loss_E: -3.1174 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 2028 
+loss_E: -3.1181 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 2184 
+loss_E: -3.118 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 2340 
+loss_E: -3.1178 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 2496 
+loss_E: -3.1188 - nlogE_MAE: 0.1217 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1217 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 2652 
+loss_E: -3.1178 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 2808 
+loss_E: -3.1164 - nlogE_MAE: 0.1219 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1219 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 2964 
+loss_E: -3.1156 - nlogE_MAE: 0.1219 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1219 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 3120 
+loss_E: -3.1162 - nlogE_MAE: 0.1219 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1219 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 3276 
+loss_E: -3.1161 - nlogE_MAE: 0.1219 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1219 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 3432 
+loss_E: -3.1181 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 3588 
+loss_E: -3.119 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 3744 
+loss_E: -3.1189 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 3900 
+loss_E: -3.1193 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 4056 
+loss_E: -3.1198 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 4212 
+loss_E: -3.1195 - nlogE_MAE: 0.1218 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1218 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 4368 
+loss_E: -3.1205 - nlogE_MAE: 0.1217 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1217 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 4524 
+loss_E: -3.1202 - nlogE_MAE: 0.1217 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1217 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 4680 
+loss_E: -3.1196 - nlogE_MAE: 0.1217 - nSigmaMAE: 0.0757 - nlogE_MAE_weighted: 0.1217 - nSigmaMAE_weighted: 0.0757 - 
+BATCH: 4836 
+loss_E: -3.1206 - nlogE_MAE: 0.1217 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1217 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 4992 
+loss_E: -3.1223 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 5148 
+loss_E: -3.1229 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 5304 
+loss_E: -3.1236 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 5460 
+loss_E: -3.1241 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 5616 
+loss_E: -3.1235 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 5772 
+loss_E: -3.1241 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 5928 
+loss_E: -3.1234 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 6084 
+loss_E: -3.1233 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 6240 
+loss_E: -3.1233 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 6396 
+loss_E: -3.1238 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 6552 
+loss_E: -3.124 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 6708 
+loss_E: -3.1233 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 6864 
+loss_E: -3.1238 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 7020 
+loss_E: -3.1224 - nlogE_MAE: 0.1215 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1215 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 7176 
+loss_E: -3.1229 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0756 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0756 - 
+BATCH: 7332 
+loss_E: -3.1238 - nlogE_MAE: 0.1214 - nSigmaMAE: 0.0755 - nlogE_MAE_weighted: 0.1214 - nSigmaMAE_weighted: 0.0755 - 
+BATCH: 7488 
+loss_E: -3.1243 - nlogE_MAE: 0.1213 - nSigmaMAE: 0.0755 - nlogE_MAE_weighted: 0.1213 - nSigmaMAE_weighted: 0.0755 - 
+BATCH: 7644 
+loss_E: -3.1246 - nlogE_MAE: 0.1213 - nSigmaMAE: 0.0755 - nlogE_MAE_weighted: 0.1213 - nSigmaMAE_weighted: 0.0755 - 
+BATCH: 7800 
+loss_E: -3.1245 - nlogE_MAE: 0.1213 - nSigmaMAE: 0.0755 - nlogE_MAE_weighted: 0.1213 - nSigmaMAE_weighted: 0.0755 - 
+BATCH: 0 
+loss_E: -3.1687 - nlogE_MAE: 0.1166 - nSigmaMAE: 0.0714 - nlogE_MAE_weighted: 0.1166 - nSigmaMAE_weighted: 0.0714 - 
+BATCH: 156 
+loss_E: -3.1404 - nlogE_MAE: 0.1204 - nSigmaMAE: 0.0752 - nlogE_MAE_weighted: 0.1204 - nSigmaMAE_weighted: 0.0752 - 
+BATCH: 312 
+loss_E: -3.1365 - nlogE_MAE: 0.1205 - nSigmaMAE: 0.075 - nlogE_MAE_weighted: 0.1205 - nSigmaMAE_weighted: 0.075 - 
+BATCH: 468 
+loss_E: -3.1497 - nlogE_MAE: 0.1197 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1197 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 624 
+loss_E: -3.1563 - nlogE_MAE: 0.1194 - nSigmaMAE: 0.0745 - nlogE_MAE_weighted: 0.1194 - nSigmaMAE_weighted: 0.0745 - 
+BATCH: 780 
+loss_E: -3.1541 - nlogE_MAE: 0.1195 - nSigmaMAE: 0.0745 - nlogE_MAE_weighted: 0.1195 - nSigmaMAE_weighted: 0.0745 - 
+BATCH: 936 
+loss_E: -3.149 - nlogE_MAE: 0.1197 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1197 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 1092 
+loss_E: -3.1439 - nlogE_MAE: 0.1198 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1198 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 1248 
+loss_E: -3.1339 - nlogE_MAE: 0.1204 - nSigmaMAE: 0.0752 - nlogE_MAE_weighted: 0.1204 - nSigmaMAE_weighted: 0.0752 - 
+BATCH: 1404 
+loss_E: -3.1308 - nlogE_MAE: 0.1206 - nSigmaMAE: 0.0752 - nlogE_MAE_weighted: 0.1206 - nSigmaMAE_weighted: 0.0752 - 
+BATCH: 1560 
+loss_E: -3.1302 - nlogE_MAE: 0.1207 - nSigmaMAE: 0.0753 - nlogE_MAE_weighted: 0.1207 - nSigmaMAE_weighted: 0.0753 - 
+BATCH: 1716 
+loss_E: -3.1324 - nlogE_MAE: 0.1206 - nSigmaMAE: 0.0752 - nlogE_MAE_weighted: 0.1206 - nSigmaMAE_weighted: 0.0752 - 
+BATCH: 1872 
+loss_E: -3.1365 - nlogE_MAE: 0.1204 - nSigmaMAE: 0.0751 - nlogE_MAE_weighted: 0.1204 - nSigmaMAE_weighted: 0.0751 - 
+BATCH: 2028 
+loss_E: -3.1384 - nlogE_MAE: 0.1203 - nSigmaMAE: 0.075 - nlogE_MAE_weighted: 0.1203 - nSigmaMAE_weighted: 0.075 - 
+BATCH: 2184 
+loss_E: -3.1399 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.075 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.075 - 
+BATCH: 2340 
+loss_E: -3.1406 - nlogE_MAE: 0.1201 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1201 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 2496 
+loss_E: -3.1431 - nlogE_MAE: 0.12 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.12 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 2652 
+loss_E: -3.1431 - nlogE_MAE: 0.1201 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1201 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 2808 
+loss_E: -3.1413 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 2964 
+loss_E: -3.1407 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 3120 
+loss_E: -3.1413 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 3276 
+loss_E: -3.1409 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 3432 
+loss_E: -3.1429 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 3588 
+loss_E: -3.1436 - nlogE_MAE: 0.1201 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1201 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 3744 
+loss_E: -3.1435 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0749 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0749 - 
+BATCH: 3900 
+loss_E: -3.144 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4056 
+loss_E: -3.1442 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4212 
+loss_E: -3.1436 - nlogE_MAE: 0.1202 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1202 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4368 
+loss_E: -3.1445 - nlogE_MAE: 0.1201 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1201 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4524 
+loss_E: -3.145 - nlogE_MAE: 0.1201 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1201 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4680 
+loss_E: -3.1446 - nlogE_MAE: 0.1201 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1201 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4836 
+loss_E: -3.1458 - nlogE_MAE: 0.12 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.12 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 4992 
+loss_E: -3.1475 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 5148 
+loss_E: -3.1475 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 5304 
+loss_E: -3.1483 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 5460 
+loss_E: -3.1485 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 5616 
+loss_E: -3.148 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 5772 
+loss_E: -3.1481 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 5928 
+loss_E: -3.1475 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 6084 
+loss_E: -3.1471 - nlogE_MAE: 0.12 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.12 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 6240 
+loss_E: -3.1473 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 6396 
+loss_E: -3.1477 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 6552 
+loss_E: -3.1479 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0747 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0747 - 
+BATCH: 6708 
+loss_E: -3.1465 - nlogE_MAE: 0.12 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.12 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 6864 
+loss_E: -3.1472 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 7020 
+loss_E: -3.1461 - nlogE_MAE: 0.12 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.12 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 7176 
+loss_E: -3.1467 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 7332 
+loss_E: -3.1474 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 7488 
+loss_E: -3.1478 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 7644 
+loss_E: -3.1482 - nlogE_MAE: 0.1198 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1198 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 7800 
+loss_E: -3.1481 - nlogE_MAE: 0.1199 - nSigmaMAE: 0.0748 - nlogE_MAE_weighted: 0.1199 - nSigmaMAE_weighted: 0.0748 - 
+BATCH: 0 
+loss_E: -3.3666 - nlogE_MAE: 0.1058 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1058 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 156 
+loss_E: -3.1645 - nlogE_MAE: 0.1192 - nSigmaMAE: 0.0744 - nlogE_MAE_weighted: 0.1192 - nSigmaMAE_weighted: 0.0744 - 
+BATCH: 312 
+loss_E: -3.1604 - nlogE_MAE: 0.1191 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.1191 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 468 
+loss_E: -3.1723 - nlogE_MAE: 0.1184 - nSigmaMAE: 0.074 - nlogE_MAE_weighted: 0.1184 - nSigmaMAE_weighted: 0.074 - 
+BATCH: 624 
+loss_E: -3.1791 - nlogE_MAE: 0.1181 - nSigmaMAE: 0.0737 - nlogE_MAE_weighted: 0.1181 - nSigmaMAE_weighted: 0.0737 - 
+BATCH: 780 
+loss_E: -3.1763 - nlogE_MAE: 0.1182 - nSigmaMAE: 0.0738 - nlogE_MAE_weighted: 0.1182 - nSigmaMAE_weighted: 0.0738 - 
+BATCH: 936 
+loss_E: -3.1713 - nlogE_MAE: 0.1184 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1184 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 1092 
+loss_E: -3.1647 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 1248 
+loss_E: -3.1599 - nlogE_MAE: 0.119 - nSigmaMAE: 0.0744 - nlogE_MAE_weighted: 0.119 - nSigmaMAE_weighted: 0.0744 - 
+BATCH: 1404 
+loss_E: -3.1586 - nlogE_MAE: 0.119 - nSigmaMAE: 0.0744 - nlogE_MAE_weighted: 0.119 - nSigmaMAE_weighted: 0.0744 - 
+BATCH: 1560 
+loss_E: -3.1577 - nlogE_MAE: 0.1192 - nSigmaMAE: 0.0745 - nlogE_MAE_weighted: 0.1192 - nSigmaMAE_weighted: 0.0745 - 
+BATCH: 1716 
+loss_E: -3.1596 - nlogE_MAE: 0.1191 - nSigmaMAE: 0.0744 - nlogE_MAE_weighted: 0.1191 - nSigmaMAE_weighted: 0.0744 - 
+BATCH: 1872 
+loss_E: -3.162 - nlogE_MAE: 0.119 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.119 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 2028 
+loss_E: -3.1631 - nlogE_MAE: 0.1189 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.1189 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 2184 
+loss_E: -3.1631 - nlogE_MAE: 0.1189 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.1189 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 2340 
+loss_E: -3.1637 - nlogE_MAE: 0.1188 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.1188 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 2496 
+loss_E: -3.1656 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 2652 
+loss_E: -3.1649 - nlogE_MAE: 0.1188 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1188 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 2808 
+loss_E: -3.1637 - nlogE_MAE: 0.1189 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.1189 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 2964 
+loss_E: -3.1632 - nlogE_MAE: 0.1189 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1189 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 3120 
+loss_E: -3.1644 - nlogE_MAE: 0.1188 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1188 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 3276 
+loss_E: -3.1638 - nlogE_MAE: 0.1189 - nSigmaMAE: 0.0743 - nlogE_MAE_weighted: 0.1189 - nSigmaMAE_weighted: 0.0743 - 
+BATCH: 3432 
+loss_E: -3.1665 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 3588 
+loss_E: -3.1671 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 3744 
+loss_E: -3.167 - nlogE_MAE: 0.1188 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1188 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 3900 
+loss_E: -3.1672 - nlogE_MAE: 0.1188 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1188 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4056 
+loss_E: -3.1677 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4212 
+loss_E: -3.1669 - nlogE_MAE: 0.1188 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1188 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4368 
+loss_E: -3.1676 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4524 
+loss_E: -3.1679 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4680 
+loss_E: -3.1676 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4836 
+loss_E: -3.1677 - nlogE_MAE: 0.1187 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1187 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 4992 
+loss_E: -3.1694 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 5148 
+loss_E: -3.1696 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 5304 
+loss_E: -3.1706 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 5460 
+loss_E: -3.1711 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 5616 
+loss_E: -3.1708 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 5772 
+loss_E: -3.1713 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 5928 
+loss_E: -3.1706 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 6084 
+loss_E: -3.1706 - nlogE_MAE: 0.1186 - nSigmaMAE: 0.0742 - nlogE_MAE_weighted: 0.1186 - nSigmaMAE_weighted: 0.0742 - 
+BATCH: 6240 
+loss_E: -3.1708 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 6396 
+loss_E: -3.1711 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 6552 
+loss_E: -3.1712 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 6708 
+loss_E: -3.1705 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 6864 
+loss_E: -3.1714 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 7020 
+loss_E: -3.1702 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 7176 
+loss_E: -3.1707 - nlogE_MAE: 0.1185 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1185 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 7332 
+loss_E: -3.1717 - nlogE_MAE: 0.1184 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1184 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 7488 
+loss_E: -3.1721 - nlogE_MAE: 0.1184 - nSigmaMAE: 0.0741 - nlogE_MAE_weighted: 0.1184 - nSigmaMAE_weighted: 0.0741 - 
+BATCH: 7644 
+loss_E: -3.1725 - nlogE_MAE: 0.1184 - nSigmaMAE: 0.074 - nlogE_MAE_weighted: 0.1184 - nSigmaMAE_weighted: 0.074 - 
+BATCH: 7800 
+loss_E: -3.1724 - nlogE_MAE: 0.1184 - nSigmaMAE: 0.074 - nlogE_MAE_weighted: 0.1184 - nSigmaMAE_weighted: 0.074 - 
+BATCH: 0 
+loss_E: -3.3446 - nlogE_MAE: 0.1073 - nSigmaMAE: 0.0676 - nlogE_MAE_weighted: 0.1073 - nSigmaMAE_weighted: 0.0676 - 
+BATCH: 156 
+loss_E: -3.1857 - nlogE_MAE: 0.1183 - nSigmaMAE: 0.0738 - nlogE_MAE_weighted: 0.1183 - nSigmaMAE_weighted: 0.0738 - 
+BATCH: 312 
+loss_E: -3.1858 - nlogE_MAE: 0.1177 - nSigmaMAE: 0.0735 - nlogE_MAE_weighted: 0.1177 - nSigmaMAE_weighted: 0.0735 - 
+BATCH: 468 
+loss_E: -3.202 - nlogE_MAE: 0.1168 - nSigmaMAE: 0.0729 - nlogE_MAE_weighted: 0.1168 - nSigmaMAE_weighted: 0.0729 - 
+BATCH: 624 
+loss_E: -3.204 - nlogE_MAE: 0.1166 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1166 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 780 
+loss_E: -3.2034 - nlogE_MAE: 0.1166 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.1166 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 936 
+loss_E: -3.1978 - nlogE_MAE: 0.1167 - nSigmaMAE: 0.0731 - nlogE_MAE_weighted: 0.1167 - nSigmaMAE_weighted: 0.0731 - 
+BATCH: 1092 
+loss_E: -3.1901 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 1248 
+loss_E: -3.1874 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 1404 
+loss_E: -3.1861 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 1560 
+loss_E: -3.1851 - nlogE_MAE: 0.1175 - nSigmaMAE: 0.0736 - nlogE_MAE_weighted: 0.1175 - nSigmaMAE_weighted: 0.0736 - 
+BATCH: 1716 
+loss_E: -3.1857 - nlogE_MAE: 0.1175 - nSigmaMAE: 0.0735 - nlogE_MAE_weighted: 0.1175 - nSigmaMAE_weighted: 0.0735 - 
+BATCH: 1872 
+loss_E: -3.1892 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 2028 
+loss_E: -3.1905 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 2184 
+loss_E: -3.1911 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 2340 
+loss_E: -3.1924 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 2496 
+loss_E: -3.1943 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 2652 
+loss_E: -3.1936 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 2808 
+loss_E: -3.1921 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 2964 
+loss_E: -3.1909 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 3120 
+loss_E: -3.1919 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 3276 
+loss_E: -3.1913 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 3432 
+loss_E: -3.193 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 3588 
+loss_E: -3.1931 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 3744 
+loss_E: -3.1928 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 3900 
+loss_E: -3.193 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 4056 
+loss_E: -3.193 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 4212 
+loss_E: -3.1922 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 4368 
+loss_E: -3.1933 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 4524 
+loss_E: -3.1934 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 4680 
+loss_E: -3.1926 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 4836 
+loss_E: -3.1927 - nlogE_MAE: 0.1173 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1173 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 4992 
+loss_E: -3.1946 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 5148 
+loss_E: -3.1943 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 5304 
+loss_E: -3.1949 - nlogE_MAE: 0.1172 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1172 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 5460 
+loss_E: -3.1953 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 5616 
+loss_E: -3.1948 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 5772 
+loss_E: -3.1952 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 5928 
+loss_E: -3.1946 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 6084 
+loss_E: -3.1945 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 6240 
+loss_E: -3.1945 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 6396 
+loss_E: -3.1951 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 6552 
+loss_E: -3.1954 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 6708 
+loss_E: -3.1945 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 6864 
+loss_E: -3.1953 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 7020 
+loss_E: -3.1942 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 7176 
+loss_E: -3.1948 - nlogE_MAE: 0.1171 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1171 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 7332 
+loss_E: -3.1957 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 7488 
+loss_E: -3.1959 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 7644 
+loss_E: -3.1961 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 7800 
+loss_E: -3.1963 - nlogE_MAE: 0.117 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.117 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 0 
+loss_E: -3.3727 - nlogE_MAE: 0.1073 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.1073 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 156 
+loss_E: -3.2135 - nlogE_MAE: 0.1162 - nSigmaMAE: 0.0735 - nlogE_MAE_weighted: 0.1162 - nSigmaMAE_weighted: 0.0735 - 
+BATCH: 312 
+loss_E: -3.2145 - nlogE_MAE: 0.1157 - nSigmaMAE: 0.0731 - nlogE_MAE_weighted: 0.1157 - nSigmaMAE_weighted: 0.0731 - 
+BATCH: 468 
+loss_E: -3.2183 - nlogE_MAE: 0.1155 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.1155 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 624 
+loss_E: -3.22 - nlogE_MAE: 0.1155 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1155 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 780 
+loss_E: -3.2152 - nlogE_MAE: 0.1156 - nSigmaMAE: 0.0729 - nlogE_MAE_weighted: 0.1156 - nSigmaMAE_weighted: 0.0729 - 
+BATCH: 936 
+loss_E: -3.2104 - nlogE_MAE: 0.1157 - nSigmaMAE: 0.0731 - nlogE_MAE_weighted: 0.1157 - nSigmaMAE_weighted: 0.0731 - 
+BATCH: 1092 
+loss_E: -3.2037 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 1248 
+loss_E: -3.2002 - nlogE_MAE: 0.1163 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1163 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 1404 
+loss_E: -3.1989 - nlogE_MAE: 0.1164 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1164 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 1560 
+loss_E: -3.1991 - nlogE_MAE: 0.1165 - nSigmaMAE: 0.0734 - nlogE_MAE_weighted: 0.1165 - nSigmaMAE_weighted: 0.0734 - 
+BATCH: 1716 
+loss_E: -3.2011 - nlogE_MAE: 0.1165 - nSigmaMAE: 0.0733 - nlogE_MAE_weighted: 0.1165 - nSigmaMAE_weighted: 0.0733 - 
+BATCH: 1872 
+loss_E: -3.2045 - nlogE_MAE: 0.1163 - nSigmaMAE: 0.0732 - nlogE_MAE_weighted: 0.1163 - nSigmaMAE_weighted: 0.0732 - 
+BATCH: 2028 
+loss_E: -3.2063 - nlogE_MAE: 0.1162 - nSigmaMAE: 0.0731 - nlogE_MAE_weighted: 0.1162 - nSigmaMAE_weighted: 0.0731 - 
+BATCH: 2184 
+loss_E: -3.2069 - nlogE_MAE: 0.1162 - nSigmaMAE: 0.0731 - nlogE_MAE_weighted: 0.1162 - nSigmaMAE_weighted: 0.0731 - 
+BATCH: 2340 
+loss_E: -3.2082 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 2496 
+loss_E: -3.2099 - nlogE_MAE: 0.116 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 2652 
+loss_E: -3.2093 - nlogE_MAE: 0.1162 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.1162 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 2808 
+loss_E: -3.2074 - nlogE_MAE: 0.1163 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.1163 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 2964 
+loss_E: -3.207 - nlogE_MAE: 0.1163 - nSigmaMAE: 0.073 - nlogE_MAE_weighted: 0.1163 - nSigmaMAE_weighted: 0.073 - 
+BATCH: 3120 
+loss_E: -3.2083 - nlogE_MAE: 0.1162 - nSigmaMAE: 0.0729 - nlogE_MAE_weighted: 0.1162 - nSigmaMAE_weighted: 0.0729 - 
+BATCH: 3276 
+loss_E: -3.2086 - nlogE_MAE: 0.1163 - nSigmaMAE: 0.0729 - nlogE_MAE_weighted: 0.1163 - nSigmaMAE_weighted: 0.0729 - 
+BATCH: 3432 
+loss_E: -3.2111 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 3588 
+loss_E: -3.2117 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 3744 
+loss_E: -3.2117 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 3900 
+loss_E: -3.2115 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4056 
+loss_E: -3.2115 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4212 
+loss_E: -3.2109 - nlogE_MAE: 0.1162 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1162 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4368 
+loss_E: -3.2117 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4524 
+loss_E: -3.2122 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4680 
+loss_E: -3.2118 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4836 
+loss_E: -3.2125 - nlogE_MAE: 0.1161 - nSigmaMAE: 0.0728 - nlogE_MAE_weighted: 0.1161 - nSigmaMAE_weighted: 0.0728 - 
+BATCH: 4992 
+loss_E: -3.2139 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 5148 
+loss_E: -3.2142 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 5304 
+loss_E: -3.2153 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 5460 
+loss_E: -3.2149 - nlogE_MAE: 0.1159 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.1159 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 5616 
+loss_E: -3.2143 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 5772 
+loss_E: -3.2148 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 5928 
+loss_E: -3.214 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 6084 
+loss_E: -3.2141 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 6240 
+loss_E: -3.2144 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 6396 
+loss_E: -3.2148 - nlogE_MAE: 0.1159 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.1159 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 6552 
+loss_E: -3.2148 - nlogE_MAE: 0.1159 - nSigmaMAE: 0.0726 - nlogE_MAE_weighted: 0.1159 - nSigmaMAE_weighted: 0.0726 - 
+BATCH: 6708 
+loss_E: -3.2141 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 6864 
+loss_E: -3.2149 - nlogE_MAE: 0.1159 - nSigmaMAE: 0.0726 - nlogE_MAE_weighted: 0.1159 - nSigmaMAE_weighted: 0.0726 - 
+BATCH: 7020 
+loss_E: -3.2135 - nlogE_MAE: 0.116 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.116 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 7176 
+loss_E: -3.2142 - nlogE_MAE: 0.1159 - nSigmaMAE: 0.0727 - nlogE_MAE_weighted: 0.1159 - nSigmaMAE_weighted: 0.0727 - 
+BATCH: 7332 
+loss_E: -3.2151 - nlogE_MAE: 0.1159 - nSigmaMAE: 0.0726 - nlogE_MAE_weighted: 0.1159 - nSigmaMAE_weighted: 0.0726 - 
+BATCH: 7488 
+loss_E: -3.2158 - nlogE_MAE: 0.1158 - nSigmaMAE: 0.0726 - nlogE_MAE_weighted: 0.1158 - nSigmaMAE_weighted: 0.0726 - 
+BATCH: 7644 
+loss_E: -3.2163 - nlogE_MAE: 0.1158 - nSigmaMAE: 0.0726 - nlogE_MAE_weighted: 0.1158 - nSigmaMAE_weighted: 0.0726 - 
+BATCH: 7800 
+loss_E: -3.2161 - nlogE_MAE: 0.1158 - nSigmaMAE: 0.0726 - nlogE_MAE_weighted: 0.1158 - nSigmaMAE_weighted: 0.0726 - 

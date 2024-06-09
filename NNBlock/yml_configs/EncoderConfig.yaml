@@ -2,11 +2,11 @@
 
 # transf_inputs:
 #    - {num_heads: 4,
-#       qk_dim: 128,
-#       v_dim: 128,
-#       out_dim: 128,
+#       qk_dim: 64,
+#       v_dim: 64,
+#       out_dim: 64,
 #       mha_dr_rate: 0.2,
-#       ff_units: [256,256],
+#       ff_units: [64,64],
 #       ff_dr_rate: 0.2,
 #       #ff_activation:
 #       }
@@ -16,78 +16,78 @@
 #       v_dim: 64,
 #       out_dim: 64,
 #       mha_dr_rate: 0.2,
-#       ff_units: [128,128],
+#       ff_units: [64,64],
 #       ff_dr_rate: 0.2,
 #       #ff_activation:
 #      }
 
-rnn_start_inputs:
-   # 1
-   - {units: 64,
-      return_sequences: True,
-      dropout: 0.3,
-      recurrent_dropout: 0.}
-   # # 2
-   # - {units: 64,
-   #    return_sequences: True,
-   #    dropout: 0.1,
-   #    recurrent_dropout: 0.}
-
-# res_block_inputs: #[]
+# rnn_start_inputs:
 #    # 1
-#    - {
-#       id: {filters: 128,
-#            kernel_size: 8,
-#            strides: 1,
-#            dropout: 0.1},
-#       cd: {filters: 128,
-#            kernel_size: 8,
-#            strides: 2,
-#            dropout: 0.1},
-#       skip: {filters: 128,
-#              kernel_size: 16,
-#              strides: 2,
-#              dropout: 0.1},
-#       }
+#    - {units: 256,
+#       return_sequences: True,
+#       dropout: 0.3,
+#       recurrent_dropout: 0.}
 #    # 2
-#    - {
-#       id: {filters: 256,
-#            kernel_size: 4,
-#            strides: 1,
-#            dropout: 0.1},
-#       cd: {filters: 256,
-#            kernel_size: 4,
-#            strides: 2,
-#            dropout: 0.1},
-#       skip: {filters: 256,
-#              kernel_size: 8,
-#              strides: 2,
-#              dropout: 0.1},
-#       }
+#    - {units: 256,
+#       return_sequences: True,
+#       dropout: 0.3,
+#       recurrent_dropout: 0.}
+
+res_block_inputs:
+   # 1
+   - {
+      id: {filters: 128,
+           kernel_size: 8,
+           strides: 1,
+           dropout: 0.2},
+      cd: {filters: 128,
+           kernel_size: 8,
+           strides: 2,
+           dropout: 0.2},
+      skip: {filters: 128,
+             kernel_size: 16,
+             strides: 2,
+             dropout: 0.2},
+      }
+   # 2
+   - {
+      id: {filters: 256,
+           kernel_size: 6,
+           strides: 1,
+           dropout: 0.2},
+      cd: {filters: 256,
+           kernel_size: 6,
+           strides: 2,
+           dropout: 0.2},
+      skip: {filters: 256,
+             kernel_size: 8,
+             strides: 2,
+             dropout: 0.2},
+      }
 #  # 3
 #   - {
-#     id: { filters: 64,
+#     id: { filters: 128,
 #           kernel_size: 3,
-#           strides: 1 },
-#     cd: { filters: 64,
+#           strides: 1},
+#     cd: { filters: 128,
 #           kernel_size: 3,
 #           strides: 2 },
-#     skip: { filters: 64,
+#     skip: { filters: 128,
 #             kernel_size: 5,
 #             strides: 2 },
 #   }
 
-rnn_end_inputs: 
-   # 1
-   - {units: 64,
-      return_sequences: False,
-      dropout: 0.3,
-      recurrent_dropout: 0.}
+# rnn_end_inputs: 
+#    # 1
+#    - {units: 256,
+#       return_sequences: False,
+#       dropout: 0.2,
+#       recurrent_dropout: 0.}
    #  # 2
    # - {units: 64,
    #    return_sequences: False}
 
-pooling: False
+pooling: True
 
 # dense_blocks: 
 #   - { units: 128,

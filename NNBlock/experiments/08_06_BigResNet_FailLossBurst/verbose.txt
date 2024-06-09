@@ -1,0 +1,20 @@
+BATCH: 0 
+loss_E: 1.2445 - nlogE_MAE: 0.3762 - nSigmaMAE: 0.2283 - nlogE_MAE_weighted: 0.3762 - nSigmaMAE_weighted: 0.2283 - 
+BATCH: 78 
+loss_E: -1.1048 - nlogE_MAE: 0.2807 - nSigmaMAE: 0.1819 - nlogE_MAE_weighted: 0.2807 - nSigmaMAE_weighted: 0.1819 - 
+BATCH: 156 
+loss_E: -1.2742 - nlogE_MAE: 0.2587 - nSigmaMAE: 0.1716 - nlogE_MAE_weighted: 0.2587 - nSigmaMAE_weighted: 0.1716 - 
+BATCH: 234 
+loss_E: -1.3773 - nlogE_MAE: 0.2459 - nSigmaMAE: 0.1647 - nlogE_MAE_weighted: 0.2459 - nSigmaMAE_weighted: 0.1647 - 
+BATCH: 312 
+loss_E: -1.1914 - nlogE_MAE: 0.2827 - nSigmaMAE: 0.2344 - nlogE_MAE_weighted: 0.2827 - nSigmaMAE_weighted: 0.2344 - 
+BATCH: 390 
+loss_E: -1.1197 - nlogE_MAE: 0.2924 - nSigmaMAE: 0.2748 - nlogE_MAE_weighted: 0.2924 - nSigmaMAE_weighted: 0.2748 - 
+BATCH: 468 
+loss_E: 3196.3635 - nlogE_MAE: 1.1487 - nSigmaMAE: 1.0142 - nlogE_MAE_weighted: 1.1487 - nSigmaMAE_weighted: 1.0142 - 
+BATCH: 546 
+loss_E: 2741.5862 - nlogE_MAE: 10.8658 - nSigmaMAE: 6.0609 - nlogE_MAE_weighted: 10.8658 - nSigmaMAE_weighted: 6.0609 - 
+BATCH: 624 
+loss_E: 2400.3347 - nlogE_MAE: 18.7233 - nSigmaMAE: 10.058 - nlogE_MAE_weighted: 18.7233 - nSigmaMAE_weighted: 10.058 - 
+BATCH: 702 
+loss_E: 2134.8081 - nlogE_MAE: 24.7324 - nSigmaMAE: 13.1069 - nlogE_MAE_weighted: 24.7324 - nSigmaMAE_weighted: 13.1069 - 

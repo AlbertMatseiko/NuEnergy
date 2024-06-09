@@ -1,3 +1,0 @@
-Size is 47.98 GB
-Keys1: ['muatm', 'nu2', 'nuatm']
-Keys2: ['clusters_centers', 'coords_are_cluster_centered', 'ev_ids', 'muons_prty', 'prime_prty', 'raw']

@@ -11,12 +11,12 @@ from pydantic import Field
 from typing import Any, List
 
 try:
-    from .activations import ShiftedRelu
+    from .activations import ShiftedRelu, MySoftplus
 except:
-    from activations import ShiftedRelu
+    from activations import ShiftedRelu, MySoftplus
 
 tfl = tf.keras.layers
-SEED = 42
+SEED = 42 #np.random.randint(1, 1000)
 GU = tf.keras.initializers.GlorotUniform(seed=SEED)
 Ort = tf.keras.initializers.Orthogonal(seed=SEED)
 
@@ -24,6 +24,7 @@ Ort = tf.keras.initializers.Orthogonal(seed=SEED)
 """Pooling layers!"""
 class GlobalAveragePooling1DMasked(tfl.GlobalAveragePooling1D):
     def call(self, x, mask=None):
+        assert len(x.shape)>2, x.shape
         if mask is not None:
             mask = tf.cast(mask, tf.float32)
             return tf.reduce_sum(x * mask, axis=1) / tf.reduce_sum(mask, axis=1)
@@ -195,6 +196,8 @@ class DenseBlock(tfl.Layer):
         self.input_hp = input_hp
         if self.input_hp.activation == 'shifted_relu':
             self.input_hp.activation = ShiftedRelu
+        if self.input_hp.activation == 'my_softplus':
+            self.input_hp.activation = MySoftplus
         inp_dict = asdict(self.input_hp)
         dropout = inp_dict.pop('dropout')
         self.dense_layer = tfl.Dense(**inp_dict)
@@ -378,14 +381,14 @@ class EncoderBlock(tfl.Layer):
             for transf_inp in self.input_hp.transf_inputs:
                 self.start_layers_list.append((TransformerEncLayer(transf_inp), None)) # batch norm is already in transf block
         
-        # either pooling or rnn to encode. Not both!
+        ## either pooling or rnn to encode. Not both!
         assert (int(self.input_hp.pooling) + int(self.input_hp.rnn_end_inputs is not None)) == 1
         if self.input_hp.rnn_end_inputs is not None:
             for rnn_inp in self.input_hp.rnn_end_inputs[-1:]:
                 assert not rnn_inp.return_sequences
                 self.final_layers_list.append((BidirLayer(rnn_inp), tfl.BatchNormalization(axis=-1)))
         
-        if self.input_hp.pooling:
+        if self.input_hp.pooling == True:
             self.final_layers_list.append((GlobalAveragePooling1DMasked(), tfl.BatchNormalization(axis=-1)))
         
         if self.input_hp.dense_blocks is not None:

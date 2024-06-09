@@ -78,6 +78,10 @@ class DsGeneratorNE:
         self.stds = self.hf[f'norm_params/std'][:]
         self.lgEmean, self.lgEstd = self.hf[f'norm_params/log10Emu_mean'][:], self.hf[f'norm_params/log10Emu_std'][:]
         
+        ## Проверяем гипотезу, что линейной активации тяжело предсказывать далеко разбросанные значения
+        ## Сжимаем лейблы сильнее.
+        self.lgEstd = 1.5*self.lgEstd
+        
         # перенормировка: нулеваой заряд, далёкое время и координаты
         masking_values = np.array([0., 1e5, 1e5, 1e5, 1e5])  
         self.norm_zeros = ((masking_values - hf['norm_params/mean'][:]) / hf['norm_params/std'][:]).astype(np.float32)
@@ -100,19 +104,19 @@ class DsGeneratorNE:
         data_start = ev_starts[0]
         data_stop = ev_starts[-1]
         data = ((hf[f'{self.regime}/data'][data_start: data_stop] - self.means)/self.stds).astype(np.float32)
-        if self.set_up_Q_lim:
-            data[:, 0:1] = np.where(data[:, 0:1] > self.Q_up_lim_norm, self.Q_up_lim_norm, data[:, 0:1])
         # apply noise
         if self.apply_add_gauss:
             data = self._add_gauss(data, ev_starts)
         if self.apply_mult_gauss:
             data[:, 0] = self._mult_gauss(data[:, 0])
-        data = tf.RaggedTensor.from_row_starts(values=data, row_starts=ev_starts[0:-1] - ev_starts[0])
-        data = data.to_tensor(default_value=self.norm_zeros)
-        mask = tf.where(tf.not_equal(data[:,:,1:2], self.norm_zeros[1:2]), 1., 0.)
-        assert data.shape[-1]==5            
-        data = tf.concat([data, mask], axis=-1)
-        assert data.shape[-1]==6    
+        if self.set_up_Q_lim:
+            data[:, 0:1] = np.where(data[:, 0:1] > self.Q_up_lim_norm, self.Q_up_lim_norm, data[:, 0:1])
+        data_ragged = tf.RaggedTensor.from_row_starts(values=data, row_starts=ev_starts[0:-1] - ev_starts[0])
+        data_batched = data_ragged.to_tensor(default_value=self.norm_zeros)
+        mask = tf.where(tf.not_equal(data_batched[:,:,1:2], self.norm_zeros[1:2]), 1., 0.)
+        assert data_batched.shape[-1]==5            
+        data_batched = tf.concat([data_batched, mask], axis=-1)
+        assert data_batched.shape[-1]==6    
             
         labels = np.zeros((self.batch_size, 2))
         labels[:, 0] = (np.log10(hf[f'{self.regime}/muons_prty/individ'][start:stop]) - self.lgEmean) / self.lgEstd 
@@ -134,9 +138,9 @@ class DsGeneratorNE:
             path_to_h5_dir = self.get_dir_name(self.path_to_h5)
             self.dist_of_weights = tf.cast(np.load(f"{path_to_h5_dir}/weights_distr_train.npy"), tf.float32)
             weights = self.get_weights_tf(labels[:, 0:1], weights_hist=self.dist_of_weights)
-            return data, labels, weights
+            return data_batched, labels, weights
         else:
-            return data, labels, tf.ones((stop - start, 1), tf.float32)
+            return data_batched, labels, tf.ones((stop - start, 1), tf.float32)
 
     def __call__(self):
         start = self.start

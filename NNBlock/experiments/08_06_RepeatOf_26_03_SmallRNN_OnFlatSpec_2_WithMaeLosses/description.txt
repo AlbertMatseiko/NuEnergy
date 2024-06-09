@@ -1,0 +1,1 @@
+Small LSTM Encoder. WITH gauss noise. Normal batch size. Try MAE as loss for E and sigma

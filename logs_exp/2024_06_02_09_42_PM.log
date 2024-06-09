@@ -1,0 +1,18 @@
+2024-06-02 21:42:09.623281: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-02 21:42:11.718912: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-02 21:42:11.813205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22455 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:44:00.0, compute capability: 8.6
+PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Traceback (most recent call last):
+  File "/home/albert/Baikal/NuEnergy/start_experiment.py", line 17, in <module>
+    model, history = launch_exp(EXPERIMENT_NAME, 
+  File "/home/albert/Baikal/NuEnergy/NNBlock/launcher.py", line 32, in launch_exp
+    model, model_inp = model_from_config(MODEL_FUNC_NAME,
+  File "/home/albert/Baikal/NuEnergy/NNBlock/load_from_config.py", line 50, in model_from_config
+    return getattr(models, MODEL_FUNC_NAME)(inp), inp
+  File "/home/albert/Baikal/NuEnergy/NNBlock/models.py", line 22, in __init__
+    self.encoder = EncoderBlock(self.input_hp.encoder_inp)
+  File "/home/albert/Baikal/NuEnergy/NNBlock/nn/custom_layers.py", line 382, in __init__
+    assert (int(self.input_hp.pooling) + int(self.input_hp.rnn_end_inputs is not None)) == 1
+AssertionError

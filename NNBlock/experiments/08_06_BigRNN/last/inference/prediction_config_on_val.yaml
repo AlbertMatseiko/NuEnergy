@@ -1,0 +1,5 @@
+batch_size: 256
+ds_from_settings: false
+ds_regime: val
+model_regime: last
+path_to_model_dir: /home/albert/Baikal/NuEnergy/NNBlock/experiments/08_06_BigRNN

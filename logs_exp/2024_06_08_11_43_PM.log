@@ -1,0 +1,33 @@
+2024-06-08 23:43:55.275590: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-08 23:43:57.345649: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-08 23:43:57.437680: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22455 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:44:00.0, compute capability: 8.6
+PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Model: "two_tapes_model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ encoder_block (EncoderBlock  multiple                 703012    
+ )                                                               
+                                                                 
+ dense_regression (DenseRegr  multiple                 159233    
+ ession)                                                         
+                                                                 
+ dense_regression_1 (DenseRe  multiple                 159233    
+ gression)                                                       
+                                                                 
+=================================================================
+Total params: 1,021,482
+Trainable params: 1,016,436
+Non-trainable params: 5,046
+_________________________________________________________________
+None
+Traceback (most recent call last):
+  File "/home/albert/Baikal/NuEnergy/start_experiment.py", line 17, in <module>
+    model, history = launch_exp(EXPERIMENT_NAME, 
+  File "/home/albert/Baikal/NuEnergy/NNBlock/launcher.py", line 49, in launch_exp
+    os.makedirs(path_to_save, exist_ok=False)
+  File "/home/albert/Baikal/NuEnergy/venvNE/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/albert/Baikal/NuEnergy/NNBlock/experiments/08_06_BigTransf'

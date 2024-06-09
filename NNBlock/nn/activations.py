@@ -21,11 +21,15 @@ def wide_sigmoid(x, a=10.):
     return activation
 
 
-def shifted_relu(x, t=2., a=0.5):
+def shifted_relu(x, t=1, a=1):
     return tf.keras.activations.relu(a*x+t)
+
+def my_softplus(x, a=0.3, b=2.):
+    return a*tf.keras.activations.softplus(b*x)
 
 
 WideTanh = tf.keras.layers.Activation(wide_tanh)
 WideSigmoid = tf.keras.layers.Activation(wide_sigmoid)
 
 ShiftedRelu = tf.keras.layers.Activation(shifted_relu)
+MySoftplus = tf.keras.layers.Activation(my_softplus)

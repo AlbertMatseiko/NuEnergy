@@ -1,8 +1,0 @@
-Start of step2!
-Dataset for 'all' is created
-Idxes are loaded
-Flat data is loaded
-Train flat data is uploaded
-Test flat data is uploaded
-Val flat data is uploaded
-Flat data is splited

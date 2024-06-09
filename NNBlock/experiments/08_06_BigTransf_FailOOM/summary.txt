@@ -1,0 +1,1 @@
+Model architectue is: TwoTapesModel,             Number of params: (394932, 3638.0)

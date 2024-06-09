@@ -1,5 +1,5 @@
-batch_size: 2048
-ds_from_settings: true
+batch_size: 1024
+ds_from_settings: false
 ds_regime: val
 model_regime: best_by_test
 path_to_model_dir: /home/albert/Baikal/NuEnergy/NNBlock/experiments/26_03_SmallRNN_OnFlatSpec

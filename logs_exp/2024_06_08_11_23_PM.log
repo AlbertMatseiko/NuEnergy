@@ -1,0 +1,594 @@
+2024-06-08 23:23:55.875570: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-08 23:23:57.958234: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-08 23:23:58.039611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22455 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Model: "two_tapes_model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ encoder_block (EncoderBlock  multiple                 2640896   
+ )                                                               
+                                                                 
+ dense_regression (DenseRegr  multiple                 108801    
+ ession)                                                         
+                                                                 
+ dense_regression_1 (DenseRe  multiple                 108801    
+ gression)                                                       
+                                                                 
+=================================================================
+Total params: 2,858,502
+Trainable params: 2,855,170
+Non-trainable params: 3,332
+_________________________________________________________________
+2024-06-08 23:24:16.066105: W tensorflow/core/common_runtime/type_inference.cc:339] Type inference failed. This indicates an invalid graph that escaped type checking. Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_FLOAT
+    }
+  }
+}
+ is neither a subtype nor a supertype of the combined inputs preceding it:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_INT32
+    }
+  }
+}
+
+	while inferring type of node 'cond_22/output/_17'
+2024-06-08 23:24:16.233968: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8907
+2024-06-08 23:24:16.962242: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:630] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2024-06-08 23:24:16.983155: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x7f0a31f3c6d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2024-06-08 23:24:16.983198: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): NVIDIA GeForce RTX 3090, Compute Capability 8.6
+2024-06-08 23:24:16.987479: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2024-06-08 23:24:17.070696: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:115] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+You may not need to update to CUDA 11.1; cherry-picking the ptxas binary is often sufficient.
+2024-06-08 23:24:17.073356: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:234] Falling back to the CUDA driver for PTX compilation; ptxas does not support CC 8.6
+2024-06-08 23:24:17.073407: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:237] Used ptxas at ptxas
+2024-06-08 23:24:17.075048: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+2024-06-08 23:24:17.146637: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:115] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+You may not need to update to CUDA 11.1; cherry-picking the ptxas binary is often sufficient.
+2024-06-08 23:24:17.498657: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:115] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+You may not need to update to CUDA 11.1; cherry-picking the ptxas binary is often sufficient.
+2024-06-08 23:24:17.650177: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:115] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+You may not need to update to CUDA 11.1; cherry-picking the ptxas binary is often sufficient.
+2024-06-08 23:24:18.225670: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:115] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+You may not need to update to CUDA 11.1; cherry-picking the ptxas binary is often sufficient.
+2024-06-08 23:24:19.370849: W tensorflow/compiler/xla/stream_executor/gpu/asm_compiler.cc:115] *** WARNING *** You are using ptxas 10.1.243, which is older than 11.1. ptxas before 11.1 is known to miscompile XLA code, leading to incorrect results or invalid-address errors.
+
+You may not need to update to CUDA 11.1; cherry-picking the ptxas binary is often sufficient.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:`evaluate()` received a value for `sample_weight`, but `weighted_metrics` were not provided.  Did you mean to pass metrics to `weighted_metrics` in `compile()`?  If this is intentional you can pass `weighted_metrics=[]` to `compile()` in order to silence this warning.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818efe80>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ed210>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTM object at 0x7f0c818ae800>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ec880>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ed2d0>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:tensorflow:Skipping full serialization of Keras layer <keras.layers.rnn.lstm.LSTMCell object at 0x7f0c818ae890>, because it is not built.
+WARNING:absl:Found untraced functions such as _update_step_xla, dense_block_layer_call_fn, dense_block_layer_call_and_return_conditional_losses, dense_block_1_layer_call_fn, dense_block_1_layer_call_and_return_conditional_losses while saving (showing 5 of 81). These functions will not be directly callable after loading.
+None
+Steps per epoch: 7812

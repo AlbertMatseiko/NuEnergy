@@ -1,0 +1,8 @@
+Exp 1:
+With 'MyLoss' learn LSTM, Transf, ResNet with ~ 500_000 params. Compare.
+
+Exp 2:
+With mae losses learn LSTM, Transf, ResNet with ~ 500_000 params. Compare.
+
+Exp 3:
+Compare 1 and 2.

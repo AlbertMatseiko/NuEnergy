@@ -1,0 +1,34 @@
+2024-06-08 12:03:05.413905: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-08 12:03:07.560839: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-08 12:03:07.643620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22455 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3090, pci bus id: 0000:21:00.0, compute capability: 8.6
+PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+Model: "two_tapes_model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ encoder_block (EncoderBlock  multiple                 102400    
+ )                                                               
+                                                                 
+ dense_regression (DenseRegr  multiple                 17409     
+ ession)                                                         
+                                                                 
+ dense_regression_1 (DenseRe  multiple                 17409     
+ gression)                                                       
+                                                                 
+=================================================================
+Total params: 137,222
+Trainable params: 136,194
+Non-trainable params: 1,028
+_________________________________________________________________
+None
+Steps per epoch: 1953
+Traceback (most recent call last):
+  File "/home/albert/Baikal/NuEnergy/start_experiment.py", line 17, in <module>
+    model, history = launch_exp(EXPERIMENT_NAME, 
+  File "/home/albert/Baikal/NuEnergy/NNBlock/launcher.py", line 68, in launch_exp
+    history = compile_and_train(model,
+  File "/home/albert/Baikal/NuEnergy/NNBlock/train.py", line 124, in compile_and_train
+    optimizer = tf.keras.src.optimizers.adam.Adam
+AttributeError: module 'keras.api._v2.keras' has no attribute 'src'

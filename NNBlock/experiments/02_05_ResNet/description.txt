@@ -1,1 +1,0 @@
-ResNet Encoder. WITH gauss noise. Big net.

@@ -1,1 +1,0 @@
-Training SMALL CNN on a new file with flat spectrum of energy. WITH gauss noise.

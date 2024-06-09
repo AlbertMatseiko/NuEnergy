@@ -92,6 +92,8 @@ def load_preds(path_to_model_dir, model_regime="best_by_test", ds_regime="val",
     if renorm:
         ds_inp = load_ds_params(path_to_model_dir)
         mean, std = load_log10e_normp(ds_inp.path_to_h5)
+        ## Нужно для датасета от 08.06.24
+        std = std
         preds[:, 0] = preds[:, 0] * std + mean
         preds[:, 1] = preds[:, 1] * std
         labels[:, 0] = labels[:, 0] * std + mean

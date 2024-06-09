@@ -1,0 +1,1 @@
+Big ResNet Encoder on new flat dataset with tails. WITH gauss noise. Normal batch size. Softplus actvation for sigma.

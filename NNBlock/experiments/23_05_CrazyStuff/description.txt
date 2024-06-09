@@ -1,1 +1,0 @@
-Small RNN Encoder. WITH gauss noise. Different losses for Energy and Sigma! Just MAE!
